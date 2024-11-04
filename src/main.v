@@ -278,7 +278,7 @@ wire RST_X;
     wire [31:0] w_7seg_data = (w_btnu) ? w_verify_checksum : (w_btnd) ? w_checksum : (w_btnc) ? w_insn_addr :
 	        (w_btnl) ? w_insn_data  : (w_btnr) ? w_core_ir : w_core_pc;
 `else
-    wire [31:0] w_7seg_data = (w_btnu) ? r_core_cnt[41:10] : (w_btnd) ? w_checksum : (w_btnc) ? w_insn_addr :
+    wire [31:0] w_7seg_data = (w_btnu) ? r_core_cnt[41:10] : (w_btnd) ? w_insn_addr :
 		(w_btnl) ? w_insn_data  : (w_btnr) ? w_core_ir : w_core_pc;
 `endif
     //wire w_init_start;
@@ -385,8 +385,8 @@ wire RST_X;
         .w_uart_we      (w_uart_we),
         .w_led          (w_led_t),
         .w_init_stage   (w_init_stage),
-        .w_checksum     (w_checksum),
 `ifdef LAUR_MEM_RB
+    .w_checksum     (w_checksum),
 	.w_verify_checksum (w_verify_checksum),
 `endif
         .w_debug_btnd   (w_sw[1]), //(w_btnd),

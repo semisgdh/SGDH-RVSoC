@@ -10,7 +10,7 @@
 //`define ARTYA7
 /**************************************************************************************************/
 //`define VERILATOR
-`define SIM_MODE
+//`define SIM_MODE // for sim
 //`define SIM_MAIN // for xsim
 `ifdef SIM_MAIN
 `ifdef SIM_MODE
@@ -19,6 +19,7 @@ error
 `endif
 
 `ifdef SIM_MODE
+`include "read_file.v"
 `define DRAM_SIM
 `define CACHE_DEBUG
 `endif

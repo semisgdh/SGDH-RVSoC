@@ -5,6 +5,7 @@
 
 `include "define.vh"
 
+`define LINE_BUFFER_SIZE (8*100) // for debugging
 `define EOF -1
 `define READ_WAIT_DELAY 50000
 

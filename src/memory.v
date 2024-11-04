@@ -346,8 +346,7 @@ module DRAM_conRV#(
                .i_wr_en(r_we),
 	       .o_init_calib_complete(o_init_calib_complete),
 	       .i_addr(r_maddr),
-               .i_data(r_wdata),
-               .o_data(w_dram_odata),
+               .i_data(r_wdata),               .o_data(w_dram_odata),
                .o_busy(w_busy),
                .i_mask(~r_mask));
 `else // SKIP_CACHE

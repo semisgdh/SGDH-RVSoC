@@ -1,6 +1,8 @@
 import sys
 import serial
 
+# pip install pyserial
+
 port = "/dev/ttyUSB1"
 
 num = 8000000

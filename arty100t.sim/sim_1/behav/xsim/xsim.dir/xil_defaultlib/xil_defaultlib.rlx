@@ -1,0 +1,18 @@
+0.7
+2020.2
+Aug  5 2022
+22:59:05
+/home/kim/road-to-linux/rlsoc1/rvsoc_src_ver053/arty100t.sim/sim_1/behav/xsim/glbl.v,1649976174,verilog,,,,glbl,,,,,,,,
+/home/kim/road-to-linux/rlsoc1/rvsoc_src_ver053/arty100t.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_sim_netlist.v,1729317793,verilog,,/home/kim/road-to-linux/rlsoc1/rvsoc_src_ver053/src/console.v,,clk_wiz_0;clk_wiz_0_clk_wiz_0_clk_wiz,,,../../../../src,,,,,
+/home/kim/road-to-linux/rlsoc1/rvsoc_src_ver053/src/console.v,1644844740,verilog,,/home/kim/road-to-linux/rlsoc1/rvsoc_src_ver053/src/debug.v,/home/kim/road-to-linux/rlsoc1/rvsoc_src_ver053/src/define.vh,m_console,,,../../../../src,,,,,
+/home/kim/road-to-linux/rlsoc1/rvsoc_src_ver053/src/debug.v,1644844740,verilog,,/home/kim/road-to-linux/rlsoc1/rvsoc_src_ver053/src/disk.v,/home/kim/road-to-linux/rlsoc1/rvsoc_src_ver053/src/define.vh,m_UartTx2;m_debug_key,,,../../../../src,,,,,
+/home/kim/road-to-linux/rlsoc1/rvsoc_src_ver053/src/define.vh,1729309412,verilog,,,/home/kim/road-to-linux/rlsoc1/rvsoc_src_ver053/src/read_file.v,,,,,,,,,
+/home/kim/road-to-linux/rlsoc1/rvsoc_src_ver053/src/disk.v,1644844740,verilog,,/home/kim/road-to-linux/rlsoc1/rvsoc_src_ver053/src/loader.v,/home/kim/road-to-linux/rlsoc1/rvsoc_src_ver053/src/define.vh,m_disk,,,../../../../src,,,,,
+/home/kim/road-to-linux/rlsoc1/rvsoc_src_ver053/src/loader.v,1644844740,verilog,,/home/kim/road-to-linux/rlsoc1/rvsoc_src_ver053/src/memory.v,/home/kim/road-to-linux/rlsoc1/rvsoc_src_ver053/src/define.vh,PLOADER;UartTx;serialc,,,../../../../src,,,,,
+/home/kim/road-to-linux/rlsoc1/rvsoc_src_ver053/src/main.v,1729308357,verilog,,,/home/kim/road-to-linux/rlsoc1/rvsoc_src_ver053/src/define.vh,m_7segcon;m_7segled;m_main,,,../../../../src,,,,,
+/home/kim/road-to-linux/rlsoc1/rvsoc_src_ver053/src/memory.v,1653038282,verilog,,/home/kim/road-to-linux/rlsoc1/rvsoc_src_ver053/src/microc.v,/home/kim/road-to-linux/rlsoc1/rvsoc_src_ver053/src/define.vh,m_bram;m_bram2;m_col_bram;m_dram_cache,,,../../../../src,,,,,
+/home/kim/road-to-linux/rlsoc1/rvsoc_src_ver053/src/microc.v,1644844740,verilog,,/home/kim/road-to-linux/rlsoc1/rvsoc_src_ver053/src/mmu.v,/home/kim/road-to-linux/rlsoc1/rvsoc_src_ver053/src/define.vh,m_RVuc;m_lm_mc,,,../../../../src,,,,,
+/home/kim/road-to-linux/rlsoc1/rvsoc_src_ver053/src/mmu.v,1729311610,verilog,,/home/kim/road-to-linux/rlsoc1/rvsoc_src_ver053/src/rvcorem.v,/home/kim/road-to-linux/rlsoc1/rvsoc_src_ver053/src/define.vh,m_mmu;m_tlb,,,../../../../src,,,,,
+/home/kim/road-to-linux/rlsoc1/rvsoc_src_ver053/src/read_file.v,1729309754,verilog,,,/home/kim/road-to-linux/rlsoc1/rvsoc_src_ver053/src/define.vh,read_file,,,,,,,,
+/home/kim/road-to-linux/rlsoc1/rvsoc_src_ver053/src/rvcorem.v,1644844740,verilog,,/home/kim/road-to-linux/rlsoc1/rvsoc_src_ver053/src/top.v,/home/kim/road-to-linux/rlsoc1/rvsoc_src_ver053/src/define.vh,m_RVCoreM;m_alu_a;m_alu_b;m_alu_c;m_alu_i;m_alu_im;m_decomp;m_div_unit;m_div_unit_core;m_imm_gen;m_regfile,,,../../../../src,,,,,
+/home/kim/road-to-linux/rlsoc1/rvsoc_src_ver053/src/top.v,1729307735,verilog,,/home/kim/road-to-linux/rlsoc1/rvsoc_src_ver053/src/main.v,/home/kim/road-to-linux/rlsoc1/rvsoc_src_ver053/src/define.vh,cache_ctrl;m_bu_mem;m_dram_sim;m_topsim,,,../../../../src,,,,,

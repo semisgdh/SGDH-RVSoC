@@ -30,8 +30,7 @@ module m_topsim();
         $dumpvars(0, m_topsim);
     end
 `else
-module m_topsim(CLK, RST_X);
-    input reg CLK, RST_X;
+module m_topsim(input wire CLK, input wire RST_X);
 `endif
 
     wire w_halt;

@@ -1,8 +1,8 @@
-Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------
-| Tool Version : Vivado v.2021.2 (lin64) Build 3367213 Tue Oct 19 02:47:39 MDT 2021
-| Date         : Fri Feb  4 12:58:34 2022
-| Host         : laurPC-100 running 64-bit Ubuntu 20.04.3 LTS
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Sun Oct 20 00:13:59 2024
+| Host         : DESKTOP-JAVEEGF running 64-bit major release  (build 9200)
 | Command      : report_utilization -file m_main_utilization_synth.rpt -pb m_main_utilization_synth.pb
 | Design       : m_main
 | Device       : xc7a35ticsg324-1L
@@ -31,8 +31,8 @@ Table of Contents
 +----------------------------+------+-------+------------+-----------+-------+
 |          Site Type         | Used | Fixed | Prohibited | Available | Util% |
 +----------------------------+------+-------+------------+-----------+-------+
-| Slice LUTs*                | 7267 |     0 |          0 |     20800 | 34.94 |
-|   LUT as Logic             | 6813 |     0 |          0 |     20800 | 32.75 |
+| Slice LUTs*                | 7285 |     0 |          0 |     20800 | 35.02 |
+|   LUT as Logic             | 6831 |     0 |          0 |     20800 | 32.84 |
 |   LUT as Memory            |  454 |     0 |          0 |      9600 |  4.73 |
 |     LUT as Distributed RAM |  454 |     0 |            |           |       |
 |     LUT as Shift Register  |    0 |     0 |            |           |       |
@@ -154,7 +154,7 @@ Table of Contents
 | FDRE     | 3516 |        Flop & Latch |
 | LUT6     | 2750 |                 LUT |
 | LUT4     | 1304 |                 LUT |
-| LUT5     | 1221 |                 LUT |
+| LUT5     | 1239 |                 LUT |
 | LUT2     |  920 |                 LUT |
 | LUT3     |  735 |                 LUT |
 | RAMD32   |  530 |  Distributed Memory |

@@ -460,8 +460,8 @@ integer i;
 		$display("\nw_file_we\n");
 		if(r_consf_cnts != 0)
 			$display("warning: w_file_we and r_consf_cnts = %d with r_consf_en=%d", r_consf_cnts, r_consf_en);
-		for(i = 0; i < rf.n; i++)
-			cons_fifo[r_consf_tail+i] = rf.fifo[i];
+		for(i = 0; i < `LINE_BUFFER_SIZE; i=i+1)
+		  cons_fifo[r_consf_tail+i] = rf.fifo[i];
 		r_consf_tail <= r_consf_tail + rf.n;
 		r_consf_cnts <= rf.n;
 		r_consf_en <= 1;

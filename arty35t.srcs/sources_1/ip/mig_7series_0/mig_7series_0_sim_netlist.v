@@ -1,10 +1,10 @@
-// Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+// Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
-// Tool Version: Vivado v.2021.2 (lin64) Build 3367213 Tue Oct 19 02:47:39 MDT 2021
-// Date        : Wed Jan  5 16:24:59 2022
-// Host        : laurPC-100 running 64-bit Ubuntu 20.04.3 LTS
+// Tool Version: Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+// Date        : Sun Oct 20 00:12:46 2024
+// Host        : DESKTOP-JAVEEGF running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode funcsim
-//               /home/laur/lucru/cn/riscv/rvsoc-site-japan/rvsoc_src_ver053/arty35t.srcs/sources_1/ip/mig_7series_0/mig_7series_0_sim_netlist.v
+//               c:/Users/ACER/Downloads/rvsoc_src_ver053/rvsoc_src_ver053/arty35t.srcs/sources_1/ip/mig_7series_0/mig_7series_0_sim_netlist.v
 // Design      : mig_7series_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -426,7 +426,7 @@ module mig_7series_0
 
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "720" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_B.ddr_byte_lane_B/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_B.ddr_byte_lane_B/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg_0_15_12_17" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "8" *) 
@@ -450,7 +450,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/of_pre_fifo_gen.u_ddr_of_pre_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "720" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_B.ddr_byte_lane_B/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_B.ddr_byte_lane_B/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg_0_15_18_23" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "8" *) 
@@ -474,7 +474,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/of_pre_fifo_gen.u_ddr_of_pre_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "720" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_B.ddr_byte_lane_B/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_B.ddr_byte_lane_B/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg_0_15_30_35" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "8" *) 
@@ -498,7 +498,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/of_pre_fifo_gen.u_ddr_of_pre_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "720" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_B.ddr_byte_lane_B/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_B.ddr_byte_lane_B/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg_0_15_36_41" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "8" *) 
@@ -522,7 +522,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/of_pre_fifo_gen.u_ddr_of_pre_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "720" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_B.ddr_byte_lane_B/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_B.ddr_byte_lane_B/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg_0_15_42_47" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "8" *) 
@@ -546,7 +546,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/of_pre_fifo_gen.u_ddr_of_pre_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "720" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_B.ddr_byte_lane_B/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_B.ddr_byte_lane_B/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg_0_15_48_53" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "8" *) 
@@ -570,7 +570,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/of_pre_fifo_gen.u_ddr_of_pre_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "720" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_B.ddr_byte_lane_B/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_B.ddr_byte_lane_B/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg_0_15_54_59" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "8" *) 
@@ -594,7 +594,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/of_pre_fifo_gen.u_ddr_of_pre_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "720" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_B.ddr_byte_lane_B/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_B.ddr_byte_lane_B/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg_0_15_60_65" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "8" *) 
@@ -618,7 +618,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/of_pre_fifo_gen.u_ddr_of_pre_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "720" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_B.ddr_byte_lane_B/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_B.ddr_byte_lane_B/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg_0_15_66_71" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "8" *) 
@@ -642,7 +642,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/of_pre_fifo_gen.u_ddr_of_pre_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "720" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_B.ddr_byte_lane_B/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_B.ddr_byte_lane_B/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg_0_15_6_11" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "8" *) 
@@ -666,7 +666,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/of_pre_fifo_gen.u_ddr_of_pre_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "720" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_B.ddr_byte_lane_B/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_B.ddr_byte_lane_B/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg_0_15_72_77" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "8" *) 
@@ -690,7 +690,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/of_pre_fifo_gen.u_ddr_of_pre_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "320" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_C.ddr_byte_lane_C/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_C.ddr_byte_lane_C/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/mem_reg_0_3_12_17" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "3" *) 
@@ -714,7 +714,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "320" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_C.ddr_byte_lane_C/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_C.ddr_byte_lane_C/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/mem_reg_0_3_18_23" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "3" *) 
@@ -738,7 +738,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "320" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_C.ddr_byte_lane_C/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_C.ddr_byte_lane_C/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/mem_reg_0_3_24_29" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "3" *) 
@@ -762,7 +762,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "320" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_C.ddr_byte_lane_C/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_C.ddr_byte_lane_C/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/mem_reg_0_3_30_35" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "3" *) 
@@ -786,7 +786,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "320" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_C.ddr_byte_lane_C/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_C.ddr_byte_lane_C/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/mem_reg_0_3_36_41" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "3" *) 
@@ -810,7 +810,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "320" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_C.ddr_byte_lane_C/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_C.ddr_byte_lane_C/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/mem_reg_0_3_42_47" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "3" *) 
@@ -834,7 +834,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "320" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_C.ddr_byte_lane_C/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_C.ddr_byte_lane_C/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/mem_reg_0_3_48_53" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "3" *) 
@@ -858,7 +858,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "320" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_C.ddr_byte_lane_C/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_C.ddr_byte_lane_C/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/mem_reg_0_3_54_59" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "3" *) 
@@ -882,7 +882,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "320" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_C.ddr_byte_lane_C/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_C.ddr_byte_lane_C/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/mem_reg_0_3_60_65" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "3" *) 
@@ -906,7 +906,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "320" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_C.ddr_byte_lane_C/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_C.ddr_byte_lane_C/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/mem_reg_0_3_66_71" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "3" *) 
@@ -930,7 +930,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "320" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_C.ddr_byte_lane_C/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_C.ddr_byte_lane_C/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/mem_reg_0_3_6_11" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "3" *) 
@@ -954,7 +954,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "720" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg_0_15_12_17" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "8" *) 
@@ -978,7 +978,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "720" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg_0_15_18_23" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "8" *) 
@@ -1002,7 +1002,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "720" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg_0_15_24_29" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "8" *) 
@@ -1026,7 +1026,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "720" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg_0_15_30_35" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "8" *) 
@@ -1050,7 +1050,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "720" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg_0_15_36_41" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "8" *) 
@@ -1074,7 +1074,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "720" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg_0_15_42_47" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "8" *) 
@@ -1098,7 +1098,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "720" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg_0_15_48_53" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "8" *) 
@@ -1122,7 +1122,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "720" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg_0_15_54_59" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "8" *) 
@@ -1146,7 +1146,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "720" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg_0_15_60_65" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "8" *) 
@@ -1170,7 +1170,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "720" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg_0_15_66_71" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "8" *) 
@@ -1194,7 +1194,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "720" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg_0_15_6_11" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "8" *) 
@@ -1218,7 +1218,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "720" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg_0_15_72_77" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "8" *) 
@@ -1242,7 +1242,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "720" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg_0_15_78_79" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "8" *) 
@@ -1267,7 +1267,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "720" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg_0_15_78_79" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "8" *) 
@@ -1292,7 +1292,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "320" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_D.ddr_byte_lane_D/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_D.ddr_byte_lane_D/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/mem_reg_0_3_12_17" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "3" *) 
@@ -1316,7 +1316,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "320" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_D.ddr_byte_lane_D/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_D.ddr_byte_lane_D/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/mem_reg_0_3_18_23" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "3" *) 
@@ -1340,7 +1340,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "320" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_D.ddr_byte_lane_D/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_D.ddr_byte_lane_D/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/mem_reg_0_3_24_29" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "3" *) 
@@ -1364,7 +1364,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "320" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_D.ddr_byte_lane_D/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_D.ddr_byte_lane_D/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/mem_reg_0_3_30_35" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "3" *) 
@@ -1388,7 +1388,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "320" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_D.ddr_byte_lane_D/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_D.ddr_byte_lane_D/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/mem_reg_0_3_36_41" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "3" *) 
@@ -1412,7 +1412,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "320" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_D.ddr_byte_lane_D/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_D.ddr_byte_lane_D/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/mem_reg_0_3_42_47" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "3" *) 
@@ -1436,7 +1436,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "320" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_D.ddr_byte_lane_D/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_D.ddr_byte_lane_D/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/mem_reg_0_3_48_53" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "3" *) 
@@ -1460,7 +1460,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "320" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_D.ddr_byte_lane_D/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_D.ddr_byte_lane_D/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/mem_reg_0_3_54_59" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "3" *) 
@@ -1484,7 +1484,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "320" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_D.ddr_byte_lane_D/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_D.ddr_byte_lane_D/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/mem_reg_0_3_60_65" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "3" *) 
@@ -1508,7 +1508,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "320" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_D.ddr_byte_lane_D/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_D.ddr_byte_lane_D/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/mem_reg_0_3_66_71" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "3" *) 
@@ -1532,7 +1532,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "320" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_D.ddr_byte_lane_D/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_D.ddr_byte_lane_D/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/mem_reg_0_3_6_11" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "3" *) 
@@ -1556,7 +1556,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "720" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg_0_15_12_17" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "8" *) 
@@ -1580,7 +1580,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "720" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg_0_15_18_23" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "8" *) 
@@ -1604,7 +1604,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "720" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg_0_15_24_29" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "8" *) 
@@ -1628,7 +1628,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "720" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg_0_15_30_35" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "8" *) 
@@ -1652,7 +1652,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "720" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg_0_15_36_41" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "8" *) 
@@ -1676,7 +1676,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "720" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg_0_15_42_47" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "8" *) 
@@ -1700,7 +1700,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "720" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg_0_15_48_53" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "8" *) 
@@ -1724,7 +1724,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "720" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg_0_15_54_59" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "8" *) 
@@ -1748,7 +1748,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "720" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg_0_15_60_65" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "8" *) 
@@ -1772,7 +1772,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "720" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg_0_15_66_71" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "8" *) 
@@ -1796,7 +1796,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "720" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg_0_15_6_11" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "8" *) 
@@ -1820,7 +1820,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "720" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg_0_15_72_77" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "8" *) 
@@ -1844,7 +1844,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "720" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg_0_15_78_79" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "8" *) 
@@ -1869,7 +1869,7 @@ module mig_7series_0
         .WE(\u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/wr_en ));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "720" *) 
-  (* RTL_RAM_NAME = "ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem" *) 
+  (* RTL_RAM_NAME = "ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg_0_15_78_79" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "8" *) 
@@ -2333,12 +2333,12 @@ module mig_7series_0_mig
         .rstdiv0_sync_r1_reg_rep__14_4(u_ddr3_infrastructure_n_32),
         .rstdiv0_sync_r1_reg_rep__15_0(u_ddr3_infrastructure_n_23),
         .rstdiv0_sync_r1_reg_rep__15_1(u_ddr3_infrastructure_n_33),
-        .rstdiv0_sync_r1_reg_rep__15_2(u_ddr3_infrastructure_n_35),
         .rstdiv0_sync_r1_reg_rep__16_0(u_ddr3_infrastructure_n_24),
-        .rstdiv0_sync_r1_reg_rep__16_1(\mem_intfc0/ddr_phy_top0/u_ddr_calib_top/ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl/idelay_tap_limit_r0 ),
-        .rstdiv0_sync_r1_reg_rep__16_2(\mem_intfc0/ddr_phy_top0/u_ddr_calib_top/ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl/cnt_shift_r0 ),
-        .rstdiv0_sync_r1_reg_rep__16_3(u_ddr3_infrastructure_n_38),
-        .rstdiv0_sync_r1_reg_rep__16_4(u_ddr3_infrastructure_n_39),
+        .rstdiv0_sync_r1_reg_rep__16_1(u_ddr3_infrastructure_n_35),
+        .rstdiv0_sync_r1_reg_rep__16_2(\mem_intfc0/ddr_phy_top0/u_ddr_calib_top/ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl/idelay_tap_limit_r0 ),
+        .rstdiv0_sync_r1_reg_rep__16_3(\mem_intfc0/ddr_phy_top0/u_ddr_calib_top/ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl/cnt_shift_r0 ),
+        .rstdiv0_sync_r1_reg_rep__16_4(u_ddr3_infrastructure_n_38),
+        .rstdiv0_sync_r1_reg_rep__16_5(u_ddr3_infrastructure_n_39),
         .rstdiv0_sync_r1_reg_rep__17_0(u_ddr3_infrastructure_n_25),
         .rstdiv0_sync_r1_reg_rep__17_1(u_ddr3_infrastructure_n_27),
         .rstdiv0_sync_r1_reg_rep__17_2(u_ddr3_infrastructure_n_40),
@@ -3532,7 +3532,7 @@ module mig_7series_0_mig_7series_v4_2_arb_row_col
         .\grant_r_reg[3]_1 (\grant_r_reg[3]_5 ),
         .\grant_r_reg[3]_2 (\grant_r_reg[3]_6 ),
         .\grant_r_reg[3]_3 (\grant_r_reg[3]_7 ),
-        .\last_master_r_reg[0]_0 (\last_master_r_reg[3] ),
+        .\last_master_r_reg[2]_0 (\last_master_r_reg[3] ),
         .ofs_rdy_r(ofs_rdy_r),
         .ofs_rdy_r_5(ofs_rdy_r_5),
         .ofs_rdy_r_6(ofs_rdy_r_6),
@@ -3843,6 +3843,7 @@ module mig_7series_0_mig_7series_v4_2_bank_cntrl
     q_has_rd_r_reg_0,
     was_wr,
     act_wait_r_lcl_reg_0,
+    pre_wait_r_reg_0,
     granted_col_r_reg,
     granted_col_r_reg_0,
     granted_col_r_reg_1,
@@ -3885,9 +3886,8 @@ module mig_7series_0_mig_7series_v4_2_bank_cntrl
     pass_open_bank_r_lcl_reg_2,
     \pre_4_1_1T_arb.granted_pre_r_reg_0 ,
     \pre_4_1_1T_arb.granted_pre_r_reg_1 ,
-    ras_timer_zero_r_reg_0,
     row,
-    ras_timer_zero_r_reg_1,
+    ras_timer_zero_r_reg_0,
     \ras_timer_r_reg[1]_0 ,
     \ras_timer_r_reg[1]_1 ,
     \ras_timer_r_reg[1]_2 ,
@@ -3992,6 +3992,7 @@ module mig_7series_0_mig_7series_v4_2_bank_cntrl
   input q_has_rd_r_reg_0;
   input was_wr;
   input [0:0]act_wait_r_lcl_reg_0;
+  input pre_wait_r_reg_0;
   input granted_col_r_reg;
   input granted_col_r_reg_0;
   input granted_col_r_reg_1;
@@ -4034,9 +4035,8 @@ module mig_7series_0_mig_7series_v4_2_bank_cntrl
   input pass_open_bank_r_lcl_reg_2;
   input \pre_4_1_1T_arb.granted_pre_r_reg_0 ;
   input \pre_4_1_1T_arb.granted_pre_r_reg_1 ;
-  input ras_timer_zero_r_reg_0;
   input [13:0]row;
-  input ras_timer_zero_r_reg_1;
+  input ras_timer_zero_r_reg_0;
   input \ras_timer_r_reg[1]_0 ;
   input \ras_timer_r_reg[1]_1 ;
   input \ras_timer_r_reg[1]_2 ;
@@ -4156,6 +4156,7 @@ module mig_7series_0_mig_7series_v4_2_bank_cntrl
   wire pre_passing_open_bank_r_reg;
   wire pre_wait_r;
   wire pre_wait_r_reg;
+  wire pre_wait_r_reg_0;
   wire \q_entry_r_reg[0] ;
   wire [1:0]\q_entry_r_reg[0]_0 ;
   wire \q_entry_r_reg[0]_1 ;
@@ -4184,7 +4185,6 @@ module mig_7series_0_mig_7series_v4_2_bank_cntrl
   wire ras_timer_zero_r;
   wire ras_timer_zero_r_reg;
   wire ras_timer_zero_r_reg_0;
-  wire ras_timer_zero_r_reg_1;
   wire \rb_hit_busies.rb_hit_busies_r_lcl_reg[1] ;
   wire \rb_hit_busies.rb_hit_busies_r_lcl_reg[1]_0 ;
   wire \rb_hit_busies.rb_hit_busies_r_lcl_reg[1]_1 ;
@@ -4248,7 +4248,7 @@ module mig_7series_0_mig_7series_v4_2_bank_cntrl
         .ordered_r_lcl(ordered_r_lcl),
         .ordered_r_lcl_reg(ordered_r_lcl_reg_0),
         .ordered_r_lcl_reg_0(\q_entry_r_reg[0]_1 ),
-        .ordered_r_lcl_reg_1(col_wait_r_reg_0),
+        .ordered_r_lcl_reg_1(pre_wait_r_reg_0),
         .pass_open_bank_r_lcl_reg(pass_open_bank_r_lcl_reg_0),
         .pass_open_bank_r_lcl_reg_0(pass_open_bank_r_lcl_reg_1),
         .pass_open_bank_r_lcl_reg_1(pass_open_bank_r_lcl_reg_2),
@@ -4364,7 +4364,7 @@ module mig_7series_0_mig_7series_v4_2_bank_cntrl
         .q_has_rd_r_reg_1(q_has_rd_r_reg),
         .q_has_rd_r_reg_2(q_has_rd_r_reg_0),
         .q_has_rd_r_reg_3(rd_wr_r),
-        .q_has_rd_r_reg_4(col_wait_r_reg_0),
+        .q_has_rd_r_reg_4(pre_wait_r_reg_0),
         .\ras_timer_r_reg[0] (\ras_timer_r_reg[1] ),
         .\ras_timer_r_reg[0]_0 (\ras_timer_r_reg[0]_0 ),
         .\ras_timer_r_reg[0]_1 (\ras_timer_r_reg[0]_1 ),
@@ -4453,20 +4453,20 @@ module mig_7series_0_mig_7series_v4_2_bank_cntrl
         .pre_passing_open_bank_ns(pre_passing_open_bank_ns),
         .pre_wait_r(pre_wait_r),
         .pre_wait_r_reg_0(pre_wait_r_reg),
-        .pre_wait_r_reg_1(bank_queue0_n_3),
+        .pre_wait_r_reg_1(pre_wait_r_reg_0),
+        .pre_wait_r_reg_2(bank_queue0_n_3),
         .q_has_rd(q_has_rd),
         .\ras_timer_r_reg[0]_0 (\ras_timer_r_reg[0] ),
         .\ras_timer_r_reg[1]_0 (\ras_timer_r_reg[1] ),
         .ras_timer_zero_r(ras_timer_zero_r),
         .ras_timer_zero_r_reg_0(ras_timer_zero_r_reg_0),
-        .ras_timer_zero_r_reg_1(ras_timer_zero_r_reg_1),
         .rb_hit_busy_r(rb_hit_busy_r),
         .rb_hit_busy_r_reg(bank_state0_n_17),
         .rd_this_rank_r(rd_this_rank_r),
         .\rd_this_rank_r_reg[0]_0 (rd_wr_r),
         .req_bank_rdy_ns(req_bank_rdy_ns),
         .req_wr_r(req_wr_r),
-        .rstdiv0_sync_r1_reg_rep__13(bank_state0_n_5),
+        .rstdiv0_sync_r1_reg_rep__14(bank_state0_n_5),
         .\rtp_timer_r_reg[0]_0 (\rtp_timer_r_reg[0] ),
         .start_wtp_timer0(start_wtp_timer0),
         .\starve_limit_cntr_r_reg[0]_0 (\starve_limit_cntr_r_reg[0] ),
@@ -6447,7 +6447,7 @@ module mig_7series_0_mig_7series_v4_2_bank_common
         .D(p_9_in),
         .Q(accept_internal_r),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair624" *) 
+  (* SOFT_HLUTNM = "soft_lutpair619" *) 
   LUT4 #(
     .INIT(16'h80AA)) 
     accept_r_i_1
@@ -6484,7 +6484,7 @@ module mig_7series_0_mig_7series_v4_2_bank_common
         .I2(head_r_lcl_i_2__0),
         .I3(idle_r[1]),
         .O(idle_r_lcl_reg_0));
-  (* SOFT_HLUTNM = "soft_lutpair622" *) 
+  (* SOFT_HLUTNM = "soft_lutpair617" *) 
   LUT5 #(
     .INIT(32'h40020229)) 
     head_r_lcl_i_3__1
@@ -6571,7 +6571,7 @@ module mig_7series_0_mig_7series_v4_2_bank_common
         .I3(D[1]),
         .I4(\maint_controller.maint_hit_busies_ns [2]),
         .O(\maint_controller.maint_rdy ));
-  (* SOFT_HLUTNM = "soft_lutpair626" *) 
+  (* SOFT_HLUTNM = "soft_lutpair621" *) 
   LUT3 #(
     .INIT(8'h45)) 
     \maint_controller.maint_rdy_r1_i_2 
@@ -6591,7 +6591,7 @@ module mig_7series_0_mig_7series_v4_2_bank_common
         .D(maint_srx_r),
         .Q(\maint_controller.maint_srx_r1 ),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair625" *) 
+  (* SOFT_HLUTNM = "soft_lutpair620" *) 
   LUT4 #(
     .INIT(16'hF7FF)) 
     \maint_controller.maint_wip_r_lcl_i_1 
@@ -6634,7 +6634,7 @@ module mig_7series_0_mig_7series_v4_2_bank_common
         .I3(accept_r_reg_n_0),
         .I4(periodic_rd_ack_r_lcl_reg_0),
         .O(rb_hit_busy_r_reg_0));
-  (* SOFT_HLUTNM = "soft_lutpair623" *) 
+  (* SOFT_HLUTNM = "soft_lutpair618" *) 
   LUT5 #(
     .INIT(32'hFF800000)) 
     pass_open_bank_r_lcl_i_3__1
@@ -6653,7 +6653,7 @@ module mig_7series_0_mig_7series_v4_2_bank_common
         .I3(periodic_rd_ack_r_lcl_reg_0),
         .I4(rb_hit_busy_r[0]),
         .O(app_rdy_r_reg_1));
-  (* SOFT_HLUTNM = "soft_lutpair624" *) 
+  (* SOFT_HLUTNM = "soft_lutpair619" *) 
   LUT4 #(
     .INIT(16'h7000)) 
     periodic_rd_ack_r_lcl_i_1
@@ -6668,7 +6668,7 @@ module mig_7series_0_mig_7series_v4_2_bank_common
         .D(periodic_rd_ack_ns),
         .Q(periodic_rd_ack_r_lcl_reg_0),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair626" *) 
+  (* SOFT_HLUTNM = "soft_lutpair621" *) 
   LUT3 #(
     .INIT(8'h78)) 
     periodic_rd_cntr_r_i_1
@@ -6712,7 +6712,7 @@ module mig_7series_0_mig_7series_v4_2_bank_common
         .I4(accept_internal_r),
         .I5(head_r[2]),
         .O(app_en_r2_reg));
-  (* SOFT_HLUTNM = "soft_lutpair622" *) 
+  (* SOFT_HLUTNM = "soft_lutpair617" *) 
   LUT5 #(
     .INIT(32'h96696996)) 
     \q_entry_r[0]_i_4__0 
@@ -6732,7 +6732,7 @@ module mig_7series_0_mig_7series_v4_2_bank_common
         .I4(\q_entry_r_reg[0] ),
         .I5(\maint_controller.maint_hit_busies_r_reg[3]_0 [0]),
         .O(app_rdy_r_reg));
-  (* SOFT_HLUTNM = "soft_lutpair623" *) 
+  (* SOFT_HLUTNM = "soft_lutpair618" *) 
   LUT4 #(
     .INIT(16'hEAAA)) 
     \q_entry_r[1]_i_3__2 
@@ -6812,7 +6812,7 @@ module mig_7series_0_mig_7series_v4_2_bank_common
         .I4(\rfc_zq_xsdll_timer.rfc_zq_xsdll_timer_r [4]),
         .I5(\rfc_zq_xsdll_timer.rfc_zq_xsdll_timer_r [6]),
         .O(\rfc_zq_xsdll_timer.rfc_zq_xsdll_timer_ns [6]));
-  (* SOFT_HLUTNM = "soft_lutpair625" *) 
+  (* SOFT_HLUTNM = "soft_lutpair620" *) 
   LUT4 #(
     .INIT(16'h0001)) 
     \rfc_zq_xsdll_timer.rfc_zq_xsdll_timer_r[6]_i_2 
@@ -7085,7 +7085,7 @@ module mig_7series_0_mig_7series_v4_2_bank_compare
         .D(rb_hit_busy_r_reg_2),
         .Q(rb_hit_busy_r_reg_0),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair617" *) 
+  (* SOFT_HLUTNM = "soft_lutpair612" *) 
   LUT4 #(
     .INIT(16'h2F20)) 
     rd_wr_r_lcl_i_1__2
@@ -7118,7 +7118,7 @@ module mig_7series_0_mig_7series_v4_2_bank_compare
         .D(\req_bank_r_lcl_reg[2]_1 [2]),
         .Q(\req_bank_r_lcl_reg[2]_0 [2]),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair617" *) 
+  (* SOFT_HLUTNM = "soft_lutpair612" *) 
   LUT3 #(
     .INIT(8'h8F)) 
     req_bank_rdy_r_i_3
@@ -7571,7 +7571,7 @@ module mig_7series_0_mig_7series_v4_2_bank_compare_0
         .D(rb_hit_busy_r_reg_2),
         .Q(rb_hit_busy_r_reg_0),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair611" *) 
+  (* SOFT_HLUTNM = "soft_lutpair606" *) 
   LUT4 #(
     .INIT(16'h2F20)) 
     rd_wr_r_lcl_i_1__1
@@ -7604,7 +7604,7 @@ module mig_7series_0_mig_7series_v4_2_bank_compare_0
         .D(\req_bank_r_lcl_reg[2]_1 [2]),
         .Q(\req_bank_r_lcl_reg[2]_0 [2]),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair611" *) 
+  (* SOFT_HLUTNM = "soft_lutpair606" *) 
   LUT3 #(
     .INIT(8'h8F)) 
     req_bank_rdy_r_i_5
@@ -8074,7 +8074,7 @@ module mig_7series_0_mig_7series_v4_2_bank_compare_1
         .D(rb_hit_busy_r_reg_2),
         .Q(rb_hit_busy_r_reg_0),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair605" *) 
+  (* SOFT_HLUTNM = "soft_lutpair600" *) 
   LUT4 #(
     .INIT(16'h2F20)) 
     rd_wr_r_lcl_i_1__0
@@ -8107,7 +8107,7 @@ module mig_7series_0_mig_7series_v4_2_bank_compare_1
         .D(\req_bank_r_lcl_reg[2]_1 [2]),
         .Q(\req_bank_r_lcl_reg[2]_0 [2]),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair605" *) 
+  (* SOFT_HLUTNM = "soft_lutpair600" *) 
   LUT3 #(
     .INIT(8'h8F)) 
     req_bank_rdy_r_i_4
@@ -8546,7 +8546,7 @@ module mig_7series_0_mig_7series_v4_2_bank_compare_2
   wire [3:1]NLW_row_hit_ns_carry__0_CO_UNCONNECTED;
   wire [3:0]NLW_row_hit_ns_carry__0_O_UNCONNECTED;
 
-  (* SOFT_HLUTNM = "soft_lutpair593" *) 
+  (* SOFT_HLUTNM = "soft_lutpair588" *) 
   LUT4 #(
     .INIT(16'h7EE8)) 
     head_r_lcl_i_5
@@ -8555,7 +8555,7 @@ module mig_7series_0_mig_7series_v4_2_bank_compare_2
         .I2(head_r_lcl_i_2__0[1]),
         .I3(head_r_lcl_i_2__0[0]),
         .O(rb_hit_busy_r_reg_1));
-  (* SOFT_HLUTNM = "soft_lutpair593" *) 
+  (* SOFT_HLUTNM = "soft_lutpair588" *) 
   LUT4 #(
     .INIT(16'h6996)) 
     head_r_lcl_i_6
@@ -8599,7 +8599,7 @@ module mig_7series_0_mig_7series_v4_2_bank_compare_2
         .D(rb_hit_busy_r_reg_3),
         .Q(rb_hit_busy_r_reg_0),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair592" *) 
+  (* SOFT_HLUTNM = "soft_lutpair587" *) 
   LUT4 #(
     .INIT(16'h2F20)) 
     rd_wr_r_lcl_i_1
@@ -8878,7 +8878,7 @@ module mig_7series_0_mig_7series_v4_2_bank_compare_2
         .D(row_hit_ns),
         .Q(row_hit_r),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair592" *) 
+  (* SOFT_HLUTNM = "soft_lutpair587" *) 
   LUT1 #(
     .INIT(2'h1)) 
     \wr_this_rank_r[0]_i_1 
@@ -9539,7 +9539,7 @@ module mig_7series_0_mig_7series_v4_2_bank_mach
         .bm_end_r1(bm_end_r1),
         .col_wait_r(\bank_state0/col_wait_r ),
         .col_wait_r_reg(\bank_cntrl[0].bank0_n_27 ),
-        .col_wait_r_reg_0(\maint_controller.maint_hit_busies_r_reg[2] ),
+        .col_wait_r_reg_0(\rfc_zq_xsdll_timer.rfc_zq_xsdll_timer_r_reg[1] ),
         .\compute_tail.tail_r_lcl_reg (\bank_cntrl[3].bank0_n_24 ),
         .demand_act_priority_r(\bank_state0/demand_act_priority_r ),
         .demand_priority_r(\bank_state0/demand_priority_r ),
@@ -9603,6 +9603,7 @@ module mig_7series_0_mig_7series_v4_2_bank_mach
         .pre_bm_end_r_reg(\bank_cntrl[0].bank0_n_18 ),
         .pre_passing_open_bank_r_reg(\bank_cntrl[0].bank0_n_35 ),
         .pre_wait_r_reg(\bank_cntrl[0].bank0_n_48 ),
+        .pre_wait_r_reg_0(\maint_controller.maint_hit_busies_r_reg[2] ),
         .\q_entry_r_reg[0] (\bank_cntrl[0].bank0_n_22 ),
         .\q_entry_r_reg[0]_0 ({bm_end[3],bm_end[1]}),
         .\q_entry_r_reg[0]_1 (set_order_q),
@@ -9627,8 +9628,7 @@ module mig_7series_0_mig_7series_v4_2_bank_mach
         .\ras_timer_r_reg[1]_1 (\bank_cntrl[2].bank0_n_24 ),
         .\ras_timer_r_reg[1]_2 (\bank_cntrl[1].bank0_n_25 ),
         .ras_timer_zero_r_reg(\bank_cntrl[0].bank0_n_46 ),
-        .ras_timer_zero_r_reg_0(\rfc_zq_xsdll_timer.rfc_zq_xsdll_timer_r_reg[1] ),
-        .ras_timer_zero_r_reg_1(ras_timer_zero_r_reg),
+        .ras_timer_zero_r_reg_0(ras_timer_zero_r_reg),
         .\rb_hit_busies.rb_hit_busies_r_lcl_reg[1] (\bank_cntrl[0].bank0_n_23 ),
         .\rb_hit_busies.rb_hit_busies_r_lcl_reg[1]_0 (rb_hit_busy_r_reg_0),
         .\rb_hit_busies.rb_hit_busies_r_lcl_reg[1]_1 (\bank_cntrl[1].bank0_n_15 ),
@@ -10508,7 +10508,7 @@ module mig_7series_0_mig_7series_v4_2_bank_queue
         .I4(act_wait_r_lcl_reg),
         .I5(act_wait_r_lcl_reg_0),
         .O(\q_entry_r_reg[0]_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair594" *) 
+  (* SOFT_HLUTNM = "soft_lutpair589" *) 
   LUT5 #(
     .INIT(32'h40555555)) 
     act_wait_r_lcl_i_3
@@ -10534,7 +10534,7 @@ module mig_7series_0_mig_7series_v4_2_bank_queue
         .D(auto_pre_r_lcl_i_1_n_0),
         .Q(auto_pre_r_lcl_reg_0),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair594" *) 
+  (* SOFT_HLUTNM = "soft_lutpair589" *) 
   LUT5 #(
     .INIT(32'hFFFF0888)) 
     bm_end_r1_i_1
@@ -10572,7 +10572,7 @@ module mig_7series_0_mig_7series_v4_2_bank_queue
         .I4(\order_q_r_reg[1]_0 ),
         .I5(demand_priority_r_reg_0),
         .O(demand_priority_ns));
-  (* SOFT_HLUTNM = "soft_lutpair600" *) 
+  (* SOFT_HLUTNM = "soft_lutpair595" *) 
   LUT3 #(
     .INIT(8'hBA)) 
     demand_priority_r_i_2__2
@@ -10652,7 +10652,7 @@ module mig_7series_0_mig_7series_v4_2_bank_queue
         .D(head_r_lcl_i_1_n_0),
         .Q(head_r_lcl_reg_0),
         .S(SR));
-  (* SOFT_HLUTNM = "soft_lutpair595" *) 
+  (* SOFT_HLUTNM = "soft_lutpair590" *) 
   LUT1 #(
     .INIT(2'h1)) 
     idle_r_lcl_i_1
@@ -10672,7 +10672,7 @@ module mig_7series_0_mig_7series_v4_2_bank_queue
         .D(E),
         .Q(idle_r_lcl_reg_0),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair595" *) 
+  (* SOFT_HLUTNM = "soft_lutpair590" *) 
   LUT5 #(
     .INIT(32'h40444040)) 
     \maint_controller.maint_hit_busies_r[0]_i_1 
@@ -10777,7 +10777,7 @@ module mig_7series_0_mig_7series_v4_2_bank_queue
         .I4(\q_entry_r[1]_i_5_n_0 ),
         .I5(q_entry_r[0]),
         .O(\q_entry_r[0]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair596" *) 
+  (* SOFT_HLUTNM = "soft_lutpair591" *) 
   LUT5 #(
     .INIT(32'h69969669)) 
     \q_entry_r[0]_i_2__2 
@@ -10797,7 +10797,7 @@ module mig_7series_0_mig_7series_v4_2_bank_queue
         .I4(\q_entry_r_reg[0]_2 [1]),
         .I5(q_has_rd_r_reg_2),
         .O(idle_r_lcl_reg_6));
-  (* SOFT_HLUTNM = "soft_lutpair597" *) 
+  (* SOFT_HLUTNM = "soft_lutpair592" *) 
   LUT5 #(
     .INIT(32'h69969669)) 
     \q_entry_r[0]_i_4__2 
@@ -10817,7 +10817,7 @@ module mig_7series_0_mig_7series_v4_2_bank_queue
         .I4(\q_entry_r[1]_i_5_n_0 ),
         .I5(q_entry_r[1]),
         .O(\q_entry_r[1]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair598" *) 
+  (* SOFT_HLUTNM = "soft_lutpair593" *) 
   LUT5 #(
     .INIT(32'h9AA6599A)) 
     \q_entry_r[1]_i_2 
@@ -10827,7 +10827,7 @@ module mig_7series_0_mig_7series_v4_2_bank_queue
         .I3(\q_entry_r_reg[0]_2 [0]),
         .I4(\q_entry_r_reg[0]_4 ),
         .O(idle_r_lcl_reg_5));
-  (* SOFT_HLUTNM = "soft_lutpair599" *) 
+  (* SOFT_HLUTNM = "soft_lutpair594" *) 
   LUT5 #(
     .INIT(32'hE8817EE8)) 
     \q_entry_r[1]_i_2__0 
@@ -10876,7 +10876,7 @@ module mig_7series_0_mig_7series_v4_2_bank_queue
         .I3(\q_entry_r_reg[0]_1 ),
         .I4(pre_bm_end_r_reg_0),
         .O(\q_entry_r[1]_i_5_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair598" *) 
+  (* SOFT_HLUTNM = "soft_lutpair593" *) 
   LUT5 #(
     .INIT(32'h4D24B2DB)) 
     \q_entry_r[1]_i_5__1 
@@ -10894,7 +10894,7 @@ module mig_7series_0_mig_7series_v4_2_bank_queue
         .I2(\q_entry_r_reg[1]_1 [2]),
         .I3(\q_entry_r_reg[1]_1 [0]),
         .O(\q_entry_r[1]_i_6__0_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair597" *) 
+  (* SOFT_HLUTNM = "soft_lutpair592" *) 
   LUT5 #(
     .INIT(32'hD442422B)) 
     \q_entry_r[1]_i_6__1 
@@ -10904,7 +10904,7 @@ module mig_7series_0_mig_7series_v4_2_bank_queue
         .I3(\q_entry_r_reg[1]_1 [2]),
         .I4(\q_entry_r_reg[1]_1 [1]),
         .O(idle_r_lcl_reg_3));
-  (* SOFT_HLUTNM = "soft_lutpair599" *) 
+  (* SOFT_HLUTNM = "soft_lutpair594" *) 
   LUT4 #(
     .INIT(16'h6996)) 
     \q_entry_r[1]_i_6__2 
@@ -10913,7 +10913,7 @@ module mig_7series_0_mig_7series_v4_2_bank_queue
         .I2(\q_entry_r_reg[1]_1 [2]),
         .I3(\q_entry_r_reg[1]_1 [1]),
         .O(\q_entry_r[1]_i_6__2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair596" *) 
+  (* SOFT_HLUTNM = "soft_lutpair591" *) 
   LUT5 #(
     .INIT(32'h8117177E)) 
     \q_entry_r[1]_i_7__2 
@@ -11091,7 +11091,7 @@ module mig_7series_0_mig_7series_v4_2_bank_queue
         .D(\rb_hit_busies.rb_hit_busies_r_lcl[3]_i_2_n_0 ),
         .Q(rb_hit_busies_r[3]),
         .R(\rb_hit_busies.rb_hit_busies_r_lcl_reg[3]_1 ));
-  (* SOFT_HLUTNM = "soft_lutpair600" *) 
+  (* SOFT_HLUTNM = "soft_lutpair595" *) 
   LUT4 #(
     .INIT(16'h00A2)) 
     req_bank_rdy_r_i_1__2
@@ -11538,7 +11538,7 @@ module mig_7series_0_mig_7series_v4_2_bank_queue__parameterized0
         .I4(\order_q_r_reg[1]_1 ),
         .I5(demand_priority_r_reg_0),
         .O(demand_priority_ns));
-  (* SOFT_HLUTNM = "soft_lutpair608" *) 
+  (* SOFT_HLUTNM = "soft_lutpair603" *) 
   LUT3 #(
     .INIT(8'hBA)) 
     demand_priority_r_i_2__1
@@ -11621,7 +11621,7 @@ module mig_7series_0_mig_7series_v4_2_bank_queue__parameterized0
         .D(head_r_lcl_i_1__0_n_0),
         .Q(head_r_lcl_reg_0),
         .R(SR));
-  (* SOFT_HLUTNM = "soft_lutpair606" *) 
+  (* SOFT_HLUTNM = "soft_lutpair601" *) 
   LUT1 #(
     .INIT(2'h1)) 
     idle_r_lcl_i_1__0
@@ -11641,7 +11641,7 @@ module mig_7series_0_mig_7series_v4_2_bank_queue__parameterized0
         .D(E),
         .Q(idle_r_lcl_reg_0),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair606" *) 
+  (* SOFT_HLUTNM = "soft_lutpair601" *) 
   LUT5 #(
     .INIT(32'h10111010)) 
     \maint_controller.maint_hit_busies_r[1]_i_1 
@@ -11958,7 +11958,7 @@ module mig_7series_0_mig_7series_v4_2_bank_queue__parameterized0
         .D(\rb_hit_busies.rb_hit_busies_r_lcl[4]_i_2_n_0 ),
         .Q(rb_hit_busies_r[4]),
         .R(\rb_hit_busies.rb_hit_busies_r_lcl_reg[4]_2 ));
-  (* SOFT_HLUTNM = "soft_lutpair608" *) 
+  (* SOFT_HLUTNM = "soft_lutpair603" *) 
   LUT4 #(
     .INIT(16'h00A2)) 
     req_bank_rdy_r_i_1__1
@@ -11967,7 +11967,7 @@ module mig_7series_0_mig_7series_v4_2_bank_queue__parameterized0
         .I2(req_bank_rdy_r_reg_0),
         .I3(order_q_r[1]),
         .O(req_bank_rdy_ns));
-  (* SOFT_HLUTNM = "soft_lutpair607" *) 
+  (* SOFT_HLUTNM = "soft_lutpair602" *) 
   LUT4 #(
     .INIT(16'hFBFF)) 
     \rnk_config_strobe_r[0]_i_1 
@@ -11976,7 +11976,7 @@ module mig_7series_0_mig_7series_v4_2_bank_queue__parameterized0
         .I2(\rnk_config_strobe_r_reg[0]_0 ),
         .I3(\rnk_config_strobe_r_reg[0]_1 ),
         .O(rnk_config_strobe_ns));
-  (* SOFT_HLUTNM = "soft_lutpair607" *) 
+  (* SOFT_HLUTNM = "soft_lutpair602" *) 
   LUT5 #(
     .INIT(32'hFFFFFBFF)) 
     rnk_config_valid_r_lcl_i_1
@@ -12338,7 +12338,7 @@ module mig_7series_0_mig_7series_v4_2_bank_queue__parameterized1
         .I4(act_wait_r_lcl_reg),
         .I5(act_wait_r_lcl_reg_0),
         .O(\q_entry_r_reg[0]_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair612" *) 
+  (* SOFT_HLUTNM = "soft_lutpair607" *) 
   LUT5 #(
     .INIT(32'h40555555)) 
     act_wait_r_lcl_i_3__0
@@ -12364,7 +12364,7 @@ module mig_7series_0_mig_7series_v4_2_bank_queue__parameterized1
         .D(auto_pre_r_lcl_i_1__1_n_0),
         .Q(auto_pre_r_lcl_reg_0),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair612" *) 
+  (* SOFT_HLUTNM = "soft_lutpair607" *) 
   LUT5 #(
     .INIT(32'hFFFF0888)) 
     bm_end_r1_i_1__1
@@ -12402,7 +12402,7 @@ module mig_7series_0_mig_7series_v4_2_bank_queue__parameterized1
         .I4(\order_q_r_reg[1]_0 ),
         .I5(demand_priority_r_reg_0),
         .O(demand_priority_ns));
-  (* SOFT_HLUTNM = "soft_lutpair613" *) 
+  (* SOFT_HLUTNM = "soft_lutpair608" *) 
   LUT3 #(
     .INIT(8'hBA)) 
     demand_priority_r_i_2__0
@@ -12482,7 +12482,7 @@ module mig_7series_0_mig_7series_v4_2_bank_queue__parameterized1
         .D(head_r_lcl_i_1__1_n_0),
         .Q(head_r_lcl_reg_0),
         .R(SR));
-  (* SOFT_HLUTNM = "soft_lutpair614" *) 
+  (* SOFT_HLUTNM = "soft_lutpair609" *) 
   LUT1 #(
     .INIT(2'h1)) 
     idle_r_lcl_i_1__1
@@ -12747,7 +12747,7 @@ module mig_7series_0_mig_7series_v4_2_bank_queue__parameterized1
         .I1(rstdiv0_sync_r1_reg_rep__13),
         .I2(\rb_hit_busies.rb_hit_busies_r_lcl_reg[3]_0 ),
         .O(\rb_hit_busies.rb_hit_busies_r_lcl[3]_i_1__0_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair614" *) 
+  (* SOFT_HLUTNM = "soft_lutpair609" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \rb_hit_busies.rb_hit_busies_r_lcl[4]_i_1 
@@ -12786,7 +12786,7 @@ module mig_7series_0_mig_7series_v4_2_bank_queue__parameterized1
         .D(\rb_hit_busies.rb_hit_busies_r_lcl[5]_i_1_n_0 ),
         .Q(rb_hit_busies_r[5]),
         .R(\rb_hit_busies.rb_hit_busies_r_lcl_reg[5]_1 ));
-  (* SOFT_HLUTNM = "soft_lutpair613" *) 
+  (* SOFT_HLUTNM = "soft_lutpair608" *) 
   LUT4 #(
     .INIT(16'h00A2)) 
     req_bank_rdy_r_i_1__0
@@ -13186,7 +13186,7 @@ module mig_7series_0_mig_7series_v4_2_bank_queue__parameterized2
         .I4(pass_open_bank_r_lcl_reg_1),
         .I5(tail_r),
         .O(\compute_tail.tail_r_lcl_i_1__2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair620" *) 
+  (* SOFT_HLUTNM = "soft_lutpair615" *) 
   LUT3 #(
     .INIT(8'h04)) 
     \compute_tail.tail_r_lcl_i_2 
@@ -13194,7 +13194,7 @@ module mig_7series_0_mig_7series_v4_2_bank_queue__parameterized2
         .I1(\compute_tail.tail_r_lcl_reg_1 ),
         .I2(\compute_tail.tail_r_lcl_reg_2 ),
         .O(pre_bm_end_r_reg_2));
-  (* SOFT_HLUTNM = "soft_lutpair620" *) 
+  (* SOFT_HLUTNM = "soft_lutpair615" *) 
   LUT3 #(
     .INIT(8'h40)) 
     \compute_tail.tail_r_lcl_i_2__0 
@@ -13227,7 +13227,7 @@ module mig_7series_0_mig_7series_v4_2_bank_queue__parameterized2
         .I4(demand_priority_r_i_2_n_0),
         .I5(demand_priority_r_reg_0),
         .O(demand_priority_ns));
-  (* SOFT_HLUTNM = "soft_lutpair618" *) 
+  (* SOFT_HLUTNM = "soft_lutpair613" *) 
   LUT3 #(
     .INIT(8'hBA)) 
     demand_priority_r_i_2
@@ -13290,7 +13290,7 @@ module mig_7series_0_mig_7series_v4_2_bank_queue__parameterized2
         .D(head_r_lcl_i_1__2_n_0),
         .Q(head_r_lcl_reg_0),
         .R(SR));
-  (* SOFT_HLUTNM = "soft_lutpair619" *) 
+  (* SOFT_HLUTNM = "soft_lutpair614" *) 
   LUT1 #(
     .INIT(2'h1)) 
     idle_r_lcl_i_1__2
@@ -13557,7 +13557,7 @@ module mig_7series_0_mig_7series_v4_2_bank_queue__parameterized2
         .I4(pass_open_bank_r),
         .I5(q_has_priority_r_reg_0),
         .O(pre_bm_end_r_reg_0));
-  (* SOFT_HLUTNM = "soft_lutpair619" *) 
+  (* SOFT_HLUTNM = "soft_lutpair614" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \rb_hit_busies.rb_hit_busies_r_lcl[4]_i_1__0 
@@ -13603,7 +13603,7 @@ module mig_7series_0_mig_7series_v4_2_bank_queue__parameterized2
         .D(\rb_hit_busies.rb_hit_busies_r_lcl[6]_i_1_n_0 ),
         .Q(rb_hit_busies_r[6]),
         .R(\rb_hit_busies.rb_hit_busies_r_lcl_reg[6]_1 ));
-  (* SOFT_HLUTNM = "soft_lutpair618" *) 
+  (* SOFT_HLUTNM = "soft_lutpair613" *) 
   LUT4 #(
     .INIT(16'h00A2)) 
     req_bank_rdy_r_i_1
@@ -13627,7 +13627,7 @@ module mig_7series_0_mig_7series_v4_2_bank_state
     ras_timer_zero_r,
     pre_wait_r,
     col_wait_r_reg_0,
-    rstdiv0_sync_r1_reg_rep__13,
+    rstdiv0_sync_r1_reg_rep__14,
     demand_act_priority_r,
     act_this_rank_r,
     demand_priority_r_reg_0,
@@ -13665,6 +13665,7 @@ module mig_7series_0_mig_7series_v4_2_bank_state
     col_wait_r_reg_2,
     pass_open_bank_r,
     pre_wait_r_reg_1,
+    pre_wait_r_reg_2,
     \pre_4_1_1T_arb.granted_pre_r_reg ,
     \pre_4_1_1T_arb.granted_pre_r_reg_0 ,
     override_demand_r,
@@ -13680,7 +13681,6 @@ module mig_7series_0_mig_7series_v4_2_bank_state
     \pre_4_1_1T_arb.granted_pre_r_reg_1 ,
     \pre_4_1_1T_arb.granted_pre_r_reg_2 ,
     ras_timer_zero_r_reg_0,
-    ras_timer_zero_r_reg_1,
     \grant_r[3]_i_5__1 ,
     \starve_limit_cntr_r_reg[0]_0 ,
     req_wr_r,
@@ -13697,7 +13697,7 @@ module mig_7series_0_mig_7series_v4_2_bank_state
   output ras_timer_zero_r;
   output pre_wait_r;
   output col_wait_r_reg_0;
-  output rstdiv0_sync_r1_reg_rep__13;
+  output rstdiv0_sync_r1_reg_rep__14;
   output demand_act_priority_r;
   output [0:0]act_this_rank_r;
   output demand_priority_r_reg_0;
@@ -13735,6 +13735,7 @@ module mig_7series_0_mig_7series_v4_2_bank_state
   input col_wait_r_reg_2;
   input pass_open_bank_r;
   input pre_wait_r_reg_1;
+  input pre_wait_r_reg_2;
   input \pre_4_1_1T_arb.granted_pre_r_reg ;
   input [0:0]\pre_4_1_1T_arb.granted_pre_r_reg_0 ;
   input override_demand_r;
@@ -13750,7 +13751,6 @@ module mig_7series_0_mig_7series_v4_2_bank_state
   input \pre_4_1_1T_arb.granted_pre_r_reg_1 ;
   input \pre_4_1_1T_arb.granted_pre_r_reg_2 ;
   input ras_timer_zero_r_reg_0;
-  input ras_timer_zero_r_reg_1;
   input [0:0]\grant_r[3]_i_5__1 ;
   input \starve_limit_cntr_r_reg[0]_0 ;
   input [0:0]req_wr_r;
@@ -13823,6 +13823,7 @@ module mig_7series_0_mig_7series_v4_2_bank_state
   wire pre_wait_r_i_2_n_0;
   wire pre_wait_r_reg_0;
   wire pre_wait_r_reg_1;
+  wire pre_wait_r_reg_2;
   wire q_has_rd;
   wire [1:0]ras_timer_r;
   wire \ras_timer_r_reg[0]_0 ;
@@ -13830,7 +13831,6 @@ module mig_7series_0_mig_7series_v4_2_bank_state
   wire ras_timer_zero_ns;
   wire ras_timer_zero_r;
   wire ras_timer_zero_r_reg_0;
-  wire ras_timer_zero_r_reg_1;
   wire [0:0]rb_hit_busy_r;
   wire rb_hit_busy_r_reg;
   wire [0:0]rd_this_rank_r;
@@ -13838,7 +13838,7 @@ module mig_7series_0_mig_7series_v4_2_bank_state
   wire req_bank_rdy_ns;
   wire req_bank_rdy_r;
   wire [0:0]req_wr_r;
-  wire rstdiv0_sync_r1_reg_rep__13;
+  wire rstdiv0_sync_r1_reg_rep__14;
   wire [1:0]rtp_timer_r;
   wire \rtp_timer_r[0]_i_1_n_0 ;
   wire \rtp_timer_r[1]_i_1_n_0 ;
@@ -13888,11 +13888,11 @@ module mig_7series_0_mig_7series_v4_2_bank_state
         .I1(col_wait_r_reg_0),
         .I2(Q[0]),
         .I3(col_wait_r_reg_2),
-        .O(rstdiv0_sync_r1_reg_rep__13));
+        .O(rstdiv0_sync_r1_reg_rep__14));
   FDRE col_wait_r_reg
        (.C(CLK),
         .CE(1'b1),
-        .D(rstdiv0_sync_r1_reg_rep__13),
+        .D(rstdiv0_sync_r1_reg_rep__14),
         .Q(col_wait_r_reg_0),
         .R(1'b0));
   LUT6 #(
@@ -13951,7 +13951,7 @@ module mig_7series_0_mig_7series_v4_2_bank_state
         .D(demanded_prior_ns),
         .Q(demanded_prior_r),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair601" *) 
+  (* SOFT_HLUTNM = "soft_lutpair596" *) 
   LUT4 #(
     .INIT(16'h0008)) 
     \grant_r[2]_i_3__1 
@@ -13985,7 +13985,7 @@ module mig_7series_0_mig_7series_v4_2_bank_state
         .I3(demanded_prior_r),
         .I4(demanded_prior_r_reg_0),
         .O(demand_priority_r_reg_1));
-  (* SOFT_HLUTNM = "soft_lutpair603" *) 
+  (* SOFT_HLUTNM = "soft_lutpair598" *) 
   LUT4 #(
     .INIT(16'h1011)) 
     ofs_rdy_r_i_1
@@ -13994,7 +13994,7 @@ module mig_7series_0_mig_7series_v4_2_bank_state
         .I2(\rd_this_rank_r_reg[0]_0 ),
         .I3(phy_mc_data_full),
         .O(ofs_rdy_r0_2));
-  (* SOFT_HLUTNM = "soft_lutpair603" *) 
+  (* SOFT_HLUTNM = "soft_lutpair598" *) 
   LUT4 #(
     .INIT(16'h1011)) 
     ofs_rdy_r_i_1__0
@@ -14003,7 +14003,7 @@ module mig_7series_0_mig_7series_v4_2_bank_state
         .I2(ofs_rdy_r_reg_0[2]),
         .I3(phy_mc_data_full),
         .O(ofs_rdy_r0));
-  (* SOFT_HLUTNM = "soft_lutpair604" *) 
+  (* SOFT_HLUTNM = "soft_lutpair599" *) 
   LUT4 #(
     .INIT(16'h1011)) 
     ofs_rdy_r_i_1__1
@@ -14012,7 +14012,7 @@ module mig_7series_0_mig_7series_v4_2_bank_state
         .I2(ofs_rdy_r_reg_0[1]),
         .I3(phy_mc_data_full),
         .O(ofs_rdy_r0_0));
-  (* SOFT_HLUTNM = "soft_lutpair604" *) 
+  (* SOFT_HLUTNM = "soft_lutpair599" *) 
   LUT4 #(
     .INIT(16'h1011)) 
     ofs_rdy_r_i_1__2
@@ -14055,7 +14055,7 @@ module mig_7series_0_mig_7series_v4_2_bank_state
         .I4(\pre_4_1_1T_arb.granted_pre_r_reg ),
         .I5(\pre_4_1_1T_arb.granted_pre_r_reg_2 ),
         .O(\pre_4_1_1T_arb.granted_pre_ns ));
-  (* SOFT_HLUTNM = "soft_lutpair601" *) 
+  (* SOFT_HLUTNM = "soft_lutpair596" *) 
   LUT5 #(
     .INIT(32'hFEAAAAAA)) 
     pre_bm_end_r_i_1
@@ -14068,7 +14068,7 @@ module mig_7series_0_mig_7series_v4_2_bank_state
   LUT6 #(
     .INIT(64'hAAA8AAAAAAA8AAA8)) 
     pre_passing_open_bank_r_i_1
-       (.I0(pre_wait_r_reg_1),
+       (.I0(pre_wait_r_reg_2),
         .I1(Q[0]),
         .I2(rtp_timer_r[1]),
         .I3(rtp_timer_r[0]),
@@ -14078,17 +14078,17 @@ module mig_7series_0_mig_7series_v4_2_bank_state
   LUT6 #(
     .INIT(64'h4444444444454444)) 
     pre_wait_r_i_1
-       (.I0(pre_wait_r_reg_1),
+       (.I0(pre_wait_r_reg_2),
         .I1(pre_wait_r_i_2_n_0),
         .I2(pass_open_bank_r),
-        .I3(col_wait_r_reg_1),
+        .I3(pre_wait_r_reg_1),
         .I4(rtp_timer_r[0]),
         .I5(rtp_timer_r[1]),
         .O(pre_wait_ns));
   LUT5 #(
     .INIT(32'h01550000)) 
     pre_wait_r_i_2
-       (.I0(ras_timer_zero_r_reg_0),
+       (.I0(col_wait_r_reg_1),
         .I1(\pre_4_1_1T_arb.granted_pre_r_reg ),
         .I2(\pre_4_1_1T_arb.granted_pre_r_reg_0 ),
         .I3(ras_timer_zero_r),
@@ -14103,7 +14103,7 @@ module mig_7series_0_mig_7series_v4_2_bank_state
   LUT6 #(
     .INIT(64'h0054555500540054)) 
     \ras_timer_r[0]_i_3 
-       (.I0(ras_timer_zero_r_reg_1),
+       (.I0(ras_timer_zero_r_reg_0),
         .I1(act_wait_r_lcl_reg_1),
         .I2(ras_timer_r[1]),
         .I3(ras_timer_r[0]),
@@ -14118,7 +14118,7 @@ module mig_7series_0_mig_7series_v4_2_bank_state
         .I2(\rd_this_rank_r_reg[0]_0 ),
         .I3(Q[0]),
         .I4(bm_end_r1),
-        .I5(ras_timer_zero_r_reg_0),
+        .I5(col_wait_r_reg_1),
         .O(\ras_timer_r_reg[0]_0 ));
   FDRE \ras_timer_r_reg[0] 
        (.C(CLK),
@@ -14171,7 +14171,7 @@ module mig_7series_0_mig_7series_v4_2_bank_state
         .I1(rtp_timer_r[1]),
         .I2(rtp_timer_r[0]),
         .I3(pass_open_bank_r),
-        .I4(col_wait_r_reg_1),
+        .I4(pre_wait_r_reg_1),
         .O(\rtp_timer_r[1]_i_1_n_0 ));
   FDRE \rtp_timer_r_reg[0] 
        (.C(CLK),
@@ -14192,7 +14192,7 @@ module mig_7series_0_mig_7series_v4_2_bank_state
         .I1(starve_limit_cntr_r0),
         .I2(col_wait_r_reg_0),
         .O(\starve_limit_cntr_r[0]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair602" *) 
+  (* SOFT_HLUTNM = "soft_lutpair597" *) 
   LUT4 #(
     .INIT(16'h6A00)) 
     \starve_limit_cntr_r[1]_i_1 
@@ -14201,7 +14201,7 @@ module mig_7series_0_mig_7series_v4_2_bank_state
         .I2(starve_limit_cntr_r[0]),
         .I3(col_wait_r_reg_0),
         .O(\starve_limit_cntr_r[1]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair602" *) 
+  (* SOFT_HLUTNM = "soft_lutpair597" *) 
   LUT5 #(
     .INIT(32'h6AAA0000)) 
     \starve_limit_cntr_r[2]_i_1 
@@ -14550,7 +14550,7 @@ module mig_7series_0_mig_7series_v4_2_bank_state__parameterized0
        (.I0(act_wait_r_lcl_reg_0),
         .I1(\grant_r[2]_i_2__1 ),
         .O(act_wait_r_lcl_reg_1));
-  (* SOFT_HLUTNM = "soft_lutpair609" *) 
+  (* SOFT_HLUTNM = "soft_lutpair604" *) 
   LUT4 #(
     .INIT(16'h0008)) 
     \grant_r[3]_i_3__1 
@@ -14576,7 +14576,7 @@ module mig_7series_0_mig_7series_v4_2_bank_state__parameterized0
         .D(ofs_rdy_r0),
         .Q(ofs_rdy_r),
         .R(SR));
-  (* SOFT_HLUTNM = "soft_lutpair609" *) 
+  (* SOFT_HLUTNM = "soft_lutpair604" *) 
   LUT5 #(
     .INIT(32'hFEAAAAAA)) 
     pre_bm_end_r_i_1__2
@@ -14713,7 +14713,7 @@ module mig_7series_0_mig_7series_v4_2_bank_state__parameterized0
         .I1(starve_limit_cntr_r0),
         .I2(col_wait_r_reg_0),
         .O(\starve_limit_cntr_r[0]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair610" *) 
+  (* SOFT_HLUTNM = "soft_lutpair605" *) 
   LUT4 #(
     .INIT(16'h6A00)) 
     \starve_limit_cntr_r[1]_i_1 
@@ -14722,7 +14722,7 @@ module mig_7series_0_mig_7series_v4_2_bank_state__parameterized0
         .I2(starve_limit_cntr_r[0]),
         .I3(col_wait_r_reg_0),
         .O(\starve_limit_cntr_r[1]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair610" *) 
+  (* SOFT_HLUTNM = "soft_lutpair605" *) 
   LUT5 #(
     .INIT(32'h6AAA0000)) 
     \starve_limit_cntr_r[2]_i_1 
@@ -15064,7 +15064,7 @@ module mig_7series_0_mig_7series_v4_2_bank_state__parameterized1
         .D(demanded_prior_ns),
         .Q(demanded_prior_r),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair615" *) 
+  (* SOFT_HLUTNM = "soft_lutpair610" *) 
   LUT4 #(
     .INIT(16'h0008)) 
     \grant_r[3]_i_4__0 
@@ -15111,7 +15111,7 @@ module mig_7series_0_mig_7series_v4_2_bank_state__parameterized1
         .I3(pre_wait_r),
         .I4(\pre_4_1_1T_arb.granted_pre_r_reg ),
         .O(auto_pre_r_lcl_reg));
-  (* SOFT_HLUTNM = "soft_lutpair615" *) 
+  (* SOFT_HLUTNM = "soft_lutpair610" *) 
   LUT5 #(
     .INIT(32'hFEAAAAAA)) 
     pre_bm_end_r_i_1__1
@@ -15248,7 +15248,7 @@ module mig_7series_0_mig_7series_v4_2_bank_state__parameterized1
         .I1(starve_limit_cntr_r0),
         .I2(col_wait_r_reg_0),
         .O(\starve_limit_cntr_r[0]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair616" *) 
+  (* SOFT_HLUTNM = "soft_lutpair611" *) 
   LUT4 #(
     .INIT(16'h6A00)) 
     \starve_limit_cntr_r[1]_i_1 
@@ -15257,7 +15257,7 @@ module mig_7series_0_mig_7series_v4_2_bank_state__parameterized1
         .I2(starve_limit_cntr_r[0]),
         .I3(col_wait_r_reg_0),
         .O(\starve_limit_cntr_r[1]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair616" *) 
+  (* SOFT_HLUTNM = "soft_lutpair611" *) 
   LUT5 #(
     .INIT(32'h6AAA0000)) 
     \starve_limit_cntr_r[2]_i_1 
@@ -15629,7 +15629,7 @@ module mig_7series_0_mig_7series_v4_2_bank_state__parameterized2
         .I3(demand_priority_r_reg_0),
         .I4(demanded_prior_r_reg_0),
         .O(demand_priority_r_reg_1));
-  (* SOFT_HLUTNM = "soft_lutpair621" *) 
+  (* SOFT_HLUTNM = "soft_lutpair616" *) 
   LUT4 #(
     .INIT(16'h0008)) 
     \grant_r[3]_i_6__1 
@@ -15646,7 +15646,7 @@ module mig_7series_0_mig_7series_v4_2_bank_state__parameterized2
         .D(ofs_rdy_r0),
         .Q(ofs_rdy_r),
         .R(SR));
-  (* SOFT_HLUTNM = "soft_lutpair621" *) 
+  (* SOFT_HLUTNM = "soft_lutpair616" *) 
   LUT5 #(
     .INIT(32'hFEAAAAAA)) 
     pre_bm_end_r_i_1__0
@@ -16102,14 +16102,14 @@ module mig_7series_0_mig_7series_v4_2_col_mach
     \read_fifo.head_r[0]_i_1 
        (.I0(\read_fifo.head_r_reg [0]),
         .O(p_0_in[0]));
-  (* SOFT_HLUTNM = "soft_lutpair629" *) 
+  (* SOFT_HLUTNM = "soft_lutpair624" *) 
   LUT2 #(
     .INIT(4'h6)) 
     \read_fifo.head_r[1]_i_1 
        (.I0(\read_fifo.head_r_reg [1]),
         .I1(\read_fifo.head_r_reg [0]),
         .O(p_0_in[1]));
-  (* SOFT_HLUTNM = "soft_lutpair629" *) 
+  (* SOFT_HLUTNM = "soft_lutpair624" *) 
   LUT3 #(
     .INIT(8'h6A)) 
     \read_fifo.head_r[2]_i_1 
@@ -16117,7 +16117,7 @@ module mig_7series_0_mig_7series_v4_2_col_mach
         .I1(\read_fifo.head_r_reg [0]),
         .I2(\read_fifo.head_r_reg [1]),
         .O(p_0_in[2]));
-  (* SOFT_HLUTNM = "soft_lutpair628" *) 
+  (* SOFT_HLUTNM = "soft_lutpair623" *) 
   LUT4 #(
     .INIT(16'h6AAA)) 
     \read_fifo.head_r[3]_i_1 
@@ -16126,7 +16126,7 @@ module mig_7series_0_mig_7series_v4_2_col_mach
         .I2(\read_fifo.head_r_reg [0]),
         .I3(\read_fifo.head_r_reg [2]),
         .O(p_0_in[3]));
-  (* SOFT_HLUTNM = "soft_lutpair628" *) 
+  (* SOFT_HLUTNM = "soft_lutpair623" *) 
   LUT5 #(
     .INIT(32'h6AAAAAAA)) 
     \read_fifo.head_r[4]_i_1 
@@ -16173,7 +16173,7 @@ module mig_7series_0_mig_7series_v4_2_col_mach
         .I1(\read_fifo.tail_r_reg[0]_0 ),
         .I2(\read_fifo.tail_r_reg [1]),
         .O(\read_fifo.tail_r[1]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair627" *) 
+  (* SOFT_HLUTNM = "soft_lutpair622" *) 
   LUT4 #(
     .INIT(16'h7F80)) 
     \read_fifo.tail_r[2]_i_1 
@@ -16182,7 +16182,7 @@ module mig_7series_0_mig_7series_v4_2_col_mach
         .I2(\read_fifo.tail_r_reg [1]),
         .I3(\read_fifo.tail_r_reg [2]),
         .O(\read_fifo.tail_r[2]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair627" *) 
+  (* SOFT_HLUTNM = "soft_lutpair622" *) 
   LUT5 #(
     .INIT(32'h6AAAAAAA)) 
     \read_fifo.tail_r[3]_i_1 
@@ -24671,20 +24671,19 @@ module mig_7series_0_mig_7series_v4_2_ddr_calib_top
   wire dqs_po_en_stg2_f_reg;
   wire dqs_po_stg2_f_incdec;
   wire dqs_wl_po_stg2_c_incdec_reg;
-  wire \dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_12 ;
-  wire \dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_2 ;
-  wire \dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_21 ;
+  wire \dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_13 ;
   wire \dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_22 ;
   wire \dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_23 ;
   wire \dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_24 ;
   wire \dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_25 ;
   wire \dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_26 ;
   wire \dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_27 ;
+  wire \dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_28 ;
   wire \dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_3 ;
-  wire \dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_32 ;
   wire \dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_33 ;
+  wire \dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_34 ;
+  wire \dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_4 ;
   wire \en_cnt_div4.enable_wrlvl_cnt_reg[2] ;
-  wire [0:0]fine_adj_state_r;
   wire [0:0]\fine_dec_cnt_reg[0] ;
   wire [0:0]first_fail_detect_reg;
   wire first_rdlvl_pat_r;
@@ -24938,6 +24937,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_calib_top
   wire phy_write_calib;
   wire pi_calib_done;
   wire pi_cnt_dec_reg;
+  wire pi_dqs_found_all_bank;
   wire pi_dqs_found_done_r1;
   wire [1:0]pi_dqs_found_lanes;
   wire pi_dqs_found_rank_done;
@@ -25051,7 +25051,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_calib_top
   FDRE \calib_sel_reg[1] 
        (.C(CLK),
         .CE(1'b1),
-        .D(\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_33 ),
+        .D(\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_34 ),
         .Q(calib_sel[1]),
         .R(1'b0));
   (* syn_maxfan = "10" *) 
@@ -25205,7 +25205,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_calib_top
         .\phaser_in_gen.phaser_in_1 (calib_in_common),
         .pi_calib_done(pi_calib_done),
         .pi_cnt_dec_reg_0(pi_cnt_dec_reg),
-        .pi_dqs_found_done(\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_2 ),
+        .pi_dqs_found_done(\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_3 ),
         .pi_en_stg2_f_reg_0(pi_en_stg2_f_reg),
         .pi_fine_dly_dec_done_reg_0(pi_fine_dly_dec_done),
         .\pi_rdval_cnt_reg[5]_0 (\en_cnt_div4.enable_wrlvl_cnt_reg[2] ),
@@ -25256,7 +25256,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_calib_top
         .\neutral_max_limit_reg[11]_0 (\neutral_max_limit_reg[11] ),
         .\one_dec_max_limit_reg[1]_0 (po_en_stg2_f_reg),
         .\one_dec_min_limit_reg[11]_0 (\cnt_pwron_r_reg[0] ),
-        .pi_dqs_found_done(\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_2 ),
+        .pi_dqs_found_done(\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_3 ),
         .pi_f_dec_reg_0(tempmon_pi_f_dec),
         .pi_f_dec_reg_1(\init_state_r_reg[0] ),
         .pi_f_inc_reg_0(tempmon_pi_f_inc),
@@ -25267,7 +25267,6 @@ module mig_7series_0_mig_7series_v4_2_ddr_calib_top
        (.A_rst_primitives(A_rst_primitives),
         .CLK(CLK),
         .D(rdlvl_stg1_done_int_reg),
-        .Q(fine_adj_state_r),
         .RSTB(RSTB),
         .calib_in_common4_out(calib_in_common4_out),
         .calib_sel0(calib_sel0),
@@ -25283,16 +25282,16 @@ module mig_7series_0_mig_7series_v4_2_ddr_calib_top
         .ck_po_stg2_f_indec_reg_0(ck_po_stg2_f_indec_reg),
         .cmd_delay_start0(cmd_delay_start0),
         .ctl_lane_cnt(ctl_lane_cnt),
-        .\ctl_lane_cnt_reg[0]_0 (\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_32 ),
+        .\ctl_lane_cnt_reg[0]_0 (\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_33 ),
         .detect_pi_found_dqs(detect_pi_found_dqs),
-        .dqs_found_done_r_reg_0(\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_27 ),
+        .dqs_found_done_r_reg_0(\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_28 ),
         .dqs_found_done_r_reg_1(dqs_found_done_r_reg),
         .dqs_found_prech_req(dqs_found_prech_req),
         .dqs_found_start_r_reg_0(u_ddr_phy_init_n_355),
         .dqs_po_stg2_f_incdec(dqs_po_stg2_f_incdec),
-        .fine_adjust_done_r_reg_0(\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_3 ),
+        .fine_adjust_done_r_reg_0(\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_4 ),
         .first_fail_detect_reg_0(first_fail_detect_reg),
-        .\gen_byte_sel_div2.byte_sel_cnt_reg[1] (\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_33 ),
+        .\gen_byte_sel_div2.byte_sel_cnt_reg[1] (\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_34 ),
         .\gen_byte_sel_div2.byte_sel_cnt_reg[1]_0 (\not_empty_wait_cnt_reg[4] ),
         .\gen_byte_sel_div2.calib_in_common_reg (\gen_byte_sel_div2.calib_in_common_reg_1 ),
         .\gen_byte_sel_div2.calib_in_common_reg_0 (ddr_phy_tempmon_0_n_6),
@@ -25302,7 +25301,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_calib_top
         .\gen_byte_sel_div2.ctl_lane_sel_reg[0]_1 (dqs_po_dec_done),
         .ififo_rst_reg0(ififo_rst_reg0),
         .ififo_rst_reg0_1(ififo_rst_reg0_1),
-        .init_dqsfound_done_r_reg_0(\idelay_tap_cnt_r_reg[0][1][4] ),
+        .init_dqsfound_done_r_reg_0(\cnt_pwron_r_reg[0] ),
         .\init_state_r[4]_i_12 (u_ddr_phy_init_n_2),
         .ofifo_rst_reg0(ofifo_rst_reg0),
         .ofifo_rst_reg0_2(ofifo_rst_reg0_2),
@@ -25311,24 +25310,26 @@ module mig_7series_0_mig_7series_v4_2_ddr_calib_top
         .\phaser_in_gen.phaser_in_1 (calib_sel[1]),
         .phy_if_reset(phy_if_reset),
         .pi_calib_done(pi_calib_done),
-        .pi_calib_done_r1_reg(\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_23 ),
-        .pi_dqs_found_done(\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_2 ),
+        .pi_calib_done_r1_reg(\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_24 ),
+        .pi_dqs_found_all_bank(pi_dqs_found_all_bank),
+        .pi_dqs_found_done(\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_3 ),
         .pi_dqs_found_done_r1(pi_dqs_found_done_r1),
-        .pi_dqs_found_done_r1_reg(\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_21 ),
-        .pi_dqs_found_done_r1_reg_0(\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_22 ),
-        .pi_dqs_found_done_r1_reg_1(\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_24 ),
-        .pi_dqs_found_done_r1_reg_2(\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_25 ),
-        .pi_dqs_found_done_r1_reg_3(\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_26 ),
+        .pi_dqs_found_done_r1_reg(\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_22 ),
+        .pi_dqs_found_done_r1_reg_0(\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_23 ),
+        .pi_dqs_found_done_r1_reg_1(\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_25 ),
+        .pi_dqs_found_done_r1_reg_2(\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_26 ),
+        .pi_dqs_found_done_r1_reg_3(\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_27 ),
         .pi_dqs_found_lanes(pi_dqs_found_lanes),
         .pi_dqs_found_rank_done(pi_dqs_found_rank_done),
+        .\pi_rst_stg1_cal_r1_reg[0]_0 (\idelay_tap_cnt_r_reg[0][1][4] ),
         .\pi_rst_stg1_cal_reg[0]_0 (\pi_rst_stg1_cal_reg[0] ),
         .prech_done(prech_done),
-        .prech_req_posedge_r_reg(\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_12 ),
+        .prech_req_posedge_r_reg(\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_13 ),
         .\rank_final_loop[0].bank_final_loop[0].final_data_offset_mc_reg[0][0]_0 (\rank_final_loop[0].bank_final_loop[0].final_data_offset_mc_reg[0][0] ),
         .\rank_final_loop[0].bank_final_loop[0].final_data_offset_mc_reg[0][5]_0 (\rank_final_loop[0].bank_final_loop[0].final_data_offset_mc_reg[0][5] ),
         .rd_data_offset_cal_done(rd_data_offset_cal_done),
-        .rst_dqs_find_i_4_0(u_ddr_phy_init_n_281),
-        .\stable_pass_cnt_reg[0]_0 (\dqs_count_r_reg[0]_rep ));
+        .\stable_pass_cnt_reg[0]_0 (\dqs_count_r_reg[0]_rep ),
+        .\stable_pass_cnt_reg[4]_0 (u_ddr_phy_init_n_281));
   FDRE \gen_byte_sel_div2.byte_sel_cnt_reg[0] 
        (.C(CLK),
         .CE(1'b1),
@@ -25351,7 +25352,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_calib_top
   FDRE \gen_byte_sel_div2.ctl_lane_sel_reg[0] 
        (.C(CLK),
         .CE(1'b1),
-        .D(\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_32 ),
+        .D(\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_33 ),
         .Q(\gen_byte_sel_div2.ctl_lane_sel_reg_n_0_[0] ),
         .R(\wl_tap_count_r_reg[0] [0]));
   FDRE \gen_byte_sel_div2.ctl_lane_sel_reg[1] 
@@ -25486,7 +25487,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_calib_top
         .D(calib_complete),
         .Q(init_calib_complete_reg_rep__9_0),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair434" *) 
+  (* SOFT_HLUTNM = "soft_lutpair429" *) 
   LUT5 #(
     .INIT(32'h0000CC08)) 
     \input_[1].iserdes_dq_.idelay_dq.idelaye2_i_1 
@@ -25496,7 +25497,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_calib_top
         .I3(calib_in_common),
         .I4(calib_zero_inputs),
         .O(\calib_sel_reg[1]_3 ));
-  (* SOFT_HLUTNM = "soft_lutpair434" *) 
+  (* SOFT_HLUTNM = "soft_lutpair429" *) 
   LUT5 #(
     .INIT(32'h0000AA80)) 
     \input_[1].iserdes_dq_.idelay_dq.idelaye2_i_1__0 
@@ -25515,9 +25516,9 @@ module mig_7series_0_mig_7series_v4_2_ddr_calib_top
         .cnt_pwron_cke_done_r(cnt_pwron_cke_done_r),
         .\ctl_lane_cnt_reg[0]_0 (ctl_lane_cnt),
         .\ctl_lane_cnt_reg[1]_0 (\mb_wrlvl_inst.u_ddr_phy_ck_addr_cmd_delay_n_5 ),
-        .delay_dec_done_reg_0(\rd_data_edge_detect_r_reg[1] ),
+        .delay_dec_done_reg_0(\idelay_tap_cnt_r_reg[0][1][4] ),
         .delay_done_r4_reg_0(\mb_wrlvl_inst.u_ddr_phy_ck_addr_cmd_delay_n_4 ),
-        .\gen_byte_sel_div2.ctl_lane_sel_reg[1] (\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_3 ),
+        .\gen_byte_sel_div2.ctl_lane_sel_reg[1] (\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_4 ),
         .\gen_byte_sel_div2.ctl_lane_sel_reg[1]_0 (\gen_byte_sel_div2.ctl_lane_sel_reg_n_0_[1] ),
         .p_1_in(p_1_in),
         .po_cnt_dec_3(po_cnt_dec_3),
@@ -26261,7 +26262,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_calib_top
         .I2(out_fifo_4[0]),
         .I3(out_fifo_5),
         .O(\write_buffer.wr_buf_out_data_reg[115] [0]));
-  (* SOFT_HLUTNM = "soft_lutpair435" *) 
+  (* SOFT_HLUTNM = "soft_lutpair430" *) 
   LUT4 #(
     .INIT(16'h00F8)) 
     \phaser_in_gen.phaser_in_i_2 
@@ -26270,7 +26271,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_calib_top
         .I2(calib_in_common),
         .I3(calib_zero_inputs),
         .O(\calib_sel_reg[1]_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair435" *) 
+  (* SOFT_HLUTNM = "soft_lutpair430" *) 
   LUT4 #(
     .INIT(16'h00F2)) 
     \phaser_in_gen.phaser_in_i_2__0 
@@ -26279,7 +26280,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_calib_top
         .I2(calib_in_common),
         .I3(calib_zero_inputs),
         .O(\calib_sel_reg[1]_2 ));
-  (* SOFT_HLUTNM = "soft_lutpair436" *) 
+  (* SOFT_HLUTNM = "soft_lutpair431" *) 
   LUT4 #(
     .INIT(16'h0001)) 
     phaser_out_i_2
@@ -26288,7 +26289,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_calib_top
         .I2(calib_sel[0]),
         .I3(calib_zero_inputs),
         .O(\gen_byte_sel_div2.calib_in_common_reg_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair436" *) 
+  (* SOFT_HLUTNM = "soft_lutpair431" *) 
   LUT4 #(
     .INIT(16'h0004)) 
     phaser_out_i_2__2
@@ -26375,12 +26376,13 @@ module mig_7series_0_mig_7series_v4_2_ddr_calib_top
         .calib_ctl_wren_reg_4(calib_ctl_wren_reg_2),
         .calib_ctl_wren_reg_5(calib_ctl_wren_reg_3),
         .calib_ctl_wren_reg_6(calib_ctl_wren_reg_4),
-        .\calib_data_offset_0_reg[0]_0 (\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_26 ),
-        .\calib_data_offset_0_reg[1]_0 (\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_25 ),
-        .\calib_data_offset_0_reg[2]_0 (\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_24 ),
-        .\calib_data_offset_0_reg[3]_0 (\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_23 ),
-        .\calib_data_offset_0_reg[4]_0 (\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_22 ),
-        .\calib_data_offset_0_reg[5]_0 (\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_21 ),
+        .\calib_data_offset_0_reg[0]_0 (\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_27 ),
+        .\calib_data_offset_0_reg[1]_0 (\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_26 ),
+        .\calib_data_offset_0_reg[2]_0 (\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_25 ),
+        .\calib_data_offset_0_reg[3]_0 (\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_24 ),
+        .\calib_data_offset_0_reg[4]_0 (\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_23 ),
+        .\calib_data_offset_0_reg[5]_0 (\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_22 ),
+        .\calib_odt_reg[0]_0 (\not_empty_wait_cnt_reg[4] ),
         .\calib_seq_reg[1]_0 (D),
         .calib_wrdata_en(calib_wrdata_en),
         .ck_addr_cmd_delay_done(ck_addr_cmd_delay_done),
@@ -26404,7 +26406,6 @@ module mig_7series_0_mig_7series_v4_2_ddr_calib_top
         .\en_cnt_div4.enable_wrlvl_cnt_reg[2]_0 (\en_cnt_div4.enable_wrlvl_cnt_reg[2] ),
         .first_rdlvl_pat_r(first_rdlvl_pat_r),
         .first_wrcal_pat_r(first_wrcal_pat_r),
-        .first_wrcal_pat_r_reg_0(\not_empty_wait_cnt_reg[4] ),
         .\gen_no_mirror.div_clk_loop[0].phy_address_reg[0]_0 ({\gen_no_mirror.div_clk_loop[0].phy_address_reg[0] [6:3],\gen_no_mirror.div_clk_loop[0].phy_address_reg[0] [1]}),
         .\gen_no_mirror.div_clk_loop[0].phy_address_reg[10]_0 (\gen_no_mirror.div_clk_loop[0].phy_address_reg[10] ),
         .\gen_no_mirror.div_clk_loop[0].phy_address_reg[12]_0 (\gen_no_mirror.div_clk_loop[0].phy_address_reg[12] ),
@@ -26430,13 +26431,13 @@ module mig_7series_0_mig_7series_v4_2_ddr_calib_top
         .\init_state_r[2]_i_3_1 (u_ddr_phy_wrcal_n_4),
         .\init_state_r[2]_i_6_0 (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl_n_26 ),
         .\init_state_r[3]_i_3_0 (u_ddr_phy_wrcal_n_15),
-        .\init_state_r[4]_i_4_0 (\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_12 ),
+        .\init_state_r[4]_i_4_0 (\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_13 ),
         .\init_state_r[5]_i_10_0 (u_ddr_phy_wrcal_n_17),
         .\init_state_r[5]_i_19_0 (\mb_wrlvl_inst.u_ddr_phy_ck_addr_cmd_delay_n_4 ),
         .\init_state_r_reg[0]_0 (\init_state_r_reg[0] ),
         .\init_state_r_reg[2]_0 (u_ddr_phy_wrcal_n_14),
         .\init_state_r_reg[4]_0 (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl_n_22 ),
-        .\init_state_r_reg[4]_1 (\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_27 ),
+        .\init_state_r_reg[4]_1 (\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_28 ),
         .mc_address({mc_address[37],mc_address[35:14],mc_address[12],mc_address[10:0]}),
         .mc_bank(mc_bank),
         .mc_cas_n(mc_cas_n[1]),
@@ -26478,7 +26479,8 @@ module mig_7series_0_mig_7series_v4_2_ddr_calib_top
         .phy_read_calib(phy_read_calib),
         .phy_write_calib(phy_write_calib),
         .pi_calib_done(pi_calib_done),
-        .pi_dqs_found_done(\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_2 ),
+        .pi_dqs_found_all_bank(pi_dqs_found_all_bank),
+        .pi_dqs_found_done(\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_3 ),
         .pi_dqs_found_done_r1(pi_dqs_found_done_r1),
         .pi_dqs_found_rank_done(pi_dqs_found_rank_done),
         .pi_dqs_found_start_reg_0(u_ddr_phy_init_n_355),
@@ -26492,7 +26494,6 @@ module mig_7series_0_mig_7series_v4_2_ddr_calib_top
         .rdlvl_stg1_done_r1_reg_0(rdlvl_stg1_done_r1),
         .rdlvl_stg1_rank_done(rdlvl_stg1_rank_done),
         .rdlvl_stg1_start_reg_0(rdlvl_stg1_start_reg),
-        .rst_dqs_find_i_12(fine_adj_state_r),
         .wl_sm_start(wl_sm_start),
         .wr_en_inferred__0_i_1_0(wr_en_inferred__0_i_1),
         .wr_en_inferred__0_i_1__0_0(wr_en_inferred__0_i_1__0),
@@ -26613,7 +26614,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_calib_top
         .\not_empty_wait_cnt_reg[4]_0 (\not_empty_wait_cnt_reg[4] ),
         .phy_if_reset_w(phy_if_reset_w),
         .phy_rddata_en(phy_rddata_en),
-        .pi_dqs_found_done(\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_2 ),
+        .pi_dqs_found_done(\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr_n_3 ),
         .prech_done(prech_done),
         .rdlvl_stg1_done_int_reg(u_ddr_phy_wrcal_n_18),
         .rdlvl_stg1_done_int_reg_0(u_ddr_phy_wrcal_n_19),
@@ -26926,7 +26927,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
   wire \wr_ptr_reg[1]_0 ;
 
   assign \rd_ptr_timing_reg[1]_0 [1:0] = rd_ptr_timing;
-  (* SOFT_HLUTNM = "soft_lutpair548" *) 
+  (* SOFT_HLUTNM = "soft_lutpair543" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[0]_INST_0 
@@ -26934,7 +26935,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [16]),
         .I2(\my_empty_reg[4]_0 ),
         .O(app_rd_data[0]));
-  (* SOFT_HLUTNM = "soft_lutpair555" *) 
+  (* SOFT_HLUTNM = "soft_lutpair550" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[100]_INST_0 
@@ -26942,7 +26943,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [38]),
         .I2(\my_empty_reg[4]_rep_n_0 ),
         .O(app_rd_data[52]));
-  (* SOFT_HLUTNM = "soft_lutpair556" *) 
+  (* SOFT_HLUTNM = "soft_lutpair551" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[101]_INST_0 
@@ -26950,7 +26951,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [62]),
         .I2(\my_empty_reg[4]_rep_n_0 ),
         .O(app_rd_data[53]));
-  (* SOFT_HLUTNM = "soft_lutpair553" *) 
+  (* SOFT_HLUTNM = "soft_lutpair548" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[102]_INST_0 
@@ -26958,7 +26959,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [14]),
         .I2(\my_empty_reg[4]_0 ),
         .O(app_rd_data[54]));
-  (* SOFT_HLUTNM = "soft_lutpair545" *) 
+  (* SOFT_HLUTNM = "soft_lutpair540" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[103]_INST_0 
@@ -26966,7 +26967,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [30]),
         .I2(\my_empty_reg[4]_0 ),
         .O(app_rd_data[55]));
-  (* SOFT_HLUTNM = "soft_lutpair566" *) 
+  (* SOFT_HLUTNM = "soft_lutpair561" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[112]_INST_0 
@@ -26974,7 +26975,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [23]),
         .I2(\my_empty_reg[4]_0 ),
         .O(app_rd_data[56]));
-  (* SOFT_HLUTNM = "soft_lutpair569" *) 
+  (* SOFT_HLUTNM = "soft_lutpair564" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[113]_INST_0 
@@ -26982,7 +26983,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [47]),
         .I2(\my_empty_reg[4]_rep_n_0 ),
         .O(app_rd_data[57]));
-  (* SOFT_HLUTNM = "soft_lutpair562" *) 
+  (* SOFT_HLUTNM = "soft_lutpair557" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[114]_INST_0 
@@ -26990,7 +26991,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [55]),
         .I2(\my_empty_reg[4]_rep_n_0 ),
         .O(app_rd_data[58]));
-  (* SOFT_HLUTNM = "soft_lutpair557" *) 
+  (* SOFT_HLUTNM = "soft_lutpair552" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[115]_INST_0 
@@ -26998,7 +26999,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [7]),
         .I2(\my_empty_reg[4]_0 ),
         .O(app_rd_data[59]));
-  (* SOFT_HLUTNM = "soft_lutpair568" *) 
+  (* SOFT_HLUTNM = "soft_lutpair563" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[116]_INST_0 
@@ -27013,7 +27014,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [63]),
         .I2(\my_empty_reg[4]_rep_n_0 ),
         .O(app_rd_data[61]));
-  (* SOFT_HLUTNM = "soft_lutpair564" *) 
+  (* SOFT_HLUTNM = "soft_lutpair559" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[118]_INST_0 
@@ -27021,7 +27022,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [15]),
         .I2(\my_empty_reg[4]_0 ),
         .O(app_rd_data[62]));
-  (* SOFT_HLUTNM = "soft_lutpair560" *) 
+  (* SOFT_HLUTNM = "soft_lutpair555" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[119]_INST_0 
@@ -27029,7 +27030,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [31]),
         .I2(\my_empty_reg[4]_rep_n_0 ),
         .O(app_rd_data[63]));
-  (* SOFT_HLUTNM = "soft_lutpair565" *) 
+  (* SOFT_HLUTNM = "soft_lutpair560" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[16]_INST_0 
@@ -27037,7 +27038,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [17]),
         .I2(\my_empty_reg[4]_0 ),
         .O(app_rd_data[8]));
-  (* SOFT_HLUTNM = "soft_lutpair568" *) 
+  (* SOFT_HLUTNM = "soft_lutpair563" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[17]_INST_0 
@@ -27045,7 +27046,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [41]),
         .I2(\my_empty_reg[4]_rep_n_0 ),
         .O(app_rd_data[9]));
-  (* SOFT_HLUTNM = "soft_lutpair561" *) 
+  (* SOFT_HLUTNM = "soft_lutpair556" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[18]_INST_0 
@@ -27053,7 +27054,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [49]),
         .I2(\my_empty_reg[4]_rep_n_0 ),
         .O(app_rd_data[10]));
-  (* SOFT_HLUTNM = "soft_lutpair557" *) 
+  (* SOFT_HLUTNM = "soft_lutpair552" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[19]_INST_0 
@@ -27061,7 +27062,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [1]),
         .I2(\my_empty_reg[4]_0 ),
         .O(app_rd_data[11]));
-  (* SOFT_HLUTNM = "soft_lutpair550" *) 
+  (* SOFT_HLUTNM = "soft_lutpair545" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[1]_INST_0 
@@ -27069,7 +27070,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [40]),
         .I2(\my_empty_reg[4]_rep_n_0 ),
         .O(app_rd_data[1]));
-  (* SOFT_HLUTNM = "soft_lutpair567" *) 
+  (* SOFT_HLUTNM = "soft_lutpair562" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[20]_INST_0 
@@ -27077,7 +27078,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [33]),
         .I2(\my_empty_reg[4]_rep_n_0 ),
         .O(app_rd_data[12]));
-  (* SOFT_HLUTNM = "soft_lutpair571" *) 
+  (* SOFT_HLUTNM = "soft_lutpair566" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[21]_INST_0 
@@ -27085,7 +27086,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [57]),
         .I2(\my_empty_reg[4]_rep_n_0 ),
         .O(app_rd_data[13]));
-  (* SOFT_HLUTNM = "soft_lutpair563" *) 
+  (* SOFT_HLUTNM = "soft_lutpair558" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[22]_INST_0 
@@ -27093,7 +27094,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [9]),
         .I2(\my_empty_reg[4]_0 ),
         .O(app_rd_data[14]));
-  (* SOFT_HLUTNM = "soft_lutpair559" *) 
+  (* SOFT_HLUTNM = "soft_lutpair554" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[23]_INST_0 
@@ -27101,7 +27102,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [25]),
         .I2(\my_empty_reg[4]_0 ),
         .O(app_rd_data[15]));
-  (* SOFT_HLUTNM = "soft_lutpair546" *) 
+  (* SOFT_HLUTNM = "soft_lutpair541" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[2]_INST_0 
@@ -27109,7 +27110,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [48]),
         .I2(\my_empty_reg[4]_rep_n_0 ),
         .O(app_rd_data[2]));
-  (* SOFT_HLUTNM = "soft_lutpair544" *) 
+  (* SOFT_HLUTNM = "soft_lutpair539" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[32]_INST_0 
@@ -27117,7 +27118,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [18]),
         .I2(\my_empty_reg[4]_0 ),
         .O(app_rd_data[16]));
-  (* SOFT_HLUTNM = "soft_lutpair546" *) 
+  (* SOFT_HLUTNM = "soft_lutpair541" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[33]_INST_0 
@@ -27125,7 +27126,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [42]),
         .I2(\my_empty_reg[4]_rep_n_0 ),
         .O(app_rd_data[17]));
-  (* SOFT_HLUTNM = "soft_lutpair556" *) 
+  (* SOFT_HLUTNM = "soft_lutpair551" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[34]_INST_0 
@@ -27133,7 +27134,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [50]),
         .I2(\my_empty_reg[4]_rep_n_0 ),
         .O(app_rd_data[18]));
-  (* SOFT_HLUTNM = "soft_lutpair553" *) 
+  (* SOFT_HLUTNM = "soft_lutpair548" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[35]_INST_0 
@@ -27141,7 +27142,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [2]),
         .I2(\my_empty_reg[4]_0 ),
         .O(app_rd_data[19]));
-  (* SOFT_HLUTNM = "soft_lutpair550" *) 
+  (* SOFT_HLUTNM = "soft_lutpair545" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[36]_INST_0 
@@ -27149,7 +27150,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [34]),
         .I2(\my_empty_reg[4]_rep_n_0 ),
         .O(app_rd_data[20]));
-  (* SOFT_HLUTNM = "soft_lutpair552" *) 
+  (* SOFT_HLUTNM = "soft_lutpair547" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[37]_INST_0 
@@ -27157,7 +27158,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [58]),
         .I2(\my_empty_reg[4]_rep_n_0 ),
         .O(app_rd_data[21]));
-  (* SOFT_HLUTNM = "soft_lutpair548" *) 
+  (* SOFT_HLUTNM = "soft_lutpair543" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[38]_INST_0 
@@ -27165,7 +27166,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [10]),
         .I2(\my_empty_reg[4]_0 ),
         .O(app_rd_data[22]));
-  (* SOFT_HLUTNM = "soft_lutpair554" *) 
+  (* SOFT_HLUTNM = "soft_lutpair549" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[39]_INST_0 
@@ -27173,7 +27174,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [26]),
         .I2(\my_empty_reg[4]_0 ),
         .O(app_rd_data[23]));
-  (* SOFT_HLUTNM = "soft_lutpair543" *) 
+  (* SOFT_HLUTNM = "soft_lutpair538" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[3]_INST_0 
@@ -27181,7 +27182,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [0]),
         .I2(\my_empty_reg[4]_0 ),
         .O(app_rd_data[3]));
-  (* SOFT_HLUTNM = "soft_lutpair558" *) 
+  (* SOFT_HLUTNM = "soft_lutpair553" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[48]_INST_0 
@@ -27189,7 +27190,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [19]),
         .I2(\my_empty_reg[4]_0 ),
         .O(app_rd_data[24]));
-  (* SOFT_HLUTNM = "soft_lutpair561" *) 
+  (* SOFT_HLUTNM = "soft_lutpair556" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[49]_INST_0 
@@ -27197,7 +27198,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [43]),
         .I2(\my_empty_reg[4]_rep_n_0 ),
         .O(app_rd_data[25]));
-  (* SOFT_HLUTNM = "soft_lutpair552" *) 
+  (* SOFT_HLUTNM = "soft_lutpair547" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[4]_INST_0 
@@ -27205,7 +27206,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [32]),
         .I2(\my_empty_reg[4]_rep_n_0 ),
         .O(app_rd_data[4]));
-  (* SOFT_HLUTNM = "soft_lutpair570" *) 
+  (* SOFT_HLUTNM = "soft_lutpair565" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[50]_INST_0 
@@ -27213,7 +27214,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [51]),
         .I2(\my_empty_reg[4]_rep_n_0 ),
         .O(app_rd_data[26]));
-  (* SOFT_HLUTNM = "soft_lutpair559" *) 
+  (* SOFT_HLUTNM = "soft_lutpair554" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[51]_INST_0 
@@ -27221,7 +27222,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [3]),
         .I2(\my_empty_reg[4]_0 ),
         .O(app_rd_data[27]));
-  (* SOFT_HLUTNM = "soft_lutpair567" *) 
+  (* SOFT_HLUTNM = "soft_lutpair562" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[52]_INST_0 
@@ -27229,7 +27230,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [35]),
         .I2(\my_empty_reg[4]_rep_n_0 ),
         .O(app_rd_data[28]));
-  (* SOFT_HLUTNM = "soft_lutpair571" *) 
+  (* SOFT_HLUTNM = "soft_lutpair566" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[53]_INST_0 
@@ -27237,7 +27238,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [59]),
         .I2(\my_empty_reg[4]_rep_n_0 ),
         .O(app_rd_data[29]));
-  (* SOFT_HLUTNM = "soft_lutpair564" *) 
+  (* SOFT_HLUTNM = "soft_lutpair559" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[54]_INST_0 
@@ -27245,7 +27246,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [11]),
         .I2(\my_empty_reg[4]_0 ),
         .O(app_rd_data[30]));
-  (* SOFT_HLUTNM = "soft_lutpair566" *) 
+  (* SOFT_HLUTNM = "soft_lutpair561" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[55]_INST_0 
@@ -27253,7 +27254,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [27]),
         .I2(\my_empty_reg[4]_0 ),
         .O(app_rd_data[31]));
-  (* SOFT_HLUTNM = "soft_lutpair542" *) 
+  (* SOFT_HLUTNM = "soft_lutpair537" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[5]_INST_0 
@@ -27261,7 +27262,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [56]),
         .I2(\my_empty_reg[4]_rep_n_0 ),
         .O(app_rd_data[5]));
-  (* SOFT_HLUTNM = "soft_lutpair554" *) 
+  (* SOFT_HLUTNM = "soft_lutpair549" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[64]_INST_0 
@@ -27269,7 +27270,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [20]),
         .I2(\my_empty_reg[4]_0 ),
         .O(app_rd_data[32]));
-  (* SOFT_HLUTNM = "soft_lutpair555" *) 
+  (* SOFT_HLUTNM = "soft_lutpair550" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[65]_INST_0 
@@ -27277,7 +27278,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [44]),
         .I2(\my_empty_reg[4]_rep_n_0 ),
         .O(app_rd_data[33]));
-  (* SOFT_HLUTNM = "soft_lutpair551" *) 
+  (* SOFT_HLUTNM = "soft_lutpair546" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[66]_INST_0 
@@ -27285,7 +27286,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [52]),
         .I2(\my_empty_reg[4]_rep_n_0 ),
         .O(app_rd_data[34]));
-  (* SOFT_HLUTNM = "soft_lutpair545" *) 
+  (* SOFT_HLUTNM = "soft_lutpair540" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[67]_INST_0 
@@ -27293,7 +27294,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [4]),
         .I2(\my_empty_reg[4]_0 ),
         .O(app_rd_data[35]));
-  (* SOFT_HLUTNM = "soft_lutpair542" *) 
+  (* SOFT_HLUTNM = "soft_lutpair537" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[68]_INST_0 
@@ -27301,7 +27302,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [36]),
         .I2(\my_empty_reg[4]_rep_n_0 ),
         .O(app_rd_data[36]));
-  (* SOFT_HLUTNM = "soft_lutpair547" *) 
+  (* SOFT_HLUTNM = "soft_lutpair542" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[69]_INST_0 
@@ -27309,7 +27310,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [60]),
         .I2(\my_empty_reg[4]_rep_n_0 ),
         .O(app_rd_data[37]));
-  (* SOFT_HLUTNM = "soft_lutpair541" *) 
+  (* SOFT_HLUTNM = "soft_lutpair536" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[6]_INST_0 
@@ -27317,7 +27318,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [8]),
         .I2(\my_empty_reg[4]_0 ),
         .O(app_rd_data[6]));
-  (* SOFT_HLUTNM = "soft_lutpair544" *) 
+  (* SOFT_HLUTNM = "soft_lutpair539" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[70]_INST_0 
@@ -27325,7 +27326,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [12]),
         .I2(\my_empty_reg[4]_0 ),
         .O(app_rd_data[38]));
-  (* SOFT_HLUTNM = "soft_lutpair549" *) 
+  (* SOFT_HLUTNM = "soft_lutpair544" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[71]_INST_0 
@@ -27333,7 +27334,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [28]),
         .I2(\my_empty_reg[4]_0 ),
         .O(app_rd_data[39]));
-  (* SOFT_HLUTNM = "soft_lutpair541" *) 
+  (* SOFT_HLUTNM = "soft_lutpair536" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[7]_INST_0 
@@ -27341,7 +27342,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [24]),
         .I2(\my_empty_reg[4]_0 ),
         .O(app_rd_data[7]));
-  (* SOFT_HLUTNM = "soft_lutpair565" *) 
+  (* SOFT_HLUTNM = "soft_lutpair560" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[80]_INST_0 
@@ -27349,7 +27350,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [21]),
         .I2(\my_empty_reg[4]_0 ),
         .O(app_rd_data[40]));
-  (* SOFT_HLUTNM = "soft_lutpair569" *) 
+  (* SOFT_HLUTNM = "soft_lutpair564" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[81]_INST_0 
@@ -27357,7 +27358,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [45]),
         .I2(\my_empty_reg[4]_rep_n_0 ),
         .O(app_rd_data[41]));
-  (* SOFT_HLUTNM = "soft_lutpair570" *) 
+  (* SOFT_HLUTNM = "soft_lutpair565" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[82]_INST_0 
@@ -27365,7 +27366,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [53]),
         .I2(\my_empty_reg[4]_rep_n_0 ),
         .O(app_rd_data[42]));
-  (* SOFT_HLUTNM = "soft_lutpair563" *) 
+  (* SOFT_HLUTNM = "soft_lutpair558" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[83]_INST_0 
@@ -27373,7 +27374,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [5]),
         .I2(\my_empty_reg[4]_0 ),
         .O(app_rd_data[43]));
-  (* SOFT_HLUTNM = "soft_lutpair560" *) 
+  (* SOFT_HLUTNM = "soft_lutpair555" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[84]_INST_0 
@@ -27381,7 +27382,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [37]),
         .I2(\my_empty_reg[4]_rep_n_0 ),
         .O(app_rd_data[44]));
-  (* SOFT_HLUTNM = "soft_lutpair562" *) 
+  (* SOFT_HLUTNM = "soft_lutpair557" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[85]_INST_0 
@@ -27389,7 +27390,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [61]),
         .I2(\my_empty_reg[4]_rep_n_0 ),
         .O(app_rd_data[45]));
-  (* SOFT_HLUTNM = "soft_lutpair558" *) 
+  (* SOFT_HLUTNM = "soft_lutpair553" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[86]_INST_0 
@@ -27404,7 +27405,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [29]),
         .I2(\my_empty_reg[4]_0 ),
         .O(app_rd_data[47]));
-  (* SOFT_HLUTNM = "soft_lutpair549" *) 
+  (* SOFT_HLUTNM = "soft_lutpair544" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[96]_INST_0 
@@ -27412,7 +27413,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [22]),
         .I2(\my_empty_reg[4]_0 ),
         .O(app_rd_data[48]));
-  (* SOFT_HLUTNM = "soft_lutpair551" *) 
+  (* SOFT_HLUTNM = "soft_lutpair546" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[97]_INST_0 
@@ -27420,7 +27421,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [46]),
         .I2(\my_empty_reg[4]_rep_n_0 ),
         .O(app_rd_data[49]));
-  (* SOFT_HLUTNM = "soft_lutpair547" *) 
+  (* SOFT_HLUTNM = "soft_lutpair542" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[98]_INST_0 
@@ -27428,7 +27429,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\app_rd_data[117]_0 [54]),
         .I2(\my_empty_reg[4]_rep_n_0 ),
         .O(app_rd_data[50]));
-  (* SOFT_HLUTNM = "soft_lutpair543" *) 
+  (* SOFT_HLUTNM = "soft_lutpair538" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[99]_INST_0 
@@ -28165,7 +28166,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I4(\wr_ptr[1]_i_2_n_0 ),
         .I5(\my_full[0]_i_2__0_n_0 ),
         .O(\my_full[0]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair539" *) 
+  (* SOFT_HLUTNM = "soft_lutpair534" *) 
   LUT5 #(
     .INIT(32'h00000960)) 
     \my_full[0]_i_2__0 
@@ -28216,7 +28217,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .D(\my_full[1]_i_2_n_0 ),
         .Q(my_full[1]),
         .R(ififo_rst));
-  (* SOFT_HLUTNM = "soft_lutpair540" *) 
+  (* SOFT_HLUTNM = "soft_lutpair535" *) 
   LUT3 #(
     .INIT(8'hB4)) 
     \rd_ptr[0]_i_1__0 
@@ -28224,7 +28225,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I1(\wr_ptr[1]_i_2_n_0 ),
         .I2(rd_ptr[0]),
         .O(\rd_ptr[0]_i_1__0_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair540" *) 
+  (* SOFT_HLUTNM = "soft_lutpair535" *) 
   LUT4 #(
     .INIT(16'hF708)) 
     \rd_ptr[1]_i_1__0 
@@ -28267,7 +28268,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo
         .I4(rd_ptr_timing[1]),
         .I5(my_empty1),
         .O(\rd_ptr_timing[1]_i_1__1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair539" *) 
+  (* SOFT_HLUTNM = "soft_lutpair534" *) 
   LUT2 #(
     .INIT(4'h6)) 
     \rd_ptr_timing[1]_i_2__0 
@@ -28636,7 +28637,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
   wire \wr_ptr_reg[1]_0 ;
 
   assign out[1:0] = rd_ptr_timing;
-  (* SOFT_HLUTNM = "soft_lutpair483" *) 
+  (* SOFT_HLUTNM = "soft_lutpair478" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[104]_INST_0 
@@ -28644,7 +28645,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [30]),
         .I2(\my_empty_reg[4]_rep_n_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [48]));
-  (* SOFT_HLUTNM = "soft_lutpair479" *) 
+  (* SOFT_HLUTNM = "soft_lutpair474" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[105]_INST_0 
@@ -28652,7 +28653,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [6]),
         .I2(\my_empty_reg[4]_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [49]));
-  (* SOFT_HLUTNM = "soft_lutpair476" *) 
+  (* SOFT_HLUTNM = "soft_lutpair471" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[106]_INST_0 
@@ -28660,7 +28661,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [54]),
         .I2(\my_empty_reg[4]_rep__1_n_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [50]));
-  (* SOFT_HLUTNM = "soft_lutpair474" *) 
+  (* SOFT_HLUTNM = "soft_lutpair469" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[107]_INST_0 
@@ -28668,7 +28669,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [38]),
         .I2(\my_empty_reg[4]_rep__0_n_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [51]));
-  (* SOFT_HLUTNM = "soft_lutpair498" *) 
+  (* SOFT_HLUTNM = "soft_lutpair493" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[108]_INST_0 
@@ -28676,7 +28677,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [62]),
         .I2(\my_empty_reg[4]_rep__1_n_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [52]));
-  (* SOFT_HLUTNM = "soft_lutpair490" *) 
+  (* SOFT_HLUTNM = "soft_lutpair485" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[109]_INST_0 
@@ -28691,7 +28692,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [48]),
         .I2(\my_empty_reg[4]_rep__1_n_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [2]));
-  (* SOFT_HLUTNM = "soft_lutpair495" *) 
+  (* SOFT_HLUTNM = "soft_lutpair490" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[110]_INST_0 
@@ -28699,7 +28700,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [46]),
         .I2(\my_empty_reg[4]_rep__0_n_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [54]));
-  (* SOFT_HLUTNM = "soft_lutpair471" *) 
+  (* SOFT_HLUTNM = "soft_lutpair466" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[111]_INST_0 
@@ -28707,7 +28708,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [22]),
         .I2(\my_empty_reg[4]_rep_n_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [55]));
-  (* SOFT_HLUTNM = "soft_lutpair473" *) 
+  (* SOFT_HLUTNM = "soft_lutpair468" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[11]_INST_0 
@@ -28715,7 +28716,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [32]),
         .I2(\my_empty_reg[4]_rep__0_n_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [3]));
-  (* SOFT_HLUTNM = "soft_lutpair519" *) 
+  (* SOFT_HLUTNM = "soft_lutpair514" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[120]_INST_0 
@@ -28723,7 +28724,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [31]),
         .I2(\my_empty_reg[4]_rep_n_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [56]));
-  (* SOFT_HLUTNM = "soft_lutpair512" *) 
+  (* SOFT_HLUTNM = "soft_lutpair507" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[121]_INST_0 
@@ -28731,7 +28732,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [7]),
         .I2(\my_empty_reg[4]_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [57]));
-  (* SOFT_HLUTNM = "soft_lutpair508" *) 
+  (* SOFT_HLUTNM = "soft_lutpair503" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[122]_INST_0 
@@ -28739,7 +28740,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [55]),
         .I2(\my_empty_reg[4]_rep__1_n_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [58]));
-  (* SOFT_HLUTNM = "soft_lutpair505" *) 
+  (* SOFT_HLUTNM = "soft_lutpair500" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[123]_INST_0 
@@ -28747,7 +28748,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [39]),
         .I2(\my_empty_reg[4]_rep__0_n_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [59]));
-  (* SOFT_HLUTNM = "soft_lutpair529" *) 
+  (* SOFT_HLUTNM = "soft_lutpair524" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[124]_INST_0 
@@ -28762,7 +28763,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [15]),
         .I2(\my_empty_reg[4]_rep_n_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [61]));
-  (* SOFT_HLUTNM = "soft_lutpair524" *) 
+  (* SOFT_HLUTNM = "soft_lutpair519" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[126]_INST_0 
@@ -28770,7 +28771,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [47]),
         .I2(\my_empty_reg[4]_rep__0_n_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [62]));
-  (* SOFT_HLUTNM = "soft_lutpair502" *) 
+  (* SOFT_HLUTNM = "soft_lutpair497" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[127]_INST_0 
@@ -28778,7 +28779,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [23]),
         .I2(\my_empty_reg[4]_rep_n_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [63]));
-  (* SOFT_HLUTNM = "soft_lutpair497" *) 
+  (* SOFT_HLUTNM = "soft_lutpair492" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[12]_INST_0 
@@ -28786,7 +28787,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [56]),
         .I2(\my_empty_reg[4]_rep__1_n_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [4]));
-  (* SOFT_HLUTNM = "soft_lutpair489" *) 
+  (* SOFT_HLUTNM = "soft_lutpair484" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[13]_INST_0 
@@ -28794,7 +28795,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [8]),
         .I2(\my_empty_reg[4]_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [5]));
-  (* SOFT_HLUTNM = "soft_lutpair494" *) 
+  (* SOFT_HLUTNM = "soft_lutpair489" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[14]_INST_0 
@@ -28802,7 +28803,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [40]),
         .I2(\my_empty_reg[4]_rep__0_n_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [6]));
-  (* SOFT_HLUTNM = "soft_lutpair470" *) 
+  (* SOFT_HLUTNM = "soft_lutpair465" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[15]_INST_0 
@@ -28810,7 +28811,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [16]),
         .I2(\my_empty_reg[4]_rep_n_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [7]));
-  (* SOFT_HLUTNM = "soft_lutpair517" *) 
+  (* SOFT_HLUTNM = "soft_lutpair512" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[24]_INST_0 
@@ -28818,7 +28819,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [25]),
         .I2(\my_empty_reg[4]_rep_n_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [8]));
-  (* SOFT_HLUTNM = "soft_lutpair510" *) 
+  (* SOFT_HLUTNM = "soft_lutpair505" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[25]_INST_0 
@@ -28826,7 +28827,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [1]),
         .I2(\my_empty_reg[4]_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [9]));
-  (* SOFT_HLUTNM = "soft_lutpair507" *) 
+  (* SOFT_HLUTNM = "soft_lutpair502" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[26]_INST_0 
@@ -28834,7 +28835,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [49]),
         .I2(\my_empty_reg[4]_rep__1_n_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [10]));
-  (* SOFT_HLUTNM = "soft_lutpair504" *) 
+  (* SOFT_HLUTNM = "soft_lutpair499" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[27]_INST_0 
@@ -28842,7 +28843,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [33]),
         .I2(\my_empty_reg[4]_rep__0_n_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [11]));
-  (* SOFT_HLUTNM = "soft_lutpair527" *) 
+  (* SOFT_HLUTNM = "soft_lutpair522" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[28]_INST_0 
@@ -28850,7 +28851,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [57]),
         .I2(\my_empty_reg[4]_rep__1_n_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [12]));
-  (* SOFT_HLUTNM = "soft_lutpair513" *) 
+  (* SOFT_HLUTNM = "soft_lutpair508" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[29]_INST_0 
@@ -28858,7 +28859,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [9]),
         .I2(\my_empty_reg[4]_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [13]));
-  (* SOFT_HLUTNM = "soft_lutpair522" *) 
+  (* SOFT_HLUTNM = "soft_lutpair517" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[30]_INST_0 
@@ -28866,7 +28867,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [41]),
         .I2(\my_empty_reg[4]_rep__0_n_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [14]));
-  (* SOFT_HLUTNM = "soft_lutpair501" *) 
+  (* SOFT_HLUTNM = "soft_lutpair496" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[31]_INST_0 
@@ -28874,7 +28875,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [17]),
         .I2(\my_empty_reg[4]_rep_n_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [15]));
-  (* SOFT_HLUTNM = "soft_lutpair472" *) 
+  (* SOFT_HLUTNM = "soft_lutpair467" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[40]_INST_0 
@@ -28882,7 +28883,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [26]),
         .I2(\my_empty_reg[4]_rep_n_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [16]));
-  (* SOFT_HLUTNM = "soft_lutpair468" *) 
+  (* SOFT_HLUTNM = "soft_lutpair463" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[41]_INST_0 
@@ -28890,7 +28891,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [2]),
         .I2(\my_empty_reg[4]_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [17]));
-  (* SOFT_HLUTNM = "soft_lutpair496" *) 
+  (* SOFT_HLUTNM = "soft_lutpair491" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[42]_INST_0 
@@ -28898,7 +28899,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [50]),
         .I2(\my_empty_reg[4]_rep__1_n_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [18]));
-  (* SOFT_HLUTNM = "soft_lutpair493" *) 
+  (* SOFT_HLUTNM = "soft_lutpair488" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[43]_INST_0 
@@ -28906,7 +28907,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [34]),
         .I2(\my_empty_reg[4]_rep__0_n_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [19]));
-  (* SOFT_HLUTNM = "soft_lutpair487" *) 
+  (* SOFT_HLUTNM = "soft_lutpair482" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[44]_INST_0 
@@ -28914,7 +28915,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [58]),
         .I2(\my_empty_reg[4]_rep__1_n_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [20]));
-  (* SOFT_HLUTNM = "soft_lutpair480" *) 
+  (* SOFT_HLUTNM = "soft_lutpair475" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[45]_INST_0 
@@ -28922,7 +28923,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [10]),
         .I2(\my_empty_reg[4]_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [21]));
-  (* SOFT_HLUTNM = "soft_lutpair485" *) 
+  (* SOFT_HLUTNM = "soft_lutpair480" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[46]_INST_0 
@@ -28930,7 +28931,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [42]),
         .I2(\my_empty_reg[4]_rep__0_n_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [22]));
-  (* SOFT_HLUTNM = "soft_lutpair491" *) 
+  (* SOFT_HLUTNM = "soft_lutpair486" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[47]_INST_0 
@@ -28938,7 +28939,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [18]),
         .I2(\my_empty_reg[4]_rep_n_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [23]));
-  (* SOFT_HLUTNM = "soft_lutpair503" *) 
+  (* SOFT_HLUTNM = "soft_lutpair498" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[56]_INST_0 
@@ -28946,7 +28947,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [27]),
         .I2(\my_empty_reg[4]_rep_n_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [24]));
-  (* SOFT_HLUTNM = "soft_lutpair499" *) 
+  (* SOFT_HLUTNM = "soft_lutpair494" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[57]_INST_0 
@@ -28954,7 +28955,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [3]),
         .I2(\my_empty_reg[4]_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [25]));
-  (* SOFT_HLUTNM = "soft_lutpair525" *) 
+  (* SOFT_HLUTNM = "soft_lutpair520" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[58]_INST_0 
@@ -28962,7 +28963,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [51]),
         .I2(\my_empty_reg[4]_rep__1_n_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [26]));
-  (* SOFT_HLUTNM = "soft_lutpair520" *) 
+  (* SOFT_HLUTNM = "soft_lutpair515" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[59]_INST_0 
@@ -28970,7 +28971,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [35]),
         .I2(\my_empty_reg[4]_rep__0_n_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [27]));
-  (* SOFT_HLUTNM = "soft_lutpair528" *) 
+  (* SOFT_HLUTNM = "soft_lutpair523" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[60]_INST_0 
@@ -28978,7 +28979,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [59]),
         .I2(\my_empty_reg[4]_rep__1_n_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [28]));
-  (* SOFT_HLUTNM = "soft_lutpair514" *) 
+  (* SOFT_HLUTNM = "soft_lutpair509" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[61]_INST_0 
@@ -28986,7 +28987,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [11]),
         .I2(\my_empty_reg[4]_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [29]));
-  (* SOFT_HLUTNM = "soft_lutpair523" *) 
+  (* SOFT_HLUTNM = "soft_lutpair518" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[62]_INST_0 
@@ -28994,7 +28995,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [43]),
         .I2(\my_empty_reg[4]_rep__0_n_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [30]));
-  (* SOFT_HLUTNM = "soft_lutpair515" *) 
+  (* SOFT_HLUTNM = "soft_lutpair510" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[63]_INST_0 
@@ -29002,7 +29003,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [19]),
         .I2(\my_empty_reg[4]_rep_n_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [31]));
-  (* SOFT_HLUTNM = "soft_lutpair492" *) 
+  (* SOFT_HLUTNM = "soft_lutpair487" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[72]_INST_0 
@@ -29010,7 +29011,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [28]),
         .I2(\my_empty_reg[4]_rep_n_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [32]));
-  (* SOFT_HLUTNM = "soft_lutpair488" *) 
+  (* SOFT_HLUTNM = "soft_lutpair483" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[73]_INST_0 
@@ -29018,7 +29019,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [4]),
         .I2(\my_empty_reg[4]_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [33]));
-  (* SOFT_HLUTNM = "soft_lutpair486" *) 
+  (* SOFT_HLUTNM = "soft_lutpair481" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[74]_INST_0 
@@ -29026,7 +29027,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [52]),
         .I2(\my_empty_reg[4]_rep__1_n_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [34]));
-  (* SOFT_HLUTNM = "soft_lutpair484" *) 
+  (* SOFT_HLUTNM = "soft_lutpair479" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[75]_INST_0 
@@ -29034,7 +29035,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [36]),
         .I2(\my_empty_reg[4]_rep__0_n_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [35]));
-  (* SOFT_HLUTNM = "soft_lutpair477" *) 
+  (* SOFT_HLUTNM = "soft_lutpair472" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[76]_INST_0 
@@ -29042,7 +29043,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [60]),
         .I2(\my_empty_reg[4]_rep__1_n_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [36]));
-  (* SOFT_HLUTNM = "soft_lutpair469" *) 
+  (* SOFT_HLUTNM = "soft_lutpair464" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[77]_INST_0 
@@ -29050,7 +29051,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [12]),
         .I2(\my_empty_reg[4]_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [37]));
-  (* SOFT_HLUTNM = "soft_lutpair475" *) 
+  (* SOFT_HLUTNM = "soft_lutpair470" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[78]_INST_0 
@@ -29058,7 +29059,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [44]),
         .I2(\my_empty_reg[4]_rep__0_n_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [38]));
-  (* SOFT_HLUTNM = "soft_lutpair481" *) 
+  (* SOFT_HLUTNM = "soft_lutpair476" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[79]_INST_0 
@@ -29066,7 +29067,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [20]),
         .I2(\my_empty_reg[4]_rep_n_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [39]));
-  (* SOFT_HLUTNM = "soft_lutpair518" *) 
+  (* SOFT_HLUTNM = "soft_lutpair513" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[88]_INST_0 
@@ -29074,7 +29075,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [29]),
         .I2(\my_empty_reg[4]_rep_n_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [40]));
-  (* SOFT_HLUTNM = "soft_lutpair511" *) 
+  (* SOFT_HLUTNM = "soft_lutpair506" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[89]_INST_0 
@@ -29082,7 +29083,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [5]),
         .I2(\my_empty_reg[4]_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [41]));
-  (* SOFT_HLUTNM = "soft_lutpair482" *) 
+  (* SOFT_HLUTNM = "soft_lutpair477" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[8]_INST_0 
@@ -29090,7 +29091,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [24]),
         .I2(\my_empty_reg[4]_rep_n_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [0]));
-  (* SOFT_HLUTNM = "soft_lutpair526" *) 
+  (* SOFT_HLUTNM = "soft_lutpair521" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[90]_INST_0 
@@ -29098,7 +29099,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [53]),
         .I2(\my_empty_reg[4]_rep__1_n_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [42]));
-  (* SOFT_HLUTNM = "soft_lutpair521" *) 
+  (* SOFT_HLUTNM = "soft_lutpair516" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[91]_INST_0 
@@ -29106,7 +29107,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [37]),
         .I2(\my_empty_reg[4]_rep__0_n_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [43]));
-  (* SOFT_HLUTNM = "soft_lutpair509" *) 
+  (* SOFT_HLUTNM = "soft_lutpair504" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[92]_INST_0 
@@ -29114,7 +29115,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [61]),
         .I2(\my_empty_reg[4]_rep__1_n_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [44]));
-  (* SOFT_HLUTNM = "soft_lutpair500" *) 
+  (* SOFT_HLUTNM = "soft_lutpair495" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[93]_INST_0 
@@ -29122,7 +29123,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [13]),
         .I2(\my_empty_reg[4]_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [45]));
-  (* SOFT_HLUTNM = "soft_lutpair506" *) 
+  (* SOFT_HLUTNM = "soft_lutpair501" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[94]_INST_0 
@@ -29130,7 +29131,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [45]),
         .I2(\my_empty_reg[4]_rep__0_n_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [46]));
-  (* SOFT_HLUTNM = "soft_lutpair516" *) 
+  (* SOFT_HLUTNM = "soft_lutpair511" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[95]_INST_0 
@@ -29138,7 +29139,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [21]),
         .I2(\my_empty_reg[4]_rep_n_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [47]));
-  (* SOFT_HLUTNM = "soft_lutpair478" *) 
+  (* SOFT_HLUTNM = "soft_lutpair473" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \app_rd_data[9]_INST_0 
@@ -29146,7 +29147,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\gen_mux_rd[4].mux_rd_fall3_r_reg[4]_0 [0]),
         .I2(\my_empty_reg[4]_0 ),
         .O(\dq_gen_40.if_post_fifo_gen.rd_data_r_reg[31] [1]));
-  (* SOFT_HLUTNM = "soft_lutpair517" *) 
+  (* SOFT_HLUTNM = "soft_lutpair512" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[0].mux_rd_fall0_r[0]_i_1 
@@ -29156,7 +29157,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[8]),
         .O(\gen_mux_rd[0].mux_rd_fall0_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair503" *) 
+  (* SOFT_HLUTNM = "soft_lutpair498" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[0].mux_rd_fall1_r[0]_i_1 
@@ -29166,7 +29167,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[24]),
         .O(\gen_mux_rd[0].mux_rd_fall1_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair518" *) 
+  (* SOFT_HLUTNM = "soft_lutpair513" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[0].mux_rd_fall2_r[0]_i_1 
@@ -29176,7 +29177,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[40]),
         .O(\gen_mux_rd[0].mux_rd_fall2_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair519" *) 
+  (* SOFT_HLUTNM = "soft_lutpair514" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[0].mux_rd_fall3_r[0]_i_1 
@@ -29186,7 +29187,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[56]),
         .O(\gen_mux_rd[0].mux_rd_fall3_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair482" *) 
+  (* SOFT_HLUTNM = "soft_lutpair477" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[0].mux_rd_rise0_r[0]_i_1 
@@ -29196,7 +29197,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[0]),
         .O(\gen_mux_rd[0].mux_rd_rise0_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair472" *) 
+  (* SOFT_HLUTNM = "soft_lutpair467" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[0].mux_rd_rise1_r[0]_i_1 
@@ -29206,7 +29207,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[16]),
         .O(\gen_mux_rd[0].mux_rd_rise1_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair492" *) 
+  (* SOFT_HLUTNM = "soft_lutpair487" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[0].mux_rd_rise2_r[0]_i_1 
@@ -29216,7 +29217,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[32]),
         .O(\gen_mux_rd[0].mux_rd_rise2_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair483" *) 
+  (* SOFT_HLUTNM = "soft_lutpair478" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[0].mux_rd_rise3_r[0]_i_1 
@@ -29226,7 +29227,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[48]),
         .O(\gen_mux_rd[0].mux_rd_rise3_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair510" *) 
+  (* SOFT_HLUTNM = "soft_lutpair505" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[1].mux_rd_fall0_r[1]_i_1 
@@ -29236,7 +29237,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[9]),
         .O(\gen_mux_rd[1].mux_rd_fall0_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair499" *) 
+  (* SOFT_HLUTNM = "soft_lutpair494" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[1].mux_rd_fall1_r[1]_i_1 
@@ -29246,7 +29247,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[25]),
         .O(\gen_mux_rd[1].mux_rd_fall1_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair511" *) 
+  (* SOFT_HLUTNM = "soft_lutpair506" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[1].mux_rd_fall2_r[1]_i_1 
@@ -29256,7 +29257,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[41]),
         .O(\gen_mux_rd[1].mux_rd_fall2_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair512" *) 
+  (* SOFT_HLUTNM = "soft_lutpair507" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[1].mux_rd_fall3_r[1]_i_1 
@@ -29266,7 +29267,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[57]),
         .O(\gen_mux_rd[1].mux_rd_fall3_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair478" *) 
+  (* SOFT_HLUTNM = "soft_lutpair473" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[1].mux_rd_rise0_r[1]_i_1 
@@ -29276,7 +29277,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[1]),
         .O(\gen_mux_rd[1].mux_rd_rise0_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair468" *) 
+  (* SOFT_HLUTNM = "soft_lutpair463" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[1].mux_rd_rise1_r[1]_i_1 
@@ -29286,7 +29287,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[17]),
         .O(\gen_mux_rd[1].mux_rd_rise1_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair488" *) 
+  (* SOFT_HLUTNM = "soft_lutpair483" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[1].mux_rd_rise2_r[1]_i_1 
@@ -29296,7 +29297,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[33]),
         .O(\gen_mux_rd[1].mux_rd_rise2_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair479" *) 
+  (* SOFT_HLUTNM = "soft_lutpair474" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[1].mux_rd_rise3_r[1]_i_1 
@@ -29306,7 +29307,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[49]),
         .O(\gen_mux_rd[1].mux_rd_rise3_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair507" *) 
+  (* SOFT_HLUTNM = "soft_lutpair502" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[2].mux_rd_fall0_r[2]_i_1 
@@ -29316,7 +29317,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[10]),
         .O(\gen_mux_rd[2].mux_rd_fall0_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair525" *) 
+  (* SOFT_HLUTNM = "soft_lutpair520" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[2].mux_rd_fall1_r[2]_i_1 
@@ -29326,7 +29327,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[26]),
         .O(\gen_mux_rd[2].mux_rd_fall1_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair526" *) 
+  (* SOFT_HLUTNM = "soft_lutpair521" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[2].mux_rd_fall2_r[2]_i_1 
@@ -29336,7 +29337,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[42]),
         .O(\gen_mux_rd[2].mux_rd_fall2_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair508" *) 
+  (* SOFT_HLUTNM = "soft_lutpair503" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[2].mux_rd_fall3_r[2]_i_1 
@@ -29355,7 +29356,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[2]),
         .O(\gen_mux_rd[2].mux_rd_rise0_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair496" *) 
+  (* SOFT_HLUTNM = "soft_lutpair491" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[2].mux_rd_rise1_r[2]_i_1 
@@ -29365,7 +29366,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[18]),
         .O(\gen_mux_rd[2].mux_rd_rise1_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair486" *) 
+  (* SOFT_HLUTNM = "soft_lutpair481" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[2].mux_rd_rise2_r[2]_i_1 
@@ -29375,7 +29376,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[34]),
         .O(\gen_mux_rd[2].mux_rd_rise2_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair476" *) 
+  (* SOFT_HLUTNM = "soft_lutpair471" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[2].mux_rd_rise3_r[2]_i_1 
@@ -29385,7 +29386,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[50]),
         .O(\gen_mux_rd[2].mux_rd_rise3_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair504" *) 
+  (* SOFT_HLUTNM = "soft_lutpair499" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[3].mux_rd_fall0_r[3]_i_1 
@@ -29395,7 +29396,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[11]),
         .O(\gen_mux_rd[3].mux_rd_fall0_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair520" *) 
+  (* SOFT_HLUTNM = "soft_lutpair515" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[3].mux_rd_fall1_r[3]_i_1 
@@ -29405,7 +29406,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[27]),
         .O(\gen_mux_rd[3].mux_rd_fall1_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair521" *) 
+  (* SOFT_HLUTNM = "soft_lutpair516" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[3].mux_rd_fall2_r[3]_i_1 
@@ -29415,7 +29416,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[43]),
         .O(\gen_mux_rd[3].mux_rd_fall2_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair505" *) 
+  (* SOFT_HLUTNM = "soft_lutpair500" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[3].mux_rd_fall3_r[3]_i_1 
@@ -29425,7 +29426,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[59]),
         .O(\gen_mux_rd[3].mux_rd_fall3_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair473" *) 
+  (* SOFT_HLUTNM = "soft_lutpair468" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[3].mux_rd_rise0_r[3]_i_1 
@@ -29435,7 +29436,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[3]),
         .O(\gen_mux_rd[3].mux_rd_rise0_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair493" *) 
+  (* SOFT_HLUTNM = "soft_lutpair488" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[3].mux_rd_rise1_r[3]_i_1 
@@ -29445,7 +29446,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[19]),
         .O(\gen_mux_rd[3].mux_rd_rise1_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair484" *) 
+  (* SOFT_HLUTNM = "soft_lutpair479" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[3].mux_rd_rise2_r[3]_i_1 
@@ -29455,7 +29456,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[35]),
         .O(\gen_mux_rd[3].mux_rd_rise2_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair474" *) 
+  (* SOFT_HLUTNM = "soft_lutpair469" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[3].mux_rd_rise3_r[3]_i_1 
@@ -29465,7 +29466,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[51]),
         .O(\gen_mux_rd[3].mux_rd_rise3_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair527" *) 
+  (* SOFT_HLUTNM = "soft_lutpair522" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[4].mux_rd_fall0_r[4]_i_1 
@@ -29475,7 +29476,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[12]),
         .O(\gen_mux_rd[4].mux_rd_fall0_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair528" *) 
+  (* SOFT_HLUTNM = "soft_lutpair523" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[4].mux_rd_fall1_r[4]_i_1 
@@ -29485,7 +29486,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[28]),
         .O(\gen_mux_rd[4].mux_rd_fall1_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair509" *) 
+  (* SOFT_HLUTNM = "soft_lutpair504" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[4].mux_rd_fall2_r[4]_i_1 
@@ -29495,7 +29496,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[44]),
         .O(\gen_mux_rd[4].mux_rd_fall2_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair529" *) 
+  (* SOFT_HLUTNM = "soft_lutpair524" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[4].mux_rd_fall3_r[4]_i_1 
@@ -29505,7 +29506,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[60]),
         .O(\gen_mux_rd[4].mux_rd_fall3_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair497" *) 
+  (* SOFT_HLUTNM = "soft_lutpair492" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[4].mux_rd_rise0_r[4]_i_1 
@@ -29515,7 +29516,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[4]),
         .O(\gen_mux_rd[4].mux_rd_rise0_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair487" *) 
+  (* SOFT_HLUTNM = "soft_lutpair482" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[4].mux_rd_rise1_r[4]_i_1 
@@ -29525,7 +29526,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[20]),
         .O(\gen_mux_rd[4].mux_rd_rise1_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair477" *) 
+  (* SOFT_HLUTNM = "soft_lutpair472" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[4].mux_rd_rise2_r[4]_i_1 
@@ -29535,7 +29536,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[36]),
         .O(\gen_mux_rd[4].mux_rd_rise2_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair498" *) 
+  (* SOFT_HLUTNM = "soft_lutpair493" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[4].mux_rd_rise3_r[4]_i_1 
@@ -29545,7 +29546,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[52]),
         .O(\gen_mux_rd[4].mux_rd_rise3_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair513" *) 
+  (* SOFT_HLUTNM = "soft_lutpair508" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[5].mux_rd_fall0_r[5]_i_1 
@@ -29555,7 +29556,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[13]),
         .O(\gen_mux_rd[5].mux_rd_fall0_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair514" *) 
+  (* SOFT_HLUTNM = "soft_lutpair509" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[5].mux_rd_fall1_r[5]_i_1 
@@ -29565,7 +29566,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[29]),
         .O(\gen_mux_rd[5].mux_rd_fall1_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair500" *) 
+  (* SOFT_HLUTNM = "soft_lutpair495" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[5].mux_rd_fall2_r[5]_i_1 
@@ -29584,7 +29585,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[61]),
         .O(\gen_mux_rd[5].mux_rd_fall3_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair489" *) 
+  (* SOFT_HLUTNM = "soft_lutpair484" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[5].mux_rd_rise0_r[5]_i_1 
@@ -29594,7 +29595,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[5]),
         .O(\gen_mux_rd[5].mux_rd_rise0_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair480" *) 
+  (* SOFT_HLUTNM = "soft_lutpair475" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[5].mux_rd_rise1_r[5]_i_1 
@@ -29604,7 +29605,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[21]),
         .O(\gen_mux_rd[5].mux_rd_rise1_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair469" *) 
+  (* SOFT_HLUTNM = "soft_lutpair464" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[5].mux_rd_rise2_r[5]_i_1 
@@ -29614,7 +29615,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[37]),
         .O(\gen_mux_rd[5].mux_rd_rise2_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair490" *) 
+  (* SOFT_HLUTNM = "soft_lutpair485" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[5].mux_rd_rise3_r[5]_i_1 
@@ -29624,7 +29625,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[53]),
         .O(\gen_mux_rd[5].mux_rd_rise3_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair522" *) 
+  (* SOFT_HLUTNM = "soft_lutpair517" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[6].mux_rd_fall0_r[6]_i_1 
@@ -29634,7 +29635,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[14]),
         .O(\gen_mux_rd[6].mux_rd_fall0_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair523" *) 
+  (* SOFT_HLUTNM = "soft_lutpair518" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[6].mux_rd_fall1_r[6]_i_1 
@@ -29644,7 +29645,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[30]),
         .O(\gen_mux_rd[6].mux_rd_fall1_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair506" *) 
+  (* SOFT_HLUTNM = "soft_lutpair501" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[6].mux_rd_fall2_r[6]_i_1 
@@ -29654,7 +29655,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[46]),
         .O(\gen_mux_rd[6].mux_rd_fall2_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair524" *) 
+  (* SOFT_HLUTNM = "soft_lutpair519" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[6].mux_rd_fall3_r[6]_i_1 
@@ -29664,7 +29665,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[62]),
         .O(\gen_mux_rd[6].mux_rd_fall3_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair494" *) 
+  (* SOFT_HLUTNM = "soft_lutpair489" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[6].mux_rd_rise0_r[6]_i_1 
@@ -29674,7 +29675,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[6]),
         .O(\gen_mux_rd[6].mux_rd_rise0_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair485" *) 
+  (* SOFT_HLUTNM = "soft_lutpair480" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[6].mux_rd_rise1_r[6]_i_1 
@@ -29684,7 +29685,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[22]),
         .O(\gen_mux_rd[6].mux_rd_rise1_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair475" *) 
+  (* SOFT_HLUTNM = "soft_lutpair470" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[6].mux_rd_rise2_r[6]_i_1 
@@ -29694,7 +29695,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[38]),
         .O(\gen_mux_rd[6].mux_rd_rise2_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair495" *) 
+  (* SOFT_HLUTNM = "soft_lutpair490" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[6].mux_rd_rise3_r[6]_i_1 
@@ -29704,7 +29705,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[54]),
         .O(\gen_mux_rd[6].mux_rd_rise3_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair501" *) 
+  (* SOFT_HLUTNM = "soft_lutpair496" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[7].mux_rd_fall0_r[7]_i_1 
@@ -29714,7 +29715,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[15]),
         .O(\gen_mux_rd[7].mux_rd_fall0_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair515" *) 
+  (* SOFT_HLUTNM = "soft_lutpair510" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[7].mux_rd_fall1_r[7]_i_1 
@@ -29724,7 +29725,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[31]),
         .O(\gen_mux_rd[7].mux_rd_fall1_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair516" *) 
+  (* SOFT_HLUTNM = "soft_lutpair511" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[7].mux_rd_fall2_r[7]_i_1 
@@ -29734,7 +29735,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[47]),
         .O(\gen_mux_rd[7].mux_rd_fall2_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair502" *) 
+  (* SOFT_HLUTNM = "soft_lutpair497" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[7].mux_rd_fall3_r[7]_i_1 
@@ -29744,7 +29745,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[63]),
         .O(\gen_mux_rd[7].mux_rd_fall3_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair470" *) 
+  (* SOFT_HLUTNM = "soft_lutpair465" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[7].mux_rd_rise0_r[7]_i_1 
@@ -29754,7 +29755,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[7]),
         .O(\gen_mux_rd[7].mux_rd_rise0_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair491" *) 
+  (* SOFT_HLUTNM = "soft_lutpair486" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[7].mux_rd_rise1_r[7]_i_1 
@@ -29764,7 +29765,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[23]),
         .O(\gen_mux_rd[7].mux_rd_rise1_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair481" *) 
+  (* SOFT_HLUTNM = "soft_lutpair476" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[7].mux_rd_rise2_r[7]_i_1 
@@ -29774,7 +29775,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I3(\gen_mux_rd[1].mux_rd_rise0_r_reg[1] ),
         .I4(app_rd_data[39]),
         .O(\gen_mux_rd[7].mux_rd_rise2_r_reg0 ));
-  (* SOFT_HLUTNM = "soft_lutpair471" *) 
+  (* SOFT_HLUTNM = "soft_lutpair466" *) 
   LUT5 #(
     .INIT(32'hACFFAC00)) 
     \gen_mux_rd[7].mux_rd_rise3_r[7]_i_1 
@@ -29927,7 +29928,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I4(\wr_ptr[1]_i_2__0_n_0 ),
         .I5(\my_full[0]_i_2_n_0 ),
         .O(\my_full[0]_i_1__0_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair530" *) 
+  (* SOFT_HLUTNM = "soft_lutpair525" *) 
   LUT5 #(
     .INIT(32'h00000960)) 
     \my_full[0]_i_2 
@@ -29978,7 +29979,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .D(\my_full[1]_i_2__0_n_0 ),
         .Q(my_full[1]),
         .R(ififo_rst));
-  (* SOFT_HLUTNM = "soft_lutpair467" *) 
+  (* SOFT_HLUTNM = "soft_lutpair462" *) 
   LUT4 #(
     .INIT(16'h0777)) 
     rd_active_r_i_1
@@ -29987,7 +29988,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I2(if_empty_r_0),
         .I3(my_empty[0]),
         .O(phy_rddata_en));
-  (* SOFT_HLUTNM = "soft_lutpair531" *) 
+  (* SOFT_HLUTNM = "soft_lutpair526" *) 
   LUT3 #(
     .INIT(8'hB4)) 
     \rd_ptr[0]_i_1 
@@ -29995,7 +29996,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I1(\wr_ptr[1]_i_2__0_n_0 ),
         .I2(rd_ptr[0]),
         .O(\rd_ptr[0]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair531" *) 
+  (* SOFT_HLUTNM = "soft_lutpair526" *) 
   LUT4 #(
     .INIT(16'hF708)) 
     \rd_ptr[1]_i_1 
@@ -30038,7 +30039,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .I4(rd_ptr_timing[1]),
         .I5(my_empty1),
         .O(\rd_ptr_timing[1]_i_1__2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair530" *) 
+  (* SOFT_HLUTNM = "soft_lutpair525" *) 
   LUT2 #(
     .INIT(4'h6)) 
     \rd_ptr_timing[1]_i_2 
@@ -30061,7 +30062,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_if_post_fifo_8
         .D(\rd_ptr_timing[1]_i_1__2_n_0 ),
         .Q(rd_ptr_timing[1]),
         .R(ififo_rst));
-  (* SOFT_HLUTNM = "soft_lutpair467" *) 
+  (* SOFT_HLUTNM = "soft_lutpair462" *) 
   LUT5 #(
     .INIT(32'h002A2A2A)) 
     \read_fifo.fifo_ram[1].RAM32M0_i_7 
@@ -33373,7 +33374,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo
         .I4(rd_ptr[0]),
         .I5(wr_ptr_timing[1]),
         .O(my_empty0__0));
-  (* SOFT_HLUTNM = "soft_lutpair438" *) 
+  (* SOFT_HLUTNM = "soft_lutpair433" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \my_empty[2]_i_1__1 
@@ -33412,7 +33413,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo
        (.I0(\my_empty[3]_i_4_n_0 ),
         .I1(1'b0),
         .O(\my_empty[3]_i_3_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair438" *) 
+  (* SOFT_HLUTNM = "soft_lutpair433" *) 
   LUT3 #(
     .INIT(8'h02)) 
     \my_empty[3]_i_4 
@@ -33477,7 +33478,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo
        (.I0(\my_empty[8]_i_4_n_0 ),
         .I1(1'b0),
         .O(\my_empty[6]_i_3__0_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair437" *) 
+  (* SOFT_HLUTNM = "soft_lutpair432" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \my_empty[8]_i_1 
@@ -33497,7 +33498,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo
        (.I0(\my_empty[8]_i_4_n_0 ),
         .I1(1'b0),
         .O(\my_empty[8]_i_3_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair437" *) 
+  (* SOFT_HLUTNM = "soft_lutpair432" *) 
   LUT3 #(
     .INIT(8'h02)) 
     \my_empty[8]_i_4 
@@ -33631,7 +33632,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo
     \rd_ptr[0]_i_1 
        (.I0(rd_ptr[0]),
         .O(rd_ptr0[0]));
-  (* SOFT_HLUTNM = "soft_lutpair439" *) 
+  (* SOFT_HLUTNM = "soft_lutpair434" *) 
   LUT2 #(
     .INIT(4'h6)) 
     \rd_ptr[1]_i_1 
@@ -33644,7 +33645,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo
        (.I0(1'b1),
         .I1(\my_empty_reg_n_0_[4] ),
         .O(\rd_ptr[2]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair439" *) 
+  (* SOFT_HLUTNM = "soft_lutpair434" *) 
   LUT3 #(
     .INIT(8'h78)) 
     \rd_ptr[2]_i_2 
@@ -33705,14 +33706,14 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo
     \wr_ptr[0]_i_1 
        (.I0(wr_ptr[0]),
         .O(wr_ptr0[0]));
-  (* SOFT_HLUTNM = "soft_lutpair440" *) 
+  (* SOFT_HLUTNM = "soft_lutpair435" *) 
   LUT2 #(
     .INIT(4'h6)) 
     \wr_ptr[1]_i_1 
        (.I0(wr_ptr[0]),
         .I1(wr_ptr[1]),
         .O(wr_ptr0[1]));
-  (* SOFT_HLUTNM = "soft_lutpair440" *) 
+  (* SOFT_HLUTNM = "soft_lutpair435" *) 
   LUT3 #(
     .INIT(8'h78)) 
     \wr_ptr[2]_i_2 
@@ -33855,7 +33856,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized0
         .I4(rd_ptr[0]),
         .I5(wr_ptr_timing[1]),
         .O(my_empty0__0));
-  (* SOFT_HLUTNM = "soft_lutpair442" *) 
+  (* SOFT_HLUTNM = "soft_lutpair437" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \my_empty[2]_i_1__2 
@@ -33894,7 +33895,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized0
        (.I0(\my_empty[3]_i_4_n_0 ),
         .I1(1'b0),
         .O(\my_empty[3]_i_3__0_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair442" *) 
+  (* SOFT_HLUTNM = "soft_lutpair437" *) 
   LUT3 #(
     .INIT(8'h02)) 
     \my_empty[3]_i_4 
@@ -33959,7 +33960,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized0
        (.I0(\my_empty[8]_i_4_n_0 ),
         .I1(1'b0),
         .O(\my_empty[6]_i_3__1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair441" *) 
+  (* SOFT_HLUTNM = "soft_lutpair436" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \my_empty[8]_i_1__0 
@@ -33979,7 +33980,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized0
        (.I0(\my_empty[8]_i_4_n_0 ),
         .I1(1'b0),
         .O(\my_empty[8]_i_3__0_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair441" *) 
+  (* SOFT_HLUTNM = "soft_lutpair436" *) 
   LUT3 #(
     .INIT(8'h02)) 
     \my_empty[8]_i_4 
@@ -34113,7 +34114,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized0
     \rd_ptr[0]_i_1 
        (.I0(rd_ptr[0]),
         .O(rd_ptr0[0]));
-  (* SOFT_HLUTNM = "soft_lutpair443" *) 
+  (* SOFT_HLUTNM = "soft_lutpair438" *) 
   LUT2 #(
     .INIT(4'h6)) 
     \rd_ptr[1]_i_1 
@@ -34126,7 +34127,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized0
        (.I0(1'b1),
         .I1(\my_empty_reg_n_0_[4] ),
         .O(\rd_ptr[2]_i_1__0_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair443" *) 
+  (* SOFT_HLUTNM = "soft_lutpair438" *) 
   LUT3 #(
     .INIT(8'h78)) 
     \rd_ptr[2]_i_2 
@@ -34187,14 +34188,14 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized0
     \wr_ptr[0]_i_1 
        (.I0(wr_ptr[0]),
         .O(wr_ptr0[0]));
-  (* SOFT_HLUTNM = "soft_lutpair444" *) 
+  (* SOFT_HLUTNM = "soft_lutpair439" *) 
   LUT2 #(
     .INIT(4'h6)) 
     \wr_ptr[1]_i_1 
        (.I0(wr_ptr[0]),
         .I1(wr_ptr[1]),
         .O(wr_ptr0[1]));
-  (* SOFT_HLUTNM = "soft_lutpair444" *) 
+  (* SOFT_HLUTNM = "soft_lutpair439" *) 
   LUT3 #(
     .INIT(8'h78)) 
     \wr_ptr[2]_i_2 
@@ -34337,7 +34338,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized0_6
         .I4(rd_ptr[0]),
         .I5(wr_ptr_timing[1]),
         .O(my_empty0__0));
-  (* SOFT_HLUTNM = "soft_lutpair446" *) 
+  (* SOFT_HLUTNM = "soft_lutpair441" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \my_empty[2]_i_1__3 
@@ -34376,7 +34377,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized0_6
        (.I0(\my_empty[3]_i_4_n_0 ),
         .I1(1'b0),
         .O(\my_empty[3]_i_3__1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair446" *) 
+  (* SOFT_HLUTNM = "soft_lutpair441" *) 
   LUT3 #(
     .INIT(8'h02)) 
     \my_empty[3]_i_4 
@@ -34441,7 +34442,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized0_6
        (.I0(\my_empty[8]_i_4_n_0 ),
         .I1(1'b0),
         .O(\my_empty[6]_i_3__2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair445" *) 
+  (* SOFT_HLUTNM = "soft_lutpair440" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \my_empty[8]_i_1__1 
@@ -34461,7 +34462,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized0_6
        (.I0(\my_empty[8]_i_4_n_0 ),
         .I1(1'b0),
         .O(\my_empty[8]_i_3__1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair445" *) 
+  (* SOFT_HLUTNM = "soft_lutpair440" *) 
   LUT3 #(
     .INIT(8'h02)) 
     \my_empty[8]_i_4 
@@ -34595,7 +34596,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized0_6
     \rd_ptr[0]_i_1 
        (.I0(rd_ptr[0]),
         .O(rd_ptr0[0]));
-  (* SOFT_HLUTNM = "soft_lutpair447" *) 
+  (* SOFT_HLUTNM = "soft_lutpair442" *) 
   LUT2 #(
     .INIT(4'h6)) 
     \rd_ptr[1]_i_1 
@@ -34608,7 +34609,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized0_6
        (.I0(1'b1),
         .I1(\my_empty_reg_n_0_[4] ),
         .O(\rd_ptr[2]_i_1__1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair447" *) 
+  (* SOFT_HLUTNM = "soft_lutpair442" *) 
   LUT3 #(
     .INIT(8'h78)) 
     \rd_ptr[2]_i_2 
@@ -34669,14 +34670,14 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized0_6
     \wr_ptr[0]_i_1 
        (.I0(wr_ptr[0]),
         .O(wr_ptr0[0]));
-  (* SOFT_HLUTNM = "soft_lutpair448" *) 
+  (* SOFT_HLUTNM = "soft_lutpair443" *) 
   LUT2 #(
     .INIT(4'h6)) 
     \wr_ptr[1]_i_1 
        (.I0(wr_ptr[0]),
         .I1(wr_ptr[1]),
         .O(wr_ptr0[1]));
-  (* SOFT_HLUTNM = "soft_lutpair448" *) 
+  (* SOFT_HLUTNM = "soft_lutpair443" *) 
   LUT3 #(
     .INIT(8'h78)) 
     \wr_ptr[2]_i_2 
@@ -34815,13 +34816,13 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1
   wire [3:0]wr_ptr_timing;
   wire \wr_ptr_timing_reg[0]_0 ;
 
-  (* SOFT_HLUTNM = "soft_lutpair572" *) 
+  (* SOFT_HLUTNM = "soft_lutpair567" *) 
   LUT1 #(
     .INIT(2'h1)) 
     \entry_cnt[0]_i_1__0 
        (.I0(\entry_cnt_reg_n_0_[0] ),
         .O(\entry_cnt[0]_i_1__0_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair572" *) 
+  (* SOFT_HLUTNM = "soft_lutpair567" *) 
   LUT5 #(
     .INIT(32'hAA6A5595)) 
     \entry_cnt[1]_i_1__0 
@@ -34948,7 +34949,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1
         .I3(\my_empty[7]_i_4__1_n_0 ),
         .I4(\rd_ptr_reg[2]_0 ),
         .O(my_empty0));
-  (* SOFT_HLUTNM = "soft_lutpair573" *) 
+  (* SOFT_HLUTNM = "soft_lutpair568" *) 
   LUT5 #(
     .INIT(32'h00000040)) 
     \my_empty[7]_i_3__1 
@@ -34958,7 +34959,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1
         .I3(\rd_ptr_reg[3]_0 ),
         .I4(wr_ptr_timing[0]),
         .O(\my_empty[7]_i_3__1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair573" *) 
+  (* SOFT_HLUTNM = "soft_lutpair568" *) 
   LUT5 #(
     .INIT(32'h84210842)) 
     \my_empty[7]_i_4__1 
@@ -35001,7 +35002,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1
         .I3(\my_full[4]_i_4__1_n_0 ),
         .I4(\wr_ptr_reg[3]_0 [2]),
         .O(my_full0));
-  (* SOFT_HLUTNM = "soft_lutpair574" *) 
+  (* SOFT_HLUTNM = "soft_lutpair569" *) 
   LUT5 #(
     .INIT(32'h00000040)) 
     \my_full[4]_i_3__1 
@@ -35011,7 +35012,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1
         .I3(\wr_ptr_reg[3]_0 [3]),
         .I4(rd_ptr_timing[0]),
         .O(\my_full[4]_i_3__1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair574" *) 
+  (* SOFT_HLUTNM = "soft_lutpair569" *) 
   LUT5 #(
     .INIT(32'h84210842)) 
     \my_full[4]_i_4__1 
@@ -35065,14 +35066,14 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1
         .D(nxt_rd_ptr[3]),
         .Q(\rd_ptr_reg[3]_0 ),
         .R(ofifo_rst));
-  (* SOFT_HLUTNM = "soft_lutpair577" *) 
+  (* SOFT_HLUTNM = "soft_lutpair572" *) 
   LUT2 #(
     .INIT(4'h9)) 
     \rd_ptr_timing[0]_i_1__4 
        (.I0(\rd_ptr_reg[3]_0 ),
         .I1(\rd_ptr_reg[0]_0 ),
         .O(nxt_rd_ptr[0]));
-  (* SOFT_HLUTNM = "soft_lutpair577" *) 
+  (* SOFT_HLUTNM = "soft_lutpair572" *) 
   LUT3 #(
     .INIT(8'hB4)) 
     \rd_ptr_timing[1]_i_1__4 
@@ -35080,7 +35081,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1
         .I1(\rd_ptr_reg[0]_0 ),
         .I2(\rd_ptr_reg[1]_0 ),
         .O(nxt_rd_ptr[1]));
-  (* SOFT_HLUTNM = "soft_lutpair575" *) 
+  (* SOFT_HLUTNM = "soft_lutpair570" *) 
   LUT4 #(
     .INIT(16'hAA6A)) 
     \rd_ptr_timing[2]_i_1__2 
@@ -35095,7 +35096,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1
        (.I0(D_of_full),
         .I1(\my_empty_reg_n_0_[7] ),
         .O(\rd_ptr_timing[3]_i_1__2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair575" *) 
+  (* SOFT_HLUTNM = "soft_lutpair570" *) 
   LUT4 #(
     .INIT(16'h4000)) 
     \rd_ptr_timing[3]_i_2__2 
@@ -35132,14 +35133,14 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1
         .D(nxt_rd_ptr[3]),
         .Q(rd_ptr_timing[3]),
         .R(ofifo_rst));
-  (* SOFT_HLUTNM = "soft_lutpair578" *) 
+  (* SOFT_HLUTNM = "soft_lutpair573" *) 
   LUT2 #(
     .INIT(4'h9)) 
     \wr_ptr[0]_i_1__4 
        (.I0(\wr_ptr_reg[3]_0 [3]),
         .I1(\wr_ptr_reg[3]_0 [0]),
         .O(nxt_wr_ptr[0]));
-  (* SOFT_HLUTNM = "soft_lutpair578" *) 
+  (* SOFT_HLUTNM = "soft_lutpair573" *) 
   LUT3 #(
     .INIT(8'hB4)) 
     \wr_ptr[1]_i_1__4 
@@ -35147,7 +35148,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1
         .I1(\wr_ptr_reg[3]_0 [0]),
         .I2(\wr_ptr_reg[3]_0 [1]),
         .O(nxt_wr_ptr[1]));
-  (* SOFT_HLUTNM = "soft_lutpair576" *) 
+  (* SOFT_HLUTNM = "soft_lutpair571" *) 
   LUT4 #(
     .INIT(16'hAA6A)) 
     \wr_ptr[2]_i_1__2 
@@ -35166,7 +35167,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1
         .I4(\my_full_reg_n_0_[4] ),
         .I5(\my_empty_reg_n_0_[7] ),
         .O(wr_ptr0));
-  (* SOFT_HLUTNM = "soft_lutpair576" *) 
+  (* SOFT_HLUTNM = "soft_lutpair571" *) 
   LUT4 #(
     .INIT(16'h4000)) 
     \wr_ptr[3]_i_2__0 
@@ -35337,7 +35338,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1_10
         .I3(\my_empty[6]_i_4_n_0 ),
         .I4(\rd_ptr_reg[2]_0 ),
         .O(my_empty0));
-  (* SOFT_HLUTNM = "soft_lutpair459" *) 
+  (* SOFT_HLUTNM = "soft_lutpair454" *) 
   LUT5 #(
     .INIT(32'h00000040)) 
     \my_empty[6]_i_3 
@@ -35347,7 +35348,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1_10
         .I3(\rd_ptr_reg[3]_0 ),
         .I4(wr_ptr_timing[0]),
         .O(\my_empty[6]_i_3_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair459" *) 
+  (* SOFT_HLUTNM = "soft_lutpair454" *) 
   LUT5 #(
     .INIT(32'h84210842)) 
     \my_empty[6]_i_4 
@@ -35390,7 +35391,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1_10
         .I3(\my_full[3]_i_4_n_0 ),
         .I4(Q[2]),
         .O(my_full0));
-  (* SOFT_HLUTNM = "soft_lutpair460" *) 
+  (* SOFT_HLUTNM = "soft_lutpair455" *) 
   LUT5 #(
     .INIT(32'h00000040)) 
     \my_full[3]_i_3 
@@ -35400,7 +35401,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1_10
         .I3(Q[3]),
         .I4(rd_ptr_timing[0]),
         .O(\my_full[3]_i_3_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair460" *) 
+  (* SOFT_HLUTNM = "soft_lutpair455" *) 
   LUT5 #(
     .INIT(32'h84210842)) 
     \my_full[3]_i_4 
@@ -35417,7 +35418,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1_10
         .D(\my_full[3]_i_1_n_0 ),
         .Q(\my_full_reg_n_0_[3] ),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair461" *) 
+  (* SOFT_HLUTNM = "soft_lutpair456" *) 
   LUT4 #(
     .INIT(16'h00FD)) 
     out_fifo_i_1__0
@@ -35426,21 +35427,21 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1_10
         .I2(calib_cmd_wren),
         .I3(\rd_ptr_reg[3]_1 ),
         .O(\my_empty_reg[1]_1 ));
-  (* SOFT_HLUTNM = "soft_lutpair461" *) 
+  (* SOFT_HLUTNM = "soft_lutpair456" *) 
   LUT2 #(
     .INIT(4'hE)) 
     out_fifo_i_26__2
        (.I0(out_fifo_0[0]),
         .I1(\my_empty_reg[1]_0 ),
         .O(D5));
-  (* SOFT_HLUTNM = "soft_lutpair466" *) 
+  (* SOFT_HLUTNM = "soft_lutpair461" *) 
   LUT2 #(
     .INIT(4'hE)) 
     out_fifo_i_34__1
        (.I0(out_fifo_0[1]),
         .I1(\my_empty_reg[1]_0 ),
         .O(D6));
-  (* SOFT_HLUTNM = "soft_lutpair466" *) 
+  (* SOFT_HLUTNM = "soft_lutpair461" *) 
   LUT2 #(
     .INIT(4'hE)) 
     out_fifo_i_42__1
@@ -35484,14 +35485,14 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1_10
         .D(nxt_rd_ptr[3]),
         .Q(\rd_ptr_reg[3]_0 ),
         .R(ofifo_rst));
-  (* SOFT_HLUTNM = "soft_lutpair464" *) 
+  (* SOFT_HLUTNM = "soft_lutpair459" *) 
   LUT2 #(
     .INIT(4'h9)) 
     \rd_ptr_timing[0]_i_1__0 
        (.I0(\rd_ptr_reg[3]_0 ),
         .I1(\rd_ptr_reg[0]_0 ),
         .O(nxt_rd_ptr[0]));
-  (* SOFT_HLUTNM = "soft_lutpair464" *) 
+  (* SOFT_HLUTNM = "soft_lutpair459" *) 
   LUT3 #(
     .INIT(8'hB4)) 
     \rd_ptr_timing[1]_i_1__0 
@@ -35499,7 +35500,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1_10
         .I1(\rd_ptr_reg[0]_0 ),
         .I2(\rd_ptr_reg[1]_0 ),
         .O(nxt_rd_ptr[1]));
-  (* SOFT_HLUTNM = "soft_lutpair462" *) 
+  (* SOFT_HLUTNM = "soft_lutpair457" *) 
   LUT4 #(
     .INIT(16'hAA6A)) 
     \rd_ptr_timing[2]_i_1__0 
@@ -35514,7 +35515,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1_10
        (.I0(\rd_ptr_reg[3]_1 ),
         .I1(\my_empty_reg_n_0_[6] ),
         .O(\rd_ptr_timing[3]_i_1__0_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair462" *) 
+  (* SOFT_HLUTNM = "soft_lutpair457" *) 
   LUT4 #(
     .INIT(16'h4000)) 
     \rd_ptr_timing[3]_i_2__0 
@@ -35560,14 +35561,14 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1_10
         .I3(\my_full_reg_n_0_[3] ),
         .I4(\my_empty_reg_n_0_[6] ),
         .O(wr_ptr0__0));
-  (* SOFT_HLUTNM = "soft_lutpair465" *) 
+  (* SOFT_HLUTNM = "soft_lutpair460" *) 
   LUT2 #(
     .INIT(4'h9)) 
     \wr_ptr[0]_i_1__2 
        (.I0(Q[3]),
         .I1(Q[0]),
         .O(nxt_wr_ptr[0]));
-  (* SOFT_HLUTNM = "soft_lutpair465" *) 
+  (* SOFT_HLUTNM = "soft_lutpair460" *) 
   LUT3 #(
     .INIT(8'hB4)) 
     \wr_ptr[1]_i_1__2 
@@ -35575,7 +35576,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1_10
         .I1(Q[0]),
         .I2(Q[1]),
         .O(nxt_wr_ptr[1]));
-  (* SOFT_HLUTNM = "soft_lutpair463" *) 
+  (* SOFT_HLUTNM = "soft_lutpair458" *) 
   LUT4 #(
     .INIT(16'hAA6A)) 
     \wr_ptr[2]_i_1__0 
@@ -35584,7 +35585,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1_10
         .I2(Q[1]),
         .I3(Q[3]),
         .O(nxt_wr_ptr[2]));
-  (* SOFT_HLUTNM = "soft_lutpair463" *) 
+  (* SOFT_HLUTNM = "soft_lutpair458" *) 
   LUT4 #(
     .INIT(16'h4000)) 
     \wr_ptr[3]_i_1__0 
@@ -35750,7 +35751,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1_11
 
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "720" *) 
-  (* RTL_RAM_NAME = "of_pre_fifo_gen.u_ddr_of_pre_fifo/mem" *) 
+  (* RTL_RAM_NAME = "of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg_0_15_12_17" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "8" *) 
@@ -35774,7 +35775,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1_11
         .WE(wr_en));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "720" *) 
-  (* RTL_RAM_NAME = "of_pre_fifo_gen.u_ddr_of_pre_fifo/mem" *) 
+  (* RTL_RAM_NAME = "of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg_0_15_18_23" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "8" *) 
@@ -35798,7 +35799,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1_11
         .WE(wr_en));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "720" *) 
-  (* RTL_RAM_NAME = "of_pre_fifo_gen.u_ddr_of_pre_fifo/mem" *) 
+  (* RTL_RAM_NAME = "of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg_0_15_30_35" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "8" *) 
@@ -35822,7 +35823,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1_11
         .WE(wr_en));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "720" *) 
-  (* RTL_RAM_NAME = "of_pre_fifo_gen.u_ddr_of_pre_fifo/mem" *) 
+  (* RTL_RAM_NAME = "of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg_0_15_36_41" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "8" *) 
@@ -35846,7 +35847,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1_11
         .WE(wr_en));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "720" *) 
-  (* RTL_RAM_NAME = "of_pre_fifo_gen.u_ddr_of_pre_fifo/mem" *) 
+  (* RTL_RAM_NAME = "of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg_0_15_42_47" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "8" *) 
@@ -35870,7 +35871,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1_11
         .WE(wr_en));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "720" *) 
-  (* RTL_RAM_NAME = "of_pre_fifo_gen.u_ddr_of_pre_fifo/mem" *) 
+  (* RTL_RAM_NAME = "of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg_0_15_48_53" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "8" *) 
@@ -35894,7 +35895,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1_11
         .WE(wr_en));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "720" *) 
-  (* RTL_RAM_NAME = "of_pre_fifo_gen.u_ddr_of_pre_fifo/mem" *) 
+  (* RTL_RAM_NAME = "of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg_0_15_54_59" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "8" *) 
@@ -35918,7 +35919,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1_11
         .WE(wr_en));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "720" *) 
-  (* RTL_RAM_NAME = "of_pre_fifo_gen.u_ddr_of_pre_fifo/mem" *) 
+  (* RTL_RAM_NAME = "of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg_0_15_60_65" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "8" *) 
@@ -35942,7 +35943,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1_11
         .WE(wr_en));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "720" *) 
-  (* RTL_RAM_NAME = "of_pre_fifo_gen.u_ddr_of_pre_fifo/mem" *) 
+  (* RTL_RAM_NAME = "of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg_0_15_66_71" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "8" *) 
@@ -35966,7 +35967,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1_11
         .WE(wr_en));
   (* METHODOLOGY_DRC_VIOS = "" *) 
   (* RTL_RAM_BITS = "720" *) 
-  (* RTL_RAM_NAME = "of_pre_fifo_gen.u_ddr_of_pre_fifo/mem" *) 
+  (* RTL_RAM_NAME = "of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg_0_15_6_11" *) 
   (* RTL_RAM_TYPE = "RAM_SDP" *) 
   (* ram_addr_begin = "0" *) 
   (* ram_addr_end = "8" *) 
@@ -36017,7 +36018,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1_11
         .I3(\my_empty[7]_i_5_n_0 ),
         .I4(rd_ptr[2]),
         .O(my_empty0));
-  (* SOFT_HLUTNM = "soft_lutpair449" *) 
+  (* SOFT_HLUTNM = "soft_lutpair444" *) 
   LUT5 #(
     .INIT(32'h00000040)) 
     \my_empty[7]_i_4 
@@ -36027,7 +36028,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1_11
         .I3(rd_ptr[3]),
         .I4(wr_ptr_timing[0]),
         .O(\my_empty[7]_i_4_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair449" *) 
+  (* SOFT_HLUTNM = "soft_lutpair444" *) 
   LUT5 #(
     .INIT(32'h84210842)) 
     \my_empty[7]_i_5 
@@ -36070,7 +36071,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1_11
         .I3(\my_full[4]_i_4_n_0 ),
         .I4(wr_ptr[2]),
         .O(my_full0));
-  (* SOFT_HLUTNM = "soft_lutpair450" *) 
+  (* SOFT_HLUTNM = "soft_lutpair445" *) 
   LUT5 #(
     .INIT(32'h00000040)) 
     \my_full[4]_i_3 
@@ -36080,7 +36081,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1_11
         .I3(wr_ptr[3]),
         .I4(rd_ptr_timing[0]),
         .O(\my_full[4]_i_3_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair450" *) 
+  (* SOFT_HLUTNM = "soft_lutpair445" *) 
   LUT5 #(
     .INIT(32'h84210842)) 
     \my_full[4]_i_4 
@@ -36105,7 +36106,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1_11
         .I2(calib_cmd_wren),
         .I3(A_of_full),
         .O(\my_empty_reg[1]_1 ));
-  (* SOFT_HLUTNM = "soft_lutpair452" *) 
+  (* SOFT_HLUTNM = "soft_lutpair447" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     out_fifo_i_18
@@ -36121,7 +36122,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1_11
         .I2(mem_out_0[34]),
         .I3(\my_empty_reg[1]_0 ),
         .O(D4[2]));
-  (* SOFT_HLUTNM = "soft_lutpair451" *) 
+  (* SOFT_HLUTNM = "soft_lutpair446" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     out_fifo_i_2
@@ -36129,7 +36130,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1_11
         .I1(mem_out_0[3]),
         .I2(\my_empty_reg[1]_0 ),
         .O(D0[3]));
-  (* SOFT_HLUTNM = "soft_lutpair453" *) 
+  (* SOFT_HLUTNM = "soft_lutpair448" *) 
   LUT4 #(
     .INIT(16'h88F0)) 
     out_fifo_i_20
@@ -36138,7 +36139,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1_11
         .I2(mem_out_0[33]),
         .I3(\my_empty_reg[1]_0 ),
         .O(D4[1]));
-  (* SOFT_HLUTNM = "soft_lutpair454" *) 
+  (* SOFT_HLUTNM = "soft_lutpair449" *) 
   LUT4 #(
     .INIT(16'h88F0)) 
     out_fifo_i_21
@@ -36147,7 +36148,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1_11
         .I2(mem_out_0[32]),
         .I3(\my_empty_reg[1]_0 ),
         .O(D4[0]));
-  (* SOFT_HLUTNM = "soft_lutpair454" *) 
+  (* SOFT_HLUTNM = "soft_lutpair449" *) 
   LUT2 #(
     .INIT(4'hE)) 
     out_fifo_i_26__1
@@ -36170,7 +36171,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1_11
         .I2(mem_out_0[52]),
         .I3(\my_empty_reg[1]_0 ),
         .O(D6[0]));
-  (* SOFT_HLUTNM = "soft_lutpair452" *) 
+  (* SOFT_HLUTNM = "soft_lutpair447" *) 
   LUT4 #(
     .INIT(16'h88F0)) 
     out_fifo_i_3
@@ -36179,7 +36180,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1_11
         .I2(mem_out_0[2]),
         .I3(\my_empty_reg[1]_0 ),
         .O(D0[2]));
-  (* SOFT_HLUTNM = "soft_lutpair453" *) 
+  (* SOFT_HLUTNM = "soft_lutpair448" *) 
   LUT4 #(
     .INIT(16'h88F0)) 
     out_fifo_i_4
@@ -36188,7 +36189,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1_11
         .I2(mem_out_0[1]),
         .I3(\my_empty_reg[1]_0 ),
         .O(D0[1]));
-  (* SOFT_HLUTNM = "soft_lutpair451" *) 
+  (* SOFT_HLUTNM = "soft_lutpair446" *) 
   LUT4 #(
     .INIT(16'h88F0)) 
     out_fifo_i_5
@@ -36234,14 +36235,14 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1_11
         .D(nxt_rd_ptr[3]),
         .Q(rd_ptr[3]),
         .R(SR));
-  (* SOFT_HLUTNM = "soft_lutpair457" *) 
+  (* SOFT_HLUTNM = "soft_lutpair452" *) 
   LUT2 #(
     .INIT(4'h9)) 
     \rd_ptr_timing[0]_i_1 
        (.I0(rd_ptr[3]),
         .I1(rd_ptr[0]),
         .O(nxt_rd_ptr[0]));
-  (* SOFT_HLUTNM = "soft_lutpair457" *) 
+  (* SOFT_HLUTNM = "soft_lutpair452" *) 
   LUT3 #(
     .INIT(8'hB4)) 
     \rd_ptr_timing[1]_i_1 
@@ -36249,7 +36250,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1_11
         .I1(rd_ptr[0]),
         .I2(rd_ptr[1]),
         .O(nxt_rd_ptr[1]));
-  (* SOFT_HLUTNM = "soft_lutpair455" *) 
+  (* SOFT_HLUTNM = "soft_lutpair450" *) 
   LUT4 #(
     .INIT(16'hAA6A)) 
     \rd_ptr_timing[2]_i_1 
@@ -36264,7 +36265,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1_11
        (.I0(A_of_full),
         .I1(\my_empty_reg_n_0_[7] ),
         .O(\rd_ptr_timing[3]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair455" *) 
+  (* SOFT_HLUTNM = "soft_lutpair450" *) 
   LUT4 #(
     .INIT(16'h4000)) 
     \rd_ptr_timing[3]_i_2 
@@ -36310,14 +36311,14 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1_11
         .I3(\my_full_reg_n_0_[4] ),
         .I4(\my_empty_reg_n_0_[7] ),
         .O(wr_ptr0__0));
-  (* SOFT_HLUTNM = "soft_lutpair458" *) 
+  (* SOFT_HLUTNM = "soft_lutpair453" *) 
   LUT2 #(
     .INIT(4'h9)) 
     \wr_ptr[0]_i_1 
        (.I0(wr_ptr[3]),
         .I1(wr_ptr[0]),
         .O(nxt_wr_ptr[0]));
-  (* SOFT_HLUTNM = "soft_lutpair458" *) 
+  (* SOFT_HLUTNM = "soft_lutpair453" *) 
   LUT3 #(
     .INIT(8'hB4)) 
     \wr_ptr[1]_i_1 
@@ -36325,7 +36326,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1_11
         .I1(wr_ptr[0]),
         .I2(wr_ptr[1]),
         .O(nxt_wr_ptr[1]));
-  (* SOFT_HLUTNM = "soft_lutpair456" *) 
+  (* SOFT_HLUTNM = "soft_lutpair451" *) 
   LUT4 #(
     .INIT(16'hAA6A)) 
     \wr_ptr[2]_i_1 
@@ -36334,7 +36335,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1_11
         .I2(wr_ptr[1]),
         .I3(wr_ptr[3]),
         .O(nxt_wr_ptr[2]));
-  (* SOFT_HLUTNM = "soft_lutpair456" *) 
+  (* SOFT_HLUTNM = "soft_lutpair451" *) 
   LUT4 #(
     .INIT(16'h4000)) 
     \wr_ptr[3]_i_1 
@@ -36483,13 +36484,13 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1_9
   wire [3:0]\wr_ptr_reg[3]_0 ;
   wire [3:0]wr_ptr_timing;
 
-  (* SOFT_HLUTNM = "soft_lutpair532" *) 
+  (* SOFT_HLUTNM = "soft_lutpair527" *) 
   LUT1 #(
     .INIT(2'h1)) 
     \entry_cnt[0]_i_1 
        (.I0(\entry_cnt_reg_n_0_[0] ),
         .O(\entry_cnt[0]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair532" *) 
+  (* SOFT_HLUTNM = "soft_lutpair527" *) 
   LUT5 #(
     .INIT(32'hAA6A5595)) 
     \entry_cnt[1]_i_1 
@@ -36616,7 +36617,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1_9
         .I3(\my_empty[7]_i_5__0_n_0 ),
         .I4(\rd_ptr_reg[2]_0 ),
         .O(my_empty0));
-  (* SOFT_HLUTNM = "soft_lutpair533" *) 
+  (* SOFT_HLUTNM = "soft_lutpair528" *) 
   LUT5 #(
     .INIT(32'h00000040)) 
     \my_empty[7]_i_4__0 
@@ -36626,7 +36627,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1_9
         .I3(\rd_ptr_reg[3]_0 ),
         .I4(wr_ptr_timing[0]),
         .O(\my_empty[7]_i_4__0_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair533" *) 
+  (* SOFT_HLUTNM = "soft_lutpair528" *) 
   LUT5 #(
     .INIT(32'h84210842)) 
     \my_empty[7]_i_5__0 
@@ -36669,7 +36670,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1_9
         .I3(\my_full[4]_i_4__0_n_0 ),
         .I4(\wr_ptr_reg[3]_0 [2]),
         .O(my_full0));
-  (* SOFT_HLUTNM = "soft_lutpair534" *) 
+  (* SOFT_HLUTNM = "soft_lutpair529" *) 
   LUT5 #(
     .INIT(32'h00000040)) 
     \my_full[4]_i_3__0 
@@ -36679,7 +36680,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1_9
         .I3(\wr_ptr_reg[3]_0 [3]),
         .I4(rd_ptr_timing[0]),
         .O(\my_full[4]_i_3__0_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair534" *) 
+  (* SOFT_HLUTNM = "soft_lutpair529" *) 
   LUT5 #(
     .INIT(32'h84210842)) 
     \my_full[4]_i_4__0 
@@ -36743,14 +36744,14 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1_9
         .D(nxt_rd_ptr[3]),
         .Q(\rd_ptr_reg[3]_0 ),
         .R(ofifo_rst));
-  (* SOFT_HLUTNM = "soft_lutpair537" *) 
+  (* SOFT_HLUTNM = "soft_lutpair532" *) 
   LUT2 #(
     .INIT(4'h9)) 
     \rd_ptr_timing[0]_i_1__3 
        (.I0(\rd_ptr_reg[3]_0 ),
         .I1(\rd_ptr_reg[0]_0 ),
         .O(nxt_rd_ptr[0]));
-  (* SOFT_HLUTNM = "soft_lutpair537" *) 
+  (* SOFT_HLUTNM = "soft_lutpair532" *) 
   LUT3 #(
     .INIT(8'hB4)) 
     \rd_ptr_timing[1]_i_1__3 
@@ -36758,7 +36759,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1_9
         .I1(\rd_ptr_reg[0]_0 ),
         .I2(\rd_ptr_reg[1]_0 ),
         .O(nxt_rd_ptr[1]));
-  (* SOFT_HLUTNM = "soft_lutpair535" *) 
+  (* SOFT_HLUTNM = "soft_lutpair530" *) 
   LUT4 #(
     .INIT(16'hAA6A)) 
     \rd_ptr_timing[2]_i_1__1 
@@ -36773,7 +36774,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1_9
        (.I0(C_of_full),
         .I1(\my_empty_reg_n_0_[7] ),
         .O(\rd_ptr_timing[3]_i_1__1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair535" *) 
+  (* SOFT_HLUTNM = "soft_lutpair530" *) 
   LUT4 #(
     .INIT(16'h4000)) 
     \rd_ptr_timing[3]_i_2__1 
@@ -36810,14 +36811,14 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1_9
         .D(nxt_rd_ptr[3]),
         .Q(rd_ptr_timing[3]),
         .R(ofifo_rst));
-  (* SOFT_HLUTNM = "soft_lutpair538" *) 
+  (* SOFT_HLUTNM = "soft_lutpair533" *) 
   LUT2 #(
     .INIT(4'h9)) 
     \wr_ptr[0]_i_1__3 
        (.I0(\wr_ptr_reg[3]_0 [3]),
         .I1(\wr_ptr_reg[3]_0 [0]),
         .O(nxt_wr_ptr[0]));
-  (* SOFT_HLUTNM = "soft_lutpair538" *) 
+  (* SOFT_HLUTNM = "soft_lutpair533" *) 
   LUT3 #(
     .INIT(8'hB4)) 
     \wr_ptr[1]_i_1__3 
@@ -36825,7 +36826,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1_9
         .I1(\wr_ptr_reg[3]_0 [0]),
         .I2(\wr_ptr_reg[3]_0 [1]),
         .O(nxt_wr_ptr[1]));
-  (* SOFT_HLUTNM = "soft_lutpair536" *) 
+  (* SOFT_HLUTNM = "soft_lutpair531" *) 
   LUT4 #(
     .INIT(16'hAA6A)) 
     \wr_ptr[2]_i_1__1 
@@ -36844,7 +36845,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_of_pre_fifo__parameterized1_9
         .I4(\my_full_reg_n_0_[4] ),
         .I5(\my_empty_reg_n_0_[7] ),
         .O(wr_ptr0));
-  (* SOFT_HLUTNM = "soft_lutpair536" *) 
+  (* SOFT_HLUTNM = "soft_lutpair531" *) 
   LUT4 #(
     .INIT(16'h4000)) 
     \wr_ptr[3]_i_2 
@@ -38574,7 +38575,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_ck_addr_cmd_delay
   wire \wait_cnt_r_reg[0]_1 ;
   wire [0:0]\wait_cnt_r_reg[0]_2 ;
 
-  (* SOFT_HLUTNM = "soft_lutpair218" *) 
+  (* SOFT_HLUTNM = "soft_lutpair213" *) 
   LUT5 #(
     .INIT(32'h0000CCC7)) 
     \ctl_lane_cnt[0]_i_1 
@@ -38584,7 +38585,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_ck_addr_cmd_delay
         .I3(\ctl_lane_cnt[1]_i_3_n_0 ),
         .I4(p_1_in),
         .O(\ctl_lane_cnt[0]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair218" *) 
+  (* SOFT_HLUTNM = "soft_lutpair213" *) 
   LUT5 #(
     .INIT(32'h54550000)) 
     \ctl_lane_cnt[1]_i_1 
@@ -38658,7 +38659,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_ck_addr_cmd_delay
         .D(delay_done_r3_reg_srl3_n_0),
         .Q(ck_addr_cmd_delay_done),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair220" *) 
+  (* SOFT_HLUTNM = "soft_lutpair215" *) 
   LUT1 #(
     .INIT(2'h1)) 
     \delaydec_cnt_r[0]_i_1 
@@ -38670,7 +38671,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_ck_addr_cmd_delay
        (.I0(delaydec_cnt_r_reg[1]),
         .I1(delaydec_cnt_r_reg[0]),
         .O(delaydec_cnt_r0__0[1]));
-  (* SOFT_HLUTNM = "soft_lutpair220" *) 
+  (* SOFT_HLUTNM = "soft_lutpair215" *) 
   LUT3 #(
     .INIT(8'hE1)) 
     \delaydec_cnt_r[2]_i_1 
@@ -38678,7 +38679,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_ck_addr_cmd_delay
         .I1(delaydec_cnt_r_reg[1]),
         .I2(delaydec_cnt_r_reg[2]),
         .O(delaydec_cnt_r0__0[2]));
-  (* SOFT_HLUTNM = "soft_lutpair219" *) 
+  (* SOFT_HLUTNM = "soft_lutpair214" *) 
   LUT4 #(
     .INIT(16'hFE01)) 
     \delaydec_cnt_r[3]_i_1 
@@ -38687,7 +38688,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_ck_addr_cmd_delay
         .I2(delaydec_cnt_r_reg[1]),
         .I3(delaydec_cnt_r_reg[3]),
         .O(delaydec_cnt_r0__0[3]));
-  (* SOFT_HLUTNM = "soft_lutpair219" *) 
+  (* SOFT_HLUTNM = "soft_lutpair214" *) 
   LUT5 #(
     .INIT(32'hFFFE0001)) 
     \delaydec_cnt_r[4]_i_1 
@@ -38803,14 +38804,14 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_ck_addr_cmd_delay
     \wait_cnt_r[0]_i_1 
        (.I0(wait_cnt_r_reg[0]),
         .O(wait_cnt_r0__0[0]));
-  (* SOFT_HLUTNM = "soft_lutpair221" *) 
+  (* SOFT_HLUTNM = "soft_lutpair216" *) 
   LUT2 #(
     .INIT(4'h9)) 
     \wait_cnt_r[1]_i_1 
        (.I0(wait_cnt_r_reg[1]),
         .I1(wait_cnt_r_reg[0]),
         .O(wait_cnt_r0__0[1]));
-  (* SOFT_HLUTNM = "soft_lutpair221" *) 
+  (* SOFT_HLUTNM = "soft_lutpair216" *) 
   LUT3 #(
     .INIT(8'hA9)) 
     \wait_cnt_r[2]_i_1 
@@ -38865,6 +38866,7 @@ endmodule
 (* ORIG_REF_NAME = "mig_7series_v4_2_ddr_phy_dqs_found_cal_hr" *) 
 module mig_7series_0_mig_7series_v4_2_ddr_phy_dqs_found_cal_hr
    (rd_data_offset_cal_done,
+    pi_dqs_found_all_bank,
     pi_dqs_found_rank_done,
     pi_dqs_found_done,
     fine_adjust_done_r_reg_0,
@@ -38896,12 +38898,12 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_dqs_found_cal_hr
     RSTB,
     calib_in_common4_out,
     dqs_found_done_r_reg_1,
-    Q,
     CLK,
     pi_dqs_found_lanes,
     dqs_found_start_r_reg_0,
     ck_po_stg2_f_en_reg_0,
     first_fail_detect_reg_0,
+    init_dqsfound_done_r_reg_0,
     \phaser_in_gen.phaser_in ,
     dqs_po_stg2_f_incdec,
     \phaser_in_gen.phaser_in_0 ,
@@ -38924,12 +38926,13 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_dqs_found_cal_hr
     \gen_byte_sel_div2.ctl_lane_sel_reg[0]_1 ,
     \gen_byte_sel_div2.calib_in_common_reg_0 ,
     \gen_byte_sel_div2.calib_in_common_reg_1 ,
-    init_dqsfound_done_r_reg_0,
+    \pi_rst_stg1_cal_r1_reg[0]_0 ,
     detect_pi_found_dqs,
     prech_done,
-    rst_dqs_find_i_4_0,
+    \stable_pass_cnt_reg[4]_0 ,
     \stable_pass_cnt_reg[0]_0 );
   output rd_data_offset_cal_done;
+  output pi_dqs_found_all_bank;
   output pi_dqs_found_rank_done;
   output pi_dqs_found_done;
   output fine_adjust_done_r_reg_0;
@@ -38961,12 +38964,12 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_dqs_found_cal_hr
   output RSTB;
   output calib_in_common4_out;
   output dqs_found_done_r_reg_1;
-  output [0:0]Q;
   input CLK;
   input [1:0]pi_dqs_found_lanes;
   input dqs_found_start_r_reg_0;
   input ck_po_stg2_f_en_reg_0;
   input [0:0]first_fail_detect_reg_0;
+  input [0:0]init_dqsfound_done_r_reg_0;
   input \phaser_in_gen.phaser_in ;
   input dqs_po_stg2_f_incdec;
   input \phaser_in_gen.phaser_in_0 ;
@@ -38989,10 +38992,10 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_dqs_found_cal_hr
   input \gen_byte_sel_div2.ctl_lane_sel_reg[0]_1 ;
   input \gen_byte_sel_div2.calib_in_common_reg_0 ;
   input \gen_byte_sel_div2.calib_in_common_reg_1 ;
-  input init_dqsfound_done_r_reg_0;
+  input \pi_rst_stg1_cal_r1_reg[0]_0 ;
   input detect_pi_found_dqs;
   input prech_done;
-  input rst_dqs_find_i_4_0;
+  input \stable_pass_cnt_reg[4]_0 ;
   input [0:0]\stable_pass_cnt_reg[0]_0 ;
 
   wire A_rst_primitives;
@@ -39002,8 +39005,6 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_dqs_found_cal_hr
   wire \FSM_sequential_fine_adj_state_r[0]_i_2_n_0 ;
   wire \FSM_sequential_fine_adj_state_r[0]_i_3_n_0 ;
   wire \FSM_sequential_fine_adj_state_r[0]_i_4_n_0 ;
-  wire \FSM_sequential_fine_adj_state_r[0]_i_5_n_0 ;
-  wire \FSM_sequential_fine_adj_state_r[0]_i_6_n_0 ;
   wire \FSM_sequential_fine_adj_state_r[1]_i_1_n_0 ;
   wire \FSM_sequential_fine_adj_state_r[1]_i_2_n_0 ;
   wire \FSM_sequential_fine_adj_state_r[1]_i_3_n_0 ;
@@ -39022,9 +39023,6 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_dqs_found_cal_hr
   wire \FSM_sequential_fine_adj_state_r[3]_i_4_n_0 ;
   wire \FSM_sequential_fine_adj_state_r[3]_i_5_n_0 ;
   wire \FSM_sequential_fine_adj_state_r[3]_i_6_n_0 ;
-  wire \FSM_sequential_fine_adj_state_r[3]_i_7_n_0 ;
-  wire \FSM_sequential_fine_adj_state_r[3]_i_8_n_0 ;
-  wire [0:0]Q;
   wire RSTB;
   wire byte_sel_cnt1;
   wire calib_in_common4_out;
@@ -39052,22 +39050,20 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_dqs_found_cal_hr
   wire \dec_cnt[0]_i_4_n_0 ;
   wire \dec_cnt[0]_i_5_n_0 ;
   wire \dec_cnt[1]_i_2_n_0 ;
-  wire \dec_cnt[1]_i_3_n_0 ;
-  wire \dec_cnt[2]_i_2_n_0 ;
   wire \dec_cnt[2]_i_3_n_0 ;
+  wire \dec_cnt[2]_i_4_n_0 ;
   wire \dec_cnt[2]_i_5_n_0 ;
   wire \dec_cnt[2]_i_6_n_0 ;
   wire \dec_cnt[2]_i_7_n_0 ;
   wire \dec_cnt[2]_i_8_n_0 ;
   wire \dec_cnt[3]_i_2_n_0 ;
   wire \dec_cnt[3]_i_3_n_0 ;
+  wire \dec_cnt[3]_i_4_n_0 ;
+  wire \dec_cnt[3]_i_5_n_0 ;
   wire \dec_cnt[4]_i_10_n_0 ;
-  wire \dec_cnt[4]_i_11_n_0 ;
-  wire \dec_cnt[4]_i_12_n_0 ;
-  wire \dec_cnt[4]_i_13_n_0 ;
   wire \dec_cnt[4]_i_2_n_0 ;
-  wire \dec_cnt[4]_i_3_n_0 ;
   wire \dec_cnt[4]_i_4_n_0 ;
+  wire \dec_cnt[4]_i_5_n_0 ;
   wire \dec_cnt[4]_i_6_n_0 ;
   wire \dec_cnt[4]_i_7_n_0 ;
   wire \dec_cnt[4]_i_8_n_0 ;
@@ -39085,16 +39081,16 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_dqs_found_cal_hr
   wire \dec_cnt[5]_i_7_n_0 ;
   wire \dec_cnt[5]_i_8_n_0 ;
   wire \dec_cnt[5]_i_9_n_0 ;
-  wire \dec_cnt_reg[2]_i_4_n_0 ;
-  wire \dec_cnt_reg[2]_i_4_n_1 ;
-  wire \dec_cnt_reg[2]_i_4_n_2 ;
-  wire \dec_cnt_reg[2]_i_4_n_3 ;
-  wire \dec_cnt_reg[2]_i_4_n_4 ;
-  wire \dec_cnt_reg[2]_i_4_n_5 ;
-  wire \dec_cnt_reg[2]_i_4_n_6 ;
-  wire \dec_cnt_reg[4]_i_5_n_3 ;
-  wire \dec_cnt_reg[4]_i_5_n_6 ;
-  wire \dec_cnt_reg[4]_i_5_n_7 ;
+  wire \dec_cnt_reg[2]_i_2_n_0 ;
+  wire \dec_cnt_reg[2]_i_2_n_1 ;
+  wire \dec_cnt_reg[2]_i_2_n_2 ;
+  wire \dec_cnt_reg[2]_i_2_n_3 ;
+  wire \dec_cnt_reg[2]_i_2_n_4 ;
+  wire \dec_cnt_reg[2]_i_2_n_5 ;
+  wire \dec_cnt_reg[2]_i_2_n_6 ;
+  wire \dec_cnt_reg[4]_i_3_n_3 ;
+  wire \dec_cnt_reg[4]_i_3_n_6 ;
+  wire \dec_cnt_reg[4]_i_3_n_7 ;
   wire \dec_cnt_reg_n_0_[0] ;
   wire \dec_cnt_reg_n_0_[1] ;
   wire \dec_cnt_reg_n_0_[2] ;
@@ -39103,14 +39099,11 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_dqs_found_cal_hr
   wire \dec_cnt_reg_n_0_[5] ;
   wire detect_pi_found_dqs;
   wire detect_rd_cnt0;
-  wire [0:0]detect_rd_cnt0__0;
+  wire [3:0]detect_rd_cnt0__0;
   wire \detect_rd_cnt[1]_i_1_n_0 ;
-  wire \detect_rd_cnt[2]_i_1_n_0 ;
   wire \detect_rd_cnt[3]_i_1_n_0 ;
-  wire \detect_rd_cnt[3]_i_3_n_0 ;
   wire [3:0]detect_rd_cnt_reg;
   wire dqs_found_done_r0;
-  wire dqs_found_done_r_i_2_n_0;
   wire dqs_found_done_r_reg_0;
   wire dqs_found_done_r_reg_1;
   wire dqs_found_prech_req;
@@ -39119,16 +39112,14 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_dqs_found_cal_hr
   wire dqs_found_prech_req_i_3_n_0;
   wire dqs_found_prech_req_i_4_n_0;
   wire dqs_found_prech_req_i_5_n_0;
-  wire dqs_found_prech_req_i_6_n_0;
-  wire dqs_found_prech_req_i_7_n_0;
   wire dqs_found_start_r;
   wire dqs_found_start_r_reg_0;
   wire dqs_po_stg2_f_incdec;
   wire final_data_offset_mc;
   wire final_dec_done_i_1_n_0;
+  wire final_dec_done_i_2_n_0;
   wire final_dec_done_reg_n_0;
-  wire [3:1]fine_adj_state_r;
-  wire fine_adjust;
+  wire [3:0]fine_adj_state_r;
   wire fine_adjust_done_r;
   wire fine_adjust_done_r_i_1_n_0;
   wire fine_adjust_done_r_reg_0;
@@ -39157,7 +39148,6 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_dqs_found_cal_hr
   wire ififo_rst_reg0;
   wire ififo_rst_reg0_1;
   wire inc_cnt;
-  wire \inc_cnt[5]_i_2_n_0 ;
   wire \inc_cnt_reg_n_0_[0] ;
   wire \inc_cnt_reg_n_0_[1] ;
   wire \inc_cnt_reg_n_0_[2] ;
@@ -39165,30 +39155,27 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_dqs_found_cal_hr
   wire \inc_cnt_reg_n_0_[4] ;
   wire \inc_cnt_reg_n_0_[5] ;
   wire init_dec_cnt;
-  wire [0:0]init_dec_cnt0;
+  wire [5:0]init_dec_cnt0;
   wire \init_dec_cnt[1]_i_1_n_0 ;
-  wire \init_dec_cnt[2]_i_1_n_0 ;
-  wire \init_dec_cnt[3]_i_1_n_0 ;
-  wire \init_dec_cnt[4]_i_1_n_0 ;
-  wire \init_dec_cnt[5]_i_2_n_0 ;
   wire [5:0]init_dec_cnt_reg;
   wire init_dec_done_i_1_n_0;
   wire init_dec_done_i_2_n_0;
+  wire init_dec_done_i_3_n_0;
   wire init_dec_done_reg_n_0;
   wire init_dqsfound_done_r1_reg_n_0;
   wire init_dqsfound_done_r2;
   wire init_dqsfound_done_r4_reg_srl2_n_0;
   wire init_dqsfound_done_r5;
   wire init_dqsfound_done_r_i_1_n_0;
-  wire init_dqsfound_done_r_reg_0;
+  wire [0:0]init_dqsfound_done_r_reg_0;
   wire \init_state_r[4]_i_12 ;
   wire n_0_0;
   wire n_0_1;
   wire ofifo_rst_reg0;
   wire ofifo_rst_reg0_2;
   wire [5:2]p_0_in;
-  wire [4:0]p_0_in__0;
-  wire [5:0]p_0_in__1;
+  wire [5:0]p_0_in__0;
+  wire [4:1]p_0_in__1;
   wire p_44_out;
   wire \phaser_in_gen.phaser_in ;
   wire \phaser_in_gen.phaser_in_0 ;
@@ -39217,6 +39204,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_dqs_found_cal_hr
   wire \pi_rst_stg1_cal[0]_i_1_n_0 ;
   wire pi_rst_stg1_cal_r;
   wire \pi_rst_stg1_cal_r1[0]_i_1_n_0 ;
+  wire \pi_rst_stg1_cal_r1_reg[0]_0 ;
   wire \pi_rst_stg1_cal_r1_reg_n_0_[0] ;
   wire \pi_rst_stg1_cal_r[0]_i_1_n_0 ;
   wire \pi_rst_stg1_cal_r[0]_i_2_n_0 ;
@@ -39251,13 +39239,9 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_dqs_found_cal_hr
   wire rst_dqs_find_i_10_n_0;
   wire rst_dqs_find_i_11_n_0;
   wire rst_dqs_find_i_12_n_0;
-  wire rst_dqs_find_i_14_n_0;
-  wire rst_dqs_find_i_16_n_0;
-  wire rst_dqs_find_i_18_n_0;
-  wire rst_dqs_find_i_19_n_0;
+  wire rst_dqs_find_i_13_n_0;
   wire rst_dqs_find_i_1_n_0;
   wire rst_dqs_find_i_3_n_0;
-  wire rst_dqs_find_i_4_0;
   wire rst_dqs_find_i_4_n_0;
   wire rst_dqs_find_i_5_n_0;
   wire rst_dqs_find_i_6_n_0;
@@ -39268,270 +39252,236 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_dqs_found_cal_hr
   wire rst_dqs_find_r2;
   wire rst_stg1_cal;
   wire stable_pass_cnt;
+  wire \stable_pass_cnt[0]_i_1_n_0 ;
+  wire \stable_pass_cnt[3]_i_1_n_0 ;
+  wire \stable_pass_cnt[5]_i_2_n_0 ;
   wire \stable_pass_cnt[5]_i_3_n_0 ;
   wire [5:1]stable_pass_cnt_reg;
   wire [0:0]\stable_pass_cnt_reg[0]_0 ;
+  wire \stable_pass_cnt_reg[4]_0 ;
   wire \stable_pass_cnt_reg_n_0_[0] ;
-  wire [0:0]\NLW_dec_cnt_reg[2]_i_4_O_UNCONNECTED ;
-  wire [3:1]\NLW_dec_cnt_reg[4]_i_5_CO_UNCONNECTED ;
-  wire [3:2]\NLW_dec_cnt_reg[4]_i_5_O_UNCONNECTED ;
+  wire [0:0]\NLW_dec_cnt_reg[2]_i_2_O_UNCONNECTED ;
+  wire [3:1]\NLW_dec_cnt_reg[4]_i_3_CO_UNCONNECTED ;
+  wire [3:2]\NLW_dec_cnt_reg[4]_i_3_O_UNCONNECTED ;
 
-  (* SOFT_HLUTNM = "soft_lutpair185" *) 
   LUT5 #(
-    .INIT(32'hEEFEEEEE)) 
+    .INIT(32'hFFFFFF04)) 
     \FSM_sequential_fine_adj_state_r[0]_i_1 
        (.I0(\FSM_sequential_fine_adj_state_r[0]_i_2_n_0 ),
-        .I1(\FSM_sequential_fine_adj_state_r[0]_i_3_n_0 ),
-        .I2(fine_adj_state_r[2]),
-        .I3(Q),
+        .I1(fine_adj_state_r[2]),
+        .I2(fine_adj_state_r[0]),
+        .I3(\FSM_sequential_fine_adj_state_r[0]_i_3_n_0 ),
         .I4(\FSM_sequential_fine_adj_state_r[0]_i_4_n_0 ),
         .O(\FSM_sequential_fine_adj_state_r[0]_i_1_n_0 ));
-  LUT6 #(
-    .INIT(64'hAAAAAAAAAAAAAAEF)) 
-    \FSM_sequential_fine_adj_state_r[0]_i_2 
-       (.I0(\FSM_sequential_fine_adj_state_r[0]_i_5_n_0 ),
-        .I1(\FSM_sequential_fine_adj_state_r[3]_i_5_n_0 ),
-        .I2(final_dec_done_reg_n_0),
-        .I3(fine_adj_state_r[3]),
-        .I4(fine_adj_state_r[1]),
-        .I5(fine_adj_state_r[2]),
-        .O(\FSM_sequential_fine_adj_state_r[0]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair191" *) 
-  LUT5 #(
-    .INIT(32'hCFE00000)) 
-    \FSM_sequential_fine_adj_state_r[0]_i_3 
-       (.I0(\FSM_sequential_fine_adj_state_r[1]_i_3_n_0 ),
-        .I1(fine_adj_state_r[2]),
-        .I2(Q),
-        .I3(fine_adj_state_r[1]),
-        .I4(fine_adj_state_r[3]),
-        .O(\FSM_sequential_fine_adj_state_r[0]_i_3_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair181" *) 
+  (* SOFT_HLUTNM = "soft_lutpair189" *) 
   LUT3 #(
-    .INIT(8'hFD)) 
+    .INIT(8'h08)) 
+    \FSM_sequential_fine_adj_state_r[0]_i_2 
+       (.I0(\FSM_sequential_fine_adj_state_r[3]_i_6_n_0 ),
+        .I1(fine_adjust_lane_cnt),
+        .I2(init_dec_done_i_2_n_0),
+        .O(\FSM_sequential_fine_adj_state_r[0]_i_2_n_0 ));
+  LUT6 #(
+    .INIT(64'hFC1CCC00FC1C0000)) 
+    \FSM_sequential_fine_adj_state_r[0]_i_3 
+       (.I0(\rd_byte_data_offset[0][5]_i_6_n_0 ),
+        .I1(fine_adj_state_r[1]),
+        .I2(fine_adj_state_r[0]),
+        .I3(fine_adj_state_r[2]),
+        .I4(fine_adj_state_r[3]),
+        .I5(fine_adjust_lane_cnt),
+        .O(\FSM_sequential_fine_adj_state_r[0]_i_3_n_0 ));
+  LUT6 #(
+    .INIT(64'h0000000F0007000F)) 
     \FSM_sequential_fine_adj_state_r[0]_i_4 
-       (.I0(fine_adjust_lane_cnt),
-        .I1(\FSM_sequential_fine_adj_state_r[3]_i_5_n_0 ),
-        .I2(\FSM_sequential_fine_adj_state_r[0]_i_6_n_0 ),
-        .O(\FSM_sequential_fine_adj_state_r[0]_i_4_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair194" *) 
-  LUT5 #(
-    .INIT(32'hF0110011)) 
-    \FSM_sequential_fine_adj_state_r[0]_i_5 
-       (.I0(Q),
-        .I1(fine_adj_state_r[3]),
-        .I2(fine_adj_state_r[2]),
+       (.I0(final_dec_done_reg_n_0),
+        .I1(\FSM_sequential_fine_adj_state_r[3]_i_6_n_0 ),
+        .I2(fine_adj_state_r[3]),
         .I3(fine_adj_state_r[1]),
-        .I4(fine_adjust_lane_cnt),
-        .O(\FSM_sequential_fine_adj_state_r[0]_i_5_n_0 ));
+        .I4(fine_adj_state_r[0]),
+        .I5(fine_adj_state_r[2]),
+        .O(\FSM_sequential_fine_adj_state_r[0]_i_4_n_0 ));
   LUT6 #(
-    .INIT(64'hFFFFFFFFFFFFFFFE)) 
-    \FSM_sequential_fine_adj_state_r[0]_i_6 
-       (.I0(\dec_cnt_reg_n_0_[4] ),
-        .I1(\dec_cnt_reg_n_0_[2] ),
-        .I2(\dec_cnt_reg_n_0_[0] ),
-        .I3(\dec_cnt_reg_n_0_[1] ),
-        .I4(\dec_cnt_reg_n_0_[3] ),
-        .I5(\dec_cnt_reg_n_0_[5] ),
-        .O(\FSM_sequential_fine_adj_state_r[0]_i_6_n_0 ));
-  LUT6 #(
-    .INIT(64'hFFFFFFFFFFFFAABA)) 
+    .INIT(64'hFFFFFFFFFFFF444F)) 
     \FSM_sequential_fine_adj_state_r[1]_i_1 
        (.I0(\FSM_sequential_fine_adj_state_r[1]_i_2_n_0 ),
         .I1(\FSM_sequential_fine_adj_state_r[1]_i_3_n_0 ),
         .I2(\FSM_sequential_fine_adj_state_r[1]_i_4_n_0 ),
-        .I3(fine_adj_state_r[2]),
-        .I4(\FSM_sequential_fine_adj_state_r[1]_i_5_n_0 ),
-        .I5(\FSM_sequential_fine_adj_state_r[1]_i_6_n_0 ),
+        .I3(\FSM_sequential_fine_adj_state_r[1]_i_5_n_0 ),
+        .I4(\FSM_sequential_fine_adj_state_r[1]_i_6_n_0 ),
+        .I5(\FSM_sequential_fine_adj_state_r[1]_i_7_n_0 ),
         .O(\FSM_sequential_fine_adj_state_r[1]_i_1_n_0 ));
-  LUT6 #(
-    .INIT(64'hFFFFFFFF19090808)) 
+  (* SOFT_HLUTNM = "soft_lutpair192" *) 
+  LUT3 #(
+    .INIT(8'hFB)) 
     \FSM_sequential_fine_adj_state_r[1]_i_2 
        (.I0(fine_adj_state_r[2]),
-        .I1(Q),
-        .I2(fine_adj_state_r[1]),
-        .I3(\FSM_sequential_fine_adj_state_r[1]_i_7_n_0 ),
-        .I4(fine_adj_state_r[3]),
-        .I5(\FSM_sequential_fine_adj_state_r[1]_i_8_n_0 ),
+        .I1(fine_adj_state_r[3]),
+        .I2(fine_adj_state_r[0]),
         .O(\FSM_sequential_fine_adj_state_r[1]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair192" *) 
-  LUT5 #(
-    .INIT(32'hFFFFFFF7)) 
+  LUT6 #(
+    .INIT(64'hAEAEAEAAFFAEFFAE)) 
     \FSM_sequential_fine_adj_state_r[1]_i_3 
-       (.I0(detect_pi_found_dqs),
-        .I1(detect_rd_cnt_reg[0]),
-        .I2(detect_rd_cnt_reg[3]),
-        .I3(detect_rd_cnt_reg[1]),
-        .I4(detect_rd_cnt_reg[2]),
+       (.I0(\FSM_sequential_fine_adj_state_r[2]_i_3_n_0 ),
+        .I1(\stable_pass_cnt_reg[4]_0 ),
+        .I2(\dec_cnt[5]_i_9_n_0 ),
+        .I3(\inc_cnt_reg_n_0_[5] ),
+        .I4(first_fail_detect_reg_n_0),
+        .I5(\FSM_sequential_fine_adj_state_r[1]_i_8_n_0 ),
         .O(\FSM_sequential_fine_adj_state_r[1]_i_3_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair204" *) 
-  LUT2 #(
-    .INIT(4'h2)) 
+  LUT6 #(
+    .INIT(64'hFFFFF0F7FFFFF7F7)) 
     \FSM_sequential_fine_adj_state_r[1]_i_4 
-       (.I0(fine_adj_state_r[3]),
+       (.I0(pi_dqs_found_all_bank),
         .I1(fine_adj_state_r[1]),
+        .I2(fine_adj_state_r[2]),
+        .I3(fine_adj_state_r[3]),
+        .I4(fine_adj_state_r[0]),
+        .I5(\FSM_sequential_fine_adj_state_r[1]_i_9_n_0 ),
         .O(\FSM_sequential_fine_adj_state_r[1]_i_4_n_0 ));
   LUT6 #(
-    .INIT(64'h0800080008000000)) 
+    .INIT(64'hFFFFFF79FFFFFFFF)) 
     \FSM_sequential_fine_adj_state_r[1]_i_5 
-       (.I0(\dec_cnt[5]_i_5_n_0 ),
-        .I1(fine_adj_state_r[3]),
-        .I2(fine_adj_state_r[2]),
-        .I3(\dec_cnt[5]_i_12_n_0 ),
-        .I4(first_fail_detect_reg_n_0),
-        .I5(\FSM_sequential_fine_adj_state_r[1]_i_9_n_0 ),
+       (.I0(\inc_cnt_reg_n_0_[4] ),
+        .I1(\inc_cnt_reg_n_0_[2] ),
+        .I2(\inc_cnt_reg_n_0_[3] ),
+        .I3(\inc_cnt_reg_n_0_[1] ),
+        .I4(\inc_cnt_reg_n_0_[0] ),
+        .I5(\inc_cnt_reg_n_0_[5] ),
         .O(\FSM_sequential_fine_adj_state_r[1]_i_5_n_0 ));
   LUT6 #(
-    .INIT(64'h000000005500D000)) 
+    .INIT(64'h0F0A0F00000FF0C0)) 
     \FSM_sequential_fine_adj_state_r[1]_i_6 
-       (.I0(fine_adj_state_r[3]),
-        .I1(\FSM_sequential_fine_adj_state_r[2]_i_3_n_0 ),
-        .I2(pi_dqs_found_all_bank),
-        .I3(fine_adj_state_r[1]),
-        .I4(fine_adj_state_r[2]),
-        .I5(Q),
-        .O(\FSM_sequential_fine_adj_state_r[1]_i_6_n_0 ));
-  LUT5 #(
-    .INIT(32'hFFFF8AFF)) 
-    \FSM_sequential_fine_adj_state_r[1]_i_7 
-       (.I0(\FSM_sequential_fine_adj_state_r[2]_i_3_n_0 ),
-        .I1(first_fail_detect_reg_n_0),
-        .I2(detect_pi_found_dqs),
-        .I3(\dec_cnt[5]_i_3_n_0 ),
-        .I4(\FSM_sequential_fine_adj_state_r[3]_i_7_n_0 ),
-        .O(\FSM_sequential_fine_adj_state_r[1]_i_7_n_0 ));
-  LUT6 #(
-    .INIT(64'h000F004400000044)) 
-    \FSM_sequential_fine_adj_state_r[1]_i_8 
-       (.I0(\FSM_sequential_fine_adj_state_r[3]_i_5_n_0 ),
-        .I1(Q),
-        .I2(\FSM_sequential_fine_adj_state_r[0]_i_4_n_0 ),
-        .I3(fine_adj_state_r[1]),
+       (.I0(\rd_byte_data_offset[0][5]_i_6_n_0 ),
+        .I1(pi_dqs_found_all_bank),
+        .I2(fine_adj_state_r[1]),
+        .I3(fine_adj_state_r[2]),
         .I4(fine_adj_state_r[3]),
-        .I5(fine_adj_state_r[2]),
-        .O(\FSM_sequential_fine_adj_state_r[1]_i_8_n_0 ));
+        .I5(fine_adj_state_r[0]),
+        .O(\FSM_sequential_fine_adj_state_r[1]_i_6_n_0 ));
   LUT6 #(
-    .INIT(64'hEAAAAAAAAAAAAAAA)) 
-    \FSM_sequential_fine_adj_state_r[1]_i_9 
-       (.I0(\inc_cnt_reg_n_0_[5] ),
+    .INIT(64'h0008000802080008)) 
+    \FSM_sequential_fine_adj_state_r[1]_i_7 
+       (.I0(\FSM_sequential_fine_adj_state_r[3]_i_6_n_0 ),
+        .I1(fine_adj_state_r[0]),
+        .I2(fine_adj_state_r[1]),
+        .I3(fine_adj_state_r[3]),
+        .I4(fine_adjust_lane_cnt),
+        .I5(init_dec_done_i_2_n_0),
+        .O(\FSM_sequential_fine_adj_state_r[1]_i_7_n_0 ));
+  (* SOFT_HLUTNM = "soft_lutpair187" *) 
+  LUT5 #(
+    .INIT(32'h7FFFFFFF)) 
+    \FSM_sequential_fine_adj_state_r[1]_i_8 
+       (.I0(\inc_cnt_reg_n_0_[4] ),
         .I1(\inc_cnt_reg_n_0_[1] ),
-        .I2(\inc_cnt_reg_n_0_[0] ),
-        .I3(\inc_cnt_reg_n_0_[2] ),
-        .I4(\inc_cnt_reg_n_0_[4] ),
-        .I5(\inc_cnt_reg_n_0_[3] ),
+        .I2(\inc_cnt_reg_n_0_[2] ),
+        .I3(\inc_cnt_reg_n_0_[3] ),
+        .I4(\inc_cnt_reg_n_0_[0] ),
+        .O(\FSM_sequential_fine_adj_state_r[1]_i_8_n_0 ));
+  (* SOFT_HLUTNM = "soft_lutpair184" *) 
+  LUT2 #(
+    .INIT(4'hB)) 
+    \FSM_sequential_fine_adj_state_r[1]_i_9 
+       (.I0(first_fail_detect_reg_n_0),
+        .I1(detect_pi_found_dqs),
         .O(\FSM_sequential_fine_adj_state_r[1]_i_9_n_0 ));
   LUT6 #(
-    .INIT(64'hAABBEEFEBBFFBBAA)) 
+    .INIT(64'hABBFEEBAABBFEFBA)) 
     \FSM_sequential_fine_adj_state_r[2]_i_1 
        (.I0(\FSM_sequential_fine_adj_state_r[2]_i_2_n_0 ),
         .I1(fine_adj_state_r[1]),
-        .I2(\FSM_sequential_fine_adj_state_r[3]_i_5_n_0 ),
-        .I3(fine_adj_state_r[3]),
+        .I2(fine_adj_state_r[3]),
+        .I3(fine_adj_state_r[0]),
         .I4(fine_adj_state_r[2]),
-        .I5(Q),
+        .I5(\FSM_sequential_fine_adj_state_r[3]_i_6_n_0 ),
         .O(\FSM_sequential_fine_adj_state_r[2]_i_1_n_0 ));
   LUT6 #(
-    .INIT(64'hFF3FAA0800000000)) 
+    .INIT(64'h00DF00DF000000D5)) 
     \FSM_sequential_fine_adj_state_r[2]_i_2 
-       (.I0(\FSM_sequential_fine_adj_state_r[2]_i_3_n_0 ),
-        .I1(first_fail_detect_reg_n_0),
-        .I2(\dec_cnt[5]_i_12_n_0 ),
-        .I3(\first_fail_taps[5]_i_2_n_0 ),
-        .I4(\FSM_sequential_fine_adj_state_r[3]_i_7_n_0 ),
-        .I5(\dec_cnt[5]_i_6_n_0 ),
+       (.I0(\stable_pass_cnt_reg[4]_0 ),
+        .I1(\dec_cnt[5]_i_9_n_0 ),
+        .I2(first_fail_detect_reg_n_0),
+        .I3(\FSM_sequential_fine_adj_state_r[1]_i_2_n_0 ),
+        .I4(\FSM_sequential_fine_adj_state_r[1]_i_5_n_0 ),
+        .I5(\FSM_sequential_fine_adj_state_r[2]_i_3_n_0 ),
         .O(\FSM_sequential_fine_adj_state_r[2]_i_2_n_0 ));
   LUT6 #(
-    .INIT(64'h0200000000020200)) 
+    .INIT(64'h0000000000000600)) 
     \FSM_sequential_fine_adj_state_r[2]_i_3 
-       (.I0(\inc_cnt_reg_n_0_[5] ),
-        .I1(\inc_cnt_reg_n_0_[0] ),
-        .I2(\inc_cnt_reg_n_0_[1] ),
-        .I3(\inc_cnt_reg_n_0_[4] ),
-        .I4(\inc_cnt_reg_n_0_[2] ),
-        .I5(\inc_cnt_reg_n_0_[3] ),
+       (.I0(\inc_cnt_reg_n_0_[4] ),
+        .I1(\inc_cnt_reg_n_0_[2] ),
+        .I2(\inc_cnt_reg_n_0_[5] ),
+        .I3(\inc_cnt_reg_n_0_[3] ),
+        .I4(\inc_cnt_reg_n_0_[1] ),
+        .I5(\inc_cnt_reg_n_0_[0] ),
         .O(\FSM_sequential_fine_adj_state_r[2]_i_3_n_0 ));
   LUT6 #(
-    .INIT(64'hBFFEBFEEAFFEAFEE)) 
+    .INIT(64'hEEFEFFFFEEFEFFEE)) 
     \FSM_sequential_fine_adj_state_r[3]_i_1 
        (.I0(\FSM_sequential_fine_adj_state_r[3]_i_3_n_0 ),
-        .I1(fine_adj_state_r[2]),
-        .I2(fine_adj_state_r[1]),
+        .I1(\FSM_sequential_fine_adj_state_r[3]_i_4_n_0 ),
+        .I2(pi_dqs_found_all_bank),
         .I3(fine_adj_state_r[3]),
-        .I4(pi_dqs_found_all_bank),
-        .I5(detect_pi_found_dqs),
+        .I4(fine_adj_state_r[1]),
+        .I5(fine_adj_state_r[2]),
         .O(\FSM_sequential_fine_adj_state_r[3]_i_1_n_0 ));
   LUT6 #(
-    .INIT(64'hBEFBBEFABAAABAAA)) 
+    .INIT(64'h0FC0DC000FC0DC0C)) 
     \FSM_sequential_fine_adj_state_r[3]_i_2 
-       (.I0(\FSM_sequential_fine_adj_state_r[3]_i_4_n_0 ),
-        .I1(fine_adj_state_r[1]),
-        .I2(fine_adj_state_r[3]),
-        .I3(fine_adj_state_r[2]),
-        .I4(\FSM_sequential_fine_adj_state_r[3]_i_5_n_0 ),
-        .I5(Q),
+       (.I0(\FSM_sequential_fine_adj_state_r[3]_i_5_n_0 ),
+        .I1(fine_adj_state_r[0]),
+        .I2(fine_adj_state_r[1]),
+        .I3(fine_adj_state_r[3]),
+        .I4(fine_adj_state_r[2]),
+        .I5(\FSM_sequential_fine_adj_state_r[3]_i_6_n_0 ),
         .O(\FSM_sequential_fine_adj_state_r[3]_i_2_n_0 ));
   LUT6 #(
-    .INIT(64'hFFFAFF4450FAFF44)) 
+    .INIT(64'hD0D0D0D00000F000)) 
     \FSM_sequential_fine_adj_state_r[3]_i_3 
-       (.I0(fine_adj_state_r[1]),
-        .I1(init_dqsfound_done_r5),
-        .I2(\FSM_sequential_fine_adj_state_r[3]_i_6_n_0 ),
-        .I3(fine_adj_state_r[2]),
-        .I4(Q),
-        .I5(prech_done),
+       (.I0(fine_adj_state_r[3]),
+        .I1(prech_done),
+        .I2(fine_adj_state_r[0]),
+        .I3(rst_dqs_find_r2),
+        .I4(pi_dqs_found_any_bank),
+        .I5(fine_adj_state_r[1]),
         .O(\FSM_sequential_fine_adj_state_r[3]_i_3_n_0 ));
   LUT6 #(
-    .INIT(64'hFFFFFFFF40004040)) 
+    .INIT(64'h0FCF0FC20FC20FC2)) 
     \FSM_sequential_fine_adj_state_r[3]_i_4 
-       (.I0(fine_adj_state_r[2]),
+       (.I0(init_dqsfound_done_r5),
         .I1(fine_adj_state_r[1]),
-        .I2(fine_adj_state_r[3]),
-        .I3(\FSM_sequential_fine_adj_state_r[3]_i_7_n_0 ),
-        .I4(\dec_cnt[5]_i_3_n_0 ),
-        .I5(\FSM_sequential_fine_adj_state_r[3]_i_8_n_0 ),
+        .I2(fine_adj_state_r[0]),
+        .I3(fine_adj_state_r[2]),
+        .I4(detect_pi_found_dqs),
+        .I5(fine_adj_state_r[3]),
         .O(\FSM_sequential_fine_adj_state_r[3]_i_4_n_0 ));
-  LUT6 #(
-    .INIT(64'hFFFFFFFFFFFFFFFE)) 
+  (* SOFT_HLUTNM = "soft_lutpair184" *) 
+  LUT5 #(
+    .INIT(32'h0000AABA)) 
     \FSM_sequential_fine_adj_state_r[3]_i_5 
-       (.I0(init_dec_cnt_reg[4]),
-        .I1(init_dec_cnt_reg[2]),
+       (.I0(\FSM_sequential_fine_adj_state_r[1]_i_5_n_0 ),
+        .I1(pi_dqs_found_all_bank),
+        .I2(detect_pi_found_dqs),
+        .I3(first_fail_detect_reg_n_0),
+        .I4(\FSM_sequential_fine_adj_state_r[1]_i_3_n_0 ),
+        .O(\FSM_sequential_fine_adj_state_r[3]_i_5_n_0 ));
+  LUT6 #(
+    .INIT(64'h0000000000000001)) 
+    \FSM_sequential_fine_adj_state_r[3]_i_6 
+       (.I0(init_dec_cnt_reg[5]),
+        .I1(init_dec_cnt_reg[3]),
         .I2(init_dec_cnt_reg[0]),
         .I3(init_dec_cnt_reg[1]),
-        .I4(init_dec_cnt_reg[3]),
-        .I5(init_dec_cnt_reg[5]),
-        .O(\FSM_sequential_fine_adj_state_r[3]_i_5_n_0 ));
-  LUT2 #(
-    .INIT(4'h2)) 
-    \FSM_sequential_fine_adj_state_r[3]_i_6 
-       (.I0(rst_dqs_find_r2),
-        .I1(pi_dqs_found_any_bank),
+        .I4(init_dec_cnt_reg[2]),
+        .I5(init_dec_cnt_reg[4]),
         .O(\FSM_sequential_fine_adj_state_r[3]_i_6_n_0 ));
-  LUT6 #(
-    .INIT(64'h0000001000100000)) 
-    \FSM_sequential_fine_adj_state_r[3]_i_7 
-       (.I0(\inc_cnt_reg_n_0_[0] ),
-        .I1(\inc_cnt_reg_n_0_[1] ),
-        .I2(\inc_cnt_reg_n_0_[3] ),
-        .I3(\inc_cnt_reg_n_0_[5] ),
-        .I4(\inc_cnt_reg_n_0_[4] ),
-        .I5(\inc_cnt_reg_n_0_[2] ),
-        .O(\FSM_sequential_fine_adj_state_r[3]_i_7_n_0 ));
-  LUT6 #(
-    .INIT(64'hCCCCFAC000000000)) 
-    \FSM_sequential_fine_adj_state_r[3]_i_8 
-       (.I0(\FSM_sequential_fine_adj_state_r[1]_i_9_n_0 ),
-        .I1(\FSM_sequential_fine_adj_state_r[2]_i_3_n_0 ),
-        .I2(first_fail_detect_reg_n_0),
-        .I3(\dec_cnt[5]_i_12_n_0 ),
-        .I4(\first_fail_taps[5]_i_2_n_0 ),
-        .I5(\dec_cnt[5]_i_6_n_0 ),
-        .O(\FSM_sequential_fine_adj_state_r[3]_i_8_n_0 ));
   (* FSM_ENCODED_STATES = "FINE_ADJ_INIT:0101,RST_WAIT:0001,RST_POSTWAIT1:0100,FINE_DEC_PREWAIT:1101,FINE_DEC_WAIT:1100,FINE_DEC:1011,PRECH_WAIT:1111,RST_POSTWAIT:0011,FINE_ADJ_IDLE:0000,FINE_INC_PREWAIT:1000,DETECT_DQSFOUND:1010,FINE_INC_WAIT:0111,DETECT_PREWAIT:1001,FINE_ADJ_DONE:0010,FINAL_WAIT:1110,FINE_INC:0110" *) 
   FDRE \FSM_sequential_fine_adj_state_r_reg[0] 
        (.C(CLK),
         .CE(\FSM_sequential_fine_adj_state_r[3]_i_1_n_0 ),
         .D(\FSM_sequential_fine_adj_state_r[0]_i_1_n_0 ),
-        .Q(Q),
+        .Q(fine_adj_state_r[0]),
         .R(ck_po_stg2_f_en_reg_0));
   (* FSM_ENCODED_STATES = "FINE_ADJ_INIT:0101,RST_WAIT:0001,RST_POSTWAIT1:0100,FINE_DEC_PREWAIT:1101,FINE_DEC_WAIT:1100,FINE_DEC:1011,PRECH_WAIT:1111,RST_POSTWAIT:0011,FINE_ADJ_IDLE:0000,FINE_INC_PREWAIT:1000,DETECT_DQSFOUND:1010,FINE_INC_WAIT:0111,DETECT_PREWAIT:1001,FINE_ADJ_DONE:0010,FINAL_WAIT:1110,FINE_INC:0110" *) 
   FDRE \FSM_sequential_fine_adj_state_r_reg[1] 
@@ -39554,7 +39504,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_dqs_found_cal_hr
         .D(\FSM_sequential_fine_adj_state_r[3]_i_2_n_0 ),
         .Q(fine_adj_state_r[3]),
         .R(ck_po_stg2_f_en_reg_0));
-  (* SOFT_HLUTNM = "soft_lutpair208" *) 
+  (* SOFT_HLUTNM = "soft_lutpair205" *) 
   LUT4 #(
     .INIT(16'hCDC8)) 
     \calib_data_offset_0[0]_i_1 
@@ -39563,7 +39513,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_dqs_found_cal_hr
         .I2(init_dqsfound_done_r2),
         .I3(\rd_byte_data_offset_reg[0]_10 [0]),
         .O(pi_dqs_found_done_r1_reg_3));
-  (* SOFT_HLUTNM = "soft_lutpair207" *) 
+  (* SOFT_HLUTNM = "soft_lutpair204" *) 
   LUT4 #(
     .INIT(16'hCDC8)) 
     \calib_data_offset_0[1]_i_1 
@@ -39605,7 +39555,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_dqs_found_cal_hr
         .I2(init_dqsfound_done_r2),
         .I3(\rd_byte_data_offset_reg[0]_10 [5]),
         .O(pi_dqs_found_done_r1_reg));
-  (* SOFT_HLUTNM = "soft_lutpair197" *) 
+  (* SOFT_HLUTNM = "soft_lutpair191" *) 
   LUT3 #(
     .INIT(8'h4F)) 
     \calib_sel[0]_i_3 
@@ -39623,14 +39573,13 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_dqs_found_cal_hr
         .I4(ck_addr_cmd_delay_done),
         .I5(calib_sel0),
         .O(\gen_byte_sel_div2.byte_sel_cnt_reg[1] ));
-  (* SOFT_HLUTNM = "soft_lutpair204" *) 
   LUT5 #(
-    .INIT(32'hFB7F2040)) 
+    .INIT(32'hDBFF0280)) 
     ck_po_stg2_f_en_i_1
-       (.I0(Q),
-        .I1(fine_adj_state_r[2]),
-        .I2(fine_adj_state_r[1]),
-        .I3(fine_adj_state_r[3]),
+       (.I0(fine_adj_state_r[1]),
+        .I1(fine_adj_state_r[3]),
+        .I2(fine_adj_state_r[0]),
+        .I3(fine_adj_state_r[2]),
         .I4(ck_po_stg2_f_en),
         .O(ck_po_stg2_f_en_i_1_n_0));
   FDRE ck_po_stg2_f_en_reg
@@ -39639,14 +39588,14 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_dqs_found_cal_hr
         .D(ck_po_stg2_f_en_i_1_n_0),
         .Q(ck_po_stg2_f_en),
         .R(ck_po_stg2_f_en_reg_0));
-  (* SOFT_HLUTNM = "soft_lutpair203" *) 
+  (* SOFT_HLUTNM = "soft_lutpair198" *) 
   LUT5 #(
-    .INIT(32'hDB7F0040)) 
+    .INIT(32'hDB7F0200)) 
     ck_po_stg2_f_indec_i_1
-       (.I0(Q),
-        .I1(fine_adj_state_r[2]),
-        .I2(fine_adj_state_r[1]),
-        .I3(fine_adj_state_r[3]),
+       (.I0(fine_adj_state_r[1]),
+        .I1(fine_adj_state_r[3]),
+        .I2(fine_adj_state_r[0]),
+        .I3(fine_adj_state_r[2]),
         .I4(ck_po_stg2_f_indec),
         .O(ck_po_stg2_f_indec_i_1_n_0));
   FDRE ck_po_stg2_f_indec_reg
@@ -39660,14 +39609,13 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_dqs_found_cal_hr
     \cmd_pipe_plus.mc_data_offset[0]_i_1 
        (.I0(\rank_final_loop[0].bank_final_loop[0].final_data_offset_mc_reg[0][5]_0 [0]),
         .O(\rank_final_loop[0].bank_final_loop[0].final_data_offset_mc_reg[0][0]_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair194" *) 
   LUT5 #(
-    .INIT(32'hDBFF2400)) 
+    .INIT(32'hF7BF0840)) 
     \ctl_lane_cnt[0]_i_1__0 
-       (.I0(fine_adj_state_r[1]),
-        .I1(fine_adj_state_r[3]),
-        .I2(Q),
-        .I3(fine_adj_state_r[2]),
+       (.I0(fine_adj_state_r[0]),
+        .I1(fine_adj_state_r[2]),
+        .I2(fine_adj_state_r[3]),
+        .I3(fine_adj_state_r[1]),
         .I4(fine_adjust_lane_cnt),
         .O(\ctl_lane_cnt[0]_i_1__0_n_0 ));
   FDRE \ctl_lane_cnt_reg[0] 
@@ -39676,108 +39624,99 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_dqs_found_cal_hr
         .D(\ctl_lane_cnt[0]_i_1__0_n_0 ),
         .Q(fine_adjust_lane_cnt),
         .R(ck_po_stg2_f_en_reg_0));
-  LUT6 #(
-    .INIT(64'hFFFFFFFFFFFF44F4)) 
+  LUT4 #(
+    .INIT(16'hFFF1)) 
     \dec_cnt[0]_i_1 
-       (.I0(\dec_cnt_reg_n_0_[0] ),
-        .I1(Q),
-        .I2(\dec_cnt[4]_i_4_n_0 ),
-        .I3(\first_fail_taps_reg_n_0_[1] ),
-        .I4(\dec_cnt[0]_i_2_n_0 ),
-        .I5(\dec_cnt[0]_i_3_n_0 ),
+       (.I0(\dec_cnt[4]_i_5_n_0 ),
+        .I1(\first_fail_taps_reg_n_0_[1] ),
+        .I2(\dec_cnt[0]_i_2_n_0 ),
+        .I3(\dec_cnt[0]_i_3_n_0 ),
         .O(dec_cnt[0]));
   LUT6 #(
-    .INIT(64'h0000000080800080)) 
+    .INIT(64'h5555330355550000)) 
     \dec_cnt[0]_i_2 
-       (.I0(\dec_cnt_reg[2]_i_4_n_6 ),
-        .I1(\dec_cnt[5]_i_9_n_0 ),
-        .I2(first_fail_detect_reg_n_0),
-        .I3(detect_pi_found_dqs),
-        .I4(pi_dqs_found_all_bank),
-        .I5(Q),
+       (.I0(\dec_cnt_reg_n_0_[0] ),
+        .I1(\dec_cnt[5]_i_13_n_0 ),
+        .I2(detect_pi_found_dqs),
+        .I3(pi_dqs_found_all_bank),
+        .I4(fine_adj_state_r[0]),
+        .I5(\dec_cnt_reg[2]_i_2_n_6 ),
         .O(\dec_cnt[0]_i_2_n_0 ));
   LUT6 #(
-    .INIT(64'h8000C080C0F0C0C0)) 
+    .INIT(64'h00000000D055F0D0)) 
     \dec_cnt[0]_i_3 
-       (.I0(\dec_cnt[0]_i_4_n_0 ),
-        .I1(\dec_cnt_reg[2]_i_4_n_6 ),
-        .I2(\dec_cnt[5]_i_5_n_0 ),
+       (.I0(\inc_cnt_reg_n_0_[1] ),
+        .I1(\dec_cnt[0]_i_4_n_0 ),
+        .I2(\dec_cnt_reg[2]_i_2_n_6 ),
         .I3(\dec_cnt[0]_i_5_n_0 ),
         .I4(\inc_cnt_reg_n_0_[5] ),
-        .I5(\inc_cnt_reg_n_0_[1] ),
+        .I5(\dec_cnt[4]_i_7_n_0 ),
         .O(\dec_cnt[0]_i_3_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair188" *) 
+  (* SOFT_HLUTNM = "soft_lutpair202" *) 
   LUT4 #(
     .INIT(16'h7FFF)) 
     \dec_cnt[0]_i_4 
-       (.I0(\inc_cnt_reg_n_0_[0] ),
-        .I1(\inc_cnt_reg_n_0_[2] ),
-        .I2(\inc_cnt_reg_n_0_[4] ),
-        .I3(\inc_cnt_reg_n_0_[3] ),
+       (.I0(\inc_cnt_reg_n_0_[2] ),
+        .I1(\inc_cnt_reg_n_0_[4] ),
+        .I2(\inc_cnt_reg_n_0_[3] ),
+        .I3(\inc_cnt_reg_n_0_[0] ),
         .O(\dec_cnt[0]_i_4_n_0 ));
   LUT6 #(
     .INIT(64'hAAAAAAAABFFFFFFF)) 
     \dec_cnt[0]_i_5 
        (.I0(first_fail_detect_reg_n_0),
-        .I1(stable_pass_cnt_reg[3]),
-        .I2(stable_pass_cnt_reg[1]),
-        .I3(stable_pass_cnt_reg[2]),
-        .I4(stable_pass_cnt_reg[4]),
+        .I1(stable_pass_cnt_reg[2]),
+        .I2(stable_pass_cnt_reg[3]),
+        .I3(stable_pass_cnt_reg[4]),
+        .I4(stable_pass_cnt_reg[1]),
         .I5(stable_pass_cnt_reg[5]),
         .O(\dec_cnt[0]_i_5_n_0 ));
   LUT6 #(
-    .INIT(64'hFFFFEFEEEFEEEFEE)) 
+    .INIT(64'hF4F4F4F4F4FFFFF4)) 
     \dec_cnt[1]_i_1 
-       (.I0(\dec_cnt[1]_i_2_n_0 ),
-        .I1(\dec_cnt[1]_i_3_n_0 ),
-        .I2(\first_fail_taps_reg_n_0_[2] ),
-        .I3(\dec_cnt[4]_i_4_n_0 ),
-        .I4(\dec_cnt_reg[2]_i_4_n_5 ),
-        .I5(\dec_cnt[4]_i_6_n_0 ),
+       (.I0(\dec_cnt[4]_i_2_n_0 ),
+        .I1(\dec_cnt_reg[2]_i_2_n_5 ),
+        .I2(\dec_cnt[1]_i_2_n_0 ),
+        .I3(\inc_cnt_reg_n_0_[1] ),
+        .I4(\inc_cnt_reg_n_0_[2] ),
+        .I5(\dec_cnt[3]_i_4_n_0 ),
         .O(dec_cnt[1]));
-  LUT3 #(
-    .INIT(8'h82)) 
+  LUT5 #(
+    .INIT(32'hF11F1111)) 
     \dec_cnt[1]_i_2 
-       (.I0(Q),
-        .I1(\dec_cnt_reg_n_0_[1] ),
-        .I2(\dec_cnt_reg_n_0_[0] ),
-        .O(\dec_cnt[1]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair211" *) 
-  LUT3 #(
-    .INIT(8'h28)) 
-    \dec_cnt[1]_i_3 
-       (.I0(\dec_cnt[4]_i_7_n_0 ),
-        .I1(\inc_cnt_reg_n_0_[2] ),
-        .I2(\inc_cnt_reg_n_0_[1] ),
-        .O(\dec_cnt[1]_i_3_n_0 ));
-  LUT6 #(
-    .INIT(64'hFFFFEFEEEFEEEFEE)) 
-    \dec_cnt[2]_i_1 
-       (.I0(\dec_cnt[2]_i_2_n_0 ),
-        .I1(\dec_cnt[2]_i_3_n_0 ),
-        .I2(\first_fail_taps_reg_n_0_[3] ),
-        .I3(\dec_cnt[4]_i_4_n_0 ),
-        .I4(\dec_cnt_reg[2]_i_4_n_4 ),
-        .I5(\dec_cnt[4]_i_6_n_0 ),
-        .O(dec_cnt[2]));
-  (* SOFT_HLUTNM = "soft_lutpair198" *) 
-  LUT4 #(
-    .INIT(16'h8882)) 
-    \dec_cnt[2]_i_2 
-       (.I0(Q),
-        .I1(\dec_cnt_reg_n_0_[2] ),
+       (.I0(\dec_cnt[4]_i_5_n_0 ),
+        .I1(\first_fail_taps_reg_n_0_[2] ),
         .I2(\dec_cnt_reg_n_0_[0] ),
         .I3(\dec_cnt_reg_n_0_[1] ),
-        .O(\dec_cnt[2]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair184" *) 
-  LUT4 #(
-    .INIT(16'h2888)) 
+        .I4(fine_adj_state_r[0]),
+        .O(\dec_cnt[1]_i_2_n_0 ));
+  LUT6 #(
+    .INIT(64'hF4F4F4F4FFF4F4FF)) 
+    \dec_cnt[2]_i_1 
+       (.I0(\dec_cnt[4]_i_2_n_0 ),
+        .I1(\dec_cnt_reg[2]_i_2_n_4 ),
+        .I2(\dec_cnt[2]_i_3_n_0 ),
+        .I3(\dec_cnt[2]_i_4_n_0 ),
+        .I4(\inc_cnt_reg_n_0_[3] ),
+        .I5(\dec_cnt[3]_i_4_n_0 ),
+        .O(dec_cnt[2]));
+  LUT6 #(
+    .INIT(64'hA900A900A900FFFF)) 
     \dec_cnt[2]_i_3 
-       (.I0(\dec_cnt[4]_i_7_n_0 ),
-        .I1(\inc_cnt_reg_n_0_[3] ),
-        .I2(\inc_cnt_reg_n_0_[1] ),
-        .I3(\inc_cnt_reg_n_0_[2] ),
+       (.I0(\dec_cnt_reg_n_0_[2] ),
+        .I1(\dec_cnt_reg_n_0_[1] ),
+        .I2(\dec_cnt_reg_n_0_[0] ),
+        .I3(fine_adj_state_r[0]),
+        .I4(\dec_cnt[4]_i_5_n_0 ),
+        .I5(\first_fail_taps_reg_n_0_[3] ),
         .O(\dec_cnt[2]_i_3_n_0 ));
+  (* SOFT_HLUTNM = "soft_lutpair212" *) 
+  LUT2 #(
+    .INIT(4'h7)) 
+    \dec_cnt[2]_i_4 
+       (.I0(\inc_cnt_reg_n_0_[2] ),
+        .I1(\inc_cnt_reg_n_0_[1] ),
+        .O(\dec_cnt[2]_i_4_n_0 ));
   LUT2 #(
     .INIT(4'h9)) 
     \dec_cnt[2]_i_5 
@@ -39802,131 +39741,114 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_dqs_found_cal_hr
        (.I0(\inc_cnt_reg_n_0_[0] ),
         .I1(\first_fail_taps_reg_n_0_[0] ),
         .O(\dec_cnt[2]_i_8_n_0 ));
-  LUT6 #(
-    .INIT(64'hFFFFEFEEEFEEEFEE)) 
+  LUT5 #(
+    .INIT(32'hF4F4FFF4)) 
     \dec_cnt[3]_i_1 
-       (.I0(\dec_cnt[3]_i_2_n_0 ),
-        .I1(\dec_cnt[3]_i_3_n_0 ),
-        .I2(\first_fail_taps_reg_n_0_[4] ),
-        .I3(\dec_cnt[4]_i_4_n_0 ),
-        .I4(\dec_cnt_reg[4]_i_5_n_7 ),
-        .I5(\dec_cnt[4]_i_6_n_0 ),
+       (.I0(\dec_cnt[4]_i_2_n_0 ),
+        .I1(\dec_cnt_reg[4]_i_3_n_7 ),
+        .I2(\dec_cnt[3]_i_2_n_0 ),
+        .I3(\dec_cnt[3]_i_3_n_0 ),
+        .I4(\dec_cnt[3]_i_4_n_0 ),
         .O(dec_cnt[3]));
-  (* SOFT_HLUTNM = "soft_lutpair198" *) 
   LUT5 #(
-    .INIT(32'h88888882)) 
+    .INIT(32'h909090FF)) 
     \dec_cnt[3]_i_2 
-       (.I0(Q),
-        .I1(\dec_cnt_reg_n_0_[3] ),
-        .I2(\dec_cnt_reg_n_0_[1] ),
-        .I3(\dec_cnt_reg_n_0_[0] ),
-        .I4(\dec_cnt_reg_n_0_[2] ),
+       (.I0(\dec_cnt_reg_n_0_[3] ),
+        .I1(\dec_cnt[3]_i_5_n_0 ),
+        .I2(fine_adj_state_r[0]),
+        .I3(\dec_cnt[4]_i_5_n_0 ),
+        .I4(\first_fail_taps_reg_n_0_[4] ),
         .O(\dec_cnt[3]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair184" *) 
-  LUT5 #(
-    .INIT(32'h28888888)) 
+  (* SOFT_HLUTNM = "soft_lutpair199" *) 
+  LUT4 #(
+    .INIT(16'h6AAA)) 
     \dec_cnt[3]_i_3 
-       (.I0(\dec_cnt[4]_i_7_n_0 ),
-        .I1(\inc_cnt_reg_n_0_[4] ),
+       (.I0(\inc_cnt_reg_n_0_[4] ),
+        .I1(\inc_cnt_reg_n_0_[1] ),
         .I2(\inc_cnt_reg_n_0_[2] ),
-        .I3(\inc_cnt_reg_n_0_[1] ),
-        .I4(\inc_cnt_reg_n_0_[3] ),
+        .I3(\inc_cnt_reg_n_0_[3] ),
         .O(\dec_cnt[3]_i_3_n_0 ));
   LUT6 #(
-    .INIT(64'hFFFFEFEEEFEEEFEE)) 
+    .INIT(64'hFEFFFFFEFEFFFEFF)) 
+    \dec_cnt[3]_i_4 
+       (.I0(\dec_cnt[4]_i_7_n_0 ),
+        .I1(first_fail_detect_reg_n_0),
+        .I2(\dec_cnt[5]_i_9_n_0 ),
+        .I3(\inc_cnt_reg_n_0_[5] ),
+        .I4(\dec_cnt[5]_i_12_n_0 ),
+        .I5(\inc_cnt_reg_n_0_[0] ),
+        .O(\dec_cnt[3]_i_4_n_0 ));
+  LUT3 #(
+    .INIT(8'hFE)) 
+    \dec_cnt[3]_i_5 
+       (.I0(\dec_cnt_reg_n_0_[2] ),
+        .I1(\dec_cnt_reg_n_0_[1] ),
+        .I2(\dec_cnt_reg_n_0_[0] ),
+        .O(\dec_cnt[3]_i_5_n_0 ));
+  LUT5 #(
+    .INIT(32'hF4F4F4FF)) 
     \dec_cnt[4]_i_1 
        (.I0(\dec_cnt[4]_i_2_n_0 ),
-        .I1(\dec_cnt[4]_i_3_n_0 ),
-        .I2(\first_fail_taps_reg_n_0_[5] ),
-        .I3(\dec_cnt[4]_i_4_n_0 ),
-        .I4(\dec_cnt_reg[4]_i_5_n_6 ),
-        .I5(\dec_cnt[4]_i_6_n_0 ),
+        .I1(\dec_cnt_reg[4]_i_3_n_6 ),
+        .I2(\dec_cnt[4]_i_4_n_0 ),
+        .I3(\first_fail_taps_reg_n_0_[5] ),
+        .I4(\dec_cnt[4]_i_5_n_0 ),
         .O(dec_cnt[4]));
-  (* SOFT_HLUTNM = "soft_lutpair196" *) 
+  (* SOFT_HLUTNM = "soft_lutpair193" *) 
   LUT4 #(
     .INIT(16'hFFFE)) 
     \dec_cnt[4]_i_10 
-       (.I0(\first_fail_taps_reg_n_0_[2] ),
-        .I1(\first_fail_taps_reg_n_0_[1] ),
-        .I2(\first_fail_taps_reg_n_0_[4] ),
-        .I3(\first_fail_taps_reg_n_0_[3] ),
+       (.I0(\dec_cnt_reg_n_0_[3] ),
+        .I1(\dec_cnt_reg_n_0_[0] ),
+        .I2(\dec_cnt_reg_n_0_[1] ),
+        .I3(\dec_cnt_reg_n_0_[2] ),
         .O(\dec_cnt[4]_i_10_n_0 ));
   LUT6 #(
-    .INIT(64'hA2AAAAAAFBFFFFFF)) 
-    \dec_cnt[4]_i_11 
-       (.I0(\dec_cnt[0]_i_5_n_0 ),
-        .I1(\inc_cnt_reg_n_0_[3] ),
-        .I2(\dec_cnt[4]_i_13_n_0 ),
-        .I3(\inc_cnt_reg_n_0_[0] ),
-        .I4(\inc_cnt_reg_n_0_[1] ),
-        .I5(\inc_cnt_reg_n_0_[5] ),
-        .O(\dec_cnt[4]_i_11_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair189" *) 
-  LUT5 #(
-    .INIT(32'h7FFFFFFF)) 
-    \dec_cnt[4]_i_12 
-       (.I0(\inc_cnt_reg_n_0_[3] ),
-        .I1(\inc_cnt_reg_n_0_[4] ),
-        .I2(\inc_cnt_reg_n_0_[2] ),
-        .I3(\inc_cnt_reg_n_0_[0] ),
-        .I4(\inc_cnt_reg_n_0_[1] ),
-        .O(\dec_cnt[4]_i_12_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair216" *) 
-  LUT2 #(
-    .INIT(4'h7)) 
-    \dec_cnt[4]_i_13 
-       (.I0(\inc_cnt_reg_n_0_[2] ),
-        .I1(\inc_cnt_reg_n_0_[4] ),
-        .O(\dec_cnt[4]_i_13_n_0 ));
-  LUT6 #(
-    .INIT(64'h8888888888888882)) 
+    .INIT(64'hAA20AA20AA20AAA2)) 
     \dec_cnt[4]_i_2 
-       (.I0(Q),
-        .I1(\dec_cnt_reg_n_0_[4] ),
-        .I2(\dec_cnt_reg_n_0_[2] ),
-        .I3(\dec_cnt_reg_n_0_[0] ),
-        .I4(\dec_cnt_reg_n_0_[1] ),
-        .I5(\dec_cnt_reg_n_0_[3] ),
+       (.I0(\dec_cnt[4]_i_6_n_0 ),
+        .I1(\FSM_sequential_fine_adj_state_r[1]_i_8_n_0 ),
+        .I2(\inc_cnt_reg_n_0_[5] ),
+        .I3(\dec_cnt[4]_i_7_n_0 ),
+        .I4(\dec_cnt[5]_i_9_n_0 ),
+        .I5(first_fail_detect_reg_n_0),
         .O(\dec_cnt[4]_i_2_n_0 ));
   LUT6 #(
-    .INIT(64'h2888888888888888)) 
-    \dec_cnt[4]_i_3 
-       (.I0(\dec_cnt[4]_i_7_n_0 ),
-        .I1(\inc_cnt_reg_n_0_[5] ),
-        .I2(\inc_cnt_reg_n_0_[3] ),
-        .I3(\inc_cnt_reg_n_0_[1] ),
-        .I4(\inc_cnt_reg_n_0_[4] ),
-        .I5(\inc_cnt_reg_n_0_[2] ),
-        .O(\dec_cnt[4]_i_3_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair186" *) 
-  LUT5 #(
-    .INIT(32'h00000004)) 
+    .INIT(64'h90FF9090909090FF)) 
     \dec_cnt[4]_i_4 
-       (.I0(\dec_cnt[5]_i_3_n_0 ),
+       (.I0(\dec_cnt_reg_n_0_[4] ),
+        .I1(\dec_cnt[4]_i_10_n_0 ),
+        .I2(fine_adj_state_r[0]),
+        .I3(\dec_cnt[3]_i_4_n_0 ),
+        .I4(\inc_cnt_reg_n_0_[5] ),
+        .I5(\dec_cnt[5]_i_12_n_0 ),
+        .O(\dec_cnt[4]_i_4_n_0 ));
+  (* SOFT_HLUTNM = "soft_lutpair188" *) 
+  LUT5 #(
+    .INIT(32'hFFEFFFFF)) 
+    \dec_cnt[4]_i_5 
+       (.I0(first_fail_detect_i_1_n_0),
+        .I1(pi_dqs_found_all_bank),
+        .I2(detect_pi_found_dqs),
+        .I3(fine_adj_state_r[0]),
+        .I4(\dec_cnt[5]_i_3_n_0 ),
+        .O(\dec_cnt[4]_i_5_n_0 ));
+  (* SOFT_HLUTNM = "soft_lutpair200" *) 
+  LUT4 #(
+    .INIT(16'hFFAE)) 
+    \dec_cnt[4]_i_6 
+       (.I0(\dec_cnt[5]_i_13_n_0 ),
         .I1(detect_pi_found_dqs),
         .I2(pi_dqs_found_all_bank),
-        .I3(Q),
-        .I4(first_fail_detect_i_1_n_0),
-        .O(\dec_cnt[4]_i_4_n_0 ));
-  LUT6 #(
-    .INIT(64'h004F00CF004000C0)) 
-    \dec_cnt[4]_i_6 
-       (.I0(\dec_cnt[4]_i_10_n_0 ),
-        .I1(first_fail_detect_reg_n_0),
-        .I2(\first_fail_taps[5]_i_2_n_0 ),
-        .I3(Q),
-        .I4(\first_fail_taps_reg_n_0_[5] ),
-        .I5(\dec_cnt[4]_i_11_n_0 ),
+        .I3(fine_adj_state_r[0]),
         .O(\dec_cnt[4]_i_6_n_0 ));
-  LUT6 #(
-    .INIT(64'h0004000000000004)) 
+  (* SOFT_HLUTNM = "soft_lutpair200" *) 
+  LUT3 #(
+    .INIT(8'hFB)) 
     \dec_cnt[4]_i_7 
-       (.I0(first_fail_detect_reg_n_0),
-        .I1(\dec_cnt[5]_i_12_n_0 ),
-        .I2(\first_fail_taps[5]_i_2_n_0 ),
-        .I3(Q),
-        .I4(\inc_cnt_reg_n_0_[5] ),
-        .I5(\dec_cnt[4]_i_12_n_0 ),
+       (.I0(pi_dqs_found_all_bank),
+        .I1(detect_pi_found_dqs),
+        .I2(fine_adj_state_r[0]),
         .O(\dec_cnt[4]_i_7_n_0 ));
   LUT2 #(
     .INIT(4'h9)) 
@@ -39941,133 +39863,134 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_dqs_found_cal_hr
         .I1(\first_fail_taps_reg_n_0_[4] ),
         .O(\dec_cnt[4]_i_9_n_0 ));
   LUT6 #(
-    .INIT(64'hFFF4F4F4F4F4F4F4)) 
+    .INIT(64'hFFFFFFFF02020203)) 
     \dec_cnt[5]_i_1 
        (.I0(\dec_cnt[5]_i_3_n_0 ),
-        .I1(stable_pass_cnt),
-        .I2(\dec_cnt[5]_i_4_n_0 ),
-        .I3(\dec_cnt[5]_i_5_n_0 ),
-        .I4(\dec_cnt[5]_i_6_n_0 ),
+        .I1(\dec_cnt[5]_i_4_n_0 ),
+        .I2(\dec_cnt[5]_i_5_n_0 ),
+        .I3(\dec_cnt[5]_i_6_n_0 ),
+        .I4(pi_dqs_found_all_bank),
         .I5(\dec_cnt[5]_i_7_n_0 ),
         .O(\dec_cnt[5]_i_1_n_0 ));
   LUT6 #(
-    .INIT(64'h90FF909090909090)) 
+    .INIT(64'h008A00FF008A008A)) 
     \dec_cnt[5]_i_10 
        (.I0(\dec_cnt[5]_i_13_n_0 ),
-        .I1(\dec_cnt_reg_n_0_[5] ),
-        .I2(Q),
-        .I3(first_fail_detect_reg_n_0),
+        .I1(pi_dqs_found_all_bank),
+        .I2(detect_pi_found_dqs),
+        .I3(fine_adj_state_r[0]),
         .I4(\dec_cnt[5]_i_12_n_0 ),
         .I5(\dec_cnt[5]_i_14_n_0 ),
         .O(\dec_cnt[5]_i_10_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair186" *) 
-  LUT4 #(
-    .INIT(16'h0010)) 
+  (* SOFT_HLUTNM = "soft_lutpair193" *) 
+  LUT5 #(
+    .INIT(32'h00000001)) 
     \dec_cnt[5]_i_11 
-       (.I0(Q),
-        .I1(pi_dqs_found_all_bank),
-        .I2(detect_pi_found_dqs),
-        .I3(\dec_cnt[5]_i_3_n_0 ),
+       (.I0(\dec_cnt_reg_n_0_[4] ),
+        .I1(\dec_cnt_reg_n_0_[2] ),
+        .I2(\dec_cnt_reg_n_0_[1] ),
+        .I3(\dec_cnt_reg_n_0_[0] ),
+        .I4(\dec_cnt_reg_n_0_[3] ),
         .O(\dec_cnt[5]_i_11_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair182" *) 
-  LUT5 #(
-    .INIT(32'hEAAAAAAA)) 
+  (* SOFT_HLUTNM = "soft_lutpair199" *) 
+  LUT4 #(
+    .INIT(16'h7FFF)) 
     \dec_cnt[5]_i_12 
-       (.I0(stable_pass_cnt_reg[5]),
-        .I1(stable_pass_cnt_reg[4]),
-        .I2(stable_pass_cnt_reg[2]),
-        .I3(stable_pass_cnt_reg[1]),
-        .I4(stable_pass_cnt_reg[3]),
-        .O(\dec_cnt[5]_i_12_n_0 ));
-  LUT5 #(
-    .INIT(32'hFFFFFFFE)) 
-    \dec_cnt[5]_i_13 
-       (.I0(\dec_cnt_reg_n_0_[3] ),
-        .I1(\dec_cnt_reg_n_0_[1] ),
-        .I2(\dec_cnt_reg_n_0_[0] ),
-        .I3(\dec_cnt_reg_n_0_[2] ),
-        .I4(\dec_cnt_reg_n_0_[4] ),
-        .O(\dec_cnt[5]_i_13_n_0 ));
-  LUT6 #(
-    .INIT(64'h0080000000000000)) 
-    \dec_cnt[5]_i_14 
-       (.I0(\inc_cnt_reg_n_0_[2] ),
-        .I1(\inc_cnt_reg_n_0_[4] ),
+       (.I0(\inc_cnt_reg_n_0_[3] ),
+        .I1(\inc_cnt_reg_n_0_[2] ),
         .I2(\inc_cnt_reg_n_0_[1] ),
-        .I3(Q),
-        .I4(\inc_cnt_reg_n_0_[5] ),
-        .I5(\inc_cnt_reg_n_0_[3] ),
-        .O(\dec_cnt[5]_i_14_n_0 ));
-  LUT6 #(
-    .INIT(64'hFF2AFF2AFFFFFF2A)) 
-    \dec_cnt[5]_i_2 
-       (.I0(\dec_cnt[5]_i_8_n_0 ),
-        .I1(first_fail_detect_reg_n_0),
-        .I2(\dec_cnt[5]_i_9_n_0 ),
-        .I3(\dec_cnt[5]_i_10_n_0 ),
-        .I4(\dec_cnt[5]_i_11_n_0 ),
-        .I5(\dec_cnt[5]_i_12_n_0 ),
-        .O(dec_cnt[5]));
-  LUT6 #(
-    .INIT(64'h7FFFFFFFFFFFFFFF)) 
-    \dec_cnt[5]_i_3 
-       (.I0(\inc_cnt_reg_n_0_[1] ),
-        .I1(\inc_cnt_reg_n_0_[0] ),
-        .I2(\inc_cnt_reg_n_0_[2] ),
         .I3(\inc_cnt_reg_n_0_[4] ),
-        .I4(\inc_cnt_reg_n_0_[3] ),
-        .I5(\inc_cnt_reg_n_0_[5] ),
-        .O(\dec_cnt[5]_i_3_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair181" *) 
-  LUT5 #(
-    .INIT(32'h00008000)) 
-    \dec_cnt[5]_i_4 
-       (.I0(\FSM_sequential_fine_adj_state_r[0]_i_6_n_0 ),
-        .I1(\dec_cnt[5]_i_6_n_0 ),
-        .I2(Q),
-        .I3(fine_adjust_lane_cnt),
-        .I4(\FSM_sequential_fine_adj_state_r[3]_i_5_n_0 ),
-        .O(\dec_cnt[5]_i_4_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair212" *) 
+        .O(\dec_cnt[5]_i_12_n_0 ));
+  LUT6 #(
+    .INIT(64'hFFFE0000FFFFFFFF)) 
+    \dec_cnt[5]_i_13 
+       (.I0(\first_fail_taps_reg_n_0_[1] ),
+        .I1(\first_fail_taps_reg_n_0_[2] ),
+        .I2(\first_fail_taps_reg_n_0_[3] ),
+        .I3(\first_fail_taps_reg_n_0_[4] ),
+        .I4(\first_fail_taps_reg_n_0_[5] ),
+        .I5(first_fail_detect_reg_n_0),
+        .O(\dec_cnt[5]_i_13_n_0 ));
+  (* SOFT_HLUTNM = "soft_lutpair182" *) 
   LUT3 #(
     .INIT(8'h02)) 
-    \dec_cnt[5]_i_5 
-       (.I0(detect_pi_found_dqs),
-        .I1(pi_dqs_found_all_bank),
-        .I2(Q),
-        .O(\dec_cnt[5]_i_5_n_0 ));
+    \dec_cnt[5]_i_14 
+       (.I0(\inc_cnt_reg_n_0_[5] ),
+        .I1(\dec_cnt[5]_i_9_n_0 ),
+        .I2(first_fail_detect_reg_n_0),
+        .O(\dec_cnt[5]_i_14_n_0 ));
+  LUT6 #(
+    .INIT(64'hF4F4FFF4FFF4F4F4)) 
+    \dec_cnt[5]_i_2 
+       (.I0(\dec_cnt[5]_i_8_n_0 ),
+        .I1(\dec_cnt[5]_i_9_n_0 ),
+        .I2(\dec_cnt[5]_i_10_n_0 ),
+        .I3(fine_adj_state_r[0]),
+        .I4(\dec_cnt[5]_i_11_n_0 ),
+        .I5(\dec_cnt_reg_n_0_[5] ),
+        .O(dec_cnt[5]));
+  LUT6 #(
+    .INIT(64'h8000000000000000)) 
+    \dec_cnt[5]_i_3 
+       (.I0(\inc_cnt_reg_n_0_[5] ),
+        .I1(\inc_cnt_reg_n_0_[0] ),
+        .I2(\inc_cnt_reg_n_0_[3] ),
+        .I3(\inc_cnt_reg_n_0_[2] ),
+        .I4(\inc_cnt_reg_n_0_[1] ),
+        .I5(\inc_cnt_reg_n_0_[4] ),
+        .O(\dec_cnt[5]_i_3_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair190" *) 
   LUT3 #(
-    .INIT(8'h40)) 
-    \dec_cnt[5]_i_6 
+    .INIT(8'hBF)) 
+    \dec_cnt[5]_i_4 
        (.I0(fine_adj_state_r[2]),
         .I1(fine_adj_state_r[1]),
         .I2(fine_adj_state_r[3]),
-        .O(\dec_cnt[5]_i_6_n_0 ));
-  LUT3 #(
-    .INIT(8'hE0)) 
-    \dec_cnt[5]_i_7 
-       (.I0(\FSM_sequential_fine_adj_state_r[1]_i_9_n_0 ),
-        .I1(first_fail_detect_reg_n_0),
-        .I2(\dec_cnt[5]_i_12_n_0 ),
-        .O(\dec_cnt[5]_i_7_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair212" *) 
-  LUT3 #(
-    .INIT(8'h0D)) 
-    \dec_cnt[5]_i_8 
-       (.I0(detect_pi_found_dqs),
-        .I1(pi_dqs_found_all_bank),
-        .I2(Q),
-        .O(\dec_cnt[5]_i_8_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair196" *) 
+        .O(\dec_cnt[5]_i_4_n_0 ));
+  LUT2 #(
+    .INIT(4'hB)) 
+    \dec_cnt[5]_i_5 
+       (.I0(fine_adj_state_r[0]),
+        .I1(detect_pi_found_dqs),
+        .O(\dec_cnt[5]_i_5_n_0 ));
+  (* SOFT_HLUTNM = "soft_lutpair182" *) 
   LUT5 #(
-    .INIT(32'h0001FFFF)) 
+    .INIT(32'hABAAABAB)) 
+    \dec_cnt[5]_i_6 
+       (.I0(\dec_cnt[5]_i_9_n_0 ),
+        .I1(\inc_cnt_reg_n_0_[5] ),
+        .I2(first_fail_detect_reg_n_0),
+        .I3(\dec_cnt[5]_i_12_n_0 ),
+        .I4(\inc_cnt_reg_n_0_[0] ),
+        .O(\dec_cnt[5]_i_6_n_0 ));
+  LUT6 #(
+    .INIT(64'h0000000000800000)) 
+    \dec_cnt[5]_i_7 
+       (.I0(init_dec_done_i_2_n_0),
+        .I1(\FSM_sequential_fine_adj_state_r[3]_i_6_n_0 ),
+        .I2(fine_adjust_lane_cnt),
+        .I3(fine_adj_state_r[2]),
+        .I4(fine_adj_state_r[0]),
+        .I5(\first_fail_taps[5]_i_2_n_0 ),
+        .O(\dec_cnt[5]_i_7_n_0 ));
+  (* SOFT_HLUTNM = "soft_lutpair188" *) 
+  LUT4 #(
+    .INIT(16'hFFDF)) 
+    \dec_cnt[5]_i_8 
+       (.I0(\dec_cnt[5]_i_3_n_0 ),
+        .I1(fine_adj_state_r[0]),
+        .I2(detect_pi_found_dqs),
+        .I3(pi_dqs_found_all_bank),
+        .O(\dec_cnt[5]_i_8_n_0 ));
+  (* SOFT_HLUTNM = "soft_lutpair181" *) 
+  LUT5 #(
+    .INIT(32'h15555555)) 
     \dec_cnt[5]_i_9 
-       (.I0(\first_fail_taps_reg_n_0_[3] ),
-        .I1(\first_fail_taps_reg_n_0_[4] ),
-        .I2(\first_fail_taps_reg_n_0_[1] ),
-        .I3(\first_fail_taps_reg_n_0_[2] ),
-        .I4(\first_fail_taps_reg_n_0_[5] ),
+       (.I0(stable_pass_cnt_reg[5]),
+        .I1(stable_pass_cnt_reg[1]),
+        .I2(stable_pass_cnt_reg[4]),
+        .I3(stable_pass_cnt_reg[3]),
+        .I4(stable_pass_cnt_reg[2]),
         .O(\dec_cnt[5]_i_9_n_0 ));
   FDRE \dec_cnt_reg[0] 
        (.C(CLK),
@@ -40088,12 +40011,12 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_dqs_found_cal_hr
         .Q(\dec_cnt_reg_n_0_[2] ),
         .R(ck_po_stg2_f_en_reg_0));
   (* ADDER_THRESHOLD = "35" *) 
-  CARRY4 \dec_cnt_reg[2]_i_4 
+  CARRY4 \dec_cnt_reg[2]_i_2 
        (.CI(1'b0),
-        .CO({\dec_cnt_reg[2]_i_4_n_0 ,\dec_cnt_reg[2]_i_4_n_1 ,\dec_cnt_reg[2]_i_4_n_2 ,\dec_cnt_reg[2]_i_4_n_3 }),
+        .CO({\dec_cnt_reg[2]_i_2_n_0 ,\dec_cnt_reg[2]_i_2_n_1 ,\dec_cnt_reg[2]_i_2_n_2 ,\dec_cnt_reg[2]_i_2_n_3 }),
         .CYINIT(1'b1),
         .DI({\inc_cnt_reg_n_0_[3] ,\inc_cnt_reg_n_0_[2] ,\inc_cnt_reg_n_0_[1] ,\inc_cnt_reg_n_0_[0] }),
-        .O({\dec_cnt_reg[2]_i_4_n_4 ,\dec_cnt_reg[2]_i_4_n_5 ,\dec_cnt_reg[2]_i_4_n_6 ,\NLW_dec_cnt_reg[2]_i_4_O_UNCONNECTED [0]}),
+        .O({\dec_cnt_reg[2]_i_2_n_4 ,\dec_cnt_reg[2]_i_2_n_5 ,\dec_cnt_reg[2]_i_2_n_6 ,\NLW_dec_cnt_reg[2]_i_2_O_UNCONNECTED [0]}),
         .S({\dec_cnt[2]_i_5_n_0 ,\dec_cnt[2]_i_6_n_0 ,\dec_cnt[2]_i_7_n_0 ,\dec_cnt[2]_i_8_n_0 }));
   FDRE \dec_cnt_reg[3] 
        (.C(CLK),
@@ -40108,12 +40031,12 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_dqs_found_cal_hr
         .Q(\dec_cnt_reg_n_0_[4] ),
         .R(ck_po_stg2_f_en_reg_0));
   (* ADDER_THRESHOLD = "35" *) 
-  CARRY4 \dec_cnt_reg[4]_i_5 
-       (.CI(\dec_cnt_reg[2]_i_4_n_0 ),
-        .CO({\NLW_dec_cnt_reg[4]_i_5_CO_UNCONNECTED [3:1],\dec_cnt_reg[4]_i_5_n_3 }),
+  CARRY4 \dec_cnt_reg[4]_i_3 
+       (.CI(\dec_cnt_reg[2]_i_2_n_0 ),
+        .CO({\NLW_dec_cnt_reg[4]_i_3_CO_UNCONNECTED [3:1],\dec_cnt_reg[4]_i_3_n_3 }),
         .CYINIT(1'b0),
         .DI({1'b0,1'b0,1'b0,\inc_cnt_reg_n_0_[4] }),
-        .O({\NLW_dec_cnt_reg[4]_i_5_O_UNCONNECTED [3:2],\dec_cnt_reg[4]_i_5_n_6 ,\dec_cnt_reg[4]_i_5_n_7 }),
+        .O({\NLW_dec_cnt_reg[4]_i_3_O_UNCONNECTED [3:2],\dec_cnt_reg[4]_i_3_n_6 ,\dec_cnt_reg[4]_i_3_n_7 }),
         .S({1'b0,1'b0,\dec_cnt[4]_i_8_n_0 ,\dec_cnt[4]_i_9_n_0 }));
   FDRE \dec_cnt_reg[5] 
        (.C(CLK),
@@ -40125,53 +40048,53 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_dqs_found_cal_hr
     .INIT(2'h1)) 
     \detect_rd_cnt[0]_i_1 
        (.I0(detect_rd_cnt_reg[0]),
-        .O(detect_rd_cnt0__0));
-  (* SOFT_HLUTNM = "soft_lutpair214" *) 
+        .O(detect_rd_cnt0__0[0]));
+  (* SOFT_HLUTNM = "soft_lutpair210" *) 
   LUT2 #(
     .INIT(4'h9)) 
     \detect_rd_cnt[1]_i_1 
-       (.I0(detect_rd_cnt_reg[0]),
-        .I1(detect_rd_cnt_reg[1]),
+       (.I0(detect_rd_cnt_reg[1]),
+        .I1(detect_rd_cnt_reg[0]),
         .O(\detect_rd_cnt[1]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair214" *) 
+  (* SOFT_HLUTNM = "soft_lutpair210" *) 
   LUT3 #(
-    .INIT(8'hE1)) 
+    .INIT(8'hA9)) 
     \detect_rd_cnt[2]_i_1 
-       (.I0(detect_rd_cnt_reg[0]),
-        .I1(detect_rd_cnt_reg[1]),
-        .I2(detect_rd_cnt_reg[2]),
-        .O(\detect_rd_cnt[2]_i_1_n_0 ));
-  LUT5 #(
-    .INIT(32'hFFFF0001)) 
-    \detect_rd_cnt[3]_i_1 
-       (.I0(detect_rd_cnt_reg[0]),
-        .I1(detect_rd_cnt_reg[2]),
+       (.I0(detect_rd_cnt_reg[2]),
+        .I1(detect_rd_cnt_reg[0]),
         .I2(detect_rd_cnt_reg[1]),
-        .I3(detect_rd_cnt_reg[3]),
-        .I4(init_dqsfound_done_r_reg_0),
+        .O(detect_rd_cnt0__0[2]));
+  LUT5 #(
+    .INIT(32'hAAAAAAAB)) 
+    \detect_rd_cnt[3]_i_1 
+       (.I0(\pi_rst_stg1_cal_r1_reg[0]_0 ),
+        .I1(detect_rd_cnt_reg[3]),
+        .I2(detect_rd_cnt_reg[0]),
+        .I3(detect_rd_cnt_reg[2]),
+        .I4(detect_rd_cnt_reg[1]),
         .O(\detect_rd_cnt[3]_i_1_n_0 ));
   LUT5 #(
-    .INIT(32'hFF00FE00)) 
+    .INIT(32'hAAAAAAA8)) 
     \detect_rd_cnt[3]_i_2 
-       (.I0(detect_rd_cnt_reg[2]),
-        .I1(detect_rd_cnt_reg[1]),
-        .I2(detect_rd_cnt_reg[3]),
-        .I3(detect_pi_found_dqs),
-        .I4(detect_rd_cnt_reg[0]),
+       (.I0(detect_pi_found_dqs),
+        .I1(detect_rd_cnt_reg[3]),
+        .I2(detect_rd_cnt_reg[0]),
+        .I3(detect_rd_cnt_reg[2]),
+        .I4(detect_rd_cnt_reg[1]),
         .O(detect_rd_cnt0));
-  (* SOFT_HLUTNM = "soft_lutpair192" *) 
+  (* SOFT_HLUTNM = "soft_lutpair185" *) 
   LUT4 #(
-    .INIT(16'hFE01)) 
+    .INIT(16'hAAA9)) 
     \detect_rd_cnt[3]_i_3 
-       (.I0(detect_rd_cnt_reg[0]),
+       (.I0(detect_rd_cnt_reg[3]),
         .I1(detect_rd_cnt_reg[1]),
         .I2(detect_rd_cnt_reg[2]),
-        .I3(detect_rd_cnt_reg[3]),
-        .O(\detect_rd_cnt[3]_i_3_n_0 ));
+        .I3(detect_rd_cnt_reg[0]),
+        .O(detect_rd_cnt0__0[3]));
   FDSE \detect_rd_cnt_reg[0] 
        (.C(CLK),
         .CE(detect_rd_cnt0),
-        .D(detect_rd_cnt0__0),
+        .D(detect_rd_cnt0__0[0]),
         .Q(detect_rd_cnt_reg[0]),
         .S(\detect_rd_cnt[3]_i_1_n_0 ));
   FDSE \detect_rd_cnt_reg[1] 
@@ -40183,33 +40106,33 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_dqs_found_cal_hr
   FDSE \detect_rd_cnt_reg[2] 
        (.C(CLK),
         .CE(detect_rd_cnt0),
-        .D(\detect_rd_cnt[2]_i_1_n_0 ),
+        .D(detect_rd_cnt0__0[2]),
         .Q(detect_rd_cnt_reg[2]),
         .S(\detect_rd_cnt[3]_i_1_n_0 ));
   FDRE \detect_rd_cnt_reg[3] 
        (.C(CLK),
         .CE(detect_rd_cnt0),
-        .D(\detect_rd_cnt[3]_i_3_n_0 ),
+        .D(detect_rd_cnt0__0[3]),
         .Q(detect_rd_cnt_reg[3]),
         .R(\detect_rd_cnt[3]_i_1_n_0 ));
-  LUT6 #(
-    .INIT(64'h0000001000000000)) 
+  LUT4 #(
+    .INIT(16'h0200)) 
     dqs_found_done_r_i_1
-       (.I0(Q),
-        .I1(fine_adj_state_r[3]),
-        .I2(init_dqsfound_done_r1_reg_n_0),
-        .I3(\rnk_cnt_r_reg_n_0_[1] ),
-        .I4(\rnk_cnt_r_reg_n_0_[0] ),
-        .I5(dqs_found_done_r_i_2_n_0),
+       (.I0(fine_adjust_done_r),
+        .I1(\rnk_cnt_r_reg_n_0_[0] ),
+        .I2(\rnk_cnt_r_reg_n_0_[1] ),
+        .I3(init_dqsfound_done_r1_reg_n_0),
         .O(dqs_found_done_r0));
-  (* SOFT_HLUTNM = "soft_lutpair195" *) 
-  LUT3 #(
-    .INIT(8'h40)) 
+  (* SOFT_HLUTNM = "soft_lutpair192" *) 
+  LUT5 #(
+    .INIT(32'h00000008)) 
     dqs_found_done_r_i_2
-       (.I0(fine_adj_state_r[2]),
+       (.I0(pi_dqs_found_all_bank),
         .I1(fine_adj_state_r[1]),
-        .I2(pi_dqs_found_all_bank),
-        .O(dqs_found_done_r_i_2_n_0));
+        .I2(fine_adj_state_r[3]),
+        .I3(fine_adj_state_r[0]),
+        .I4(fine_adj_state_r[2]),
+        .O(fine_adjust_done_r));
   FDRE dqs_found_done_r_reg
        (.C(CLK),
         .CE(1'b1),
@@ -40217,66 +40140,53 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_dqs_found_cal_hr
         .Q(pi_dqs_found_done),
         .R(ck_po_stg2_f_en_reg_0));
   LUT6 #(
-    .INIT(64'hAAAABFFFAAAA8000)) 
+    .INIT(64'h00553FFF00550000)) 
     dqs_found_prech_req_i_1
        (.I0(dqs_found_prech_req_i_2_n_0),
         .I1(dqs_found_prech_req_i_3_n_0),
-        .I2(dqs_found_prech_req_i_4_n_0),
-        .I3(prech_done),
-        .I4(dqs_found_prech_req_i_5_n_0),
+        .I2(fine_adj_state_r[0]),
+        .I3(fine_adj_state_r[2]),
+        .I4(dqs_found_prech_req_i_4_n_0),
         .I5(dqs_found_prech_req),
         .O(dqs_found_prech_req_i_1_n_0));
   LUT6 #(
-    .INIT(64'hFFFFFF080A0A0808)) 
+    .INIT(64'h0A0A0BBB0A0A0A0A)) 
     dqs_found_prech_req_i_2
-       (.I0(\FSM_sequential_fine_adj_state_r[2]_i_3_n_0 ),
+       (.I0(\FSM_sequential_fine_adj_state_r[1]_i_5_n_0 ),
         .I1(first_fail_detect_reg_n_0),
-        .I2(fine_adj_state_r[2]),
+        .I2(\FSM_sequential_fine_adj_state_r[2]_i_3_n_0 ),
         .I3(first_fail_detect_i_1_n_0),
-        .I4(\first_fail_taps[5]_i_2_n_0 ),
-        .I5(dqs_found_prech_req_i_6_n_0),
+        .I4(pi_dqs_found_all_bank),
+        .I5(detect_pi_found_dqs),
         .O(dqs_found_prech_req_i_2_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair203" *) 
-  LUT2 #(
-    .INIT(4'h8)) 
+  (* SOFT_HLUTNM = "soft_lutpair201" *) 
+  LUT3 #(
+    .INIT(8'h80)) 
     dqs_found_prech_req_i_3
-       (.I0(fine_adj_state_r[1]),
-        .I1(fine_adj_state_r[3]),
+       (.I0(prech_done),
+        .I1(fine_adj_state_r[1]),
+        .I2(fine_adj_state_r[3]),
         .O(dqs_found_prech_req_i_3_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair191" *) 
-  LUT2 #(
-    .INIT(4'h8)) 
+  LUT6 #(
+    .INIT(64'h00000000FBFB00F8)) 
     dqs_found_prech_req_i_4
-       (.I0(Q),
-        .I1(fine_adj_state_r[2]),
-        .O(dqs_found_prech_req_i_4_n_0));
-  LUT6 #(
-    .INIT(64'hFF3FAA0800000000)) 
-    dqs_found_prech_req_i_5
-       (.I0(\FSM_sequential_fine_adj_state_r[2]_i_3_n_0 ),
+       (.I0(\dec_cnt[5]_i_9_n_0 ),
         .I1(first_fail_detect_reg_n_0),
-        .I2(\dec_cnt[5]_i_12_n_0 ),
-        .I3(pi_dqs_found_all_bank),
-        .I4(\FSM_sequential_fine_adj_state_r[3]_i_7_n_0 ),
-        .I5(stable_pass_cnt),
+        .I2(pi_dqs_found_all_bank),
+        .I3(\FSM_sequential_fine_adj_state_r[1]_i_5_n_0 ),
+        .I4(\FSM_sequential_fine_adj_state_r[2]_i_3_n_0 ),
+        .I5(dqs_found_prech_req_i_5_n_0),
+        .O(dqs_found_prech_req_i_4_n_0));
+  (* SOFT_HLUTNM = "soft_lutpair190" *) 
+  LUT5 #(
+    .INIT(32'hFFFFDFFF)) 
+    dqs_found_prech_req_i_5
+       (.I0(detect_pi_found_dqs),
+        .I1(fine_adj_state_r[0]),
+        .I2(fine_adj_state_r[3]),
+        .I3(fine_adj_state_r[1]),
+        .I4(fine_adj_state_r[2]),
         .O(dqs_found_prech_req_i_5_n_0));
-  LUT6 #(
-    .INIT(64'h0000000000040000)) 
-    dqs_found_prech_req_i_6
-       (.I0(fine_adj_state_r[2]),
-        .I1(dqs_found_prech_req_i_7_n_0),
-        .I2(\inc_cnt_reg_n_0_[0] ),
-        .I3(\inc_cnt_reg_n_0_[1] ),
-        .I4(\inc_cnt_reg_n_0_[3] ),
-        .I5(\inc_cnt_reg_n_0_[5] ),
-        .O(dqs_found_prech_req_i_6_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair216" *) 
-  LUT2 #(
-    .INIT(4'h6)) 
-    dqs_found_prech_req_i_7
-       (.I0(\inc_cnt_reg_n_0_[2] ),
-        .I1(\inc_cnt_reg_n_0_[4] ),
-        .O(dqs_found_prech_req_i_7_n_0));
   FDRE dqs_found_prech_req_reg
        (.C(CLK),
         .CE(1'b1),
@@ -40289,16 +40199,23 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_dqs_found_cal_hr
         .D(dqs_found_start_r_reg_0),
         .Q(dqs_found_start_r),
         .R(1'b0));
-  LUT6 #(
-    .INIT(64'hFFFFFFFF00400000)) 
+  LUT3 #(
+    .INIT(8'hF4)) 
     final_dec_done_i_1
-       (.I0(\FSM_sequential_fine_adj_state_r[0]_i_4_n_0 ),
-        .I1(init_dec_done_i_2_n_0),
-        .I2(fine_adj_state_r[3]),
-        .I3(fine_adj_state_r[1]),
-        .I4(init_dec_done_reg_n_0),
-        .I5(final_dec_done_reg_n_0),
+       (.I0(final_dec_done_i_2_n_0),
+        .I1(init_dec_done_reg_n_0),
+        .I2(final_dec_done_reg_n_0),
         .O(final_dec_done_i_1_n_0));
+  (* SOFT_HLUTNM = "soft_lutpair183" *) 
+  LUT5 #(
+    .INIT(32'hFFBFFFFF)) 
+    final_dec_done_i_2
+       (.I0(fine_adj_state_r[1]),
+        .I1(fine_adj_state_r[3]),
+        .I2(fine_adj_state_r[2]),
+        .I3(fine_adj_state_r[0]),
+        .I4(\FSM_sequential_fine_adj_state_r[0]_i_2_n_0 ),
+        .O(final_dec_done_i_2_n_0));
   FDRE final_dec_done_reg
        (.C(CLK),
         .CE(1'b1),
@@ -40306,12 +40223,12 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_dqs_found_cal_hr
         .Q(final_dec_done_reg_n_0),
         .R(ck_po_stg2_f_en_reg_0));
   LUT6 #(
-    .INIT(64'hFFFFFFFF00001000)) 
+    .INIT(64'hFFFFFFFF00000008)) 
     fine_adjust_done_r_i_1
-       (.I0(fine_adj_state_r[3]),
-        .I1(Q),
-        .I2(pi_dqs_found_all_bank),
-        .I3(fine_adj_state_r[1]),
+       (.I0(pi_dqs_found_all_bank),
+        .I1(fine_adj_state_r[1]),
+        .I2(fine_adj_state_r[3]),
+        .I3(fine_adj_state_r[0]),
         .I4(fine_adj_state_r[2]),
         .I5(fine_adjust_done_r_reg_0),
         .O(fine_adjust_done_r_i_1_n_0));
@@ -40322,13 +40239,13 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_dqs_found_cal_hr
         .Q(fine_adjust_done_r_reg_0),
         .R(ck_po_stg2_f_en_reg_0));
   LUT6 #(
-    .INIT(64'hFFFFFFFF00000002)) 
+    .INIT(64'hFFFFFFFF00000100)) 
     fine_adjust_i_1
-       (.I0(init_dqsfound_done_r5),
+       (.I0(fine_adj_state_r[3]),
         .I1(fine_adj_state_r[1]),
-        .I2(fine_adj_state_r[3]),
-        .I3(fine_adj_state_r[2]),
-        .I4(Q),
+        .I2(fine_adj_state_r[2]),
+        .I3(init_dqsfound_done_r5),
+        .I4(fine_adj_state_r[0]),
         .I5(fine_adjust_reg_n_0),
         .O(fine_adjust_i_1_n_0));
   FDRE fine_adjust_reg
@@ -40340,10 +40257,10 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_dqs_found_cal_hr
   LUT6 #(
     .INIT(64'h00007FFFFFFFFFFF)) 
     first_fail_detect_i_1
-       (.I0(stable_pass_cnt_reg[3]),
-        .I1(stable_pass_cnt_reg[1]),
-        .I2(stable_pass_cnt_reg[2]),
-        .I3(stable_pass_cnt_reg[4]),
+       (.I0(stable_pass_cnt_reg[2]),
+        .I1(stable_pass_cnt_reg[3]),
+        .I2(stable_pass_cnt_reg[4]),
+        .I3(stable_pass_cnt_reg[1]),
         .I4(stable_pass_cnt_reg[5]),
         .I5(first_fail_detect_reg_n_0),
         .O(first_fail_detect_i_1_n_0));
@@ -40354,21 +40271,21 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_dqs_found_cal_hr
         .Q(first_fail_detect_reg_n_0),
         .R(first_fail_detect_reg_0));
   LUT6 #(
-    .INIT(64'h0000004000000000)) 
+    .INIT(64'h0000000000000020)) 
     \first_fail_taps[5]_i_1 
-       (.I0(fine_adj_state_r[2]),
-        .I1(fine_adj_state_r[1]),
-        .I2(fine_adj_state_r[3]),
-        .I3(\first_fail_taps[5]_i_2_n_0 ),
-        .I4(Q),
-        .I5(first_fail_detect_i_1_n_0),
+       (.I0(first_fail_detect_i_1_n_0),
+        .I1(pi_dqs_found_all_bank),
+        .I2(detect_pi_found_dqs),
+        .I3(fine_adj_state_r[0]),
+        .I4(fine_adj_state_r[2]),
+        .I5(\first_fail_taps[5]_i_2_n_0 ),
         .O(first_fail_detect));
-  (* SOFT_HLUTNM = "soft_lutpair183" *) 
+  (* SOFT_HLUTNM = "soft_lutpair198" *) 
   LUT2 #(
-    .INIT(4'hB)) 
+    .INIT(4'h7)) 
     \first_fail_taps[5]_i_2 
-       (.I0(pi_dqs_found_all_bank),
-        .I1(detect_pi_found_dqs),
+       (.I0(fine_adj_state_r[3]),
+        .I1(fine_adj_state_r[1]),
         .O(\first_fail_taps[5]_i_2_n_0 ));
   FDRE \first_fail_taps_reg[0] 
        (.C(CLK),
@@ -40452,7 +40369,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_dqs_found_cal_hr
         .I4(ctl_lane_sel),
         .I5(\gen_byte_sel_div2.ctl_lane_sel_reg[0] ),
         .O(\ctl_lane_cnt_reg[0]_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair197" *) 
+  (* SOFT_HLUTNM = "soft_lutpair191" *) 
   LUT5 #(
     .INIT(32'h08088808)) 
     \gen_byte_sel_div2.ctl_lane_sel[0]_i_2 
@@ -40492,65 +40409,64 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_dqs_found_cal_hr
         .I4(rst_stg1_cal),
         .I5(phy_if_reset),
         .O(ififo_rst_reg0_1));
-  (* SOFT_HLUTNM = "soft_lutpair217" *) 
   LUT1 #(
     .INIT(2'h1)) 
     \inc_cnt[0]_i_1 
        (.I0(\inc_cnt_reg_n_0_[0] ),
         .O(p_0_in__0[0]));
-  (* SOFT_HLUTNM = "soft_lutpair217" *) 
+  (* SOFT_HLUTNM = "soft_lutpair212" *) 
   LUT2 #(
     .INIT(4'h6)) 
     \inc_cnt[1]_i_1 
-       (.I0(\inc_cnt_reg_n_0_[0] ),
-        .I1(\inc_cnt_reg_n_0_[1] ),
+       (.I0(\inc_cnt_reg_n_0_[1] ),
+        .I1(\inc_cnt_reg_n_0_[0] ),
         .O(p_0_in__0[1]));
-  (* SOFT_HLUTNM = "soft_lutpair211" *) 
+  (* SOFT_HLUTNM = "soft_lutpair206" *) 
   LUT3 #(
-    .INIT(8'h78)) 
+    .INIT(8'h6A)) 
     \inc_cnt[2]_i_1 
-       (.I0(\inc_cnt_reg_n_0_[0] ),
-        .I1(\inc_cnt_reg_n_0_[1] ),
-        .I2(\inc_cnt_reg_n_0_[2] ),
+       (.I0(\inc_cnt_reg_n_0_[2] ),
+        .I1(\inc_cnt_reg_n_0_[0] ),
+        .I2(\inc_cnt_reg_n_0_[1] ),
         .O(p_0_in__0[2]));
-  (* SOFT_HLUTNM = "soft_lutpair205" *) 
+  (* SOFT_HLUTNM = "soft_lutpair206" *) 
   LUT4 #(
-    .INIT(16'h7F80)) 
+    .INIT(16'h6AAA)) 
     \inc_cnt[3]_i_1 
-       (.I0(\inc_cnt_reg_n_0_[0] ),
-        .I1(\inc_cnt_reg_n_0_[1] ),
-        .I2(\inc_cnt_reg_n_0_[2] ),
-        .I3(\inc_cnt_reg_n_0_[3] ),
+       (.I0(\inc_cnt_reg_n_0_[3] ),
+        .I1(\inc_cnt_reg_n_0_[2] ),
+        .I2(\inc_cnt_reg_n_0_[1] ),
+        .I3(\inc_cnt_reg_n_0_[0] ),
         .O(p_0_in__0[3]));
-  (* SOFT_HLUTNM = "soft_lutpair189" *) 
+  (* SOFT_HLUTNM = "soft_lutpair187" *) 
   LUT5 #(
     .INIT(32'h7FFF8000)) 
     \inc_cnt[4]_i_1 
        (.I0(\inc_cnt_reg_n_0_[1] ),
         .I1(\inc_cnt_reg_n_0_[2] ),
-        .I2(\inc_cnt_reg_n_0_[0] ),
-        .I3(\inc_cnt_reg_n_0_[3] ),
+        .I2(\inc_cnt_reg_n_0_[3] ),
+        .I3(\inc_cnt_reg_n_0_[0] ),
         .I4(\inc_cnt_reg_n_0_[4] ),
         .O(p_0_in__0[4]));
   LUT5 #(
-    .INIT(32'h00080000)) 
+    .INIT(32'h10000000)) 
     \inc_cnt[5]_i_1 
-       (.I0(fine_adjust_lane_cnt),
-        .I1(fine_adj_state_r[1]),
-        .I2(fine_adj_state_r[3]),
-        .I3(Q),
-        .I4(fine_adj_state_r[2]),
+       (.I0(fine_adj_state_r[0]),
+        .I1(fine_adj_state_r[3]),
+        .I2(fine_adj_state_r[1]),
+        .I3(fine_adj_state_r[2]),
+        .I4(fine_adjust_lane_cnt),
         .O(inc_cnt));
   LUT6 #(
-    .INIT(64'h7FFFFFFF80000000)) 
+    .INIT(64'h6AAAAAAAAAAAAAAA)) 
     \inc_cnt[5]_i_2 
-       (.I0(\inc_cnt_reg_n_0_[1] ),
-        .I1(\inc_cnt_reg_n_0_[0] ),
-        .I2(\inc_cnt_reg_n_0_[2] ),
-        .I3(\inc_cnt_reg_n_0_[4] ),
+       (.I0(\inc_cnt_reg_n_0_[5] ),
+        .I1(\inc_cnt_reg_n_0_[4] ),
+        .I2(\inc_cnt_reg_n_0_[1] ),
+        .I3(\inc_cnt_reg_n_0_[2] ),
         .I4(\inc_cnt_reg_n_0_[3] ),
-        .I5(\inc_cnt_reg_n_0_[5] ),
-        .O(\inc_cnt[5]_i_2_n_0 ));
+        .I5(\inc_cnt_reg_n_0_[0] ),
+        .O(p_0_in__0[5]));
   FDRE \inc_cnt_reg[0] 
        (.C(CLK),
         .CE(inc_cnt),
@@ -40584,72 +40500,72 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_dqs_found_cal_hr
   FDRE \inc_cnt_reg[5] 
        (.C(CLK),
         .CE(inc_cnt),
-        .D(\inc_cnt[5]_i_2_n_0 ),
+        .D(p_0_in__0[5]),
         .Q(\inc_cnt_reg_n_0_[5] ),
         .R(\stable_pass_cnt_reg[0]_0 ));
   LUT1 #(
     .INIT(2'h1)) 
     \init_dec_cnt[0]_i_1 
        (.I0(init_dec_cnt_reg[0]),
-        .O(init_dec_cnt0));
-  (* SOFT_HLUTNM = "soft_lutpair213" *) 
+        .O(init_dec_cnt0[0]));
+  (* SOFT_HLUTNM = "soft_lutpair209" *) 
   LUT2 #(
     .INIT(4'h9)) 
     \init_dec_cnt[1]_i_1 
        (.I0(init_dec_cnt_reg[0]),
         .I1(init_dec_cnt_reg[1]),
         .O(\init_dec_cnt[1]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair213" *) 
+  (* SOFT_HLUTNM = "soft_lutpair209" *) 
   LUT3 #(
     .INIT(8'hE1)) 
     \init_dec_cnt[2]_i_1 
-       (.I0(init_dec_cnt_reg[1]),
-        .I1(init_dec_cnt_reg[0]),
+       (.I0(init_dec_cnt_reg[0]),
+        .I1(init_dec_cnt_reg[1]),
         .I2(init_dec_cnt_reg[2]),
-        .O(\init_dec_cnt[2]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair200" *) 
+        .O(init_dec_cnt0[2]));
+  (* SOFT_HLUTNM = "soft_lutpair196" *) 
   LUT4 #(
     .INIT(16'hFE01)) 
     \init_dec_cnt[3]_i_1 
        (.I0(init_dec_cnt_reg[2]),
-        .I1(init_dec_cnt_reg[0]),
-        .I2(init_dec_cnt_reg[1]),
+        .I1(init_dec_cnt_reg[1]),
+        .I2(init_dec_cnt_reg[0]),
         .I3(init_dec_cnt_reg[3]),
-        .O(\init_dec_cnt[3]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair200" *) 
+        .O(init_dec_cnt0[3]));
+  (* SOFT_HLUTNM = "soft_lutpair196" *) 
   LUT5 #(
     .INIT(32'hFFFE0001)) 
     \init_dec_cnt[4]_i_1 
        (.I0(init_dec_cnt_reg[3]),
-        .I1(init_dec_cnt_reg[1]),
-        .I2(init_dec_cnt_reg[0]),
+        .I1(init_dec_cnt_reg[0]),
+        .I2(init_dec_cnt_reg[1]),
         .I3(init_dec_cnt_reg[2]),
         .I4(init_dec_cnt_reg[4]),
-        .O(\init_dec_cnt[4]_i_1_n_0 ));
+        .O(init_dec_cnt0[4]));
   LUT6 #(
-    .INIT(64'h4000000000000000)) 
+    .INIT(64'h0000400000000000)) 
     \init_dec_cnt[5]_i_1 
-       (.I0(fine_adj_state_r[2]),
+       (.I0(\FSM_sequential_fine_adj_state_r[3]_i_6_n_0 ),
         .I1(fine_adj_state_r[1]),
         .I2(fine_adj_state_r[3]),
-        .I3(Q),
-        .I4(fine_adjust_lane_cnt),
-        .I5(\FSM_sequential_fine_adj_state_r[3]_i_5_n_0 ),
+        .I3(fine_adj_state_r[0]),
+        .I4(fine_adj_state_r[2]),
+        .I5(fine_adjust_lane_cnt),
         .O(init_dec_cnt));
   LUT6 #(
     .INIT(64'hFFFFFFFE00000001)) 
     \init_dec_cnt[5]_i_2 
        (.I0(init_dec_cnt_reg[4]),
         .I1(init_dec_cnt_reg[2]),
-        .I2(init_dec_cnt_reg[0]),
-        .I3(init_dec_cnt_reg[1]),
+        .I2(init_dec_cnt_reg[1]),
+        .I3(init_dec_cnt_reg[0]),
         .I4(init_dec_cnt_reg[3]),
         .I5(init_dec_cnt_reg[5]),
-        .O(\init_dec_cnt[5]_i_2_n_0 ));
+        .O(init_dec_cnt0[5]));
   FDSE \init_dec_cnt_reg[0] 
        (.C(CLK),
         .CE(init_dec_cnt),
-        .D(init_dec_cnt0),
+        .D(init_dec_cnt0[0]),
         .Q(init_dec_cnt_reg[0]),
         .S(\stable_pass_cnt_reg[0]_0 ));
   FDSE \init_dec_cnt_reg[1] 
@@ -40661,44 +40577,56 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_dqs_found_cal_hr
   FDSE \init_dec_cnt_reg[2] 
        (.C(CLK),
         .CE(init_dec_cnt),
-        .D(\init_dec_cnt[2]_i_1_n_0 ),
+        .D(init_dec_cnt0[2]),
         .Q(init_dec_cnt_reg[2]),
         .S(\stable_pass_cnt_reg[0]_0 ));
   FDSE \init_dec_cnt_reg[3] 
        (.C(CLK),
         .CE(init_dec_cnt),
-        .D(\init_dec_cnt[3]_i_1_n_0 ),
+        .D(init_dec_cnt0[3]),
         .Q(init_dec_cnt_reg[3]),
         .S(\stable_pass_cnt_reg[0]_0 ));
   FDSE \init_dec_cnt_reg[4] 
        (.C(CLK),
         .CE(init_dec_cnt),
-        .D(\init_dec_cnt[4]_i_1_n_0 ),
+        .D(init_dec_cnt0[4]),
         .Q(init_dec_cnt_reg[4]),
         .S(\stable_pass_cnt_reg[0]_0 ));
   FDRE \init_dec_cnt_reg[5] 
        (.C(CLK),
         .CE(init_dec_cnt),
-        .D(\init_dec_cnt[5]_i_2_n_0 ),
+        .D(init_dec_cnt0[5]),
         .Q(init_dec_cnt_reg[5]),
         .R(\stable_pass_cnt_reg[0]_0 ));
-  LUT6 #(
-    .INIT(64'hCCCCCCCCCDCCCCCC)) 
+  (* SOFT_HLUTNM = "soft_lutpair189" *) 
+  LUT5 #(
+    .INIT(32'hAAEAAAAA)) 
     init_dec_done_i_1
-       (.I0(\FSM_sequential_fine_adj_state_r[3]_i_5_n_0 ),
-        .I1(init_dec_done_reg_n_0),
-        .I2(fine_adj_state_r[1]),
-        .I3(fine_adj_state_r[3]),
-        .I4(init_dec_done_i_2_n_0),
-        .I5(\FSM_sequential_fine_adj_state_r[0]_i_4_n_0 ),
+       (.I0(init_dec_done_reg_n_0),
+        .I1(\FSM_sequential_fine_adj_state_r[3]_i_6_n_0 ),
+        .I2(fine_adjust_lane_cnt),
+        .I3(init_dec_done_i_2_n_0),
+        .I4(init_dec_done_i_3_n_0),
         .O(init_dec_done_i_1_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair185" *) 
-  LUT2 #(
-    .INIT(4'h2)) 
+  LUT6 #(
+    .INIT(64'hFFFFFFFFFFFFFFFE)) 
     init_dec_done_i_2
-       (.I0(fine_adj_state_r[2]),
-        .I1(Q),
+       (.I0(\dec_cnt_reg_n_0_[5] ),
+        .I1(\dec_cnt_reg_n_0_[3] ),
+        .I2(\dec_cnt_reg_n_0_[0] ),
+        .I3(\dec_cnt_reg_n_0_[1] ),
+        .I4(\dec_cnt_reg_n_0_[2] ),
+        .I5(\dec_cnt_reg_n_0_[4] ),
         .O(init_dec_done_i_2_n_0));
+  (* SOFT_HLUTNM = "soft_lutpair183" *) 
+  LUT4 #(
+    .INIT(16'h0040)) 
+    init_dec_done_i_3
+       (.I0(fine_adj_state_r[0]),
+        .I1(fine_adj_state_r[2]),
+        .I2(fine_adj_state_r[3]),
+        .I3(fine_adj_state_r[1]),
+        .O(init_dec_done_i_3_n_0));
   FDRE init_dec_done_reg
        (.C(CLK),
         .CE(1'b1),
@@ -40733,30 +40661,29 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_dqs_found_cal_hr
         .D(init_dqsfound_done_r4_reg_srl2_n_0),
         .Q(init_dqsfound_done_r5),
         .R(1'b0));
-  LUT6 #(
-    .INIT(64'h0010001000101110)) 
+  LUT5 #(
+    .INIT(32'h0000222E)) 
     init_dqsfound_done_r_i_1
-       (.I0(init_dqsfound_done_r_reg_0),
-        .I1(pi_rst_stg1_cal_r),
-        .I2(rd_data_offset_cal_done),
-        .I3(pi_dqs_found_all_bank),
-        .I4(\rnk_cnt_r_reg_n_0_[0] ),
-        .I5(\rnk_cnt_r_reg_n_0_[1] ),
+       (.I0(rd_data_offset_cal_done),
+        .I1(pi_dqs_found_all_bank),
+        .I2(\rnk_cnt_r_reg_n_0_[1] ),
+        .I3(\rnk_cnt_r_reg_n_0_[0] ),
+        .I4(pi_rst_stg1_cal_r),
         .O(init_dqsfound_done_r_i_1_n_0));
   FDRE init_dqsfound_done_r_reg
        (.C(CLK),
         .CE(1'b1),
         .D(init_dqsfound_done_r_i_1_n_0),
         .Q(rd_data_offset_cal_done),
-        .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair210" *) 
+        .R(init_dqsfound_done_r_reg_0));
+  (* SOFT_HLUTNM = "soft_lutpair208" *) 
   LUT2 #(
     .INIT(4'h8)) 
     \init_state_r[4]_i_17 
        (.I0(pi_dqs_found_done),
         .I1(D),
         .O(dqs_found_done_r_reg_0));
-  (* SOFT_HLUTNM = "soft_lutpair210" *) 
+  (* SOFT_HLUTNM = "soft_lutpair208" *) 
   LUT3 #(
     .INIT(8'h01)) 
     \init_state_r[4]_i_30 
@@ -40784,7 +40711,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_dqs_found_cal_hr
         .I4(rst_stg1_cal),
         .I5(A_rst_primitives),
         .O(ofifo_rst_reg0_2));
-  (* SOFT_HLUTNM = "soft_lutpair187" *) 
+  (* SOFT_HLUTNM = "soft_lutpair186" *) 
   LUT5 #(
     .INIT(32'h0000CC08)) 
     \phaser_in_gen.phaser_in_i_5 
@@ -40794,7 +40721,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_dqs_found_cal_hr
         .I3(\phaser_in_gen.phaser_in ),
         .I4(calib_zero_inputs),
         .O(\calib_sel_reg[1]_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair187" *) 
+  (* SOFT_HLUTNM = "soft_lutpair186" *) 
   LUT5 #(
     .INIT(32'h0000AA80)) 
     \phaser_in_gen.phaser_in_i_5__0 
@@ -40977,14 +40904,14 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_dqs_found_cal_hr
         .I1(rst_dqs_find__0),
         .O(\pi_rst_stg1_cal[0]_i_1_n_0 ));
   LUT6 #(
-    .INIT(64'h1110111011101100)) 
+    .INIT(64'h000000000000FFA8)) 
     \pi_rst_stg1_cal_r1[0]_i_1 
-       (.I0(init_dqsfound_done_r_reg_0),
-        .I1(fine_adjust_reg_n_0),
-        .I2(\pi_rst_stg1_cal_r1_reg_n_0_[0] ),
+       (.I0(\pi_rst_stg1_cal_r1_reg_n_0_[0] ),
+        .I1(pi_dqs_found_any_bank_r),
+        .I2(pi_dqs_found_all_bank),
         .I3(pi_rst_stg1_cal_r),
-        .I4(pi_dqs_found_any_bank_r),
-        .I5(pi_dqs_found_all_bank),
+        .I4(fine_adjust_reg_n_0),
+        .I5(\pi_rst_stg1_cal_r1_reg[0]_0 ),
         .O(\pi_rst_stg1_cal_r1[0]_i_1_n_0 ));
   FDRE \pi_rst_stg1_cal_r1_reg[0] 
        (.C(CLK),
@@ -40992,23 +40919,23 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_dqs_found_cal_hr
         .D(\pi_rst_stg1_cal_r1[0]_i_1_n_0 ),
         .Q(\pi_rst_stg1_cal_r1_reg_n_0_[0] ),
         .R(1'b0));
-  LUT4 #(
-    .INIT(16'h0004)) 
-    \pi_rst_stg1_cal_r[0]_i_1 
-       (.I0(\pi_rst_stg1_cal_r1_reg_n_0_[0] ),
-        .I1(\pi_rst_stg1_cal_r[0]_i_2_n_0 ),
-        .I2(init_dqsfound_done_r_reg_0),
-        .I3(fine_adjust_reg_n_0),
-        .O(\pi_rst_stg1_cal_r[0]_i_1_n_0 ));
   LUT6 #(
-    .INIT(64'hFFFFFFFFFFFF2F22)) 
+    .INIT(64'h0000000011111110)) 
+    \pi_rst_stg1_cal_r[0]_i_1 
+       (.I0(fine_adjust_reg_n_0),
+        .I1(\pi_rst_stg1_cal_r1_reg[0]_0 ),
+        .I2(\pi_rst_stg1_cal_r[0]_i_2_n_0 ),
+        .I3(\rd_byte_data_offset[0][5]_i_4_n_0 ),
+        .I4(pi_rst_stg1_cal_r),
+        .I5(\pi_rst_stg1_cal_r1_reg_n_0_[0] ),
+        .O(\pi_rst_stg1_cal_r[0]_i_1_n_0 ));
+  LUT4 #(
+    .INIT(16'h4F44)) 
     \pi_rst_stg1_cal_r[0]_i_2 
-       (.I0(dqs_found_start_r_reg_0),
-        .I1(dqs_found_start_r),
-        .I2(pi_dqs_found_all_bank),
-        .I3(pi_dqs_found_any_bank_r),
-        .I4(\rd_byte_data_offset[0][5]_i_4_n_0 ),
-        .I5(pi_rst_stg1_cal_r),
+       (.I0(pi_dqs_found_all_bank),
+        .I1(pi_dqs_found_any_bank_r),
+        .I2(dqs_found_start_r),
+        .I3(dqs_found_start_r_reg_0),
         .O(\pi_rst_stg1_cal_r[0]_i_2_n_0 ));
   FDRE \pi_rst_stg1_cal_r_reg[0] 
        (.C(CLK),
@@ -41029,14 +40956,14 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_dqs_found_cal_hr
         .Q(rank_done_r1),
         .R(1'b0));
   LUT6 #(
-    .INIT(64'h0404040404040004)) 
+    .INIT(64'h0000000000EF0000)) 
     rank_done_r_i_1
-       (.I0(init_dqsfound_done_r_reg_0),
-        .I1(pi_dqs_found_all_bank),
-        .I2(pi_dqs_found_all_bank_r),
-        .I3(rd_data_offset_cal_done),
-        .I4(\rnk_cnt_r_reg_n_0_[0] ),
-        .I5(\rnk_cnt_r_reg_n_0_[1] ),
+       (.I0(\rnk_cnt_r_reg_n_0_[0] ),
+        .I1(\rnk_cnt_r_reg_n_0_[1] ),
+        .I2(rd_data_offset_cal_done),
+        .I3(\pi_rst_stg1_cal_r1_reg[0]_0 ),
+        .I4(pi_dqs_found_all_bank),
+        .I5(pi_dqs_found_all_bank_r),
         .O(rank_done_r_i_1_n_0));
   FDRE rank_done_r_reg
        (.C(CLK),
@@ -41050,62 +40977,61 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_dqs_found_cal_hr
        (.I0(rd_data_offset_cal_done),
         .I1(init_dqsfound_done_r1_reg_n_0),
         .O(p_44_out));
-  (* SOFT_HLUTNM = "soft_lutpair215" *) 
+  (* SOFT_HLUTNM = "soft_lutpair211" *) 
   LUT1 #(
     .INIT(2'h1)) 
     \rank_final_loop[0].bank_final_loop[0].final_data_offset_mc[0][0]_i_1 
        (.I0(\rd_byte_data_offset_reg[0]_10 [0]),
         .O(\rank_final_loop[0].bank_final_loop[0].final_data_offset_mc[0][0]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair207" *) 
+  (* SOFT_HLUTNM = "soft_lutpair204" *) 
   LUT2 #(
     .INIT(4'h9)) 
     \rank_final_loop[0].bank_final_loop[0].final_data_offset_mc[0][1]_i_1 
-       (.I0(\rd_byte_data_offset_reg[0]_10 [1]),
-        .I1(\rd_byte_data_offset_reg[0]_10 [0]),
-        .O(\rank_final_loop[0].bank_final_loop[0].final_data_offset_mc[0][1]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair215" *) 
-  LUT3 #(
-    .INIT(8'hE1)) 
-    \rank_final_loop[0].bank_final_loop[0].final_data_offset_mc[0][2]_i_1 
-       (.I0(\rd_byte_data_offset_reg[0]_10 [1]),
-        .I1(\rd_byte_data_offset_reg[0]_10 [0]),
-        .I2(\rd_byte_data_offset_reg[0]_10 [2]),
-        .O(\rank_final_loop[0].bank_final_loop[0].final_data_offset_mc[0][2]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair199" *) 
-  LUT4 #(
-    .INIT(16'hFE01)) 
-    \rank_final_loop[0].bank_final_loop[0].final_data_offset_mc[0][3]_i_1 
        (.I0(\rd_byte_data_offset_reg[0]_10 [0]),
         .I1(\rd_byte_data_offset_reg[0]_10 [1]),
-        .I2(\rd_byte_data_offset_reg[0]_10 [2]),
-        .I3(\rd_byte_data_offset_reg[0]_10 [3]),
-        .O(\rank_final_loop[0].bank_final_loop[0].final_data_offset_mc[0][3]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair199" *) 
-  LUT5 #(
-    .INIT(32'hFFFE0001)) 
-    \rank_final_loop[0].bank_final_loop[0].final_data_offset_mc[0][4]_i_1 
-       (.I0(\rd_byte_data_offset_reg[0]_10 [0]),
+        .O(\rank_final_loop[0].bank_final_loop[0].final_data_offset_mc[0][1]_i_1_n_0 ));
+  LUT3 #(
+    .INIT(8'hA9)) 
+    \rank_final_loop[0].bank_final_loop[0].final_data_offset_mc[0][2]_i_1 
+       (.I0(\rd_byte_data_offset_reg[0]_10 [2]),
+        .I1(\rd_byte_data_offset_reg[0]_10 [0]),
+        .I2(\rd_byte_data_offset_reg[0]_10 [1]),
+        .O(\rank_final_loop[0].bank_final_loop[0].final_data_offset_mc[0][2]_i_1_n_0 ));
+  (* SOFT_HLUTNM = "soft_lutpair195" *) 
+  LUT4 #(
+    .INIT(16'hAAA9)) 
+    \rank_final_loop[0].bank_final_loop[0].final_data_offset_mc[0][3]_i_1 
+       (.I0(\rd_byte_data_offset_reg[0]_10 [3]),
         .I1(\rd_byte_data_offset_reg[0]_10 [2]),
         .I2(\rd_byte_data_offset_reg[0]_10 [1]),
-        .I3(\rd_byte_data_offset_reg[0]_10 [3]),
-        .I4(\rd_byte_data_offset_reg[0]_10 [4]),
+        .I3(\rd_byte_data_offset_reg[0]_10 [0]),
+        .O(\rank_final_loop[0].bank_final_loop[0].final_data_offset_mc[0][3]_i_1_n_0 ));
+  (* SOFT_HLUTNM = "soft_lutpair195" *) 
+  LUT5 #(
+    .INIT(32'hAAAAAAA9)) 
+    \rank_final_loop[0].bank_final_loop[0].final_data_offset_mc[0][4]_i_1 
+       (.I0(\rd_byte_data_offset_reg[0]_10 [4]),
+        .I1(\rd_byte_data_offset_reg[0]_10 [0]),
+        .I2(\rd_byte_data_offset_reg[0]_10 [3]),
+        .I3(\rd_byte_data_offset_reg[0]_10 [1]),
+        .I4(\rd_byte_data_offset_reg[0]_10 [2]),
         .O(\rank_final_loop[0].bank_final_loop[0].final_data_offset_mc[0][4]_i_1_n_0 ));
   LUT3 #(
-    .INIT(8'h10)) 
+    .INIT(8'h04)) 
     \rank_final_loop[0].bank_final_loop[0].final_data_offset_mc[0][5]_i_1 
-       (.I0(init_dqsfound_done_r_reg_0),
-        .I1(init_dqsfound_done_r1_reg_n_0),
-        .I2(rd_data_offset_cal_done),
+       (.I0(init_dqsfound_done_r1_reg_n_0),
+        .I1(rd_data_offset_cal_done),
+        .I2(\pi_rst_stg1_cal_r1_reg[0]_0 ),
         .O(final_data_offset_mc));
   LUT6 #(
-    .INIT(64'hFFFFFFFE00000001)) 
+    .INIT(64'hAAAAAAAAAAAAAAA9)) 
     \rank_final_loop[0].bank_final_loop[0].final_data_offset_mc[0][5]_i_2 
-       (.I0(\rd_byte_data_offset_reg[0]_10 [2]),
-        .I1(\rd_byte_data_offset_reg[0]_10 [1]),
-        .I2(\rd_byte_data_offset_reg[0]_10 [3]),
-        .I3(\rd_byte_data_offset_reg[0]_10 [0]),
-        .I4(\rd_byte_data_offset_reg[0]_10 [4]),
-        .I5(\rd_byte_data_offset_reg[0]_10 [5]),
+       (.I0(\rd_byte_data_offset_reg[0]_10 [5]),
+        .I1(\rd_byte_data_offset_reg[0]_10 [4]),
+        .I2(\rd_byte_data_offset_reg[0]_10 [2]),
+        .I3(\rd_byte_data_offset_reg[0]_10 [1]),
+        .I4(\rd_byte_data_offset_reg[0]_10 [3]),
+        .I5(\rd_byte_data_offset_reg[0]_10 [0]),
         .O(\rank_final_loop[0].bank_final_loop[0].final_data_offset_mc[0][5]_i_2_n_0 ));
   FDRE \rank_final_loop[0].bank_final_loop[0].final_data_offset_mc_reg[0][0] 
        (.C(CLK),
@@ -41179,97 +41105,96 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_dqs_found_cal_hr
         .D(\rd_byte_data_offset_reg[0]_10 [5]),
         .Q(rd_data_offset_ranks_0[5]),
         .R(ck_po_stg2_f_en_reg_0));
-  (* SOFT_HLUTNM = "soft_lutpair208" *) 
+  (* SOFT_HLUTNM = "soft_lutpair205" *) 
   LUT2 #(
     .INIT(4'h6)) 
     \rd_byte_data_offset[0][1]_i_1 
-       (.I0(\rd_byte_data_offset_reg[0]_10 [0]),
-        .I1(\rd_byte_data_offset_reg[0]_10 [1]),
-        .O(\rd_byte_data_offset[0][1]_i_1_n_0 ));
-  LUT3 #(
-    .INIT(8'h78)) 
-    \rd_byte_data_offset[0][2]_i_1 
        (.I0(\rd_byte_data_offset_reg[0]_10 [1]),
         .I1(\rd_byte_data_offset_reg[0]_10 [0]),
-        .I2(\rd_byte_data_offset_reg[0]_10 [2]),
-        .O(p_0_in[2]));
-  (* SOFT_HLUTNM = "soft_lutpair201" *) 
-  LUT4 #(
-    .INIT(16'h7F80)) 
-    \rd_byte_data_offset[0][3]_i_1 
+        .O(\rd_byte_data_offset[0][1]_i_1_n_0 ));
+  (* SOFT_HLUTNM = "soft_lutpair211" *) 
+  LUT3 #(
+    .INIT(8'h6A)) 
+    \rd_byte_data_offset[0][2]_i_1 
        (.I0(\rd_byte_data_offset_reg[0]_10 [2]),
         .I1(\rd_byte_data_offset_reg[0]_10 [0]),
         .I2(\rd_byte_data_offset_reg[0]_10 [1]),
-        .I3(\rd_byte_data_offset_reg[0]_10 [3]),
-        .O(p_0_in[3]));
-  (* SOFT_HLUTNM = "soft_lutpair201" *) 
-  LUT5 #(
-    .INIT(32'h7FFF8000)) 
-    \rd_byte_data_offset[0][4]_i_1 
-       (.I0(\rd_byte_data_offset_reg[0]_10 [0]),
+        .O(p_0_in[2]));
+  (* SOFT_HLUTNM = "soft_lutpair197" *) 
+  LUT4 #(
+    .INIT(16'h6AAA)) 
+    \rd_byte_data_offset[0][3]_i_1 
+       (.I0(\rd_byte_data_offset_reg[0]_10 [3]),
         .I1(\rd_byte_data_offset_reg[0]_10 [1]),
+        .I2(\rd_byte_data_offset_reg[0]_10 [0]),
+        .I3(\rd_byte_data_offset_reg[0]_10 [2]),
+        .O(p_0_in[3]));
+  (* SOFT_HLUTNM = "soft_lutpair197" *) 
+  LUT5 #(
+    .INIT(32'h6AAAAAAA)) 
+    \rd_byte_data_offset[0][4]_i_1 
+       (.I0(\rd_byte_data_offset_reg[0]_10 [4]),
+        .I1(\rd_byte_data_offset_reg[0]_10 [3]),
         .I2(\rd_byte_data_offset_reg[0]_10 [2]),
-        .I3(\rd_byte_data_offset_reg[0]_10 [3]),
-        .I4(\rd_byte_data_offset_reg[0]_10 [4]),
+        .I3(\rd_byte_data_offset_reg[0]_10 [0]),
+        .I4(\rd_byte_data_offset_reg[0]_10 [1]),
         .O(p_0_in[4]));
   LUT6 #(
-    .INIT(64'hAAAAAAFFAAAAAABA)) 
+    .INIT(64'hAAAAAAAAAAAAFFAE)) 
     \rd_byte_data_offset[0][5]_i_1 
-       (.I0(init_dqsfound_done_r_reg_0),
-        .I1(rd_data_offset_cal_done),
-        .I2(rank_done_r1),
-        .I3(\rnk_cnt_r_reg_n_0_[0] ),
-        .I4(\rnk_cnt_r_reg_n_0_[1] ),
-        .I5(\rd_byte_data_offset[0][5]_i_4_n_0 ),
+       (.I0(\pi_rst_stg1_cal_r1_reg[0]_0 ),
+        .I1(rank_done_r1),
+        .I2(rd_data_offset_cal_done),
+        .I3(\rd_byte_data_offset[0][5]_i_4_n_0 ),
+        .I4(\rnk_cnt_r_reg_n_0_[0] ),
+        .I5(\rnk_cnt_r_reg_n_0_[1] ),
         .O(\rd_byte_data_offset[0][5]_i_1_n_0 ));
   LUT6 #(
-    .INIT(64'h01FF000000000000)) 
+    .INIT(64'h0000000000040000)) 
     \rd_byte_data_offset[0][5]_i_2 
-       (.I0(\rd_byte_data_offset_reg[0]_10 [1]),
-        .I1(\rd_byte_data_offset_reg[0]_10 [2]),
-        .I2(\rd_byte_data_offset_reg[0]_10 [3]),
-        .I3(\rd_byte_data_offset_reg[0]_10 [4]),
-        .I4(\rd_byte_data_offset[0][5]_i_5_n_0 ),
-        .I5(\rd_byte_data_offset[0][5]_i_6_n_0 ),
+       (.I0(rd_data_offset_cal_done),
+        .I1(dqs_found_start_r),
+        .I2(pi_dqs_found_all_bank),
+        .I3(\rd_byte_data_offset[0][5]_i_5_n_0 ),
+        .I4(\rd_byte_data_offset[0][5]_i_6_n_0 ),
+        .I5(\rd_byte_data_offset[0][5]_i_4_n_0 ),
         .O(rd_byte_data_offset));
   LUT6 #(
-    .INIT(64'h7FFFFFFF80000000)) 
+    .INIT(64'h6AAAAAAAAAAAAAAA)) 
     \rd_byte_data_offset[0][5]_i_3 
-       (.I0(\rd_byte_data_offset_reg[0]_10 [0]),
+       (.I0(\rd_byte_data_offset_reg[0]_10 [5]),
         .I1(\rd_byte_data_offset_reg[0]_10 [1]),
-        .I2(\rd_byte_data_offset_reg[0]_10 [4]),
-        .I3(\rd_byte_data_offset_reg[0]_10 [3]),
-        .I4(\rd_byte_data_offset_reg[0]_10 [2]),
-        .I5(\rd_byte_data_offset_reg[0]_10 [5]),
+        .I2(\rd_byte_data_offset_reg[0]_10 [0]),
+        .I3(\rd_byte_data_offset_reg[0]_10 [2]),
+        .I4(\rd_byte_data_offset_reg[0]_10 [3]),
+        .I5(\rd_byte_data_offset_reg[0]_10 [4]),
         .O(p_0_in[5]));
   LUT5 #(
-    .INIT(32'hFFFFAAA8)) 
+    .INIT(32'hFFFEAAAA)) 
     \rd_byte_data_offset[0][5]_i_4 
-       (.I0(\rd_byte_data_offset_reg[0]_10 [4]),
-        .I1(\rd_byte_data_offset_reg[0]_10 [2]),
+       (.I0(\rd_byte_data_offset_reg[0]_10 [5]),
+        .I1(\rd_byte_data_offset_reg[0]_10 [3]),
         .I2(\rd_byte_data_offset_reg[0]_10 [1]),
-        .I3(\rd_byte_data_offset_reg[0]_10 [3]),
-        .I4(\rd_byte_data_offset_reg[0]_10 [5]),
+        .I3(\rd_byte_data_offset_reg[0]_10 [2]),
+        .I4(\rd_byte_data_offset_reg[0]_10 [4]),
         .O(\rd_byte_data_offset[0][5]_i_4_n_0 ));
-  LUT6 #(
-    .INIT(64'h0000000000000001)) 
+  LUT4 #(
+    .INIT(16'hFFFE)) 
     \rd_byte_data_offset[0][5]_i_5 
-       (.I0(\rnk_cnt_r_reg_n_0_[0] ),
-        .I1(\rnk_cnt_r_reg_n_0_[1] ),
-        .I2(\first_fail_taps[5]_i_2_n_0 ),
-        .I3(detect_rd_cnt_reg[3]),
-        .I4(detect_rd_cnt_reg[1]),
-        .I5(detect_rd_cnt_reg[2]),
-        .O(\rd_byte_data_offset[0][5]_i_5_n_0 ));
-  LUT6 #(
-    .INIT(64'h0000000000000020)) 
-    \rd_byte_data_offset[0][5]_i_6 
-       (.I0(detect_rd_cnt_reg[0]),
-        .I1(\rd_byte_data_offset_reg[0]_10 [5]),
-        .I2(dqs_found_start_r),
+       (.I0(\rnk_cnt_r_reg_n_0_[1] ),
+        .I1(\rnk_cnt_r_reg_n_0_[0] ),
+        .I2(fine_adjust_reg_n_0),
         .I3(rank_done_r1),
-        .I4(fine_adjust_reg_n_0),
-        .I5(rd_data_offset_cal_done),
+        .O(\rd_byte_data_offset[0][5]_i_5_n_0 ));
+  (* SOFT_HLUTNM = "soft_lutpair185" *) 
+  LUT5 #(
+    .INIT(32'h01000000)) 
+    \rd_byte_data_offset[0][5]_i_6 
+       (.I0(detect_rd_cnt_reg[1]),
+        .I1(detect_rd_cnt_reg[2]),
+        .I2(detect_rd_cnt_reg[3]),
+        .I3(detect_pi_found_dqs),
+        .I4(detect_rd_cnt_reg[0]),
         .O(\rd_byte_data_offset[0][5]_i_6_n_0 ));
   FDSE \rd_byte_data_offset_reg[0][0] 
        (.C(CLK),
@@ -41307,7 +41232,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_dqs_found_cal_hr
         .D(p_0_in[5]),
         .Q(\rd_byte_data_offset_reg[0]_10 [5]),
         .R(\rd_byte_data_offset[0][5]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair209" *) 
+  (* SOFT_HLUTNM = "soft_lutpair207" *) 
   LUT3 #(
     .INIT(8'hB4)) 
     \rnk_cnt_r[0]_i_1 
@@ -41315,7 +41240,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_dqs_found_cal_hr
         .I1(pi_dqs_found_rank_done),
         .I2(\rnk_cnt_r_reg_n_0_[0] ),
         .O(\rnk_cnt_r[0]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair209" *) 
+  (* SOFT_HLUTNM = "soft_lutpair207" *) 
   LUT4 #(
     .INIT(16'hF708)) 
     \rnk_cnt_r[1]_i_1 
@@ -41337,182 +41262,128 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_dqs_found_cal_hr
         .Q(\rnk_cnt_r_reg_n_0_[1] ),
         .R(ck_po_stg2_f_en_reg_0));
   LUT6 #(
-    .INIT(64'hAAAAAAABAAAAAAA8)) 
+    .INIT(64'hAAAAFEFFAAAA0200)) 
     rst_dqs_find_i_1
        (.I0(rst_dqs_find),
-        .I1(rst_dqs_find_i_3_n_0),
-        .I2(rst_dqs_find_i_4_n_0),
-        .I3(rst_dqs_find_i_5_n_0),
-        .I4(rst_dqs_find_i_6_n_0),
+        .I1(\first_fail_taps[5]_i_2_n_0 ),
+        .I2(\dec_cnt[5]_i_5_n_0 ),
+        .I3(rst_dqs_find_i_3_n_0),
+        .I4(rst_dqs_find_i_4_n_0),
         .I5(rst_dqs_find__0),
         .O(rst_dqs_find_i_1_n_0));
   LUT6 #(
-    .INIT(64'h0000000000000020)) 
+    .INIT(64'h0000000000220030)) 
     rst_dqs_find_i_10
-       (.I0(rst_dqs_find_r2),
-        .I1(pi_dqs_found_any_bank),
-        .I2(Q),
+       (.I0(pi_dqs_found_all_bank),
+        .I1(fine_adj_state_r[0]),
+        .I2(init_dqsfound_done_r5),
         .I3(fine_adj_state_r[2]),
-        .I4(fine_adj_state_r[3]),
-        .I5(fine_adj_state_r[1]),
+        .I4(fine_adj_state_r[1]),
+        .I5(fine_adj_state_r[3]),
         .O(rst_dqs_find_i_10_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair195" *) 
-  LUT5 #(
-    .INIT(32'h00080000)) 
+  LUT6 #(
+    .INIT(64'hFFFFFFEFFFCFFFEF)) 
     rst_dqs_find_i_11
        (.I0(pi_dqs_found_all_bank),
-        .I1(fine_adj_state_r[1]),
-        .I2(fine_adj_state_r[2]),
-        .I3(Q),
-        .I4(detect_pi_found_dqs),
+        .I1(\first_fail_taps[5]_i_2_n_0 ),
+        .I2(detect_pi_found_dqs),
+        .I3(fine_adj_state_r[0]),
+        .I4(\inc_cnt_reg_n_0_[0] ),
+        .I5(\inc_cnt_reg_n_0_[1] ),
         .O(rst_dqs_find_i_11_n_0));
-  LUT6 #(
-    .INIT(64'h3000202000002020)) 
-    rst_dqs_find_i_12
-       (.I0(\dec_cnt[5]_i_5_n_0 ),
-        .I1(\dec_cnt[5]_i_12_n_0 ),
-        .I2(dqs_found_prech_req_i_3_n_0),
-        .I3(rst_dqs_find_i_4_0),
-        .I4(\inc_cnt_reg_n_0_[1] ),
-        .I5(rst_dqs_find_i_18_n_0),
-        .O(rst_dqs_find_i_12_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair193" *) 
-  LUT5 #(
-    .INIT(32'h00000002)) 
-    rst_dqs_find_i_13
-       (.I0(init_dqsfound_done_r5),
-        .I1(fine_adj_state_r[1]),
-        .I2(fine_adj_state_r[3]),
-        .I3(fine_adj_state_r[2]),
-        .I4(Q),
-        .O(fine_adjust));
-  LUT6 #(
-    .INIT(64'h00000000BB00BF00)) 
-    rst_dqs_find_i_14
-       (.I0(rst_dqs_find_i_19_n_0),
-        .I1(\inc_cnt_reg_n_0_[3] ),
-        .I2(\inc_cnt_reg_n_0_[1] ),
-        .I3(detect_pi_found_dqs),
-        .I4(pi_dqs_found_all_bank),
-        .I5(Q),
-        .O(rst_dqs_find_i_14_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair190" *) 
-  LUT5 #(
-    .INIT(32'h00001000)) 
-    rst_dqs_find_i_15
-       (.I0(fine_adj_state_r[3]),
-        .I1(Q),
-        .I2(pi_dqs_found_all_bank),
-        .I3(fine_adj_state_r[1]),
-        .I4(fine_adj_state_r[2]),
-        .O(fine_adjust_done_r));
-  (* SOFT_HLUTNM = "soft_lutpair183" *) 
-  LUT5 #(
-    .INIT(32'hAA2FAAAA)) 
-    rst_dqs_find_i_16
-       (.I0(\dec_cnt[5]_i_3_n_0 ),
-        .I1(\dec_cnt[5]_i_12_n_0 ),
-        .I2(first_fail_detect_reg_n_0),
-        .I3(pi_dqs_found_all_bank),
-        .I4(detect_pi_found_dqs),
-        .O(rst_dqs_find_i_16_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair188" *) 
-  LUT5 #(
-    .INIT(32'h7FFFFFFF)) 
-    rst_dqs_find_i_18
-       (.I0(\inc_cnt_reg_n_0_[3] ),
-        .I1(\inc_cnt_reg_n_0_[4] ),
-        .I2(\inc_cnt_reg_n_0_[2] ),
-        .I3(\inc_cnt_reg_n_0_[0] ),
-        .I4(\inc_cnt_reg_n_0_[5] ),
-        .O(rst_dqs_find_i_18_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair205" *) 
+  (* SOFT_HLUTNM = "soft_lutpair201" *) 
   LUT4 #(
-    .INIT(16'h7F00)) 
-    rst_dqs_find_i_19
-       (.I0(\inc_cnt_reg_n_0_[0] ),
-        .I1(\inc_cnt_reg_n_0_[2] ),
-        .I2(\inc_cnt_reg_n_0_[4] ),
-        .I3(\inc_cnt_reg_n_0_[1] ),
-        .O(rst_dqs_find_i_19_n_0));
-  LUT6 #(
-    .INIT(64'hFFFFFFFFFFFFEAAA)) 
-    rst_dqs_find_i_2
-       (.I0(rst_dqs_find_i_7_n_0),
+    .INIT(16'h80F0)) 
+    rst_dqs_find_i_12
+       (.I0(fine_adj_state_r[1]),
         .I1(prech_done),
-        .I2(fine_adj_state_r[1]),
-        .I3(fine_adj_state_r[2]),
-        .I4(rst_dqs_find_i_8_n_0),
-        .I5(rst_dqs_find_i_9_n_0),
+        .I2(fine_adj_state_r[3]),
+        .I3(fine_adj_state_r[0]),
+        .O(rst_dqs_find_i_12_n_0));
+  LUT2 #(
+    .INIT(4'hB)) 
+    rst_dqs_find_i_13
+       (.I0(pi_dqs_found_any_bank),
+        .I1(rst_dqs_find_r2),
+        .O(rst_dqs_find_i_13_n_0));
+  LUT6 #(
+    .INIT(64'hEAAAFAFFEAAAFAFA)) 
+    rst_dqs_find_i_2
+       (.I0(rst_dqs_find_i_5_n_0),
+        .I1(prech_done),
+        .I2(fine_adj_state_r[2]),
+        .I3(fine_adj_state_r[1]),
+        .I4(fine_adj_state_r[0]),
+        .I5(init_dqsfound_done_r5),
         .O(rst_dqs_find));
   LUT6 #(
-    .INIT(64'hBFEAEAFFAAAAAAAA)) 
+    .INIT(64'h54444444FFFFFFFF)) 
     rst_dqs_find_i_3
-       (.I0(rst_dqs_find_i_10_n_0),
-        .I1(\inc_cnt_reg_n_0_[3] ),
-        .I2(\inc_cnt_reg_n_0_[5] ),
-        .I3(\inc_cnt_reg_n_0_[2] ),
-        .I4(\inc_cnt_reg_n_0_[4] ),
-        .I5(rst_dqs_find_i_11_n_0),
+       (.I0(rst_dqs_find_i_6_n_0),
+        .I1(pi_dqs_found_all_bank),
+        .I2(\inc_cnt_reg_n_0_[0] ),
+        .I3(rst_dqs_find_i_7_n_0),
+        .I4(\dec_cnt[5]_i_9_n_0 ),
+        .I5(rst_dqs_find_i_8_n_0),
         .O(rst_dqs_find_i_3_n_0));
   LUT6 #(
-    .INIT(64'hFEEEFEFEEEEEEEEE)) 
+    .INIT(64'hEFEEEFEEEFEEEFEF)) 
     rst_dqs_find_i_4
-       (.I0(rst_dqs_find_i_12_n_0),
-        .I1(fine_adjust),
-        .I2(dqs_found_prech_req_i_3_n_0),
-        .I3(prech_done),
-        .I4(Q),
-        .I5(fine_adj_state_r[2]),
+       (.I0(rst_dqs_find_i_9_n_0),
+        .I1(rst_dqs_find_i_10_n_0),
+        .I2(rst_dqs_find_i_11_n_0),
+        .I3(\dec_cnt[5]_i_9_n_0 ),
+        .I4(first_fail_detect_reg_n_0),
+        .I5(\inc_cnt_reg_n_0_[5] ),
         .O(rst_dqs_find_i_4_n_0));
   LUT6 #(
-    .INIT(64'h000022F200002222)) 
+    .INIT(64'h3030700030303030)) 
     rst_dqs_find_i_5
-       (.I0(rst_dqs_find_i_11_n_0),
-        .I1(\inc_cnt_reg_n_0_[3] ),
-        .I2(rst_dqs_find_i_14_n_0),
-        .I3(first_fail_detect_reg_n_0),
-        .I4(\inc_cnt_reg_n_0_[5] ),
-        .I5(dqs_found_prech_req_i_3_n_0),
+       (.I0(first_fail_detect_reg_n_0),
+        .I1(\dec_cnt[5]_i_3_n_0 ),
+        .I2(rst_dqs_find_i_12_n_0),
+        .I3(first_fail_detect_i_1_n_0),
+        .I4(pi_dqs_found_all_bank),
+        .I5(detect_pi_found_dqs),
         .O(rst_dqs_find_i_5_n_0));
   LUT6 #(
-    .INIT(64'hFFFFFFFF60E0E0E0)) 
+    .INIT(64'h8000000040141400)) 
     rst_dqs_find_i_6
        (.I0(\inc_cnt_reg_n_0_[1] ),
-        .I1(\inc_cnt_reg_n_0_[0] ),
-        .I2(rst_dqs_find_i_11_n_0),
-        .I3(\inc_cnt_reg_n_0_[4] ),
-        .I4(\inc_cnt_reg_n_0_[2] ),
-        .I5(fine_adjust_done_r),
+        .I1(\inc_cnt_reg_n_0_[2] ),
+        .I2(\inc_cnt_reg_n_0_[4] ),
+        .I3(\inc_cnt_reg_n_0_[3] ),
+        .I4(\inc_cnt_reg_n_0_[5] ),
+        .I5(\inc_cnt_reg_n_0_[0] ),
         .O(rst_dqs_find_i_6_n_0));
-  LUT6 #(
-    .INIT(64'hF200220022002200)) 
+  (* SOFT_HLUTNM = "soft_lutpair202" *) 
+  LUT4 #(
+    .INIT(16'h7FFF)) 
     rst_dqs_find_i_7
-       (.I0(\dec_cnt[5]_i_5_n_0 ),
-        .I1(first_fail_detect_reg_n_0),
-        .I2(rst_dqs_find_i_16_n_0),
-        .I3(fine_adj_state_r[3]),
-        .I4(fine_adj_state_r[1]),
-        .I5(prech_done),
+       (.I0(\inc_cnt_reg_n_0_[4] ),
+        .I1(\inc_cnt_reg_n_0_[2] ),
+        .I2(\inc_cnt_reg_n_0_[5] ),
+        .I3(\inc_cnt_reg_n_0_[3] ),
         .O(rst_dqs_find_i_7_n_0));
   LUT6 #(
-    .INIT(64'h0000880800008888)) 
+    .INIT(64'hFFF8FFF0FFFFFFF0)) 
     rst_dqs_find_i_8
-       (.I0(fine_adj_state_r[3]),
-        .I1(\dec_cnt[5]_i_3_n_0 ),
-        .I2(detect_pi_found_dqs),
-        .I3(pi_dqs_found_all_bank),
-        .I4(Q),
-        .I5(\dec_cnt[5]_i_12_n_0 ),
+       (.I0(\inc_cnt_reg_n_0_[2] ),
+        .I1(\inc_cnt_reg_n_0_[4] ),
+        .I2(\inc_cnt_reg_n_0_[5] ),
+        .I3(first_fail_detect_reg_n_0),
+        .I4(\inc_cnt_reg_n_0_[3] ),
+        .I5(\inc_cnt_reg_n_0_[0] ),
         .O(rst_dqs_find_i_8_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair193" *) 
-  LUT4 #(
-    .INIT(16'h0F02)) 
+  LUT6 #(
+    .INIT(64'h88CC000000000300)) 
     rst_dqs_find_i_9
-       (.I0(init_dqsfound_done_r5),
-        .I1(fine_adj_state_r[1]),
-        .I2(Q),
-        .I3(fine_adj_state_r[2]),
+       (.I0(prech_done),
+        .I1(fine_adj_state_r[2]),
+        .I2(rst_dqs_find_i_13_n_0),
+        .I3(fine_adj_state_r[0]),
+        .I4(fine_adj_state_r[1]),
+        .I5(fine_adj_state_r[3]),
         .O(rst_dqs_find_i_9_n_0));
   FDRE rst_dqs_find_r1_reg
        (.C(CLK),
@@ -41532,80 +41403,80 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_dqs_found_cal_hr
         .D(rst_dqs_find_i_1_n_0),
         .Q(rst_dqs_find__0),
         .R(ck_po_stg2_f_en_reg_0));
+  (* SOFT_HLUTNM = "soft_lutpair203" *) 
   LUT2 #(
-    .INIT(4'h2)) 
+    .INIT(4'h4)) 
     \stable_pass_cnt[0]_i_1 
-       (.I0(pi_dqs_found_all_bank),
-        .I1(\stable_pass_cnt_reg_n_0_[0] ),
-        .O(p_0_in__1[0]));
-  (* SOFT_HLUTNM = "soft_lutpair206" *) 
+       (.I0(\stable_pass_cnt_reg_n_0_[0] ),
+        .I1(pi_dqs_found_all_bank),
+        .O(\stable_pass_cnt[0]_i_1_n_0 ));
   LUT3 #(
-    .INIT(8'h28)) 
+    .INIT(8'h60)) 
     \stable_pass_cnt[1]_i_1 
-       (.I0(pi_dqs_found_all_bank),
-        .I1(stable_pass_cnt_reg[1]),
-        .I2(\stable_pass_cnt_reg_n_0_[0] ),
+       (.I0(stable_pass_cnt_reg[1]),
+        .I1(\stable_pass_cnt_reg_n_0_[0] ),
+        .I2(pi_dqs_found_all_bank),
         .O(p_0_in__1[1]));
-  (* SOFT_HLUTNM = "soft_lutpair202" *) 
+  (* SOFT_HLUTNM = "soft_lutpair194" *) 
   LUT4 #(
-    .INIT(16'h2888)) 
+    .INIT(16'h7800)) 
     \stable_pass_cnt[2]_i_1 
+       (.I0(\stable_pass_cnt_reg_n_0_[0] ),
+        .I1(stable_pass_cnt_reg[1]),
+        .I2(stable_pass_cnt_reg[2]),
+        .I3(pi_dqs_found_all_bank),
+        .O(p_0_in__1[2]));
+  (* SOFT_HLUTNM = "soft_lutpair194" *) 
+  LUT5 #(
+    .INIT(32'h2AAA8000)) 
+    \stable_pass_cnt[3]_i_1 
        (.I0(pi_dqs_found_all_bank),
         .I1(stable_pass_cnt_reg[2]),
         .I2(stable_pass_cnt_reg[1]),
         .I3(\stable_pass_cnt_reg_n_0_[0] ),
-        .O(p_0_in__1[2]));
-  (* SOFT_HLUTNM = "soft_lutpair202" *) 
-  LUT5 #(
-    .INIT(32'h28888888)) 
-    \stable_pass_cnt[3]_i_1 
-       (.I0(pi_dqs_found_all_bank),
-        .I1(stable_pass_cnt_reg[3]),
-        .I2(\stable_pass_cnt_reg_n_0_[0] ),
-        .I3(stable_pass_cnt_reg[2]),
-        .I4(stable_pass_cnt_reg[1]),
-        .O(p_0_in__1[3]));
+        .I4(stable_pass_cnt_reg[3]),
+        .O(\stable_pass_cnt[3]_i_1_n_0 ));
   LUT6 #(
-    .INIT(64'h2888888888888888)) 
+    .INIT(64'h000000007FFF8000)) 
     \stable_pass_cnt[4]_i_1 
-       (.I0(\first_fail_taps[5]_i_2_n_0 ),
-        .I1(stable_pass_cnt_reg[4]),
-        .I2(\stable_pass_cnt_reg_n_0_[0] ),
-        .I3(stable_pass_cnt_reg[3]),
-        .I4(stable_pass_cnt_reg[1]),
-        .I5(stable_pass_cnt_reg[2]),
+       (.I0(stable_pass_cnt_reg[2]),
+        .I1(stable_pass_cnt_reg[3]),
+        .I2(stable_pass_cnt_reg[1]),
+        .I3(\stable_pass_cnt_reg_n_0_[0] ),
+        .I4(stable_pass_cnt_reg[4]),
+        .I5(\stable_pass_cnt_reg[4]_0 ),
         .O(p_0_in__1[4]));
   LUT5 #(
-    .INIT(32'h00004000)) 
+    .INIT(32'h00400000)) 
     \stable_pass_cnt[5]_i_1 
-       (.I0(Q),
-        .I1(detect_pi_found_dqs),
+       (.I0(fine_adj_state_r[2]),
+        .I1(fine_adj_state_r[1]),
         .I2(fine_adj_state_r[3]),
-        .I3(fine_adj_state_r[1]),
-        .I4(fine_adj_state_r[2]),
+        .I3(fine_adj_state_r[0]),
+        .I4(detect_pi_found_dqs),
         .O(stable_pass_cnt));
-  (* SOFT_HLUTNM = "soft_lutpair206" *) 
+  (* SOFT_HLUTNM = "soft_lutpair203" *) 
   LUT4 #(
-    .INIT(16'h8828)) 
+    .INIT(16'h2A80)) 
     \stable_pass_cnt[5]_i_2 
        (.I0(pi_dqs_found_all_bank),
-        .I1(stable_pass_cnt_reg[5]),
+        .I1(\stable_pass_cnt[5]_i_3_n_0 ),
         .I2(\stable_pass_cnt_reg_n_0_[0] ),
-        .I3(\stable_pass_cnt[5]_i_3_n_0 ),
-        .O(p_0_in__1[5]));
-  (* SOFT_HLUTNM = "soft_lutpair182" *) 
+        .I3(stable_pass_cnt_reg[5]),
+        .O(\stable_pass_cnt[5]_i_2_n_0 ));
+  (* SOFT_HLUTNM = "soft_lutpair181" *) 
   LUT4 #(
-    .INIT(16'h7FFF)) 
+    .INIT(16'h8000)) 
     \stable_pass_cnt[5]_i_3 
-       (.I0(stable_pass_cnt_reg[3]),
-        .I1(stable_pass_cnt_reg[1]),
-        .I2(stable_pass_cnt_reg[2]),
-        .I3(stable_pass_cnt_reg[4]),
+       (.I0(stable_pass_cnt_reg[2]),
+        .I1(stable_pass_cnt_reg[3]),
+        .I2(stable_pass_cnt_reg[4]),
+        .I3(stable_pass_cnt_reg[1]),
         .O(\stable_pass_cnt[5]_i_3_n_0 ));
   FDRE \stable_pass_cnt_reg[0] 
        (.C(CLK),
         .CE(stable_pass_cnt),
-        .D(p_0_in__1[0]),
+        .D(\stable_pass_cnt[0]_i_1_n_0 ),
         .Q(\stable_pass_cnt_reg_n_0_[0] ),
         .R(\stable_pass_cnt_reg[0]_0 ));
   FDRE \stable_pass_cnt_reg[1] 
@@ -41623,7 +41494,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_dqs_found_cal_hr
   FDRE \stable_pass_cnt_reg[3] 
        (.C(CLK),
         .CE(stable_pass_cnt),
-        .D(p_0_in__1[3]),
+        .D(\stable_pass_cnt[3]_i_1_n_0 ),
         .Q(stable_pass_cnt_reg[3]),
         .R(\stable_pass_cnt_reg[0]_0 ));
   FDRE \stable_pass_cnt_reg[4] 
@@ -41635,7 +41506,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_dqs_found_cal_hr
   FDRE \stable_pass_cnt_reg[5] 
        (.C(CLK),
         .CE(stable_pass_cnt),
-        .D(p_0_in__1[5]),
+        .D(\stable_pass_cnt[5]_i_2_n_0 ),
         .Q(stable_pass_cnt_reg[5]),
         .R(\stable_pass_cnt_reg[0]_0 ));
 endmodule
@@ -41737,7 +41608,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
     pi_dqs_found_done,
     phy_ctl_wr_i1_reg,
     complex_row0_rd_done_reg_0,
-    first_wrcal_pat_r_reg_0,
+    \calib_odt_reg[0]_0 ,
     \init_state_r[1]_i_7_0 ,
     wrlvl_byte_redo,
     burst_addr_r_reg_0,
@@ -41790,7 +41661,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
     \wr_ptr_timing_reg[0]_1 ,
     wr_en_inferred__0_i_1__1_0,
     mc_address,
-    rst_dqs_find_i_12,
+    pi_dqs_found_all_bank,
     out_fifo_7,
     out_fifo_8,
     out_fifo_9,
@@ -41907,7 +41778,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
   input pi_dqs_found_done;
   input phy_ctl_wr_i1_reg;
   input complex_row0_rd_done_reg_0;
-  input first_wrcal_pat_r_reg_0;
+  input \calib_odt_reg[0]_0 ;
   input \init_state_r[1]_i_7_0 ;
   input wrlvl_byte_redo;
   input burst_addr_r_reg_0;
@@ -41960,7 +41831,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
   input \wr_ptr_timing_reg[0]_1 ;
   input wr_en_inferred__0_i_1__1_0;
   input [34:0]mc_address;
-  input [0:0]rst_dqs_find_i_12;
+  input pi_dqs_found_all_bank;
   input out_fifo_7;
   input [38:0]out_fifo_8;
   input out_fifo_9;
@@ -42048,6 +41919,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
   wire \calib_odt[0]_i_1_n_0 ;
   wire \calib_odt[0]_i_2_n_0 ;
   wire \calib_odt[0]_i_3_n_0 ;
+  wire \calib_odt_reg[0]_0 ;
   wire \calib_seq[0]_i_1_n_0 ;
   wire \calib_seq[1]_i_1_n_0 ;
   wire [10:0]\calib_seq_reg[1]_0 ;
@@ -42284,7 +42156,6 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
   wire first_rdlvl_pat_r_i_1_n_0;
   wire first_wrcal_pat_r;
   wire first_wrcal_pat_r_i_1_n_0;
-  wire first_wrcal_pat_r_reg_0;
   wire \gen_no_mirror.div_clk_loop[0].phy_address[0]_i_2_n_0 ;
   wire \gen_no_mirror.div_clk_loop[0].phy_address[0]_i_3_n_0 ;
   wire \gen_no_mirror.div_clk_loop[0].phy_address[0]_i_4_n_0 ;
@@ -42701,6 +42572,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
   wire pi_calib_done_r;
   wire pi_calib_done_r_i_1_n_0;
   wire pi_calib_rank_done_r;
+  wire pi_dqs_found_all_bank;
   wire pi_dqs_found_done;
   wire pi_dqs_found_done_r1;
   wire pi_dqs_found_rank_done;
@@ -42775,7 +42647,6 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
   wire \row_cnt_victim_rotate.complex_row_cnt_reg_n_0_[5] ;
   wire \row_cnt_victim_rotate.complex_row_cnt_reg_n_0_[6] ;
   wire \row_cnt_victim_rotate.complex_row_cnt_reg_n_0_[7] ;
-  wire [0:0]rst_dqs_find_i_12;
   wire stg1_wr_done;
   wire \stg1_wr_rd_cnt[0]_i_1_n_0 ;
   wire \stg1_wr_rd_cnt[1]_i_1_n_0 ;
@@ -42936,7 +42807,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
        (.I0(phy_wrdata_en),
         .I1(\calib_cmd[2]_i_2_n_0 ),
         .O(\DDR3_1rank.phy_int_cs_n[1]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair300" *) 
+  (* SOFT_HLUTNM = "soft_lutpair295" *) 
   LUT5 #(
     .INIT(32'hFFFEFFFF)) 
     \DDR3_1rank.phy_int_cs_n[1]_i_3 
@@ -42996,7 +42867,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\init_state_r_reg_n_0_[5] ),
         .I5(prech_req_posedge_r_i_3_n_0),
         .O(\DDR3_1rank.phy_int_cs_n[1]_i_8_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair327" *) 
+  (* SOFT_HLUTNM = "soft_lutpair322" *) 
   LUT5 #(
     .INIT(32'hABAAAAAA)) 
     \DDR3_1rank.phy_int_cs_n[1]_i_9 
@@ -43020,9 +42891,9 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I2(\init_state_r_reg_n_0_[0] ),
         .I3(\init_state_r_reg_n_0_[1] ),
         .I4(prech_req_posedge_r_i_2_n_0),
-        .I5(first_wrcal_pat_r_reg_0),
+        .I5(\calib_odt_reg[0]_0 ),
         .O(\back_to_back_reads_4_1.num_reads[0]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair380" *) 
+  (* SOFT_HLUTNM = "soft_lutpair375" *) 
   LUT3 #(
     .INIT(8'h01)) 
     \back_to_back_reads_4_1.num_reads[0]_i_2 
@@ -43095,7 +42966,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I1(p_15_in),
         .I2(\DDR3_1rank.phy_int_cs_n[1]_i_2_n_0 ),
         .I3(burst_addr_r_reg_0),
-        .I4(\back_to_back_reads_4_1.num_reads_reg[1]_0 ),
+        .I4(\calib_odt_reg[0]_0 ),
         .O(burst_addr_r_i_1_n_0));
   LUT6 #(
     .INIT(64'h1001100101030101)) 
@@ -43119,7 +42990,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .D(cnt_pwron_cke_done_r),
         .Q(calib_cke),
         .R(\init_state_r_reg[0]_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair353" *) 
+  (* SOFT_HLUTNM = "soft_lutpair348" *) 
   LUT3 #(
     .INIT(8'hFE)) 
     \calib_cmd[0]_i_1 
@@ -43127,7 +42998,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I1(phy_wrdata_en),
         .I2(wr_level_dqs_asrt),
         .O(\calib_cmd[0]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair376" *) 
+  (* SOFT_HLUTNM = "soft_lutpair371" *) 
   LUT3 #(
     .INIT(8'h02)) 
     \calib_cmd[1]_i_1 
@@ -43135,7 +43006,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I1(phy_wrdata_en),
         .I2(wr_level_dqs_asrt),
         .O(\calib_cmd[1]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair376" *) 
+  (* SOFT_HLUTNM = "soft_lutpair371" *) 
   LUT3 #(
     .INIT(8'h01)) 
     \calib_cmd[2]_i_1 
@@ -43203,7 +43074,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .D(p_116_in),
         .Q(calib_ctl_wren_reg_0),
         .R(\en_cnt_div4.enable_wrlvl_cnt_reg[2]_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair353" *) 
+  (* SOFT_HLUTNM = "soft_lutpair348" *) 
   LUT4 #(
     .INIT(16'hEFEE)) 
     \calib_data_offset_0[3]_i_1 
@@ -43263,7 +43134,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I1(\calib_odt[0]_i_3_n_0 ),
         .I2(phy_wrdata_en),
         .I3(\gen_rnk[0].mr1_r_reg_n_0_[0][1] ),
-        .I4(\back_to_back_reads_4_1.num_reads_reg[1]_0 ),
+        .I4(\calib_odt_reg[0]_0 ),
         .O(\calib_odt[0]_i_1_n_0 ));
   LUT5 #(
     .INIT(32'hFFFFFF08)) 
@@ -43290,7 +43161,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .D(\calib_odt[0]_i_1_n_0 ),
         .Q(calib_odt),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair373" *) 
+  (* SOFT_HLUTNM = "soft_lutpair368" *) 
   LUT3 #(
     .INIT(8'h78)) 
     \calib_seq[0]_i_1 
@@ -43298,7 +43169,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I1(cnt_pwron_cke_done_r),
         .I2(\calib_seq_reg[1]_0 [9]),
         .O(\calib_seq[0]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair373" *) 
+  (* SOFT_HLUTNM = "soft_lutpair368" *) 
   LUT4 #(
     .INIT(16'h7F80)) 
     \calib_seq[1]_i_1 
@@ -43345,7 +43216,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\cnt_cmd_r_reg_n_0_[5] ),
         .I5(\cnt_cmd_r_reg_n_0_[4] ),
         .O(cnt_cmd_done_m7_r_i_1_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair392" *) 
+  (* SOFT_HLUTNM = "soft_lutpair387" *) 
   LUT2 #(
     .INIT(4'hE)) 
     cnt_cmd_done_m7_r_i_2
@@ -43370,20 +43241,20 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .D(cnt_cmd_done_r_i_1_n_0),
         .Q(cnt_cmd_done_r),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair410" *) 
+  (* SOFT_HLUTNM = "soft_lutpair405" *) 
   LUT1 #(
     .INIT(2'h1)) 
     \cnt_cmd_r[0]_i_1 
        (.I0(\cnt_cmd_r_reg_n_0_[0] ),
         .O(\cnt_cmd_r[0]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair410" *) 
+  (* SOFT_HLUTNM = "soft_lutpair405" *) 
   LUT2 #(
     .INIT(4'h6)) 
     \cnt_cmd_r[1]_i_1 
        (.I0(\cnt_cmd_r_reg_n_0_[0] ),
         .I1(\cnt_cmd_r_reg_n_0_[1] ),
         .O(\cnt_cmd_r[1]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair392" *) 
+  (* SOFT_HLUTNM = "soft_lutpair387" *) 
   LUT3 #(
     .INIT(8'h6A)) 
     \cnt_cmd_r[2]_i_1 
@@ -43391,7 +43262,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I1(\cnt_cmd_r_reg_n_0_[0] ),
         .I2(\cnt_cmd_r_reg_n_0_[1] ),
         .O(\cnt_cmd_r[2]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair342" *) 
+  (* SOFT_HLUTNM = "soft_lutpair337" *) 
   LUT4 #(
     .INIT(16'h6AAA)) 
     \cnt_cmd_r[3]_i_1 
@@ -43400,7 +43271,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I2(\cnt_cmd_r_reg_n_0_[1] ),
         .I3(\cnt_cmd_r_reg_n_0_[0] ),
         .O(\cnt_cmd_r[3]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair342" *) 
+  (* SOFT_HLUTNM = "soft_lutpair337" *) 
   LUT5 #(
     .INIT(32'h6AAAAAAA)) 
     \cnt_cmd_r[4]_i_1 
@@ -43494,7 +43365,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .D(\cnt_cmd_r[6]_i_2_n_0 ),
         .Q(\cnt_cmd_r_reg_n_0_[6] ),
         .R(\cnt_cmd_r[6]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair368" *) 
+  (* SOFT_HLUTNM = "soft_lutpair363" *) 
   LUT4 #(
     .INIT(16'hEAAA)) 
     cnt_dllk_zqinit_done_r_i_1
@@ -43514,14 +43385,14 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
     \cnt_dllk_zqinit_r[0]_i_1 
        (.I0(cnt_dllk_zqinit_r_reg[0]),
         .O(p_0_in__3[0]));
-  (* SOFT_HLUTNM = "soft_lutpair393" *) 
+  (* SOFT_HLUTNM = "soft_lutpair388" *) 
   LUT2 #(
     .INIT(4'h6)) 
     \cnt_dllk_zqinit_r[1]_i_1 
        (.I0(cnt_dllk_zqinit_r_reg[1]),
         .I1(cnt_dllk_zqinit_r_reg[0]),
         .O(p_0_in__3[1]));
-  (* SOFT_HLUTNM = "soft_lutpair393" *) 
+  (* SOFT_HLUTNM = "soft_lutpair388" *) 
   LUT3 #(
     .INIT(8'h6A)) 
     \cnt_dllk_zqinit_r[2]_i_1 
@@ -43529,7 +43400,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I1(cnt_dllk_zqinit_r_reg[0]),
         .I2(cnt_dllk_zqinit_r_reg[1]),
         .O(p_0_in__3[2]));
-  (* SOFT_HLUTNM = "soft_lutpair341" *) 
+  (* SOFT_HLUTNM = "soft_lutpair336" *) 
   LUT4 #(
     .INIT(16'h6AAA)) 
     \cnt_dllk_zqinit_r[3]_i_1 
@@ -43538,7 +43409,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I2(cnt_dllk_zqinit_r_reg[0]),
         .I3(cnt_dllk_zqinit_r_reg[2]),
         .O(p_0_in__3[3]));
-  (* SOFT_HLUTNM = "soft_lutpair341" *) 
+  (* SOFT_HLUTNM = "soft_lutpair336" *) 
   LUT5 #(
     .INIT(32'h6AAAAAAA)) 
     \cnt_dllk_zqinit_r[4]_i_1 
@@ -43574,7 +43445,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\init_state_r_reg_n_0_[5] ),
         .I5(init_state_r),
         .O(\cnt_dllk_zqinit_r[7]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair368" *) 
+  (* SOFT_HLUTNM = "soft_lutpair363" *) 
   LUT3 #(
     .INIT(8'h6A)) 
     \cnt_dllk_zqinit_r[7]_i_2 
@@ -43630,7 +43501,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .D(p_0_in__3[7]),
         .Q(cnt_dllk_zqinit_r_reg[7]),
         .R(\cnt_dllk_zqinit_r[7]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair304" *) 
+  (* SOFT_HLUTNM = "soft_lutpair299" *) 
   LUT5 #(
     .INIT(32'h0000E222)) 
     cnt_init_af_done_r_i_1
@@ -43653,7 +43524,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I1(cnt_init_mr_r1),
         .I2(ddr2_pre_flag_r),
         .O(\cnt_init_af_r[0]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair304" *) 
+  (* SOFT_HLUTNM = "soft_lutpair299" *) 
   LUT4 #(
     .INIT(16'h006A)) 
     \cnt_init_af_r[1]_i_1 
@@ -43690,7 +43561,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .D(cnt_init_mr_done_r_i_1_n_0),
         .Q(cnt_init_mr_done_r),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair307" *) 
+  (* SOFT_HLUTNM = "soft_lutpair302" *) 
   LUT4 #(
     .INIT(16'h0006)) 
     \cnt_init_mr_r[0]_i_1 
@@ -43699,7 +43570,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I2(ddr2_pre_flag_r),
         .I3(cnt_init_mr_r1),
         .O(\cnt_init_mr_r[0]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair307" *) 
+  (* SOFT_HLUTNM = "soft_lutpair302" *) 
   LUT5 #(
     .INIT(32'h0000006A)) 
     \cnt_init_mr_r[1]_i_1 
@@ -43746,14 +43617,14 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
     \cnt_pwron_ce_r[0]_i_1 
        (.I0(cnt_pwron_ce_r_reg[0]),
         .O(p_0_in__0[0]));
-  (* SOFT_HLUTNM = "soft_lutpair397" *) 
+  (* SOFT_HLUTNM = "soft_lutpair392" *) 
   LUT2 #(
     .INIT(4'h6)) 
     \cnt_pwron_ce_r[1]_i_1 
        (.I0(cnt_pwron_ce_r_reg[1]),
         .I1(cnt_pwron_ce_r_reg[0]),
         .O(p_0_in__0[1]));
-  (* SOFT_HLUTNM = "soft_lutpair397" *) 
+  (* SOFT_HLUTNM = "soft_lutpair392" *) 
   LUT3 #(
     .INIT(8'h6A)) 
     \cnt_pwron_ce_r[2]_i_1 
@@ -43761,7 +43632,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I1(cnt_pwron_ce_r_reg[0]),
         .I2(cnt_pwron_ce_r_reg[1]),
         .O(p_0_in__0[2]));
-  (* SOFT_HLUTNM = "soft_lutpair343" *) 
+  (* SOFT_HLUTNM = "soft_lutpair338" *) 
   LUT4 #(
     .INIT(16'h6AAA)) 
     \cnt_pwron_ce_r[3]_i_1 
@@ -43770,7 +43641,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I2(cnt_pwron_ce_r_reg[0]),
         .I3(cnt_pwron_ce_r_reg[2]),
         .O(p_0_in__0[3]));
-  (* SOFT_HLUTNM = "soft_lutpair343" *) 
+  (* SOFT_HLUTNM = "soft_lutpair338" *) 
   LUT5 #(
     .INIT(32'h6AAAAAAA)) 
     \cnt_pwron_ce_r[4]_i_1 
@@ -43790,14 +43661,14 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(cnt_pwron_ce_r_reg[2]),
         .I5(cnt_pwron_ce_r_reg[4]),
         .O(p_0_in__0[5]));
-  (* SOFT_HLUTNM = "soft_lutpair390" *) 
+  (* SOFT_HLUTNM = "soft_lutpair385" *) 
   LUT2 #(
     .INIT(4'h6)) 
     \cnt_pwron_ce_r[6]_i_1 
        (.I0(cnt_pwron_ce_r_reg[6]),
         .I1(pwron_ce_r_i_2_n_0),
         .O(p_0_in__0[6]));
-  (* SOFT_HLUTNM = "soft_lutpair390" *) 
+  (* SOFT_HLUTNM = "soft_lutpair385" *) 
   LUT3 #(
     .INIT(8'h6A)) 
     \cnt_pwron_ce_r[7]_i_1 
@@ -43805,7 +43676,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I1(pwron_ce_r_i_2_n_0),
         .I2(cnt_pwron_ce_r_reg[6]),
         .O(p_0_in__0[7]));
-  (* SOFT_HLUTNM = "soft_lutpair340" *) 
+  (* SOFT_HLUTNM = "soft_lutpair335" *) 
   LUT4 #(
     .INIT(16'h6AAA)) 
     \cnt_pwron_ce_r[8]_i_1 
@@ -43814,7 +43685,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I2(pwron_ce_r_i_2_n_0),
         .I3(cnt_pwron_ce_r_reg[7]),
         .O(p_0_in__0[8]));
-  (* SOFT_HLUTNM = "soft_lutpair340" *) 
+  (* SOFT_HLUTNM = "soft_lutpair335" *) 
   LUT5 #(
     .INIT(32'h6AAAAAAA)) 
     \cnt_pwron_ce_r[9]_i_1 
@@ -43916,20 +43787,20 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .D(cnt_pwron_cke_done_r_i_1_n_0),
         .Q(cnt_pwron_cke_done_r),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair412" *) 
+  (* SOFT_HLUTNM = "soft_lutpair407" *) 
   LUT1 #(
     .INIT(2'h1)) 
     \cnt_pwron_r[0]_i_1 
        (.I0(cnt_pwron_r_reg[0]),
         .O(p_0_in__0__0[0]));
-  (* SOFT_HLUTNM = "soft_lutpair412" *) 
+  (* SOFT_HLUTNM = "soft_lutpair407" *) 
   LUT2 #(
     .INIT(4'h6)) 
     \cnt_pwron_r[1]_i_1 
        (.I0(cnt_pwron_r_reg[1]),
         .I1(cnt_pwron_r_reg[0]),
         .O(p_0_in__0__0[1]));
-  (* SOFT_HLUTNM = "soft_lutpair398" *) 
+  (* SOFT_HLUTNM = "soft_lutpair393" *) 
   LUT3 #(
     .INIT(8'h6A)) 
     \cnt_pwron_r[2]_i_1 
@@ -43937,7 +43808,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I1(cnt_pwron_r_reg[0]),
         .I2(cnt_pwron_r_reg[1]),
         .O(p_0_in__0__0[2]));
-  (* SOFT_HLUTNM = "soft_lutpair344" *) 
+  (* SOFT_HLUTNM = "soft_lutpair339" *) 
   LUT4 #(
     .INIT(16'h6AAA)) 
     \cnt_pwron_r[3]_i_1 
@@ -43946,7 +43817,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I2(cnt_pwron_r_reg[0]),
         .I3(cnt_pwron_r_reg[2]),
         .O(p_0_in__0__0[3]));
-  (* SOFT_HLUTNM = "soft_lutpair344" *) 
+  (* SOFT_HLUTNM = "soft_lutpair339" *) 
   LUT5 #(
     .INIT(32'h6AAAAAAA)) 
     \cnt_pwron_r[4]_i_1 
@@ -43976,14 +43847,14 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(cnt_pwron_r_reg[3]),
         .I5(cnt_pwron_r_reg[5]),
         .O(p_0_in__0__0[6]));
-  (* SOFT_HLUTNM = "soft_lutpair398" *) 
+  (* SOFT_HLUTNM = "soft_lutpair393" *) 
   LUT2 #(
     .INIT(4'h8)) 
     \cnt_pwron_r[6]_i_2 
        (.I0(cnt_pwron_r_reg[1]),
         .I1(cnt_pwron_r_reg[0]),
         .O(\cnt_pwron_r[6]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair366" *) 
+  (* SOFT_HLUTNM = "soft_lutpair361" *) 
   LUT3 #(
     .INIT(8'h6A)) 
     \cnt_pwron_r[7]_i_1 
@@ -43991,7 +43862,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I1(\cnt_pwron_r[8]_i_2_n_0 ),
         .I2(cnt_pwron_r_reg[6]),
         .O(p_0_in__0__0[7]));
-  (* SOFT_HLUTNM = "soft_lutpair366" *) 
+  (* SOFT_HLUTNM = "soft_lutpair361" *) 
   LUT4 #(
     .INIT(16'h6AAA)) 
     \cnt_pwron_r[8]_i_1 
@@ -44099,7 +43970,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(cnt_txpr_r_reg[5]),
         .I5(cnt_txpr_r_reg[2]),
         .O(cnt_txpr_done_r_i_1_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair367" *) 
+  (* SOFT_HLUTNM = "soft_lutpair362" *) 
   LUT4 #(
     .INIT(16'hFFDF)) 
     cnt_txpr_done_r_i_2
@@ -44114,20 +43985,20 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .D(cnt_txpr_done_r_i_1_n_0),
         .Q(cnt_txpr_done_r),
         .R(clear));
-  (* SOFT_HLUTNM = "soft_lutpair413" *) 
+  (* SOFT_HLUTNM = "soft_lutpair408" *) 
   LUT1 #(
     .INIT(2'h1)) 
     \cnt_txpr_r[0]_i_1 
        (.I0(cnt_txpr_r_reg[0]),
         .O(p_0_in__1[0]));
-  (* SOFT_HLUTNM = "soft_lutpair413" *) 
+  (* SOFT_HLUTNM = "soft_lutpair408" *) 
   LUT2 #(
     .INIT(4'h6)) 
     \cnt_txpr_r[1]_i_1 
        (.I0(cnt_txpr_r_reg[1]),
         .I1(cnt_txpr_r_reg[0]),
         .O(p_0_in__1[1]));
-  (* SOFT_HLUTNM = "soft_lutpair367" *) 
+  (* SOFT_HLUTNM = "soft_lutpair362" *) 
   LUT3 #(
     .INIT(8'h6A)) 
     \cnt_txpr_r[2]_i_1 
@@ -44135,7 +44006,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I1(cnt_txpr_r_reg[0]),
         .I2(cnt_txpr_r_reg[1]),
         .O(p_0_in__1[2]));
-  (* SOFT_HLUTNM = "soft_lutpair345" *) 
+  (* SOFT_HLUTNM = "soft_lutpair340" *) 
   LUT4 #(
     .INIT(16'h6AAA)) 
     \cnt_txpr_r[3]_i_1 
@@ -44144,7 +44015,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I2(cnt_txpr_r_reg[0]),
         .I3(cnt_txpr_r_reg[2]),
         .O(p_0_in__1[3]));
-  (* SOFT_HLUTNM = "soft_lutpair345" *) 
+  (* SOFT_HLUTNM = "soft_lutpair340" *) 
   LUT5 #(
     .INIT(32'h6AAAAAAA)) 
     \cnt_txpr_r[4]_i_1 
@@ -44164,7 +44035,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(cnt_txpr_r_reg[2]),
         .I5(cnt_txpr_r_reg[4]),
         .O(p_0_in__1[5]));
-  (* SOFT_HLUTNM = "soft_lutpair391" *) 
+  (* SOFT_HLUTNM = "soft_lutpair386" *) 
   LUT2 #(
     .INIT(4'h6)) 
     \cnt_txpr_r[6]_i_1 
@@ -44176,7 +44047,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
     \cnt_txpr_r[7]_i_1 
        (.I0(cnt_pwron_cke_done_r),
         .O(clear));
-  (* SOFT_HLUTNM = "soft_lutpair391" *) 
+  (* SOFT_HLUTNM = "soft_lutpair386" *) 
   LUT3 #(
     .INIT(8'h6A)) 
     \cnt_txpr_r[7]_i_2 
@@ -44262,7 +44133,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\init_state_r_reg_n_0_[3] ),
         .I5(\init_state_r[6]_i_3_n_0 ),
         .O(\complex_address[9]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair299" *) 
+  (* SOFT_HLUTNM = "soft_lutpair294" *) 
   LUT4 #(
     .INIT(16'hFFBF)) 
     \complex_address[9]_i_3 
@@ -44341,12 +44212,12 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .D(\gen_no_mirror.div_clk_loop[0].phy_address_reg_n_0_[9] ),
         .Q(\complex_address_reg_n_0_[9] ),
         .R(\en_cnt_div4.enable_wrlvl_cnt_reg[2]_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair303" *) 
+  (* SOFT_HLUTNM = "soft_lutpair298" *) 
   LUT5 #(
     .INIT(32'h02020200)) 
     complex_byte_rd_done_i_1
        (.I0(\stg1_wr_rd_cnt[8]_i_5_n_0 ),
-        .I1(first_wrcal_pat_r_reg_0),
+        .I1(\calib_odt_reg[0]_0 ),
         .I2(prbs_rdlvl_done_pulse_reg_0),
         .I3(complex_byte_rd_done_i_2_n_0),
         .I4(complex_byte_rd_done),
@@ -44386,7 +44257,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\complex_num_reads[1]_i_2_n_0 ),
         .I5(\complex_num_reads[2]_i_5_n_0 ),
         .O(\complex_num_reads[1]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair360" *) 
+  (* SOFT_HLUTNM = "soft_lutpair355" *) 
   LUT4 #(
     .INIT(16'hA88A)) 
     \complex_num_reads[1]_i_2 
@@ -44423,7 +44294,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I2(\complex_num_reads_reg_n_0_[0] ),
         .I3(\complex_num_reads_reg_n_0_[2] ),
         .O(\complex_num_reads[2]_i_3_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair351" *) 
+  (* SOFT_HLUTNM = "soft_lutpair346" *) 
   LUT3 #(
     .INIT(8'hF8)) 
     \complex_num_reads[2]_i_4 
@@ -44434,7 +44305,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
   LUT6 #(
     .INIT(64'hFFEAAAAAAAAAAAAA)) 
     \complex_num_reads[2]_i_5 
-       (.I0(first_wrcal_pat_r_reg_0),
+       (.I0(\calib_odt_reg[0]_0 ),
         .I1(\complex_num_reads_reg_n_0_[2] ),
         .I2(\complex_num_reads_reg_n_0_[1] ),
         .I3(\complex_num_reads_reg_n_0_[3] ),
@@ -44469,7 +44340,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\complex_num_reads_reg_n_0_[1] ),
         .I5(\complex_num_reads_reg_n_0_[0] ),
         .O(\complex_num_reads[3]_i_3_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair351" *) 
+  (* SOFT_HLUTNM = "soft_lutpair346" *) 
   LUT4 #(
     .INIT(16'hFAEA)) 
     \complex_num_reads[3]_i_4 
@@ -44637,7 +44508,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\complex_num_writes[4]_i_3_n_0 ),
         .I5(\complex_num_writes[4]_i_2_n_0 ),
         .O(\complex_num_writes[0]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair301" *) 
+  (* SOFT_HLUTNM = "soft_lutpair296" *) 
   LUT5 #(
     .INIT(32'h40000000)) 
     \complex_num_writes[0]_i_2 
@@ -44647,7 +44518,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I3(\stg1_wr_rd_cnt_reg_n_0_[1] ),
         .I4(\stg1_wr_rd_cnt_reg_n_0_[2] ),
         .O(\complex_num_writes[0]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair302" *) 
+  (* SOFT_HLUTNM = "soft_lutpair297" *) 
   LUT5 #(
     .INIT(32'hFFFFFFFE)) 
     \complex_num_writes[0]_i_3 
@@ -44687,7 +44558,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\complex_num_writes[2]_i_5_n_0 ),
         .I5(\complex_num_writes[2]_i_6_n_0 ),
         .O(\complex_num_writes[2]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair354" *) 
+  (* SOFT_HLUTNM = "soft_lutpair349" *) 
   LUT4 #(
     .INIT(16'h0010)) 
     \complex_num_writes[2]_i_10 
@@ -44696,14 +44567,14 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I2(\stg1_wr_rd_cnt_reg_n_0_[6] ),
         .I3(\stg1_wr_rd_cnt_reg_n_0_[1] ),
         .O(\complex_num_writes[2]_i_10_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair302" *) 
+  (* SOFT_HLUTNM = "soft_lutpair297" *) 
   LUT2 #(
     .INIT(4'hE)) 
     \complex_num_writes[2]_i_11 
        (.I0(\stg1_wr_rd_cnt_reg_n_0_[7] ),
         .I1(\stg1_wr_rd_cnt_reg_n_0_[8] ),
         .O(\complex_num_writes[2]_i_11_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair352" *) 
+  (* SOFT_HLUTNM = "soft_lutpair347" *) 
   LUT2 #(
     .INIT(4'h7)) 
     \complex_num_writes[2]_i_12 
@@ -44730,7 +44601,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\complex_num_writes_reg_n_0_[2] ),
         .I5(\complex_num_writes[2]_i_9_n_0 ),
         .O(\complex_num_writes[2]_i_3_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair375" *) 
+  (* SOFT_HLUTNM = "soft_lutpair370" *) 
   LUT3 #(
     .INIT(8'hBA)) 
     \complex_num_writes[2]_i_4 
@@ -44774,7 +44645,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\stg1_wr_rd_cnt_reg_n_0_[6] ),
         .I5(\stg1_wr_rd_cnt_reg_n_0_[4] ),
         .O(\complex_num_writes[2]_i_8_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair360" *) 
+  (* SOFT_HLUTNM = "soft_lutpair355" *) 
   LUT2 #(
     .INIT(4'h1)) 
     \complex_num_writes[2]_i_9 
@@ -44790,7 +44661,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I3(\complex_num_writes[4]_i_3_n_0 ),
         .I4(\complex_num_writes[4]_i_2_n_0 ),
         .O(\complex_num_writes[3]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair375" *) 
+  (* SOFT_HLUTNM = "soft_lutpair370" *) 
   LUT3 #(
     .INIT(8'hF8)) 
     \complex_num_writes[3]_i_2 
@@ -44862,7 +44733,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I1(\complex_num_writes[4]_i_7_n_0 ),
         .I2(\complex_num_writes[2]_i_5_n_0 ),
         .O(\complex_num_writes[4]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair329" *) 
+  (* SOFT_HLUTNM = "soft_lutpair324" *) 
   LUT5 #(
     .INIT(32'h08000000)) 
     \complex_num_writes[4]_i_3 
@@ -44882,7 +44753,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\complex_num_writes_reg_n_0_[0] ),
         .I5(\complex_num_writes_reg_n_0_[4] ),
         .O(\complex_num_writes[4]_i_4_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair350" *) 
+  (* SOFT_HLUTNM = "soft_lutpair345" *) 
   LUT4 #(
     .INIT(16'hFBAA)) 
     \complex_num_writes[4]_i_5 
@@ -44891,7 +44762,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I2(\complex_num_writes[4]_i_10_n_0 ),
         .I3(\complex_num_writes[2]_i_5_n_0 ),
         .O(\complex_num_writes[4]_i_5_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair350" *) 
+  (* SOFT_HLUTNM = "soft_lutpair345" *) 
   LUT2 #(
     .INIT(4'h8)) 
     \complex_num_writes[4]_i_6 
@@ -44908,7 +44779,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\stg1_wr_rd_cnt_reg_n_0_[3] ),
         .I5(\complex_num_writes[2]_i_10_n_0 ),
         .O(\complex_num_writes[4]_i_7_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair327" *) 
+  (* SOFT_HLUTNM = "soft_lutpair322" *) 
   LUT4 #(
     .INIT(16'h0800)) 
     \complex_num_writes[4]_i_8 
@@ -44942,7 +44813,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I2(\complex_num_writes_dec[4]_i_4_n_0 ),
         .I3(\complex_num_writes_reg_n_0_[1] ),
         .O(p_0_in__7[1]));
-  (* SOFT_HLUTNM = "soft_lutpair325" *) 
+  (* SOFT_HLUTNM = "soft_lutpair320" *) 
   LUT5 #(
     .INIT(32'hA9FFA900)) 
     \complex_num_writes_dec[2]_i_1 
@@ -44966,7 +44837,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
     .INIT(4'hE)) 
     \complex_num_writes_dec[4]_i_1 
        (.I0(prbs_rdlvl_done_pulse_reg_0),
-        .I1(first_wrcal_pat_r_reg_0),
+        .I1(\calib_odt_reg[0]_0 ),
         .O(complex_row0_rd_done1));
   LUT5 #(
     .INIT(32'h77777757)) 
@@ -44996,7 +44867,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\init_state_r_reg_n_0_[1] ),
         .I5(\init_state_r_reg_n_0_[0] ),
         .O(\complex_num_writes_dec[4]_i_4_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair325" *) 
+  (* SOFT_HLUTNM = "soft_lutpair320" *) 
   LUT3 #(
     .INIT(8'h01)) 
     \complex_num_writes_dec[4]_i_5 
@@ -45074,7 +44945,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(ddr3_lm_done_r_i_2_n_0),
         .I5(complex_ocal_odt_ext_i_3_n_0),
         .O(complex_ocal_odt_ext_i_1_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair318" *) 
+  (* SOFT_HLUTNM = "soft_lutpair313" *) 
   LUT2 #(
     .INIT(4'h8)) 
     complex_ocal_odt_ext_i_2
@@ -45089,9 +44960,9 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I2(\DDR3_1rank.phy_int_cs_n[1]_i_3_n_0 ),
         .I3(\init_state_r_reg_n_0_[1] ),
         .I4(complex_ocal_odt_ext),
-        .I5(first_wrcal_pat_r_reg_0),
+        .I5(\calib_odt_reg[0]_0 ),
         .O(complex_ocal_odt_ext_i_3_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair308" *) 
+  (* SOFT_HLUTNM = "soft_lutpair303" *) 
   LUT5 #(
     .INIT(32'hFFFFFFDF)) 
     complex_ocal_odt_ext_i_4
@@ -45163,7 +45034,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
   LUT6 #(
     .INIT(64'h0000000055550010)) 
     complex_odt_ext_i_1
-       (.I0(first_wrcal_pat_r_reg_0),
+       (.I0(\calib_odt_reg[0]_0 ),
         .I1(complex_sample_cnt_inc_i_2_n_0),
         .I2(rdlvl_stg1_done_r1_reg_0),
         .I3(\stg1_wr_rd_cnt[8]_i_5_n_0 ),
@@ -45186,7 +45057,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(complex_row0_rd_done),
         .I5(complex_sample_cnt_inc_reg_n_0),
         .O(complex_row0_rd_done_i_1_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair334" *) 
+  (* SOFT_HLUTNM = "soft_lutpair329" *) 
   LUT5 #(
     .INIT(32'h00000020)) 
     complex_row0_rd_done_i_3
@@ -45252,7 +45123,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
   LUT6 #(
     .INIT(64'h0000000011110100)) 
     complex_row1_rd_done_i_1
-       (.I0(first_wrcal_pat_r_reg_0),
+       (.I0(\calib_odt_reg[0]_0 ),
         .I1(prbs_rdlvl_done_pulse_reg_0),
         .I2(\wr_done_victim_rotate.complex_row0_wr_done_i_2_n_0 ),
         .I3(complex_row0_rd_done),
@@ -45276,14 +45147,14 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
     \complex_row_cnt_ocal[0]_i_1 
        (.I0(complex_row_cnt_ocal_reg[0]),
         .O(p_0_in__4[0]));
-  (* SOFT_HLUTNM = "soft_lutpair395" *) 
+  (* SOFT_HLUTNM = "soft_lutpair390" *) 
   LUT2 #(
     .INIT(4'h6)) 
     \complex_row_cnt_ocal[1]_i_1 
        (.I0(complex_row_cnt_ocal_reg[1]),
         .I1(complex_row_cnt_ocal_reg[0]),
         .O(p_0_in__4[1]));
-  (* SOFT_HLUTNM = "soft_lutpair395" *) 
+  (* SOFT_HLUTNM = "soft_lutpair390" *) 
   LUT3 #(
     .INIT(8'h6A)) 
     \complex_row_cnt_ocal[2]_i_1 
@@ -45299,7 +45170,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I2(rdlvl_stg1_done_r1_reg_0),
         .I3(complex_byte_rd_done),
         .I4(prbs_rdlvl_done_pulse_reg_0),
-        .I5(first_wrcal_pat_r_reg_0),
+        .I5(\calib_odt_reg[0]_0 ),
         .O(complex_row_cnt_ocal0));
   LUT6 #(
     .INIT(64'h00000000FFF20000)) 
@@ -45311,7 +45182,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(D[3]),
         .I5(\complex_row_cnt_ocal[3]_i_4_n_0 ),
         .O(complex_row_cnt_ocal));
-  (* SOFT_HLUTNM = "soft_lutpair362" *) 
+  (* SOFT_HLUTNM = "soft_lutpair357" *) 
   LUT4 #(
     .INIT(16'h6AAA)) 
     \complex_row_cnt_ocal[3]_i_3 
@@ -45320,7 +45191,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I2(complex_row_cnt_ocal_reg[0]),
         .I3(complex_row_cnt_ocal_reg[2]),
         .O(p_0_in__4[3]));
-  (* SOFT_HLUTNM = "soft_lutpair362" *) 
+  (* SOFT_HLUTNM = "soft_lutpair357" *) 
   LUT4 #(
     .INIT(16'h8000)) 
     \complex_row_cnt_ocal[3]_i_4 
@@ -45349,7 +45220,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\complex_row_cnt_ocal[3]_i_7_n_0 ),
         .I5(\stg1_wr_rd_cnt_reg_n_0_[3] ),
         .O(\complex_row_cnt_ocal[3]_i_6_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair354" *) 
+  (* SOFT_HLUTNM = "soft_lutpair349" *) 
   LUT4 #(
     .INIT(16'h0001)) 
     \complex_row_cnt_ocal[3]_i_7 
@@ -45388,7 +45259,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
        (.I0(complex_row1_rd_done),
         .I1(complex_sample_cnt_inc_i_2_n_0),
         .O(complex_sample_cnt_inc0));
-  (* SOFT_HLUTNM = "soft_lutpair298" *) 
+  (* SOFT_HLUTNM = "soft_lutpair293" *) 
   LUT4 #(
     .INIT(16'hFFEF)) 
     complex_sample_cnt_inc_i_2
@@ -45420,14 +45291,14 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
     \complex_wait_cnt[0]_i_1 
        (.I0(complex_wait_cnt_reg[0]),
         .O(p_0_in__6[0]));
-  (* SOFT_HLUTNM = "soft_lutpair394" *) 
+  (* SOFT_HLUTNM = "soft_lutpair389" *) 
   LUT2 #(
     .INIT(4'h6)) 
     \complex_wait_cnt[1]_i_1 
        (.I0(complex_wait_cnt_reg[1]),
         .I1(complex_wait_cnt_reg[0]),
         .O(p_0_in__6[1]));
-  (* SOFT_HLUTNM = "soft_lutpair394" *) 
+  (* SOFT_HLUTNM = "soft_lutpair389" *) 
   LUT3 #(
     .INIT(8'h78)) 
     \complex_wait_cnt[2]_i_1 
@@ -45445,7 +45316,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(complex_wait_cnt_reg[3]),
         .I5(\back_to_back_reads_4_1.num_reads_reg[1]_0 ),
         .O(\complex_wait_cnt[3]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair311" *) 
+  (* SOFT_HLUTNM = "soft_lutpair306" *) 
   LUT4 #(
     .INIT(16'h6AAA)) 
     \complex_wait_cnt[3]_i_2 
@@ -45522,7 +45393,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(cnt_init_mr_r1),
         .I5(ddr2_pre_flag_r),
         .O(ddr2_refresh_flag_r_i_1_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair339" *) 
+  (* SOFT_HLUTNM = "soft_lutpair334" *) 
   LUT5 #(
     .INIT(32'h00000001)) 
     ddr2_refresh_flag_r_i_2
@@ -45532,7 +45403,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I3(\init_state_r_reg_n_0_[5] ),
         .I4(\init_state_r_reg_n_0_[4] ),
         .O(ddr2_refresh_flag_r_i_2_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair381" *) 
+  (* SOFT_HLUTNM = "soft_lutpair376" *) 
   LUT3 #(
     .INIT(8'h80)) 
     ddr2_refresh_flag_r_i_3
@@ -45556,14 +45427,14 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(ddr3_lm_done_r_i_3_n_0),
         .I5(ddr3_lm_done_r),
         .O(ddr3_lm_done_r_i_1_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair406" *) 
+  (* SOFT_HLUTNM = "soft_lutpair401" *) 
   LUT2 #(
     .INIT(4'h1)) 
     ddr3_lm_done_r_i_2
        (.I0(\init_state_r_reg_n_0_[2] ),
         .I1(\init_state_r_reg_n_0_[3] ),
         .O(ddr3_lm_done_r_i_2_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair339" *) 
+  (* SOFT_HLUTNM = "soft_lutpair334" *) 
   LUT3 #(
     .INIT(8'hFE)) 
     ddr3_lm_done_r_i_3
@@ -45664,7 +45535,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I3(out_fifo_8[14]),
         .I4(out_fifo_9),
         .O(\gen_no_mirror.div_clk_loop[0].phy_address_reg[2]_0 [2]));
-  (* SOFT_HLUTNM = "soft_lutpair355" *) 
+  (* SOFT_HLUTNM = "soft_lutpair350" *) 
   LUT4 #(
     .INIT(16'hEEF0)) 
     \ddr_byte_lane_B.ddr_byte_lane_B/of_pre_fifo_gen.u_ddr_of_pre_fifo/out_fifo_i_2 
@@ -45989,7 +45860,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\en_cnt_div4.enable_wrlvl_cnt[3]_i_2_n_0 ),
         .I5(\back_to_back_reads_4_1.num_reads_reg[1]_0 ),
         .O(\en_cnt_div4.enable_wrlvl_cnt[1]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair331" *) 
+  (* SOFT_HLUTNM = "soft_lutpair326" *) 
   LUT5 #(
     .INIT(32'hFFFFEE10)) 
     \en_cnt_div4.enable_wrlvl_cnt[2]_i_1 
@@ -45999,7 +45870,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I3(enable_wrlvl_cnt[2]),
         .I4(\en_cnt_div4.enable_wrlvl_cnt[3]_i_2_n_0 ),
         .O(\en_cnt_div4.enable_wrlvl_cnt[2]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair331" *) 
+  (* SOFT_HLUTNM = "soft_lutpair326" *) 
   LUT5 #(
     .INIT(32'hFFFFF0E0)) 
     \en_cnt_div4.enable_wrlvl_cnt[3]_i_1 
@@ -46056,7 +45927,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
   LUT4 #(
     .INIT(16'h0054)) 
     \en_cnt_div4.wrlvl_odt_i_1 
-       (.I0(first_wrcal_pat_r_reg_0),
+       (.I0(\calib_odt_reg[0]_0 ),
         .I1(\en_cnt_div4.wrlvl_odt_i_2_n_0 ),
         .I2(wrlvl_odt),
         .I3(wrlvl_odt_ctl),
@@ -46081,7 +45952,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
        (.I0(first_rdlvl_pat_r),
         .I1(\stg1_wr_rd_cnt[8]_i_5_n_0 ),
         .I2(rdlvl_stg1_rank_done),
-        .I3(first_wrcal_pat_r_reg_0),
+        .I3(\calib_odt_reg[0]_0 ),
         .O(first_rdlvl_pat_r_i_1_n_0));
   FDRE first_rdlvl_pat_r_reg
        (.C(CLK),
@@ -46092,7 +45963,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
   LUT6 #(
     .INIT(64'hFFFFFFFFFFEFAAAB)) 
     first_wrcal_pat_r_i_1
-       (.I0(first_wrcal_pat_r_reg_0),
+       (.I0(\calib_odt_reg[0]_0 ),
         .I1(\init_state_r_reg_n_0_[1] ),
         .I2(\init_state_r_reg_n_0_[0] ),
         .I3(\wrcal_wr_cnt[3]_i_4_n_0 ),
@@ -46124,7 +45995,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I3(\gen_no_mirror.div_clk_loop[0].phy_address[9]_i_8_n_0 ),
         .I4(\gen_no_mirror.div_clk_loop[0].phy_address[9]_i_7_n_0 ),
         .O(\gen_no_mirror.div_clk_loop[0].phy_address[0]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair346" *) 
+  (* SOFT_HLUTNM = "soft_lutpair341" *) 
   LUT4 #(
     .INIT(16'h00E2)) 
     \gen_no_mirror.div_clk_loop[0].phy_address[0]_i_3 
@@ -46153,7 +46024,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\init_state_r_reg_n_0_[5] ),
         .I5(\gen_no_mirror.div_clk_loop[0].phy_address[10]_i_3_n_0 ),
         .O(address_w173_out));
-  (* SOFT_HLUTNM = "soft_lutpair324" *) 
+  (* SOFT_HLUTNM = "soft_lutpair319" *) 
   LUT4 #(
     .INIT(16'h0080)) 
     \gen_no_mirror.div_clk_loop[0].phy_address[10]_i_2 
@@ -46192,7 +46063,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\gen_no_mirror.div_clk_loop[0].phy_address[9]_i_5_n_0 ),
         .I5(\gen_no_mirror.div_clk_loop[0].phy_address[6]_i_5_n_0 ),
         .O(address_w[1]));
-  (* SOFT_HLUTNM = "soft_lutpair382" *) 
+  (* SOFT_HLUTNM = "soft_lutpair377" *) 
   LUT3 #(
     .INIT(8'h08)) 
     \gen_no_mirror.div_clk_loop[0].phy_address[1]_i_2 
@@ -46209,7 +46080,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I3(\gen_no_mirror.div_clk_loop[0].phy_address[9]_i_8_n_0 ),
         .I4(\gen_no_mirror.div_clk_loop[0].phy_address[9]_i_7_n_0 ),
         .O(\gen_no_mirror.div_clk_loop[0].phy_address[1]_i_3_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair347" *) 
+  (* SOFT_HLUTNM = "soft_lutpair342" *) 
   LUT4 #(
     .INIT(16'h00E2)) 
     \gen_no_mirror.div_clk_loop[0].phy_address[1]_i_4 
@@ -46237,7 +46108,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I3(\gen_no_mirror.div_clk_loop[0].phy_address[9]_i_8_n_0 ),
         .I4(\gen_no_mirror.div_clk_loop[0].phy_address[9]_i_7_n_0 ),
         .O(\gen_no_mirror.div_clk_loop[0].phy_address[2]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair348" *) 
+  (* SOFT_HLUTNM = "soft_lutpair343" *) 
   LUT4 #(
     .INIT(16'h00E2)) 
     \gen_no_mirror.div_clk_loop[0].phy_address[2]_i_3 
@@ -46282,7 +46153,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\gen_no_mirror.div_clk_loop[0].phy_address[6]_i_5_n_0 ),
         .I5(\gen_no_mirror.div_clk_loop[0].phy_address[3]_i_4_n_0 ),
         .O(address_w[3]));
-  (* SOFT_HLUTNM = "soft_lutpair286" *) 
+  (* SOFT_HLUTNM = "soft_lutpair281" *) 
   LUT5 #(
     .INIT(32'hAAAAEFFF)) 
     \gen_no_mirror.div_clk_loop[0].phy_address[3]_i_2 
@@ -46298,7 +46169,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
        (.I0(\gen_no_mirror.div_clk_loop[0].phy_address[3]_i_5_n_0 ),
         .I1(\gen_no_mirror.div_clk_loop[0].phy_address[3]_i_6_n_0 ),
         .O(\gen_no_mirror.div_clk_loop[0].phy_address[3]_i_3_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair326" *) 
+  (* SOFT_HLUTNM = "soft_lutpair321" *) 
   LUT5 #(
     .INIT(32'h00008000)) 
     \gen_no_mirror.div_clk_loop[0].phy_address[3]_i_4 
@@ -46338,14 +46209,14 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\gen_no_mirror.div_clk_loop[0].phy_address[4]_i_4_n_0 ),
         .I5(\gen_no_mirror.div_clk_loop[0].phy_address[6]_i_5_n_0 ),
         .O(address_w[4]));
-  (* SOFT_HLUTNM = "soft_lutpair407" *) 
+  (* SOFT_HLUTNM = "soft_lutpair402" *) 
   LUT2 #(
     .INIT(4'hB)) 
     \gen_no_mirror.div_clk_loop[0].phy_address[4]_i_2 
        (.I0(\gen_no_mirror.div_clk_loop[0].phy_address[7]_i_4_n_0 ),
         .I1(\row_cnt_victim_rotate.complex_row_cnt_reg_n_0_[4] ),
         .O(\gen_no_mirror.div_clk_loop[0].phy_address[4]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair355" *) 
+  (* SOFT_HLUTNM = "soft_lutpair350" *) 
   LUT2 #(
     .INIT(4'h9)) 
     \gen_no_mirror.div_clk_loop[0].phy_address[4]_i_3 
@@ -46381,7 +46252,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I3(\gen_no_mirror.div_clk_loop[0].phy_address[5]_i_6_n_0 ),
         .I4(\gen_no_mirror.div_clk_loop[0].phy_address[9]_i_9_n_0 ),
         .O(\gen_no_mirror.div_clk_loop[0].phy_address[5]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair295" *) 
+  (* SOFT_HLUTNM = "soft_lutpair290" *) 
   LUT5 #(
     .INIT(32'hEFEEAAAA)) 
     \gen_no_mirror.div_clk_loop[0].phy_address[5]_i_3 
@@ -46411,7 +46282,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\wrcal_wr_cnt[3]_i_4_n_0 ),
         .I5(address_w[12]),
         .O(\gen_no_mirror.div_clk_loop[0].phy_address[5]_i_5_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair389" *) 
+  (* SOFT_HLUTNM = "soft_lutpair384" *) 
   LUT3 #(
     .INIT(8'h95)) 
     \gen_no_mirror.div_clk_loop[0].phy_address[5]_i_6 
@@ -46429,7 +46300,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(init_state_r1[4]),
         .I5(init_state_r1[6]),
         .O(\gen_no_mirror.div_clk_loop[0].phy_address[5]_i_7_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair365" *) 
+  (* SOFT_HLUTNM = "soft_lutpair360" *) 
   LUT3 #(
     .INIT(8'h95)) 
     \gen_no_mirror.div_clk_loop[0].phy_address[5]_i_8 
@@ -46447,14 +46318,14 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\gen_no_mirror.div_clk_loop[0].phy_address[6]_i_5_n_0 ),
         .I5(\gen_no_mirror.div_clk_loop[0].phy_address[6]_i_6_n_0 ),
         .O(address_w[6]));
-  (* SOFT_HLUTNM = "soft_lutpair407" *) 
+  (* SOFT_HLUTNM = "soft_lutpair402" *) 
   LUT2 #(
     .INIT(4'hB)) 
     \gen_no_mirror.div_clk_loop[0].phy_address[6]_i_2 
        (.I0(\gen_no_mirror.div_clk_loop[0].phy_address[7]_i_4_n_0 ),
         .I1(\row_cnt_victim_rotate.complex_row_cnt_reg_n_0_[6] ),
         .O(\gen_no_mirror.div_clk_loop[0].phy_address[6]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair365" *) 
+  (* SOFT_HLUTNM = "soft_lutpair360" *) 
   LUT4 #(
     .INIT(16'h9555)) 
     \gen_no_mirror.div_clk_loop[0].phy_address[6]_i_3 
@@ -46473,7 +46344,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\gen_no_mirror.div_clk_loop[0].phy_address[6]_i_7_n_0 ),
         .I5(\complex_address_reg_n_0_[6] ),
         .O(\gen_no_mirror.div_clk_loop[0].phy_address[6]_i_4_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair292" *) 
+  (* SOFT_HLUTNM = "soft_lutpair287" *) 
   LUT5 #(
     .INIT(32'h00000045)) 
     \gen_no_mirror.div_clk_loop[0].phy_address[6]_i_5 
@@ -46493,7 +46364,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\gen_no_mirror.div_clk_loop[0].phy_address[6]_i_8_n_0 ),
         .I5(\gen_no_mirror.div_clk_loop[0].phy_address[6]_i_9_n_0 ),
         .O(\gen_no_mirror.div_clk_loop[0].phy_address[6]_i_6_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair389" *) 
+  (* SOFT_HLUTNM = "soft_lutpair384" *) 
   LUT3 #(
     .INIT(8'h80)) 
     \gen_no_mirror.div_clk_loop[0].phy_address[6]_i_7 
@@ -46501,7 +46372,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I1(\complex_address_reg_n_0_[4] ),
         .I2(\complex_address_reg_n_0_[5] ),
         .O(\gen_no_mirror.div_clk_loop[0].phy_address[6]_i_7_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair328" *) 
+  (* SOFT_HLUTNM = "soft_lutpair323" *) 
   LUT4 #(
     .INIT(16'hFF8F)) 
     \gen_no_mirror.div_clk_loop[0].phy_address[6]_i_8 
@@ -46530,7 +46401,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\row_cnt_victim_rotate.complex_row_cnt_reg_n_0_[7] ),
         .I5(\gen_no_mirror.div_clk_loop[0].phy_address[7]_i_5_n_0 ),
         .O(address_w[7]));
-  (* SOFT_HLUTNM = "soft_lutpair338" *) 
+  (* SOFT_HLUTNM = "soft_lutpair333" *) 
   LUT5 #(
     .INIT(32'h95555555)) 
     \gen_no_mirror.div_clk_loop[0].phy_address[7]_i_10 
@@ -46550,7 +46421,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\init_state_r_reg_n_0_[5] ),
         .I5(\init_state_r_reg_n_0_[0] ),
         .O(\gen_no_mirror.div_clk_loop[0].phy_address[7]_i_11_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair292" *) 
+  (* SOFT_HLUTNM = "soft_lutpair287" *) 
   LUT4 #(
     .INIT(16'h0051)) 
     \gen_no_mirror.div_clk_loop[0].phy_address[7]_i_2 
@@ -46559,7 +46430,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I2(init_state_r),
         .I3(address_w173_out),
         .O(\gen_no_mirror.div_clk_loop[0].phy_address[7]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair337" *) 
+  (* SOFT_HLUTNM = "soft_lutpair332" *) 
   LUT5 #(
     .INIT(32'h95555555)) 
     \gen_no_mirror.div_clk_loop[0].phy_address[7]_i_3 
@@ -46599,7 +46470,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(init_state_r),
         .I5(\init_state_r_reg_n_0_[0] ),
         .O(\gen_no_mirror.div_clk_loop[0].phy_address[7]_i_6_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair293" *) 
+  (* SOFT_HLUTNM = "soft_lutpair288" *) 
   LUT5 #(
     .INIT(32'h0002AAAA)) 
     \gen_no_mirror.div_clk_loop[0].phy_address[7]_i_7 
@@ -46639,7 +46510,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\gen_no_mirror.div_clk_loop[0].phy_address[8]_i_4_n_0 ),
         .I5(\gen_no_mirror.div_clk_loop[0].phy_address[9]_i_5_n_0 ),
         .O(address_w[8]));
-  (* SOFT_HLUTNM = "soft_lutpair338" *) 
+  (* SOFT_HLUTNM = "soft_lutpair333" *) 
   LUT5 #(
     .INIT(32'h80000000)) 
     \gen_no_mirror.div_clk_loop[0].phy_address[8]_i_2 
@@ -46669,7 +46540,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\gen_no_mirror.div_clk_loop[0].phy_address_reg_n_0_[3] ),
         .I5(\gen_no_mirror.div_clk_loop[0].phy_address_reg_n_0_[6] ),
         .O(\gen_no_mirror.div_clk_loop[0].phy_address[8]_i_4_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair408" *) 
+  (* SOFT_HLUTNM = "soft_lutpair403" *) 
   LUT2 #(
     .INIT(4'h1)) 
     \gen_no_mirror.div_clk_loop[0].phy_address[8]_i_5 
@@ -46726,7 +46597,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\stg1_wr_rd_cnt[8]_i_5_n_0 ),
         .I5(\gen_no_mirror.div_clk_loop[0].phy_address[9]_i_18_n_0 ),
         .O(\gen_no_mirror.div_clk_loop[0].phy_address[9]_i_11_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair358" *) 
+  (* SOFT_HLUTNM = "soft_lutpair353" *) 
   LUT3 #(
     .INIT(8'h45)) 
     \gen_no_mirror.div_clk_loop[0].phy_address[9]_i_12 
@@ -46744,7 +46615,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\gen_no_mirror.div_clk_loop[0].phy_address[7]_i_8_n_0 ),
         .I5(\gen_no_mirror.div_clk_loop[0].phy_address[9]_i_19_n_0 ),
         .O(\gen_no_mirror.div_clk_loop[0].phy_address[9]_i_13_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair337" *) 
+  (* SOFT_HLUTNM = "soft_lutpair332" *) 
   LUT5 #(
     .INIT(32'h80000000)) 
     \gen_no_mirror.div_clk_loop[0].phy_address[9]_i_14 
@@ -46754,7 +46625,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I3(\gen_no_mirror.div_clk_loop[0].phy_address_reg_n_0_[5] ),
         .I4(\gen_no_mirror.div_clk_loop[0].phy_address_reg_n_0_[7] ),
         .O(\gen_no_mirror.div_clk_loop[0].phy_address[9]_i_14_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair299" *) 
+  (* SOFT_HLUTNM = "soft_lutpair294" *) 
   LUT5 #(
     .INIT(32'h00001000)) 
     \gen_no_mirror.div_clk_loop[0].phy_address[9]_i_15 
@@ -46774,7 +46645,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\stg1_wr_rd_cnt_reg_n_0_[2] ),
         .I5(D[3]),
         .O(\gen_no_mirror.div_clk_loop[0].phy_address[9]_i_16_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair358" *) 
+  (* SOFT_HLUTNM = "soft_lutpair353" *) 
   LUT4 #(
     .INIT(16'h00F2)) 
     \gen_no_mirror.div_clk_loop[0].phy_address[9]_i_17 
@@ -46783,7 +46654,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I2(\one_rank.stg1_wr_done_reg_0 ),
         .I3(complex_row0_rd_done),
         .O(\gen_no_mirror.div_clk_loop[0].phy_address[9]_i_17_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair352" *) 
+  (* SOFT_HLUTNM = "soft_lutpair347" *) 
   LUT4 #(
     .INIT(16'h0080)) 
     \gen_no_mirror.div_clk_loop[0].phy_address[9]_i_18 
@@ -46822,7 +46693,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\stg1_wr_rd_cnt_reg_n_0_[7] ),
         .I5(\stg1_wr_rd_cnt_reg_n_0_[8] ),
         .O(\gen_no_mirror.div_clk_loop[0].phy_address[9]_i_20_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair286" *) 
+  (* SOFT_HLUTNM = "soft_lutpair281" *) 
   LUT4 #(
     .INIT(16'hAAEA)) 
     \gen_no_mirror.div_clk_loop[0].phy_address[9]_i_3 
@@ -46831,7 +46702,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I2(\gen_no_mirror.div_clk_loop[0].phy_address[9]_i_9_n_0 ),
         .I3(\gen_no_mirror.div_clk_loop[0].phy_address[9]_i_10_n_0 ),
         .O(\gen_no_mirror.div_clk_loop[0].phy_address[9]_i_3_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair328" *) 
+  (* SOFT_HLUTNM = "soft_lutpair323" *) 
   LUT5 #(
     .INIT(32'hAA808080)) 
     \gen_no_mirror.div_clk_loop[0].phy_address[9]_i_4 
@@ -46858,7 +46729,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I1(\gen_no_mirror.div_clk_loop[0].phy_address[9]_i_14_n_0 ),
         .I2(\gen_no_mirror.div_clk_loop[0].phy_address_reg_n_0_[8] ),
         .O(\gen_no_mirror.div_clk_loop[0].phy_address[9]_i_6_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair295" *) 
+  (* SOFT_HLUTNM = "soft_lutpair290" *) 
   LUT4 #(
     .INIT(16'h00A2)) 
     \gen_no_mirror.div_clk_loop[0].phy_address[9]_i_7 
@@ -46968,7 +46839,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\init_state_r_reg_n_0_[1] ),
         .I5(\gen_no_mirror.div_clk_loop[0].phy_bank[0]_i_3_n_0 ),
         .O(bank_w[0]));
-  (* SOFT_HLUTNM = "soft_lutpair405" *) 
+  (* SOFT_HLUTNM = "soft_lutpair400" *) 
   LUT2 #(
     .INIT(4'h2)) 
     \gen_no_mirror.div_clk_loop[0].phy_bank[0]_i_2 
@@ -47015,14 +46886,14 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\init_state_r_reg_n_0_[0] ),
         .I5(init_state_r),
         .O(\gen_no_mirror.div_clk_loop[0].phy_bank[1]_i_3_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair364" *) 
+  (* SOFT_HLUTNM = "soft_lutpair359" *) 
   LUT2 #(
     .INIT(4'hB)) 
     \gen_no_mirror.div_clk_loop[0].phy_bank[1]_i_4 
        (.I0(\init_state_r_reg_n_0_[4] ),
         .I1(\init_state_r_reg_n_0_[1] ),
         .O(\gen_no_mirror.div_clk_loop[0].phy_bank[1]_i_4_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair326" *) 
+  (* SOFT_HLUTNM = "soft_lutpair321" *) 
   LUT4 #(
     .INIT(16'h0800)) 
     \gen_no_mirror.div_clk_loop[0].phy_bank[2]_i_1 
@@ -47049,7 +46920,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .D(bank_w[2]),
         .Q(phy_bank[11]),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair403" *) 
+  (* SOFT_HLUTNM = "soft_lutpair398" *) 
   LUT2 #(
     .INIT(4'hE)) 
     \gen_reset_obuf.u_reset_obuf_i_1 
@@ -47242,7 +47113,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(burst_addr_r_reg_0),
         .I5(prech_req_posedge_r_reg_0),
         .O(\init_state_r[0]_i_16_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair320" *) 
+  (* SOFT_HLUTNM = "soft_lutpair315" *) 
   LUT2 #(
     .INIT(4'h2)) 
     \init_state_r[0]_i_17 
@@ -47317,7 +47188,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\init_state_r_reg_n_0_[1] ),
         .I5(reset_rd_addr_r1),
         .O(\init_state_r[0]_i_24_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair384" *) 
+  (* SOFT_HLUTNM = "soft_lutpair379" *) 
   LUT3 #(
     .INIT(8'h2A)) 
     \init_state_r[0]_i_25 
@@ -47335,7 +47206,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(cnt_txpr_done_r),
         .I5(\init_state_r_reg_n_0_[0] ),
         .O(\init_state_r[0]_i_26_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair384" *) 
+  (* SOFT_HLUTNM = "soft_lutpair379" *) 
   LUT3 #(
     .INIT(8'hCA)) 
     \init_state_r[0]_i_27 
@@ -47363,7 +47234,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\init_state_r[1]_i_12_n_0 ),
         .I5(complex_row1_wr_done),
         .O(\init_state_r[0]_i_29_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair336" *) 
+  (* SOFT_HLUTNM = "soft_lutpair331" *) 
   LUT5 #(
     .INIT(32'hFF000700)) 
     \init_state_r[0]_i_3 
@@ -47373,7 +47244,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I3(init_state_r),
         .I4(\init_state_r_reg_n_0_[0] ),
         .O(\init_state_r[0]_i_3_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair314" *) 
+  (* SOFT_HLUTNM = "soft_lutpair309" *) 
   LUT4 #(
     .INIT(16'h0DFF)) 
     \init_state_r[0]_i_30 
@@ -47382,7 +47253,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I2(prech_req_posedge_r_reg_0),
         .I3(\init_state_r_reg_n_0_[0] ),
         .O(\init_state_r[0]_i_30_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair332" *) 
+  (* SOFT_HLUTNM = "soft_lutpair327" *) 
   LUT5 #(
     .INIT(32'hAAAAAA8A)) 
     \init_state_r[0]_i_31 
@@ -47412,7 +47283,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(rdlvl_stg1_done_r1_reg_0),
         .I5(D[3]),
         .O(\init_state_r[0]_i_33_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair315" *) 
+  (* SOFT_HLUTNM = "soft_lutpair310" *) 
   LUT4 #(
     .INIT(16'hFFEF)) 
     \init_state_r[0]_i_34 
@@ -47501,7 +47372,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\init_state_r[1]_i_27_n_0 ),
         .I5(\init_state_r_reg_n_0_[4] ),
         .O(\init_state_r[1]_i_10_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair314" *) 
+  (* SOFT_HLUTNM = "soft_lutpair309" *) 
   LUT5 #(
     .INIT(32'hEAEEEAEA)) 
     \init_state_r[1]_i_11 
@@ -47511,7 +47382,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I3(complex_oclkdelay_calib_done_r1),
         .I4(D[3]),
         .O(\init_state_r[1]_i_11_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair310" *) 
+  (* SOFT_HLUTNM = "soft_lutpair305" *) 
   LUT4 #(
     .INIT(16'h7FFF)) 
     \init_state_r[1]_i_12 
@@ -47610,7 +47481,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\init_state_r[1]_i_7_0 ),
         .I5(prech_req_posedge_r_i_3_n_0),
         .O(\init_state_r[1]_i_20_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair361" *) 
+  (* SOFT_HLUTNM = "soft_lutpair356" *) 
   LUT4 #(
     .INIT(16'h2232)) 
     \init_state_r[1]_i_21 
@@ -47635,7 +47506,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
        (.I0(complex_num_reads_dec[2]),
         .I1(complex_num_reads_dec[3]),
         .O(\init_state_r[1]_i_23_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair322" *) 
+  (* SOFT_HLUTNM = "soft_lutpair317" *) 
   LUT5 #(
     .INIT(32'hBAABAAAB)) 
     \init_state_r[1]_i_24 
@@ -47645,7 +47516,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I3(\init_state_r_reg_n_0_[1] ),
         .I4(cnt_cmd_done_r),
         .O(\init_state_r[1]_i_24_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair309" *) 
+  (* SOFT_HLUTNM = "soft_lutpair304" *) 
   LUT5 #(
     .INIT(32'h0020FFFF)) 
     \init_state_r[1]_i_25 
@@ -47655,7 +47526,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I3(\init_state_r_reg_n_0_[1] ),
         .I4(\init_state_r_reg_n_0_[2] ),
         .O(\init_state_r[1]_i_25_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair333" *) 
+  (* SOFT_HLUTNM = "soft_lutpair328" *) 
   LUT3 #(
     .INIT(8'h08)) 
     \init_state_r[1]_i_26 
@@ -47683,7 +47554,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\init_state_r_reg_n_0_[0] ),
         .I5(\init_state_r_reg_n_0_[1] ),
         .O(\init_state_r[1]_i_28_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair313" *) 
+  (* SOFT_HLUTNM = "soft_lutpair308" *) 
   LUT5 #(
     .INIT(32'hF2F2F2FF)) 
     \init_state_r[1]_i_29 
@@ -47842,14 +47713,14 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\init_state_r_reg_n_0_[3] ),
         .I5(\init_state_r[2]_i_28_n_0 ),
         .O(\init_state_r[2]_i_13_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair336" *) 
+  (* SOFT_HLUTNM = "soft_lutpair331" *) 
   LUT2 #(
     .INIT(4'h8)) 
     \init_state_r[2]_i_14 
        (.I0(init_state_r),
         .I1(\init_state_r_reg_n_0_[2] ),
         .O(\init_state_r[2]_i_14_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair383" *) 
+  (* SOFT_HLUTNM = "soft_lutpair378" *) 
   LUT3 #(
     .INIT(8'hEF)) 
     \init_state_r[2]_i_15 
@@ -47857,7 +47728,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I1(init_state_r),
         .I2(\init_state_r_reg_n_0_[4] ),
         .O(\init_state_r[2]_i_15_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair322" *) 
+  (* SOFT_HLUTNM = "soft_lutpair317" *) 
   LUT5 #(
     .INIT(32'h10888808)) 
     \init_state_r[2]_i_16 
@@ -47917,14 +47788,14 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\stg1_wr_rd_cnt_reg_n_0_[1] ),
         .I5(\init_state_r_reg_n_0_[0] ),
         .O(\init_state_r[2]_i_20_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair293" *) 
+  (* SOFT_HLUTNM = "soft_lutpair288" *) 
   LUT2 #(
     .INIT(4'hE)) 
     \init_state_r[2]_i_21 
        (.I0(\init_state_r_reg_n_0_[0] ),
         .I1(D[3]),
         .O(\init_state_r[2]_i_21_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair318" *) 
+  (* SOFT_HLUTNM = "soft_lutpair313" *) 
   LUT5 #(
     .INIT(32'h0000FFDF)) 
     \init_state_r[2]_i_22 
@@ -47934,7 +47805,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I3(mem_init_done_r),
         .I4(\init_state_r[2]_i_32_n_0 ),
         .O(\init_state_r[2]_i_22_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair298" *) 
+  (* SOFT_HLUTNM = "soft_lutpair293" *) 
   LUT5 #(
     .INIT(32'hFFFBFFFF)) 
     \init_state_r[2]_i_23 
@@ -47964,7 +47835,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(pi_calib_done),
         .I5(\init_state_r_reg_n_0_[1] ),
         .O(\init_state_r[2]_i_25_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair324" *) 
+  (* SOFT_HLUTNM = "soft_lutpair319" *) 
   LUT5 #(
     .INIT(32'hAAAAEAAA)) 
     \init_state_r[2]_i_26 
@@ -47974,7 +47845,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I3(\init_state_r_reg_n_0_[0] ),
         .I4(\init_state_r_reg_n_0_[2] ),
         .O(\init_state_r[2]_i_26_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair361" *) 
+  (* SOFT_HLUTNM = "soft_lutpair356" *) 
   LUT3 #(
     .INIT(8'hF8)) 
     \init_state_r[2]_i_27 
@@ -47982,7 +47853,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I1(cnt_cmd_done_r),
         .I2(\init_state_r_reg_n_0_[0] ),
         .O(\init_state_r[2]_i_27_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair332" *) 
+  (* SOFT_HLUTNM = "soft_lutpair327" *) 
   LUT4 #(
     .INIT(16'hFFEF)) 
     \init_state_r[2]_i_28 
@@ -47991,7 +47862,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I2(oclk_wr_cnt_reg[0]),
         .I3(oclk_wr_cnt_reg[1]),
         .O(\init_state_r[2]_i_28_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair385" *) 
+  (* SOFT_HLUTNM = "soft_lutpair380" *) 
   LUT2 #(
     .INIT(4'h8)) 
     \init_state_r[2]_i_29 
@@ -48008,7 +47879,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\init_state_r[2]_i_16_n_0 ),
         .I5(\init_state_r[2]_i_17_n_0 ),
         .O(\init_state_r[2]_i_3_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair309" *) 
+  (* SOFT_HLUTNM = "soft_lutpair304" *) 
   LUT3 #(
     .INIT(8'h8F)) 
     \init_state_r[2]_i_30 
@@ -48016,7 +47887,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I1(\init_state_r_reg_n_0_[1] ),
         .I2(\init_state_r_reg_n_0_[2] ),
         .O(\init_state_r[2]_i_30_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair311" *) 
+  (* SOFT_HLUTNM = "soft_lutpair306" *) 
   LUT5 #(
     .INIT(32'h7FFFFFFF)) 
     \init_state_r[2]_i_31 
@@ -48043,7 +47914,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I1(complex_num_writes_dec_reg[4]),
         .I2(complex_num_writes_dec_reg[3]),
         .O(\init_state_r[2]_i_33_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair319" *) 
+  (* SOFT_HLUTNM = "soft_lutpair314" *) 
   LUT5 #(
     .INIT(32'h00400000)) 
     \init_state_r[2]_i_34 
@@ -48063,7 +47934,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\init_state_r_reg_n_0_[1] ),
         .I5(\oclk_wr_cnt[3]_i_5_n_0 ),
         .O(\init_state_r[2]_i_4_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair357" *) 
+  (* SOFT_HLUTNM = "soft_lutpair352" *) 
   LUT3 #(
     .INIT(8'hDF)) 
     \init_state_r[2]_i_5 
@@ -48100,7 +47971,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I3(burst_addr_r_reg_0),
         .I4(wrlvl_byte_redo),
         .O(\init_state_r[2]_i_8_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair316" *) 
+  (* SOFT_HLUTNM = "soft_lutpair311" *) 
   LUT5 #(
     .INIT(32'hFFFFFFEF)) 
     \init_state_r[2]_i_9 
@@ -48110,7 +47981,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I3(num_refresh_reg[1]),
         .I4(num_refresh_reg[0]),
         .O(\init_state_r[2]_i_9_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair291" *) 
+  (* SOFT_HLUTNM = "soft_lutpair286" *) 
   LUT1 #(
     .INIT(2'h1)) 
     \init_state_r[3]_i_1 
@@ -48136,7 +48007,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\init_state_r_reg_n_0_[0] ),
         .I5(\init_state_r_reg_n_0_[1] ),
         .O(\init_state_r[3]_i_11_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair308" *) 
+  (* SOFT_HLUTNM = "soft_lutpair303" *) 
   LUT5 #(
     .INIT(32'h00002000)) 
     \init_state_r[3]_i_12 
@@ -48196,7 +48067,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\init_state_r_reg_n_0_[1] ),
         .I5(\init_state_r_reg_n_0_[0] ),
         .O(\init_state_r[3]_i_17_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair310" *) 
+  (* SOFT_HLUTNM = "soft_lutpair305" *) 
   LUT5 #(
     .INIT(32'h2AAAAAAA)) 
     \init_state_r[3]_i_18 
@@ -48236,7 +48107,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\init_state_r[3]_i_14_n_0 ),
         .I5(\init_state_r[3]_i_15_n_0 ),
         .O(\init_state_r[3]_i_4_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair297" *) 
+  (* SOFT_HLUTNM = "soft_lutpair292" *) 
   LUT5 #(
     .INIT(32'hFEFFFFFF)) 
     \init_state_r[3]_i_5 
@@ -48296,7 +48167,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\init_state_r[4]_i_6_n_0 ),
         .I5(\init_state_r[4]_i_7_n_0 ),
         .O(\init_state_r[4]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair333" *) 
+  (* SOFT_HLUTNM = "soft_lutpair328" *) 
   LUT5 #(
     .INIT(32'hBBBB03FF)) 
     \init_state_r[4]_i_10 
@@ -48346,7 +48217,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\init_state_r_reg_n_0_[3] ),
         .I5(\init_state_r_reg_n_0_[2] ),
         .O(\init_state_r[4]_i_14_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair364" *) 
+  (* SOFT_HLUTNM = "soft_lutpair359" *) 
   LUT4 #(
     .INIT(16'h5101)) 
     \init_state_r[4]_i_15 
@@ -48355,7 +48226,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I2(cnt_cmd_done_r),
         .I3(rdlvl_stg1_done_r1_reg_0),
         .O(\init_state_r[4]_i_15_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair319" *) 
+  (* SOFT_HLUTNM = "soft_lutpair314" *) 
   LUT3 #(
     .INIT(8'h40)) 
     \init_state_r[4]_i_18 
@@ -48433,7 +48304,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(pi_dqs_found_done),
         .I5(wrlvl_done_r1),
         .O(\init_state_r[4]_i_25_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair317" *) 
+  (* SOFT_HLUTNM = "soft_lutpair312" *) 
   LUT5 #(
     .INIT(32'hCCCC0444)) 
     \init_state_r[4]_i_26 
@@ -48443,7 +48314,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I3(mem_init_done_r),
         .I4(D[3]),
         .O(\init_state_r[4]_i_26_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair316" *) 
+  (* SOFT_HLUTNM = "soft_lutpair311" *) 
   LUT4 #(
     .INIT(16'hFFEF)) 
     \init_state_r[4]_i_27 
@@ -48452,7 +48323,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I2(num_refresh_reg[3]),
         .I3(num_refresh_reg[2]),
         .O(\init_state_r[4]_i_27_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair317" *) 
+  (* SOFT_HLUTNM = "soft_lutpair312" *) 
   LUT4 #(
     .INIT(16'h4000)) 
     \init_state_r[4]_i_28 
@@ -48461,7 +48332,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I2(rdlvl_stg1_done_r1_reg_0),
         .I3(pi_dqs_found_done),
         .O(\init_state_r[4]_i_28_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair380" *) 
+  (* SOFT_HLUTNM = "soft_lutpair375" *) 
   LUT3 #(
     .INIT(8'h02)) 
     \init_state_r[4]_i_29 
@@ -48499,7 +48370,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\init_state_r_reg_n_0_[0] ),
         .I5(\init_state_r_reg_n_0_[1] ),
         .O(\init_state_r[4]_i_33_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair359" *) 
+  (* SOFT_HLUTNM = "soft_lutpair354" *) 
   LUT3 #(
     .INIT(8'h01)) 
     \init_state_r[4]_i_34 
@@ -48507,7 +48378,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I1(\init_state_r_reg_n_0_[3] ),
         .I2(\init_state_r_reg_n_0_[1] ),
         .O(\init_state_r[4]_i_34_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair315" *) 
+  (* SOFT_HLUTNM = "soft_lutpair310" *) 
   LUT5 #(
     .INIT(32'h00000010)) 
     \init_state_r[4]_i_35 
@@ -48527,7 +48398,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\init_state_r_reg_n_0_[4] ),
         .I5(\init_state_r[4]_i_13_n_0 ),
         .O(\init_state_r[4]_i_4_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair383" *) 
+  (* SOFT_HLUTNM = "soft_lutpair378" *) 
   LUT2 #(
     .INIT(4'hE)) 
     \init_state_r[4]_i_5 
@@ -48584,7 +48455,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\init_state_r[5]_i_6_n_0 ),
         .I5(\init_state_r[5]_i_7_n_0 ),
         .O(\init_state_r[5]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair320" *) 
+  (* SOFT_HLUTNM = "soft_lutpair315" *) 
   LUT5 #(
     .INIT(32'h0000DDFD)) 
     \init_state_r[5]_i_10 
@@ -48623,7 +48494,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I3(\init_state_r_reg_n_0_[5] ),
         .I4(\init_state_r[1]_i_12_n_0 ),
         .O(\init_state_r[5]_i_13_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair356" *) 
+  (* SOFT_HLUTNM = "soft_lutpair351" *) 
   LUT4 #(
     .INIT(16'hB0BB)) 
     \init_state_r[5]_i_14 
@@ -48652,14 +48523,14 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\init_state_r_reg_n_0_[4] ),
         .I5(\init_state_r[5]_i_30_n_0 ),
         .O(\init_state_r[5]_i_16_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair409" *) 
+  (* SOFT_HLUTNM = "soft_lutpair404" *) 
   LUT2 #(
     .INIT(4'hB)) 
     \init_state_r[5]_i_17 
        (.I0(prech_req_posedge_r_reg_0),
         .I1(\init_state_r_reg_n_0_[0] ),
         .O(\init_state_r[5]_i_17_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair312" *) 
+  (* SOFT_HLUTNM = "soft_lutpair307" *) 
   LUT5 #(
     .INIT(32'h40000000)) 
     \init_state_r[5]_i_18 
@@ -48679,14 +48550,14 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\init_state_r_reg_n_0_[2] ),
         .I5(\init_state_r_reg_n_0_[3] ),
         .O(\init_state_r[5]_i_19_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair408" *) 
+  (* SOFT_HLUTNM = "soft_lutpair403" *) 
   LUT2 #(
     .INIT(4'hB)) 
     \init_state_r[5]_i_2 
        (.I0(init_state_r),
         .I1(\init_state_r_reg_n_0_[5] ),
         .O(\init_state_r[5]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair290" *) 
+  (* SOFT_HLUTNM = "soft_lutpair285" *) 
   LUT5 #(
     .INIT(32'hFFFF4000)) 
     \init_state_r[5]_i_20 
@@ -48696,7 +48567,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I3(complex_sample_cnt_inc_i_2_n_0),
         .I4(\init_state_r[5]_i_34_n_0 ),
         .O(\init_state_r[5]_i_20_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair289" *) 
+  (* SOFT_HLUTNM = "soft_lutpair284" *) 
   LUT5 #(
     .INIT(32'hFF45FFFF)) 
     \init_state_r[5]_i_21 
@@ -48716,7 +48587,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\oclk_wr_cnt[3]_i_5_n_0 ),
         .I5(\init_state_r_reg_n_0_[4] ),
         .O(\init_state_r[5]_i_22_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair323" *) 
+  (* SOFT_HLUTNM = "soft_lutpair318" *) 
   LUT5 #(
     .INIT(32'hFFFF1011)) 
     \init_state_r[5]_i_23 
@@ -48736,14 +48607,14 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\init_state_r_reg_n_0_[0] ),
         .I5(\oclk_wr_cnt[3]_i_5_n_0 ),
         .O(\init_state_r[5]_i_24_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair409" *) 
+  (* SOFT_HLUTNM = "soft_lutpair404" *) 
   LUT2 #(
     .INIT(4'h1)) 
     \init_state_r[5]_i_25 
        (.I0(\init_state_r_reg_n_0_[0] ),
         .I1(cnt_cmd_done_r),
         .O(\init_state_r[5]_i_25_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair313" *) 
+  (* SOFT_HLUTNM = "soft_lutpair308" *) 
   LUT3 #(
     .INIT(8'hBA)) 
     \init_state_r[5]_i_26 
@@ -48761,7 +48632,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(cnt_cmd_done_r),
         .I5(\init_state_r_reg_n_0_[5] ),
         .O(\init_state_r[5]_i_27_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair356" *) 
+  (* SOFT_HLUTNM = "soft_lutpair351" *) 
   LUT3 #(
     .INIT(8'h45)) 
     \init_state_r[5]_i_28 
@@ -48819,7 +48690,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(wrlvl_rank_done_r7),
         .I5(cnt_dllk_zqinit_done_r),
         .O(\init_state_r[5]_i_32_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair385" *) 
+  (* SOFT_HLUTNM = "soft_lutpair380" *) 
   LUT3 #(
     .INIT(8'h08)) 
     \init_state_r[5]_i_33 
@@ -48837,7 +48708,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\init_state_r_reg_n_0_[5] ),
         .I5(cnt_cmd_done_r),
         .O(\init_state_r[5]_i_34_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair321" *) 
+  (* SOFT_HLUTNM = "soft_lutpair316" *) 
   LUT5 #(
     .INIT(32'hAAAAAABA)) 
     \init_state_r[5]_i_36 
@@ -48847,7 +48718,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I3(wrcal_wr_cnt_reg[2]),
         .I4(wrcal_wr_cnt_reg[3]),
         .O(\init_state_r[5]_i_36_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair381" *) 
+  (* SOFT_HLUTNM = "soft_lutpair376" *) 
   LUT3 #(
     .INIT(8'h2A)) 
     \init_state_r[5]_i_37 
@@ -48908,7 +48779,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
        (.I0(pi_phase_locked_all_r4),
         .I1(pi_phase_locked_all_r3),
         .O(\init_state_r[5]_i_8_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair290" *) 
+  (* SOFT_HLUTNM = "soft_lutpair285" *) 
   LUT2 #(
     .INIT(4'h7)) 
     \init_state_r[5]_i_9 
@@ -48925,7 +48796,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\init_state_r[6]_i_3_n_0 ),
         .I5(\init_state_r[6]_i_4_n_0 ),
         .O(\init_state_r[6]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair357" *) 
+  (* SOFT_HLUTNM = "soft_lutpair352" *) 
   LUT4 #(
     .INIT(16'h0001)) 
     \init_state_r[6]_i_2 
@@ -48934,7 +48805,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I2(init_state_r),
         .I3(\init_state_r[6]_i_5_n_0 ),
         .O(\init_state_r[6]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair289" *) 
+  (* SOFT_HLUTNM = "soft_lutpair284" *) 
   LUT2 #(
     .INIT(4'h2)) 
     \init_state_r[6]_i_3 
@@ -50113,7 +49984,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .D(mpr_rdlvl_start_i_1_n_0),
         .Q(mpr_rdlvl_start_reg_0),
         .R(\init_state_r_reg[0]_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair388" *) 
+  (* SOFT_HLUTNM = "soft_lutpair383" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \my_empty[7]_i_2__0 
@@ -50121,7 +49992,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I1(phy_ctl_wr_i1_reg),
         .I2(calib_wrdata_en),
         .O(mux_wrdata_en));
-  (* SOFT_HLUTNM = "soft_lutpair386" *) 
+  (* SOFT_HLUTNM = "soft_lutpair381" *) 
   LUT2 #(
     .INIT(4'hE)) 
     \my_empty[7]_i_2__1 
@@ -50146,20 +50017,20 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
        (.I0(1'b1),
         .I1(init_calib_complete_reg_rep__4),
         .O(init_calib_complete_reg_rep__4_2));
-  (* SOFT_HLUTNM = "soft_lutpair414" *) 
+  (* SOFT_HLUTNM = "soft_lutpair409" *) 
   LUT1 #(
     .INIT(2'h1)) 
     \num_refresh[0]_i_1 
        (.I0(num_refresh_reg[0]),
         .O(p_0_in__5[0]));
-  (* SOFT_HLUTNM = "soft_lutpair414" *) 
+  (* SOFT_HLUTNM = "soft_lutpair409" *) 
   LUT2 #(
     .INIT(4'h6)) 
     \num_refresh[1]_i_1 
        (.I0(num_refresh_reg[1]),
         .I1(num_refresh_reg[0]),
         .O(p_0_in__5[1]));
-  (* SOFT_HLUTNM = "soft_lutpair372" *) 
+  (* SOFT_HLUTNM = "soft_lutpair367" *) 
   LUT3 #(
     .INIT(8'h6A)) 
     \num_refresh[2]_i_1 
@@ -50171,7 +50042,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
     .INIT(64'hFFFFFFFFEEEEEFEE)) 
     \num_refresh[3]_i_1 
        (.I0(\num_refresh[3]_i_4_n_0 ),
-        .I1(\back_to_back_reads_4_1.num_reads_reg[1]_0 ),
+        .I1(\calib_odt_reg[0]_0 ),
         .I2(\stg1_wr_rd_cnt[8]_i_4_n_0 ),
         .I3(\init_state_r_reg_n_0_[1] ),
         .I4(\init_state_r_reg_n_0_[0] ),
@@ -50185,7 +50056,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I2(pi_dqs_found_done),
         .I3(D[3]),
         .O(num_refresh0));
-  (* SOFT_HLUTNM = "soft_lutpair372" *) 
+  (* SOFT_HLUTNM = "soft_lutpair367" *) 
   LUT4 #(
     .INIT(16'h6AAA)) 
     \num_refresh[3]_i_3 
@@ -50248,20 +50119,20 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .D(p_0_in__5[3]),
         .Q(num_refresh_reg[3]),
         .R(\num_refresh[3]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair415" *) 
+  (* SOFT_HLUTNM = "soft_lutpair410" *) 
   LUT1 #(
     .INIT(2'h1)) 
     \ocal_act_wait_cnt[0]_i_1 
        (.I0(ocal_act_wait_cnt_reg[0]),
         .O(p_0_in__8[0]));
-  (* SOFT_HLUTNM = "soft_lutpair415" *) 
+  (* SOFT_HLUTNM = "soft_lutpair410" *) 
   LUT2 #(
     .INIT(4'h6)) 
     \ocal_act_wait_cnt[1]_i_1 
        (.I0(ocal_act_wait_cnt_reg[1]),
         .I1(ocal_act_wait_cnt_reg[0]),
         .O(p_0_in__8[1]));
-  (* SOFT_HLUTNM = "soft_lutpair369" *) 
+  (* SOFT_HLUTNM = "soft_lutpair364" *) 
   LUT3 #(
     .INIT(8'h6A)) 
     \ocal_act_wait_cnt[2]_i_1 
@@ -50273,12 +50144,12 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
     .INIT(32'hFFFFFDFF)) 
     \ocal_act_wait_cnt[3]_i_1 
        (.I0(\ocal_act_wait_cnt[3]_i_3_n_0 ),
-        .I1(first_wrcal_pat_r_reg_0),
+        .I1(\calib_odt_reg[0]_0 ),
         .I2(\init_state_r_reg_n_0_[0] ),
         .I3(\init_state_r_reg_n_0_[1] ),
         .I4(\DDR3_1rank.phy_int_cs_n[1]_i_3_n_0 ),
         .O(\ocal_act_wait_cnt[3]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair369" *) 
+  (* SOFT_HLUTNM = "soft_lutpair364" *) 
   LUT4 #(
     .INIT(16'h6AAA)) 
     \ocal_act_wait_cnt[3]_i_2 
@@ -50287,7 +50158,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I2(ocal_act_wait_cnt_reg[1]),
         .I3(ocal_act_wait_cnt_reg[2]),
         .O(p_0_in__8[3]));
-  (* SOFT_HLUTNM = "soft_lutpair312" *) 
+  (* SOFT_HLUTNM = "soft_lutpair307" *) 
   LUT4 #(
     .INIT(16'h7FFF)) 
     \ocal_act_wait_cnt[3]_i_3 
@@ -50325,7 +50196,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
     \oclk_wr_cnt[0]_i_1 
        (.I0(oclk_wr_cnt_reg[0]),
         .O(\oclk_wr_cnt[0]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair370" *) 
+  (* SOFT_HLUTNM = "soft_lutpair365" *) 
   LUT2 #(
     .INIT(4'h9)) 
     \oclk_wr_cnt[1]_i_1 
@@ -50347,7 +50218,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I2(oclk_wr_cnt_reg[0]),
         .I3(oclk_wr_cnt_reg[3]),
         .I4(oclk_wr_cnt_reg[2]),
-        .I5(first_wrcal_pat_r_reg_0),
+        .I5(\calib_odt_reg[0]_0 ),
         .O(\oclk_wr_cnt[3]_i_1_n_0 ));
   LUT6 #(
     .INIT(64'h0000000000400000)) 
@@ -50359,7 +50230,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\init_state_r_reg_n_0_[5] ),
         .I5(\init_state_r_reg_n_0_[4] ),
         .O(p_0_in0_in));
-  (* SOFT_HLUTNM = "soft_lutpair370" *) 
+  (* SOFT_HLUTNM = "soft_lutpair365" *) 
   LUT4 #(
     .INIT(16'hCCC9)) 
     \oclk_wr_cnt[3]_i_3 
@@ -50378,7 +50249,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(init_state_r),
         .I5(\init_state_r_reg_n_0_[4] ),
         .O(\oclk_wr_cnt[3]_i_4_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair405" *) 
+  (* SOFT_HLUTNM = "soft_lutpair400" *) 
   LUT2 #(
     .INIT(4'h7)) 
     \oclk_wr_cnt[3]_i_5 
@@ -50409,7 +50280,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .D(oclk_wr_cnt0[3]),
         .Q(oclk_wr_cnt_reg[3]),
         .R(\oclk_wr_cnt[3]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair374" *) 
+  (* SOFT_HLUTNM = "soft_lutpair369" *) 
   LUT3 #(
     .INIT(8'h08)) 
     \odd_cwl.phy_cas_n[1]_i_1 
@@ -50445,7 +50316,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .D(\odd_cwl.phy_ras_n[1]_i_1_n_0 ),
         .Q(phy_ras_n),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair374" *) 
+  (* SOFT_HLUTNM = "soft_lutpair369" *) 
   LUT3 #(
     .INIT(8'h02)) 
     \odd_cwl.phy_we_n[1]_i_1 
@@ -51557,7 +51428,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I3(out_fifo_1[0]),
         .I4(out_fifo_2),
         .O(D1[0]));
-  (* SOFT_HLUTNM = "soft_lutpair399" *) 
+  (* SOFT_HLUTNM = "soft_lutpair394" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \phy_ctl_wd_i1[0]_i_1 
@@ -51565,7 +51436,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I1(calib_cmd[0]),
         .I2(\phy_ctl_wd_i1_reg[22] ),
         .O(\calib_seq_reg[1]_0 [0]));
-  (* SOFT_HLUTNM = "soft_lutpair400" *) 
+  (* SOFT_HLUTNM = "soft_lutpair395" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \phy_ctl_wd_i1[17]_i_1 
@@ -51573,7 +51444,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I1(calib_data_offset_0[0]),
         .I2(\phy_ctl_wd_i1_reg[22] ),
         .O(\calib_seq_reg[1]_0 [3]));
-  (* SOFT_HLUTNM = "soft_lutpair401" *) 
+  (* SOFT_HLUTNM = "soft_lutpair396" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \phy_ctl_wd_i1[18]_i_1 
@@ -51581,7 +51452,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I1(calib_data_offset_0[1]),
         .I2(\phy_ctl_wd_i1_reg[22] ),
         .O(\calib_seq_reg[1]_0 [4]));
-  (* SOFT_HLUTNM = "soft_lutpair401" *) 
+  (* SOFT_HLUTNM = "soft_lutpair396" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \phy_ctl_wd_i1[19]_i_1 
@@ -51589,7 +51460,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I1(calib_data_offset_0[2]),
         .I2(\phy_ctl_wd_i1_reg[22] ),
         .O(\calib_seq_reg[1]_0 [5]));
-  (* SOFT_HLUTNM = "soft_lutpair399" *) 
+  (* SOFT_HLUTNM = "soft_lutpair394" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \phy_ctl_wd_i1[1]_i_1 
@@ -51597,7 +51468,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I1(calib_cmd[1]),
         .I2(\phy_ctl_wd_i1_reg[22] ),
         .O(\calib_seq_reg[1]_0 [1]));
-  (* SOFT_HLUTNM = "soft_lutpair402" *) 
+  (* SOFT_HLUTNM = "soft_lutpair397" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \phy_ctl_wd_i1[20]_i_1 
@@ -51605,7 +51476,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I1(calib_data_offset_0[3]),
         .I2(\phy_ctl_wd_i1_reg[22] ),
         .O(\calib_seq_reg[1]_0 [6]));
-  (* SOFT_HLUTNM = "soft_lutpair402" *) 
+  (* SOFT_HLUTNM = "soft_lutpair397" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \phy_ctl_wd_i1[21]_i_1 
@@ -51613,7 +51484,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I1(calib_data_offset_0[4]),
         .I2(\phy_ctl_wd_i1_reg[22] ),
         .O(\calib_seq_reg[1]_0 [7]));
-  (* SOFT_HLUTNM = "soft_lutpair403" *) 
+  (* SOFT_HLUTNM = "soft_lutpair398" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \phy_ctl_wd_i1[22]_i_1 
@@ -51621,7 +51492,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I1(calib_data_offset_0[5]),
         .I2(\phy_ctl_wd_i1_reg[22] ),
         .O(\calib_seq_reg[1]_0 [8]));
-  (* SOFT_HLUTNM = "soft_lutpair400" *) 
+  (* SOFT_HLUTNM = "soft_lutpair395" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \phy_ctl_wd_i1[2]_i_1 
@@ -51629,7 +51500,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I1(calib_cmd[2]),
         .I2(\phy_ctl_wd_i1_reg[22] ),
         .O(\calib_seq_reg[1]_0 [2]));
-  (* SOFT_HLUTNM = "soft_lutpair388" *) 
+  (* SOFT_HLUTNM = "soft_lutpair383" *) 
   LUT2 #(
     .INIT(4'hE)) 
     phy_ctl_wr_i1_i_1
@@ -51743,7 +51614,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .CLK(CLK),
         .D(prech_done_pre),
         .Q(\prech_done_dly_r_reg[15]_srl16_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair377" *) 
+  (* SOFT_HLUTNM = "soft_lutpair372" *) 
   LUT2 #(
     .INIT(4'h2)) 
     \prech_done_dly_r_reg[15]_srl16_i_1 
@@ -51756,7 +51627,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .D(\prech_done_dly_r_reg[15]_srl16_n_0 ),
         .Q(prech_done),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair377" *) 
+  (* SOFT_HLUTNM = "soft_lutpair372" *) 
   LUT3 #(
     .INIT(8'hBA)) 
     prech_pending_r_i_1
@@ -51814,7 +51685,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\complex_row_cnt_ocal[3]_i_5_n_0 ),
         .I5(rdlvl_stg1_done_r1_reg_0),
         .O(prech_pending_r_i_6_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair288" *) 
+  (* SOFT_HLUTNM = "soft_lutpair283" *) 
   LUT5 #(
     .INIT(32'hFFFFBFFE)) 
     prech_pending_r_i_7
@@ -51840,7 +51711,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(prech_req_posedge_r_i_3_n_0),
         .I5(dqs_found_prech_req),
         .O(prech_req_posedge_r0));
-  (* SOFT_HLUTNM = "soft_lutpair300" *) 
+  (* SOFT_HLUTNM = "soft_lutpair295" *) 
   LUT5 #(
     .INIT(32'hFFFFFFFD)) 
     prech_req_posedge_r_i_2
@@ -51850,7 +51721,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I3(\init_state_r_reg_n_0_[3] ),
         .I4(\init_state_r_reg_n_0_[2] ),
         .O(prech_req_posedge_r_i_2_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair285" *) 
+  (* SOFT_HLUTNM = "soft_lutpair280" *) 
   LUT2 #(
     .INIT(4'h2)) 
     prech_req_posedge_r_i_3
@@ -51968,7 +51839,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
   LUT4 #(
     .INIT(16'h0054)) 
     read_calib_i_1
-       (.I0(first_wrcal_pat_r_reg_0),
+       (.I0(\calib_odt_reg[0]_0 ),
         .I1(read_calib_i_2_n_0),
         .I2(phy_read_calib),
         .I3(pi_calib_done),
@@ -51994,14 +51865,14 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
     \reg_ctrl_cnt_r[0]_i_1 
        (.I0(reg_ctrl_cnt_r_reg[0]),
         .O(p_0_in__2[0]));
-  (* SOFT_HLUTNM = "soft_lutpair382" *) 
+  (* SOFT_HLUTNM = "soft_lutpair377" *) 
   LUT2 #(
     .INIT(4'h6)) 
     \reg_ctrl_cnt_r[1]_i_1 
        (.I0(reg_ctrl_cnt_r_reg[1]),
         .I1(reg_ctrl_cnt_r_reg[0]),
         .O(p_0_in__2[1]));
-  (* SOFT_HLUTNM = "soft_lutpair371" *) 
+  (* SOFT_HLUTNM = "soft_lutpair366" *) 
   LUT3 #(
     .INIT(8'h6A)) 
     \reg_ctrl_cnt_r[2]_i_1 
@@ -52028,7 +51899,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\init_state_r_reg_n_0_[0] ),
         .I5(\init_state_r_reg_n_0_[1] ),
         .O(\reg_ctrl_cnt_r[3]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair371" *) 
+  (* SOFT_HLUTNM = "soft_lutpair366" *) 
   LUT4 #(
     .INIT(16'h6AAA)) 
     \reg_ctrl_cnt_r[3]_i_3 
@@ -52067,7 +51938,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .D(complex_ocal_reset_rd_addr),
         .Q(reset_rd_addr_r1),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair335" *) 
+  (* SOFT_HLUTNM = "soft_lutpair330" *) 
   LUT4 #(
     .INIT(16'h0455)) 
     \row_cnt_victim_rotate.complex_row_cnt[0]_i_1 
@@ -52076,7 +51947,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I2(\one_rank.stg1_wr_done_reg_0 ),
         .I3(complex_sample_cnt_inc_r2),
         .O(\row_cnt_victim_rotate.complex_row_cnt[0]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair335" *) 
+  (* SOFT_HLUTNM = "soft_lutpair330" *) 
   LUT5 #(
     .INIT(32'h00606666)) 
     \row_cnt_victim_rotate.complex_row_cnt[1]_i_1 
@@ -52096,7 +51967,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\one_rank.stg1_wr_done_reg_0 ),
         .I5(complex_sample_cnt_inc_r2),
         .O(\row_cnt_victim_rotate.complex_row_cnt[2]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair330" *) 
+  (* SOFT_HLUTNM = "soft_lutpair325" *) 
   LUT5 #(
     .INIT(32'h00007F80)) 
     \row_cnt_victim_rotate.complex_row_cnt[3]_i_1 
@@ -52145,7 +52016,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
     \row_cnt_victim_rotate.complex_row_cnt[4]_i_4 
        (.I0(\row_cnt_victim_rotate.complex_row_cnt[4]_i_7_n_0 ),
         .I1(rdlvl_stg1_done_r1_reg_0),
-        .I2(first_wrcal_pat_r_reg_0),
+        .I2(\calib_odt_reg[0]_0 ),
         .I3(D[3]),
         .O(\row_cnt_victim_rotate.complex_row_cnt[4]_i_4_n_0 ));
   LUT5 #(
@@ -52197,7 +52068,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(complex_sample_cnt_inc_r2),
         .I5(\row_cnt_victim_rotate.complex_row_cnt[7]_i_3_n_0 ),
         .O(\row_cnt_victim_rotate.complex_row_cnt[5]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair330" *) 
+  (* SOFT_HLUTNM = "soft_lutpair325" *) 
   LUT4 #(
     .INIT(16'h8000)) 
     \row_cnt_victim_rotate.complex_row_cnt[5]_i_2 
@@ -52295,11 +52166,11 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .R(1'b0));
   LUT2 #(
     .INIT(4'h2)) 
-    rst_dqs_find_i_17
+    \stable_pass_cnt[4]_i_2 
        (.I0(detect_pi_found_dqs),
-        .I1(rst_dqs_find_i_12),
+        .I1(pi_dqs_found_all_bank),
         .O(detect_pi_found_dqs_reg_0));
-  (* SOFT_HLUTNM = "soft_lutpair349" *) 
+  (* SOFT_HLUTNM = "soft_lutpair344" *) 
   LUT3 #(
     .INIT(8'hBA)) 
     \stg1_wr_rd_cnt[0]_i_1 
@@ -52312,7 +52183,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
     \stg1_wr_rd_cnt[1]_i_1 
        (.I0(stg1_wr_done),
         .I1(D[3]),
-        .I2(first_wrcal_pat_r_reg_0),
+        .I2(\calib_odt_reg[0]_0 ),
         .I3(\stg1_wr_rd_cnt_reg_n_0_[1] ),
         .I4(\stg1_wr_rd_cnt_reg_n_0_[0] ),
         .I5(\stg1_wr_rd_cnt[4]_i_3_n_0 ),
@@ -52327,7 +52198,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\init_state_r_reg_n_0_[5] ),
         .I5(\init_state_r_reg_n_0_[4] ),
         .O(stg1_wr_done));
-  (* SOFT_HLUTNM = "soft_lutpair349" *) 
+  (* SOFT_HLUTNM = "soft_lutpair344" *) 
   LUT4 #(
     .INIT(16'hFD57)) 
     \stg1_wr_rd_cnt[2]_i_1 
@@ -52367,14 +52238,14 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
   LUT6 #(
     .INIT(64'h5555555555555545)) 
     \stg1_wr_rd_cnt[4]_i_2 
-       (.I0(first_wrcal_pat_r_reg_0),
+       (.I0(\calib_odt_reg[0]_0 ),
         .I1(D[3]),
         .I2(\stg1_wr_rd_cnt[4]_i_4_n_0 ),
         .I3(init_state_r),
         .I4(\init_state_r_reg_n_0_[5] ),
         .I5(\init_state_r_reg_n_0_[4] ),
         .O(\stg1_wr_rd_cnt[4]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair285" *) 
+  (* SOFT_HLUTNM = "soft_lutpair280" *) 
   LUT5 #(
     .INIT(32'h0000AAA2)) 
     \stg1_wr_rd_cnt[4]_i_3 
@@ -52384,7 +52255,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I3(\init_state_r_reg_n_0_[1] ),
         .I4(rdlvl_last_byte_done),
         .O(\stg1_wr_rd_cnt[4]_i_3_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair359" *) 
+  (* SOFT_HLUTNM = "soft_lutpair354" *) 
   LUT4 #(
     .INIT(16'h8000)) 
     \stg1_wr_rd_cnt[4]_i_4 
@@ -52393,7 +52264,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I2(\init_state_r_reg_n_0_[3] ),
         .I3(\init_state_r_reg_n_0_[2] ),
         .O(\stg1_wr_rd_cnt[4]_i_4_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair294" *) 
+  (* SOFT_HLUTNM = "soft_lutpair289" *) 
   LUT5 #(
     .INIT(32'h00800000)) 
     \stg1_wr_rd_cnt[4]_i_5 
@@ -52413,7 +52284,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\stg1_wr_rd_cnt_reg_n_0_[4] ),
         .I5(\stg1_wr_rd_cnt[8]_i_3_n_0 ),
         .O(\stg1_wr_rd_cnt[5]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair301" *) 
+  (* SOFT_HLUTNM = "soft_lutpair296" *) 
   LUT3 #(
     .INIT(8'h01)) 
     \stg1_wr_rd_cnt[5]_i_2 
@@ -52429,17 +52300,17 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I2(\stg1_wr_rd_cnt[8]_i_3_n_0 ),
         .I3(\stg1_wr_rd_cnt[6]_i_2_n_0 ),
         .O(\stg1_wr_rd_cnt[6]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair296" *) 
+  (* SOFT_HLUTNM = "soft_lutpair291" *) 
   LUT5 #(
     .INIT(32'h00002022)) 
     \stg1_wr_rd_cnt[6]_i_2 
        (.I0(\stg1_wr_rd_cnt[3]_i_2_n_0 ),
-        .I1(first_wrcal_pat_r_reg_0),
+        .I1(\calib_odt_reg[0]_0 ),
         .I2(D[3]),
         .I3(stg1_wr_done),
         .I4(\stg1_wr_rd_cnt[4]_i_3_n_0 ),
         .O(\stg1_wr_rd_cnt[6]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair287" *) 
+  (* SOFT_HLUTNM = "soft_lutpair282" *) 
   LUT4 #(
     .INIT(16'hA208)) 
     \stg1_wr_rd_cnt[7]_i_1 
@@ -52458,7 +52329,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\stg1_wr_rd_cnt[8]_i_4_n_0 ),
         .I5(\stg1_wr_rd_cnt[8]_i_5_n_0 ),
         .O(\stg1_wr_rd_cnt[8]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair287" *) 
+  (* SOFT_HLUTNM = "soft_lutpair282" *) 
   LUT5 #(
     .INIT(32'hA8AA0200)) 
     \stg1_wr_rd_cnt[8]_i_2 
@@ -52468,16 +52339,16 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I3(\stg1_wr_rd_cnt[8]_i_6_n_0 ),
         .I4(\stg1_wr_rd_cnt_reg_n_0_[8] ),
         .O(\stg1_wr_rd_cnt[8]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair296" *) 
+  (* SOFT_HLUTNM = "soft_lutpair291" *) 
   LUT4 #(
     .INIT(16'h00A2)) 
     \stg1_wr_rd_cnt[8]_i_3 
        (.I0(\stg1_wr_rd_cnt[4]_i_3_n_0 ),
         .I1(stg1_wr_done),
         .I2(D[3]),
-        .I3(first_wrcal_pat_r_reg_0),
+        .I3(\calib_odt_reg[0]_0 ),
         .O(\stg1_wr_rd_cnt[8]_i_3_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair294" *) 
+  (* SOFT_HLUTNM = "soft_lutpair289" *) 
   LUT5 #(
     .INIT(32'hFFDFFFFF)) 
     \stg1_wr_rd_cnt[8]_i_4 
@@ -52567,7 +52438,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .D(wr_level_dqs_asrt_r1),
         .Q(wl_sm_start),
         .R(\en_cnt_div4.enable_wrlvl_cnt_reg[2]_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair363" *) 
+  (* SOFT_HLUTNM = "soft_lutpair358" *) 
   LUT4 #(
     .INIT(16'h00AE)) 
     \wr_done_victim_rotate.complex_row0_wr_done_i_1 
@@ -52576,7 +52447,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I2(\wr_done_victim_rotate.complex_row0_wr_done_i_2_n_0 ),
         .I3(complex_row0_wr_done0),
         .O(\wr_done_victim_rotate.complex_row0_wr_done_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair334" *) 
+  (* SOFT_HLUTNM = "soft_lutpair329" *) 
   LUT4 #(
     .INIT(16'hFFEF)) 
     \wr_done_victim_rotate.complex_row0_wr_done_i_2 
@@ -52604,13 +52475,13 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I3(\row_cnt_victim_rotate.complex_row_cnt_reg_n_0_[7] ),
         .I4(wr_victim_inc),
         .O(\wr_done_victim_rotate.complex_row0_wr_done_i_4_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair303" *) 
+  (* SOFT_HLUTNM = "soft_lutpair298" *) 
   LUT3 #(
     .INIT(8'hFE)) 
     \wr_done_victim_rotate.complex_row0_wr_done_i_5 
        (.I0(complex_byte_rd_done),
         .I1(prbs_rdlvl_done_pulse_reg_0),
-        .I2(first_wrcal_pat_r_reg_0),
+        .I2(\calib_odt_reg[0]_0 ),
         .O(\wr_done_victim_rotate.complex_row0_wr_done_i_5_n_0 ));
   FDRE \wr_done_victim_rotate.complex_row0_wr_done_reg 
        (.C(CLK),
@@ -52618,7 +52489,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .D(\wr_done_victim_rotate.complex_row0_wr_done_i_1_n_0 ),
         .Q(complex_row0_wr_done),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair363" *) 
+  (* SOFT_HLUTNM = "soft_lutpair358" *) 
   LUT4 #(
     .INIT(16'h00AE)) 
     \wr_done_victim_rotate.complex_row1_wr_done_i_1 
@@ -52633,7 +52504,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .D(\wr_done_victim_rotate.complex_row1_wr_done_i_1_n_0 ),
         .Q(complex_row1_wr_done),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair404" *) 
+  (* SOFT_HLUTNM = "soft_lutpair399" *) 
   LUT3 #(
     .INIT(8'hA8)) 
     wr_en_inferred__0_i_1
@@ -52641,7 +52512,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I1(calib_ctl_wren_reg_0),
         .I2(phy_ctl_wr_i1_reg),
         .O(calib_ctl_wren_reg_2));
-  (* SOFT_HLUTNM = "soft_lutpair404" *) 
+  (* SOFT_HLUTNM = "soft_lutpair399" *) 
   LUT3 #(
     .INIT(8'hA8)) 
     wr_en_inferred__0_i_1__0
@@ -52662,7 +52533,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
        (.I0(\en_cnt_div4.wrlvl_odt_i_2_n_0 ),
         .I1(wrlvl_active_r1),
         .I2(wr_level_dqs_asrt),
-        .I3(first_wrcal_pat_r_reg_0),
+        .I3(\calib_odt_reg[0]_0 ),
         .O(wr_level_dqs_asrt_i_1_n_0));
   FDRE wr_level_dqs_asrt_r1_reg
        (.C(CLK),
@@ -52683,7 +52554,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I1(dqs_asrt_cnt[0]),
         .I2(dqs_asrt_cnt[1]),
         .I3(wrlvl_active),
-        .I4(first_wrcal_pat_r_reg_0),
+        .I4(\calib_odt_reg[0]_0 ),
         .O(wr_lvl_start_i_1_n_0));
   FDRE wr_lvl_start_reg
        (.C(CLK),
@@ -52691,7 +52562,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .D(wr_lvl_start_i_1_n_0),
         .Q(wr_lvl_start_reg_0),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair386" *) 
+  (* SOFT_HLUTNM = "soft_lutpair381" *) 
   LUT3 #(
     .INIT(8'hE0)) 
     \wr_ptr[2]_i_1__3 
@@ -52699,7 +52570,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I1(phy_ctl_wr_i1_reg),
         .I2(\wr_ptr_timing_reg[0] ),
         .O(E));
-  (* SOFT_HLUTNM = "soft_lutpair387" *) 
+  (* SOFT_HLUTNM = "soft_lutpair382" *) 
   LUT3 #(
     .INIT(8'hE0)) 
     \wr_ptr[2]_i_1__4 
@@ -52707,7 +52578,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I1(phy_ctl_wr_i1_reg),
         .I2(\wr_ptr_timing_reg[0]_0 ),
         .O(calib_ctl_wren_reg_3));
-  (* SOFT_HLUTNM = "soft_lutpair387" *) 
+  (* SOFT_HLUTNM = "soft_lutpair382" *) 
   LUT3 #(
     .INIT(8'hE0)) 
     \wr_ptr[2]_i_1__5 
@@ -52750,7 +52621,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I3(\init_state_r[0]_i_1_n_0 ),
         .I4(wrcal_final_chk),
         .O(wrcal_final_chk_i_1_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair291" *) 
+  (* SOFT_HLUTNM = "soft_lutpair286" *) 
   LUT5 #(
     .INIT(32'hFFDFFFFF)) 
     wrcal_final_chk_i_2
@@ -52782,14 +52653,14 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .D(wrcal_rd_wait_i_1_n_0),
         .Q(wrcal_rd_wait),
         .R(\init_state_r_reg[0]_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair379" *) 
+  (* SOFT_HLUTNM = "soft_lutpair374" *) 
   LUT2 #(
     .INIT(4'hB)) 
     \wrcal_reads[0]_i_1 
        (.I0(wrcal_reads),
         .I1(\wrcal_reads_reg_n_0_[0] ),
         .O(\wrcal_reads[0]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair379" *) 
+  (* SOFT_HLUTNM = "soft_lutpair374" *) 
   LUT3 #(
     .INIT(8'hF9)) 
     \wrcal_reads[1]_i_1 
@@ -52797,7 +52668,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I1(\wrcal_reads_reg_n_0_[1] ),
         .I2(wrcal_reads),
         .O(\wrcal_reads[1]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair306" *) 
+  (* SOFT_HLUTNM = "soft_lutpair301" *) 
   LUT4 #(
     .INIT(16'hFFE1)) 
     \wrcal_reads[2]_i_1 
@@ -52806,7 +52677,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I2(\wrcal_reads_reg_n_0_[2] ),
         .I3(wrcal_reads),
         .O(\wrcal_reads[2]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair306" *) 
+  (* SOFT_HLUTNM = "soft_lutpair301" *) 
   LUT5 #(
     .INIT(32'hFFFFFE01)) 
     \wrcal_reads[3]_i_1 
@@ -52826,7 +52697,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\wrcal_reads_reg_n_0_[4] ),
         .I5(wrcal_reads),
         .O(\wrcal_reads[4]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair378" *) 
+  (* SOFT_HLUTNM = "soft_lutpair373" *) 
   LUT3 #(
     .INIT(8'hF6)) 
     \wrcal_reads[5]_i_1 
@@ -52834,7 +52705,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I1(\wrcal_reads_reg_n_0_[5] ),
         .I2(wrcal_reads),
         .O(\wrcal_reads[5]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair305" *) 
+  (* SOFT_HLUTNM = "soft_lutpair300" *) 
   LUT4 #(
     .INIT(16'hFFD2)) 
     \wrcal_reads[6]_i_1 
@@ -52846,14 +52717,14 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
   LUT6 #(
     .INIT(64'hAAAAAAAAAABAAAAA)) 
     \wrcal_reads[7]_i_1 
-       (.I0(first_wrcal_pat_r_reg_0),
+       (.I0(\calib_odt_reg[0]_0 ),
         .I1(init_state_r),
         .I2(\init_state_r_reg_n_0_[5] ),
         .I3(\init_state_r_reg_n_0_[4] ),
         .I4(\wrcal_reads[7]_i_4_n_0 ),
         .I5(\wrcal_reads[7]_i_5_n_0 ),
         .O(wrcal_reads05_out));
-  (* SOFT_HLUTNM = "soft_lutpair378" *) 
+  (* SOFT_HLUTNM = "soft_lutpair373" *) 
   LUT2 #(
     .INIT(4'hE)) 
     \wrcal_reads[7]_i_10 
@@ -52870,7 +52741,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\wrcal_reads[7]_i_4_n_0 ),
         .I5(\wrcal_reads[7]_i_7_n_0 ),
         .O(\wrcal_reads[7]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair305" *) 
+  (* SOFT_HLUTNM = "soft_lutpair300" *) 
   LUT5 #(
     .INIT(32'hFFFFFD02)) 
     \wrcal_reads[7]_i_3 
@@ -52880,14 +52751,14 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I3(\wrcal_reads_reg_n_0_[7] ),
         .I4(wrcal_reads),
         .O(\wrcal_reads[7]_i_3_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair406" *) 
+  (* SOFT_HLUTNM = "soft_lutpair401" *) 
   LUT2 #(
     .INIT(4'h2)) 
     \wrcal_reads[7]_i_4 
        (.I0(\init_state_r_reg_n_0_[2] ),
         .I1(\init_state_r_reg_n_0_[3] ),
         .O(\wrcal_reads[7]_i_4_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair323" *) 
+  (* SOFT_HLUTNM = "soft_lutpair318" *) 
   LUT2 #(
     .INIT(4'hE)) 
     \wrcal_reads[7]_i_5 
@@ -52904,7 +52775,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\wrcal_reads_reg_n_0_[3] ),
         .I5(\wrcal_reads[7]_i_10_n_0 ),
         .O(\wrcal_reads[7]_i_6_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair329" *) 
+  (* SOFT_HLUTNM = "soft_lutpair324" *) 
   LUT3 #(
     .INIT(8'hFB)) 
     \wrcal_reads[7]_i_7 
@@ -53002,7 +52873,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .CLK(CLK),
         .D(wrcal_start_pre),
         .Q(\wrcal_start_dly_r_reg[4]_srl5_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair288" *) 
+  (* SOFT_HLUTNM = "soft_lutpair283" *) 
   LUT5 #(
     .INIT(32'h01100000)) 
     \wrcal_start_dly_r_reg[4]_srl5_i_1 
@@ -53032,20 +52903,20 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .D(wrcal_start_i_1_n_0),
         .Q(wrcal_start_reg_0),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair411" *) 
+  (* SOFT_HLUTNM = "soft_lutpair406" *) 
   LUT1 #(
     .INIT(2'h1)) 
     \wrcal_wr_cnt[0]_i_1 
        (.I0(wrcal_wr_cnt_reg[0]),
         .O(\wrcal_wr_cnt[0]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair411" *) 
+  (* SOFT_HLUTNM = "soft_lutpair406" *) 
   LUT2 #(
     .INIT(4'h9)) 
     \wrcal_wr_cnt[1]_i_1 
        (.I0(wrcal_wr_cnt_reg[0]),
         .I1(wrcal_wr_cnt_reg[1]),
         .O(\wrcal_wr_cnt[1]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair396" *) 
+  (* SOFT_HLUTNM = "soft_lutpair391" *) 
   LUT3 #(
     .INIT(8'hA9)) 
     \wrcal_wr_cnt[2]_i_1 
@@ -53061,7 +52932,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I2(\wrcal_wr_cnt[3]_i_5_n_0 ),
         .I3(wrcal_wr_cnt_reg[3]),
         .I4(wrcal_wr_cnt_reg[2]),
-        .I5(first_wrcal_pat_r_reg_0),
+        .I5(\calib_odt_reg[0]_0 ),
         .O(\wrcal_wr_cnt[3]_i_1_n_0 ));
   LUT6 #(
     .INIT(64'h0000000000020000)) 
@@ -53073,7 +52944,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I4(\init_state_r_reg_n_0_[5] ),
         .I5(init_state_r),
         .O(\wrcal_wr_cnt[3]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair321" *) 
+  (* SOFT_HLUTNM = "soft_lutpair316" *) 
   LUT4 #(
     .INIT(16'hCCC9)) 
     \wrcal_wr_cnt[3]_i_3 
@@ -53082,7 +52953,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I2(wrcal_wr_cnt_reg[0]),
         .I3(wrcal_wr_cnt_reg[1]),
         .O(wrcal_wr_cnt0[3]));
-  (* SOFT_HLUTNM = "soft_lutpair297" *) 
+  (* SOFT_HLUTNM = "soft_lutpair292" *) 
   LUT5 #(
     .INIT(32'hFFFFFFFB)) 
     \wrcal_wr_cnt[3]_i_4 
@@ -53092,7 +52963,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I3(\init_state_r_reg_n_0_[3] ),
         .I4(\init_state_r_reg_n_0_[2] ),
         .O(\wrcal_wr_cnt[3]_i_4_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair396" *) 
+  (* SOFT_HLUTNM = "soft_lutpair391" *) 
   LUT2 #(
     .INIT(4'h1)) 
     \wrcal_wr_cnt[3]_i_5 
@@ -53123,21 +52994,21 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .D(wrcal_wr_cnt0[3]),
         .Q(wrcal_wr_cnt_reg[3]),
         .R(\wrcal_wr_cnt[3]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair347" *) 
+  (* SOFT_HLUTNM = "soft_lutpair342" *) 
   LUT2 #(
     .INIT(4'h8)) 
     \wrdq_div2_4to1_rdlvl_first.phy_wrdata[121]_i_1 
        (.I0(first_wrcal_pat_r),
         .I1(D[3]),
         .O(\wrdq_div2_4to1_rdlvl_first.phy_wrdata[121]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair348" *) 
+  (* SOFT_HLUTNM = "soft_lutpair343" *) 
   LUT2 #(
     .INIT(4'hB)) 
     \wrdq_div2_4to1_rdlvl_first.phy_wrdata[126]_i_1 
        (.I0(first_wrcal_pat_r),
         .I1(D[3]),
         .O(\wrdq_div2_4to1_rdlvl_first.phy_wrdata[126]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair346" *) 
+  (* SOFT_HLUTNM = "soft_lutpair341" *) 
   LUT2 #(
     .INIT(4'h2)) 
     \wrdq_div2_4to1_rdlvl_first.phy_wrdata[25]_i_1 
@@ -53200,7 +53071,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I2(write_calib_i_2_n_0),
         .I3(wrlvl_active_r1),
         .I4(phy_write_calib),
-        .I5(first_wrcal_pat_r_reg_0),
+        .I5(\calib_odt_reg[0]_0 ),
         .O(write_calib_i_1_n_0));
   LUT6 #(
     .INIT(64'h0000000000000002)) 
@@ -53226,7 +53097,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I2(\en_cnt_div4.wrlvl_odt_i_2_n_0 ),
         .I3(wrlvl_active),
         .I4(wrlvl_rank_done),
-        .I5(first_wrcal_pat_r_reg_0),
+        .I5(\calib_odt_reg[0]_0 ),
         .O(wrlvl_active_i_1_n_0));
   FDRE wrlvl_active_r1_reg
        (.C(CLK),
@@ -53285,7 +53156,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_init
         .I1(wrlvl_rank_done_r1),
         .I2(wrlvl_rank_done),
         .I3(wrlvl_odt_ctl),
-        .I4(first_wrcal_pat_r_reg_0),
+        .I4(\calib_odt_reg[0]_0 ),
         .O(wrlvl_odt_ctl_i_1_n_0));
   LUT6 #(
     .INIT(64'hEFFFEFFFEFFFFFFF)) 
@@ -59130,19 +59001,19 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_rdlvl
   LUT3 #(
     .INIT(8'h80)) 
     \gen_pat_match_div4.idel_pat0_match_fall2_and_r_i_1 
-       (.I0(\gen_pat_match_div4.gen_pat_match[6].idel_pat0_match_fall2_r_reg ),
+       (.I0(pat0_match_fall2_r[7]),
         .I1(\gen_pat_match_div4.idel_pat0_match_fall2_and_r_i_2_n_0 ),
-        .I2(pat0_match_fall2_r[3]),
+        .I2(\gen_pat_match_div4.gen_pat_match[6].idel_pat0_match_fall2_r_reg ),
         .O(\gen_pat_match_div4.idel_pat0_match_fall2_and_r_i_1_n_0 ));
   LUT6 #(
     .INIT(64'h8000000000000000)) 
     \gen_pat_match_div4.idel_pat0_match_fall2_and_r_i_2 
-       (.I0(\gen_pat_match_div4.gen_pat_match[5].idel_pat0_match_fall2_r_reg ),
+       (.I0(pat0_match_fall2_r[4]),
         .I1(\gen_pat_match_div4.gen_pat_match[2].idel_pat0_match_fall2_r_reg ),
         .I2(pat0_match_fall2_r[0]),
         .I3(\gen_pat_match_div4.gen_pat_match[1].idel_pat0_match_fall2_r_reg ),
-        .I4(pat0_match_fall2_r[4]),
-        .I5(pat0_match_fall2_r[7]),
+        .I4(pat0_match_fall2_r[3]),
+        .I5(\gen_pat_match_div4.gen_pat_match[5].idel_pat0_match_fall2_r_reg ),
         .O(\gen_pat_match_div4.idel_pat0_match_fall2_and_r_i_2_n_0 ));
   FDRE \gen_pat_match_div4.idel_pat0_match_fall2_and_r_reg 
        (.C(CLK),
@@ -59292,9 +59163,9 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_rdlvl
   LUT3 #(
     .INIT(8'h80)) 
     \gen_pat_match_div4.idel_pat1_match_fall1_and_r_i_1 
-       (.I0(\gen_pat_match_div4.gen_pat_match[6].idel_pat0_match_fall1_r_reg ),
+       (.I0(\gen_pat_match_div4.gen_pat_match[7].idel_pat1_match_fall1_r_reg ),
         .I1(\gen_pat_match_div4.idel_pat1_match_fall1_and_r_i_2_n_0 ),
-        .I2(\gen_pat_match_div4.gen_pat_match[7].idel_pat1_match_fall1_r_reg ),
+        .I2(\gen_pat_match_div4.gen_pat_match[6].idel_pat0_match_fall1_r_reg ),
         .O(\gen_pat_match_div4.idel_pat1_match_fall1_and_r_i_1_n_0 ));
   LUT6 #(
     .INIT(64'h8000000000000000)) 
@@ -59312,14 +59183,15 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_rdlvl
         .D(\gen_pat_match_div4.idel_pat1_match_fall1_and_r_i_1_n_0 ),
         .Q(idel_pat1_match_fall1_and_r),
         .R(1'b0));
-  LUT5 #(
-    .INIT(32'h80000000)) 
+  LUT6 #(
+    .INIT(64'h8000000000000000)) 
     \gen_pat_match_div4.idel_pat1_match_fall2_and_r_i_1 
        (.I0(pat0_match_fall2_r[6]),
-        .I1(\gen_pat_match_div4.gen_pat_match[3].idel_pat1_match_fall2_r_reg ),
+        .I1(pat0_match_fall2_r[5]),
         .I2(\gen_pat_match_div4.pat0_match_fall2_and_r_i_2_n_0 ),
-        .I3(pat0_match_fall2_r[5]),
-        .I4(\gen_pat_match_div4.gen_pat_match[7].idel_pat1_match_fall2_r_reg ),
+        .I3(\gen_pat_match_div4.gen_pat_match[3].idel_pat1_match_fall2_r_reg ),
+        .I4(pat0_match_fall2_r[4]),
+        .I5(\gen_pat_match_div4.gen_pat_match[7].idel_pat1_match_fall2_r_reg ),
         .O(\gen_pat_match_div4.idel_pat1_match_fall2_and_r_i_1_n_0 ));
   FDRE \gen_pat_match_div4.idel_pat1_match_fall2_and_r_reg 
        (.C(CLK),
@@ -59473,22 +59345,22 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_rdlvl
         .D(\gen_pat_match_div4.pat0_match_fall1_and_r_i_1_n_0 ),
         .Q(pat0_match_fall1_and_r),
         .R(1'b0));
-  LUT5 #(
-    .INIT(32'h80000000)) 
+  LUT6 #(
+    .INIT(64'h8000000000000000)) 
     \gen_pat_match_div4.pat0_match_fall2_and_r_i_1 
-       (.I0(pat0_match_fall2_r[7]),
+       (.I0(pat0_match_fall2_r[6]),
         .I1(pat0_match_fall2_r[5]),
         .I2(\gen_pat_match_div4.pat0_match_fall2_and_r_i_2_n_0 ),
-        .I3(pat0_match_fall2_r[6]),
-        .I4(pat0_match_fall2_r[3]),
+        .I3(pat0_match_fall2_r[3]),
+        .I4(pat0_match_fall2_r[4]),
+        .I5(pat0_match_fall2_r[7]),
         .O(\gen_pat_match_div4.pat0_match_fall2_and_r_i_1_n_0 ));
-  LUT4 #(
-    .INIT(16'h8000)) 
+  LUT3 #(
+    .INIT(8'h80)) 
     \gen_pat_match_div4.pat0_match_fall2_and_r_i_2 
-       (.I0(pat0_match_fall2_r[2]),
+       (.I0(pat0_match_fall2_r[0]),
         .I1(pat0_match_fall2_r[1]),
-        .I2(pat0_match_fall2_r[0]),
-        .I3(pat0_match_fall2_r[4]),
+        .I2(pat0_match_fall2_r[2]),
         .O(\gen_pat_match_div4.pat0_match_fall2_and_r_i_2_n_0 ));
   FDRE \gen_pat_match_div4.pat0_match_fall2_and_r_reg 
        (.C(CLK),
@@ -59662,10 +59534,10 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_rdlvl
     .INIT(64'h8000000000000000)) 
     \gen_pat_match_div4.pat1_match_fall1_and_r_i_1 
        (.I0(\gen_pat_match_div4.gen_pat_match[6].idel_pat0_match_fall1_r_reg ),
-        .I1(\gen_pat_match_div4.gen_pat_match[4].idel_pat0_match_fall1_r_reg ),
+        .I1(\gen_pat_match_div4.gen_pat_match[5].idel_pat1_match_fall1_r_reg ),
         .I2(\gen_pat_match_div4.pat1_match_fall1_and_r_i_2_n_0 ),
         .I3(\gen_pat_match_div4.gen_pat_match[1].idel_pat1_match_fall1_r_reg ),
-        .I4(\gen_pat_match_div4.gen_pat_match[5].idel_pat1_match_fall1_r_reg ),
+        .I4(\gen_pat_match_div4.gen_pat_match[4].idel_pat0_match_fall1_r_reg ),
         .I5(pat0_match_fall1_r[7]),
         .O(\gen_pat_match_div4.pat1_match_fall1_and_r_i_1_n_0 ));
   LUT3 #(
@@ -72663,7 +72535,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_top
         .I3(dqs_po_dec_done),
         .I4(calib_in_common),
         .O(\gen_byte_sel_div2.calib_in_common_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair579" *) 
+  (* SOFT_HLUTNM = "soft_lutpair574" *) 
   LUT2 #(
     .INIT(4'h2)) 
     prbs_rdlvl_done_pulse_i_1
@@ -73338,7 +73210,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_top
         .\wr_ptr_timing_reg[0]_0 (u_ddr_calib_top_n_62),
         .\wr_ptr_timing_reg[0]_1 (u_ddr_calib_top_n_414),
         .\wr_ptr_timing_reg[0]_2 (u_ddr_calib_top_n_416));
-  (* SOFT_HLUTNM = "soft_lutpair579" *) 
+  (* SOFT_HLUTNM = "soft_lutpair574" *) 
   LUT2 #(
     .INIT(4'h7)) 
     \wrdq_div2_4to1_rdlvl_first.phy_wrdata[127]_i_1 
@@ -74075,7 +73947,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrcal
         .I4(\cal2_state_r_reg_n_0_[0] ),
         .I5(cal2_done_r),
         .O(cal2_done_r_i_1_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair423" *) 
+  (* SOFT_HLUTNM = "soft_lutpair418" *) 
   LUT2 #(
     .INIT(4'hB)) 
     cal2_done_r_i_2
@@ -74185,7 +74057,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrcal
         .I3(\cal2_state_r_reg_n_0_[1] ),
         .I4(\cal2_state_r_reg_n_0_[3] ),
         .O(\cal2_state_r[0]_i_3_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair427" *) 
+  (* SOFT_HLUTNM = "soft_lutpair422" *) 
   LUT4 #(
     .INIT(16'h00DF)) 
     \cal2_state_r[0]_i_4 
@@ -74195,12 +74067,12 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrcal
         .I3(\cal2_state_r_reg_n_0_[2] ),
         .O(\cal2_state_r[0]_i_4_n_0 ));
   LUT6 #(
-    .INIT(64'h0000555100000000)) 
+    .INIT(64'h0000545500000000)) 
     \cal2_state_r[0]_i_5 
        (.I0(\gen_pat_match_div4.pat_data_match_r_reg_n_0 ),
-        .I1(idelay_ld_done_reg_n_0),
+        .I1(\gen_pat_match_div4.early1_data_match_r_reg_n_0 ),
         .I2(\gen_pat_match_div4.early2_data_match_r_reg_n_0 ),
-        .I3(\gen_pat_match_div4.early1_data_match_r_reg_n_0 ),
+        .I3(idelay_ld_done_reg_n_0),
         .I4(wrcal_sanity_chk_r_reg_n_0),
         .I5(\gen_pat_match_div4.pat_data_match_valid_r_reg_n_0 ),
         .O(\cal2_state_r[0]_i_5_n_0 ));
@@ -74245,10 +74117,10 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrcal
     .INIT(64'h0000000100000000)) 
     \cal2_state_r[2]_i_2 
        (.I0(\gen_pat_match_div4.pat_data_match_r_reg_n_0 ),
-        .I1(idelay_ld_done_reg_n_0),
+        .I1(wrcal_sanity_chk_r_reg_n_0),
         .I2(\gen_pat_match_div4.early1_data_match_r_reg_n_0 ),
         .I3(\gen_pat_match_div4.early2_data_match_r_reg_n_0 ),
-        .I4(wrcal_sanity_chk_r_reg_n_0),
+        .I4(idelay_ld_done_reg_n_0),
         .I5(\gen_pat_match_div4.pat_data_match_valid_r_reg_n_0 ),
         .O(\cal2_state_r[2]_i_2_n_0 ));
   LUT6 #(
@@ -74261,7 +74133,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrcal
         .I4(wrcal_sanity_chk_r_reg_n_0),
         .I5(\cal2_state_r_reg_n_0_[2] ),
         .O(\cal2_state_r[2]_i_3_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair422" *) 
+  (* SOFT_HLUTNM = "soft_lutpair417" *) 
   LUT4 #(
     .INIT(16'h8000)) 
     \cal2_state_r[3]_i_10 
@@ -74301,12 +74173,12 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrcal
         .I5(\cal2_state_r_reg_n_0_[3] ),
         .O(\cal2_state_r[3]_i_4_n_0 ));
   LUT6 #(
-    .INIT(64'h55550004FFFFFFFF)) 
+    .INIT(64'h55550100FFFFFFFF)) 
     \cal2_state_r[3]_i_5 
        (.I0(\gen_pat_match_div4.pat_data_match_r_reg_n_0 ),
-        .I1(idelay_ld_done_reg_n_0),
+        .I1(\gen_pat_match_div4.early2_data_match_r_reg_n_0 ),
         .I2(\gen_pat_match_div4.early1_data_match_r_reg_n_0 ),
-        .I3(\gen_pat_match_div4.early2_data_match_r_reg_n_0 ),
+        .I3(idelay_ld_done_reg_n_0),
         .I4(wrcal_sanity_chk_r_reg_n_0),
         .I5(\gen_pat_match_div4.pat_data_match_valid_r_reg_n_0 ),
         .O(\cal2_state_r[3]_i_5_n_0 ));
@@ -74320,7 +74192,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrcal
         .I4(\wrcal_dqs_cnt_r_reg_n_0_[0] ),
         .I5(prech_done),
         .O(\cal2_state_r[3]_i_6_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair426" *) 
+  (* SOFT_HLUTNM = "soft_lutpair421" *) 
   LUT4 #(
     .INIT(16'h8000)) 
     \cal2_state_r[3]_i_7 
@@ -74338,7 +74210,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrcal
         .I3(\cal2_state_r[3]_i_10_n_0 ),
         .I4(\gen_pat_match_div4.pat_data_match_valid_r_reg_n_0 ),
         .O(\cal2_state_r[3]_i_8_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair428" *) 
+  (* SOFT_HLUTNM = "soft_lutpair423" *) 
   LUT3 #(
     .INIT(8'h08)) 
     \cal2_state_r[3]_i_9 
@@ -74402,7 +74274,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrcal
         .I3(wrlvl_byte_redo_i_3_n_0),
         .I4(\cal2_state_r_reg_n_0_[0] ),
         .O(early1_data_i_2_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair428" *) 
+  (* SOFT_HLUTNM = "soft_lutpair423" *) 
   LUT4 #(
     .INIT(16'h0040)) 
     early1_data_i_3
@@ -74847,7 +74719,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrcal
         .I3(\gen_pat_match_div4.gen_pat_match[7].early1_match_fall1_r_reg ),
         .I4(\gen_pat_match_div4.gen_pat_match[2].early1_match_fall1_r_reg ),
         .O(\gen_pat_match_div4.early1_match_fall1_and_r_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair421" *) 
+  (* SOFT_HLUTNM = "soft_lutpair416" *) 
   LUT4 #(
     .INIT(16'h8000)) 
     \gen_pat_match_div4.early1_match_fall1_and_r_i_2 
@@ -74894,7 +74766,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrcal
         .I3(\gen_pat_match_div4.gen_pat_match[6].early1_match_fall3_r_reg ),
         .I4(\gen_pat_match_div4.gen_pat_match[0].early1_match_fall3_r_reg ),
         .O(\gen_pat_match_div4.early1_match_fall3_and_r_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair417" *) 
+  (* SOFT_HLUTNM = "soft_lutpair412" *) 
   LUT4 #(
     .INIT(16'h8000)) 
     \gen_pat_match_div4.early1_match_fall3_and_r_i_2 
@@ -74941,7 +74813,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrcal
         .I3(\gen_pat_match_div4.gen_pat_match[7].early1_match_rise1_r_reg ),
         .I4(\gen_pat_match_div4.gen_pat_match[2].early1_match_rise1_r_reg ),
         .O(\gen_pat_match_div4.early1_match_rise1_and_r_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair416" *) 
+  (* SOFT_HLUTNM = "soft_lutpair411" *) 
   LUT4 #(
     .INIT(16'h8000)) 
     \gen_pat_match_div4.early1_match_rise1_and_r_i_2 
@@ -74956,7 +74828,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrcal
         .D(\gen_pat_match_div4.early1_match_rise1_and_r_i_1_n_0 ),
         .Q(early1_match_rise1_and_r),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair419" *) 
+  (* SOFT_HLUTNM = "soft_lutpair414" *) 
   LUT5 #(
     .INIT(32'h80000000)) 
     \gen_pat_match_div4.early1_match_rise2_and_r_i_1 
@@ -75035,7 +74907,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrcal
         .I3(early2_match_fall0_r[7]),
         .I4(early2_match_fall0_r[5]),
         .O(\gen_pat_match_div4.early2_match_fall0_and_r_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair418" *) 
+  (* SOFT_HLUTNM = "soft_lutpair413" *) 
   LUT4 #(
     .INIT(16'h8000)) 
     \gen_pat_match_div4.early2_match_fall0_and_r_i_2 
@@ -75050,7 +74922,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrcal
         .D(\gen_pat_match_div4.early2_match_fall0_and_r_i_1_n_0 ),
         .Q(early2_match_fall0_and_r),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair421" *) 
+  (* SOFT_HLUTNM = "soft_lutpair416" *) 
   LUT5 #(
     .INIT(32'h80000000)) 
     \gen_pat_match_div4.early2_match_fall1_and_r_i_1 
@@ -75097,7 +74969,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrcal
         .D(\gen_pat_match_div4.early2_match_fall2_and_r_i_1_n_0 ),
         .Q(early2_match_fall2_and_r),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair417" *) 
+  (* SOFT_HLUTNM = "soft_lutpair412" *) 
   LUT5 #(
     .INIT(32'h80000000)) 
     \gen_pat_match_div4.early2_match_fall3_and_r_i_1 
@@ -75130,7 +75002,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrcal
         .I3(early2_match_rise0_r[7]),
         .I4(early2_match_rise0_r[5]),
         .O(\gen_pat_match_div4.early2_match_rise0_and_r_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair420" *) 
+  (* SOFT_HLUTNM = "soft_lutpair415" *) 
   LUT4 #(
     .INIT(16'h8000)) 
     \gen_pat_match_div4.early2_match_rise0_and_r_i_2 
@@ -75145,7 +75017,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrcal
         .D(\gen_pat_match_div4.early2_match_rise0_and_r_i_1_n_0 ),
         .Q(early2_match_rise0_and_r),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair416" *) 
+  (* SOFT_HLUTNM = "soft_lutpair411" *) 
   LUT5 #(
     .INIT(32'h80000000)) 
     \gen_pat_match_div4.early2_match_rise1_and_r_i_1 
@@ -75178,7 +75050,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrcal
         .I3(early2_match_rise2_r[5]),
         .I4(early2_match_rise2_r[1]),
         .O(\gen_pat_match_div4.early2_match_rise2_and_r_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair419" *) 
+  (* SOFT_HLUTNM = "soft_lutpair414" *) 
   LUT4 #(
     .INIT(16'h8000)) 
     \gen_pat_match_div4.early2_match_rise2_and_r_i_2 
@@ -76277,7 +76149,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrcal
         .D(rd_active_r3_reg_srl2_n_0),
         .Q(\gen_pat_match_div4.pat_data_match_valid_r_reg_n_0 ),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair418" *) 
+  (* SOFT_HLUTNM = "soft_lutpair413" *) 
   LUT5 #(
     .INIT(32'h00008000)) 
     \gen_pat_match_div4.pat_match_fall0_and_r_i_1 
@@ -76338,7 +76210,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrcal
         .D(\gen_pat_match_div4.pat_match_fall3_and_r_i_1_n_0 ),
         .Q(pat_match_fall3_and_r),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair420" *) 
+  (* SOFT_HLUTNM = "soft_lutpair415" *) 
   LUT5 #(
     .INIT(32'h00008000)) 
     \gen_pat_match_div4.pat_match_rise0_and_r_i_1 
@@ -76813,7 +76685,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrcal
         .I4(\cal2_state_r_reg_n_0_[3] ),
         .I5(idelay_ld_done_reg_n_0),
         .O(idelay_ld_done_i_1_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair426" *) 
+  (* SOFT_HLUTNM = "soft_lutpair421" *) 
   LUT4 #(
     .INIT(16'h0002)) 
     idelay_ld_done_i_2
@@ -76879,7 +76751,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrcal
         .I4(pi_dqs_found_done),
         .I5(ddr3_lm_done_r),
         .O(wrcal_sanity_chk_done_reg_1));
-  (* SOFT_HLUTNM = "soft_lutpair425" *) 
+  (* SOFT_HLUTNM = "soft_lutpair420" *) 
   LUT4 #(
     .INIT(16'h7077)) 
     \init_state_r[1]_i_34 
@@ -76888,7 +76760,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrcal
         .I2(wrcal_done_reg_0),
         .I3(wrlvl_byte_redo),
         .O(rdlvl_stg1_done_int_reg_0));
-  (* SOFT_HLUTNM = "soft_lutpair424" *) 
+  (* SOFT_HLUTNM = "soft_lutpair419" *) 
   LUT3 #(
     .INIT(8'h04)) 
     \init_state_r[2]_i_10 
@@ -76896,7 +76768,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrcal
         .I1(pi_dqs_found_done),
         .I2(wrlvl_done_r1),
         .O(wrlvl_byte_redo_reg_0));
-  (* SOFT_HLUTNM = "soft_lutpair425" *) 
+  (* SOFT_HLUTNM = "soft_lutpair420" *) 
   LUT4 #(
     .INIT(16'h4F44)) 
     \init_state_r[4]_i_24 
@@ -76905,7 +76777,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrcal
         .I2(wrcal_done_reg_0),
         .I3(wrlvl_byte_redo),
         .O(rdlvl_stg1_done_int_reg));
-  (* SOFT_HLUTNM = "soft_lutpair424" *) 
+  (* SOFT_HLUTNM = "soft_lutpair419" *) 
   LUT4 #(
     .INIT(16'h7FFF)) 
     \init_state_r[4]_i_32 
@@ -76914,7 +76786,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrcal
         .I2(D),
         .I3(pi_dqs_found_done),
         .O(wrcal_done_reg_1));
-  (* SOFT_HLUTNM = "soft_lutpair431" *) 
+  (* SOFT_HLUTNM = "soft_lutpair426" *) 
   LUT3 #(
     .INIT(8'hFE)) 
     \init_state_r[5]_i_35 
@@ -76942,20 +76814,20 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrcal
         .I4(idelay_ld),
         .I5(idelay_ld_rst),
         .O(LD0_0));
-  (* SOFT_HLUTNM = "soft_lutpair433" *) 
+  (* SOFT_HLUTNM = "soft_lutpair428" *) 
   LUT1 #(
     .INIT(2'h1)) 
     \not_empty_wait_cnt[0]_i_1 
        (.I0(\not_empty_wait_cnt_reg_n_0_[0] ),
         .O(p_0_in[0]));
-  (* SOFT_HLUTNM = "soft_lutpair433" *) 
+  (* SOFT_HLUTNM = "soft_lutpair428" *) 
   LUT2 #(
     .INIT(4'h6)) 
     \not_empty_wait_cnt[1]_i_1 
        (.I0(\not_empty_wait_cnt_reg_n_0_[0] ),
         .I1(\not_empty_wait_cnt_reg_n_0_[1] ),
         .O(p_0_in[1]));
-  (* SOFT_HLUTNM = "soft_lutpair429" *) 
+  (* SOFT_HLUTNM = "soft_lutpair424" *) 
   LUT3 #(
     .INIT(8'h6A)) 
     \not_empty_wait_cnt[2]_i_1 
@@ -76963,7 +76835,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrcal
         .I1(\not_empty_wait_cnt_reg_n_0_[0] ),
         .I2(\not_empty_wait_cnt_reg_n_0_[1] ),
         .O(p_0_in[2]));
-  (* SOFT_HLUTNM = "soft_lutpair429" *) 
+  (* SOFT_HLUTNM = "soft_lutpair424" *) 
   LUT4 #(
     .INIT(16'h6AAA)) 
     \not_empty_wait_cnt[3]_i_1 
@@ -76982,7 +76854,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrcal
         .I4(\cal2_state_r_reg_n_0_[0] ),
         .I5(wrcal_rd_wait),
         .O(\not_empty_wait_cnt[4]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair422" *) 
+  (* SOFT_HLUTNM = "soft_lutpair417" *) 
   LUT5 #(
     .INIT(32'h6AAAAAAA)) 
     \not_empty_wait_cnt[4]_i_2 
@@ -77056,20 +76928,20 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrcal
         .D(phy_rddata_en),
         .Q(E),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair432" *) 
+  (* SOFT_HLUTNM = "soft_lutpair427" *) 
   LUT1 #(
     .INIT(2'h1)) 
     \tap_inc_wait_cnt[0]_i_1 
        (.I0(tap_inc_wait_cnt_reg[0]),
         .O(p_0_in__0[0]));
-  (* SOFT_HLUTNM = "soft_lutpair432" *) 
+  (* SOFT_HLUTNM = "soft_lutpair427" *) 
   LUT2 #(
     .INIT(4'h6)) 
     \tap_inc_wait_cnt[1]_i_1 
        (.I0(tap_inc_wait_cnt_reg[1]),
         .I1(tap_inc_wait_cnt_reg[0]),
         .O(p_0_in__0[1]));
-  (* SOFT_HLUTNM = "soft_lutpair430" *) 
+  (* SOFT_HLUTNM = "soft_lutpair425" *) 
   LUT3 #(
     .INIT(8'h6A)) 
     \tap_inc_wait_cnt[2]_i_1 
@@ -77086,7 +76958,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrcal
         .I3(\cal2_state_r_reg_n_0_[0] ),
         .I4(\not_empty_wait_cnt_reg[4]_0 ),
         .O(\tap_inc_wait_cnt[3]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair430" *) 
+  (* SOFT_HLUTNM = "soft_lutpair425" *) 
   LUT4 #(
     .INIT(16'h6AAA)) 
     \tap_inc_wait_cnt[3]_i_2 
@@ -77119,14 +76991,14 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrcal
         .D(p_0_in__0[3]),
         .Q(tap_inc_wait_cnt_reg[3]),
         .R(\tap_inc_wait_cnt[3]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair431" *) 
+  (* SOFT_HLUTNM = "soft_lutpair426" *) 
   LUT2 #(
     .INIT(4'h2)) 
     \wl_tap_count_r[5]_i_3 
        (.I0(wrlvl_byte_redo),
         .I1(wrlvl_byte_redo_r),
         .O(done_dqs_dec237_out));
-  (* SOFT_HLUTNM = "soft_lutpair423" *) 
+  (* SOFT_HLUTNM = "soft_lutpair418" *) 
   LUT5 #(
     .INIT(32'h45454500)) 
     wrcal_done_i_1
@@ -77162,7 +77034,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrcal
         .I4(wrcal_dqs_cnt_r),
         .I5(wrcal_sanity_chk_r_reg_n_0),
         .O(\wrcal_dqs_cnt_r[0]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair427" *) 
+  (* SOFT_HLUTNM = "soft_lutpair422" *) 
   LUT4 #(
     .INIT(16'h1F20)) 
     \wrcal_dqs_cnt_r[1]_i_1 
@@ -77223,13 +77095,13 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrcal
         .I5(\cal2_state_r_reg_n_0_[1] ),
         .O(wrcal_pat_resume_r_i_2_n_0));
   LUT6 #(
-    .INIT(64'h0000800000000000)) 
+    .INIT(64'h2000000000000000)) 
     wrcal_pat_resume_r_i_3
        (.I0(tap_inc_wait_cnt_reg[2]),
-        .I1(idelay_ld_done_reg_n_0),
+        .I1(wrcal_sanity_chk_r_reg_n_0),
         .I2(tap_inc_wait_cnt_reg[0]),
         .I3(tap_inc_wait_cnt_reg[1]),
-        .I4(wrcal_sanity_chk_r_reg_n_0),
+        .I4(idelay_ld_done_reg_n_0),
         .I5(tap_inc_wait_cnt_reg[3]),
         .O(wrcal_pat_resume_r_i_3_n_0));
   FDRE wrcal_pat_resume_r_reg
@@ -77921,14 +77793,14 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(\FSM_sequential_wl_state_r[0]_i_5_n_0 ),
         .I5(\FSM_sequential_wl_state_r[0]_i_6_n_0 ),
         .O(\FSM_sequential_wl_state_r[0]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair250" *) 
+  (* SOFT_HLUTNM = "soft_lutpair245" *) 
   LUT2 #(
     .INIT(4'h2)) 
     \FSM_sequential_wl_state_r[0]_i_10 
        (.I0(wl_state_r__0[1]),
         .I1(wl_state_r__0[2]),
         .O(\FSM_sequential_wl_state_r[0]_i_10_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair223" *) 
+  (* SOFT_HLUTNM = "soft_lutpair218" *) 
   LUT3 #(
     .INIT(8'h7F)) 
     \FSM_sequential_wl_state_r[0]_i_11 
@@ -77981,7 +77853,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(\fine_inc[1][5]_i_4_n_0 ),
         .I5(\fine_inc[1][5]_i_5_n_0 ),
         .O(\FSM_sequential_wl_state_r[0]_i_6_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair265" *) 
+  (* SOFT_HLUTNM = "soft_lutpair260" *) 
   LUT4 #(
     .INIT(16'h0100)) 
     \FSM_sequential_wl_state_r[0]_i_7 
@@ -78030,7 +77902,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(\stable_cnt_reg_n_0_[1] ),
         .I5(\stable_cnt_reg_n_0_[2] ),
         .O(\FSM_sequential_wl_state_r[1]_i_10_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair263" *) 
+  (* SOFT_HLUTNM = "soft_lutpair258" *) 
   LUT2 #(
     .INIT(4'hB)) 
     \FSM_sequential_wl_state_r[1]_i_11 
@@ -78086,7 +77958,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(wl_state_r__0[1]),
         .I5(wl_state_r__0[2]),
         .O(\FSM_sequential_wl_state_r[1]_i_5_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair222" *) 
+  (* SOFT_HLUTNM = "soft_lutpair217" *) 
   LUT5 #(
     .INIT(32'hFFFFFFF2)) 
     \FSM_sequential_wl_state_r[1]_i_6 
@@ -78096,7 +77968,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I3(\FSM_sequential_wl_state_r[4]_i_12_n_0 ),
         .I4(wl_state_r__0[4]),
         .O(\FSM_sequential_wl_state_r[1]_i_6_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair231" *) 
+  (* SOFT_HLUTNM = "soft_lutpair226" *) 
   LUT5 #(
     .INIT(32'h7F7FFF3F)) 
     \FSM_sequential_wl_state_r[1]_i_7 
@@ -78106,7 +77978,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I3(\FSM_sequential_wl_state_r[0]_i_7_n_0 ),
         .I4(wl_state_r__0[4]),
         .O(\FSM_sequential_wl_state_r[1]_i_7_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair269" *) 
+  (* SOFT_HLUTNM = "soft_lutpair264" *) 
   LUT2 #(
     .INIT(4'h2)) 
     \FSM_sequential_wl_state_r[1]_i_8 
@@ -78143,7 +78015,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(\wl_corse_cnt[0][0][0]_i_1_n_0 ),
         .I5(\wrlvl_redo_corse_inc_reg_n_0_[0] ),
         .O(\FSM_sequential_wl_state_r[2]_i_10_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair266" *) 
+  (* SOFT_HLUTNM = "soft_lutpair261" *) 
   LUT4 #(
     .INIT(16'h02A2)) 
     \FSM_sequential_wl_state_r[2]_i_11 
@@ -78152,7 +78024,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I2(\dqs_count_r_reg[0]_rep_n_0 ),
         .I3(\rd_data_edge_detect_r_reg_n_0_[1] ),
         .O(\FSM_sequential_wl_state_r[2]_i_11_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair238" *) 
+  (* SOFT_HLUTNM = "soft_lutpair233" *) 
   LUT2 #(
     .INIT(4'h1)) 
     \FSM_sequential_wl_state_r[2]_i_12 
@@ -78169,7 +78041,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(\FSM_sequential_wl_state_r[2]_i_8_n_0 ),
         .I5(\FSM_sequential_wl_state_r[2]_i_9_n_0 ),
         .O(\FSM_sequential_wl_state_r[2]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair264" *) 
+  (* SOFT_HLUTNM = "soft_lutpair259" *) 
   LUT4 #(
     .INIT(16'h4000)) 
     \FSM_sequential_wl_state_r[2]_i_3 
@@ -78188,7 +78060,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(wl_state_r__0[4]),
         .I5(wl_state_r__0[3]),
         .O(\FSM_sequential_wl_state_r[2]_i_4_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair267" *) 
+  (* SOFT_HLUTNM = "soft_lutpair262" *) 
   LUT4 #(
     .INIT(16'h0400)) 
     \FSM_sequential_wl_state_r[2]_i_5 
@@ -78207,7 +78079,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(\FSM_sequential_wl_state_r[4]_i_12_n_0 ),
         .I5(wl_state_r__0[4]),
         .O(\FSM_sequential_wl_state_r[2]_i_6_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair225" *) 
+  (* SOFT_HLUTNM = "soft_lutpair220" *) 
   LUT5 #(
     .INIT(32'h80008888)) 
     \FSM_sequential_wl_state_r[2]_i_7 
@@ -78247,7 +78119,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(\FSM_sequential_wl_state_r[3]_i_4_n_0 ),
         .I5(\FSM_sequential_wl_state_r[3]_i_5_n_0 ),
         .O(\FSM_sequential_wl_state_r[3]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair237" *) 
+  (* SOFT_HLUTNM = "soft_lutpair232" *) 
   LUT5 #(
     .INIT(32'hFF000400)) 
     \FSM_sequential_wl_state_r[3]_i_10 
@@ -78267,7 +78139,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(\FSM_sequential_wl_state_r[3]_i_7_n_0 ),
         .I5(inhibit_edge_detect_r_i_3_n_0),
         .O(\FSM_sequential_wl_state_r[3]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair254" *) 
+  (* SOFT_HLUTNM = "soft_lutpair249" *) 
   LUT5 #(
     .INIT(32'h080008FF)) 
     \FSM_sequential_wl_state_r[3]_i_3 
@@ -78306,7 +78178,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I3(\rd_data_edge_detect_r_reg_n_0_[0] ),
         .I4(wl_edge_detect_valid_r_reg_n_0),
         .O(\FSM_sequential_wl_state_r[3]_i_6_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair223" *) 
+  (* SOFT_HLUTNM = "soft_lutpair218" *) 
   LUT5 #(
     .INIT(32'h80000000)) 
     \FSM_sequential_wl_state_r[3]_i_7 
@@ -78383,7 +78255,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(done_dqs_dec237_out),
         .I5(\FSM_sequential_wl_state_r[4]_i_20_n_0 ),
         .O(\FSM_sequential_wl_state_r[4]_i_13_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair261" *) 
+  (* SOFT_HLUTNM = "soft_lutpair256" *) 
   LUT4 #(
     .INIT(16'hFFEF)) 
     \FSM_sequential_wl_state_r[4]_i_14 
@@ -78449,7 +78321,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(wl_state_r__0[3]),
         .I5(\FSM_sequential_wl_state_r[4]_i_11_n_0 ),
         .O(\FSM_sequential_wl_state_r[4]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair254" *) 
+  (* SOFT_HLUTNM = "soft_lutpair249" *) 
   LUT4 #(
     .INIT(16'h40FF)) 
     \FSM_sequential_wl_state_r[4]_i_20 
@@ -78468,7 +78340,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(wl_edge_detect_valid_r_reg_n_0),
         .I5(wl_state_r__0[3]),
         .O(\FSM_sequential_wl_state_r[4]_i_21_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair236" *) 
+  (* SOFT_HLUTNM = "soft_lutpair231" *) 
   LUT3 #(
     .INIT(8'h7F)) 
     \FSM_sequential_wl_state_r[4]_i_22 
@@ -78486,7 +78358,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(\FSM_sequential_wl_state_r[4]_i_13_n_0 ),
         .I5(wl_state_r__0[0]),
         .O(\FSM_sequential_wl_state_r[4]_i_3_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair267" *) 
+  (* SOFT_HLUTNM = "soft_lutpair262" *) 
   LUT3 #(
     .INIT(8'h7E)) 
     \FSM_sequential_wl_state_r[4]_i_4 
@@ -78524,7 +78396,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(wl_state_r__0[4]),
         .I5(wl_state_r__0[1]),
         .O(\FSM_sequential_wl_state_r[4]_i_8_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair279" *) 
+  (* SOFT_HLUTNM = "soft_lutpair274" *) 
   LUT2 #(
     .INIT(4'h8)) 
     \FSM_sequential_wl_state_r[4]_i_9 
@@ -78598,7 +78470,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(wl_state_r__0[2]),
         .I5(\corse_cnt[0][0]_i_4_n_0 ),
         .O(corse_cnt[0]));
-  (* SOFT_HLUTNM = "soft_lutpair278" *) 
+  (* SOFT_HLUTNM = "soft_lutpair273" *) 
   LUT3 #(
     .INIT(8'h02)) 
     \corse_cnt[0][0]_i_3 
@@ -78616,7 +78488,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(dqs_count_r[0]),
         .I5(\final_coarse_tap_reg_n_0_[1][0] ),
         .O(\corse_cnt[0][0]_i_4_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair277" *) 
+  (* SOFT_HLUTNM = "soft_lutpair272" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \corse_cnt[0][1]_i_1 
@@ -78644,7 +78516,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(p_0_in),
         .I5(wl_state_r__0[3]),
         .O(\corse_cnt[0][1]_i_3_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair238" *) 
+  (* SOFT_HLUTNM = "soft_lutpair233" *) 
   LUT5 #(
     .INIT(32'h0000B800)) 
     \corse_cnt[0][1]_i_4 
@@ -78661,7 +78533,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I1(\corse_cnt_reg[1][0]_0 [0]),
         .I2(\final_coarse_tap_reg_n_0_[0][1] ),
         .O(\corse_cnt[0][1]_i_5_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair277" *) 
+  (* SOFT_HLUTNM = "soft_lutpair272" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \corse_cnt[0][2]_i_1 
@@ -78669,7 +78541,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I1(\corse_cnt[0][2]_i_3_n_0 ),
         .I2(\corse_cnt_reg_n_0_[0][2] ),
         .O(\corse_cnt[0][2]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair259" *) 
+  (* SOFT_HLUTNM = "soft_lutpair254" *) 
   LUT4 #(
     .INIT(16'h0040)) 
     \corse_cnt[0][2]_i_10 
@@ -78698,7 +78570,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(done_dqs_dec237_out),
         .I5(wl_state_r__0[3]),
         .O(\corse_cnt[0][2]_i_3_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair248" *) 
+  (* SOFT_HLUTNM = "soft_lutpair243" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \corse_cnt[0][2]_i_4 
@@ -78736,7 +78608,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(wrlvl_byte_redo),
         .I5(p_0_in),
         .O(\corse_cnt[0][2]_i_7_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair281" *) 
+  (* SOFT_HLUTNM = "soft_lutpair276" *) 
   LUT3 #(
     .INIT(8'hEF)) 
     \corse_cnt[0][2]_i_8 
@@ -78744,14 +78616,14 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I1(wl_state_r__0[0]),
         .I2(wl_state_r__0[1]),
         .O(\corse_cnt[0][2]_i_8_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair284" *) 
+  (* SOFT_HLUTNM = "soft_lutpair279" *) 
   LUT2 #(
     .INIT(4'h2)) 
     \corse_cnt[0][2]_i_9 
        (.I0(wl_state_r__0[2]),
         .I1(wl_state_r__0[4]),
         .O(\corse_cnt[0][2]_i_9_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair276" *) 
+  (* SOFT_HLUTNM = "soft_lutpair271" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \corse_cnt[1][0]_i_1 
@@ -78766,7 +78638,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I1(\corse_cnt[1][2]_i_2_n_0 ),
         .I2(\corse_cnt_reg_n_0_[1][1] ),
         .O(\corse_cnt[1][1]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair272" *) 
+  (* SOFT_HLUTNM = "soft_lutpair267" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \corse_cnt[1][2]_i_1 
@@ -78830,7 +78702,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .D(\corse_cnt[1][2]_i_1_n_0 ),
         .Q(\corse_cnt_reg_n_0_[1][2] ),
         .R(\fine_dec_cnt_reg[0]_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair252" *) 
+  (* SOFT_HLUTNM = "soft_lutpair247" *) 
   LUT5 #(
     .INIT(32'h04FF0400)) 
     \corse_dec[0][0]_i_1 
@@ -78850,7 +78722,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(\corse_dec[0][2]_i_2_n_0 ),
         .I5(\corse_dec_reg[0]_7 [1]),
         .O(\corse_dec[0][1]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair280" *) 
+  (* SOFT_HLUTNM = "soft_lutpair275" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \corse_dec[0][2]_i_1 
@@ -78868,7 +78740,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(wl_state_r__0[1]),
         .I5(wl_state_r__0[0]),
         .O(\corse_dec[0][2]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair251" *) 
+  (* SOFT_HLUTNM = "soft_lutpair246" *) 
   LUT5 #(
     .INIT(32'h04FF0400)) 
     \corse_dec[1][0]_i_1 
@@ -78888,7 +78760,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(\corse_dec[1][2]_i_3_n_0 ),
         .I5(\corse_dec_reg[1]_6 [1]),
         .O(\corse_dec[1][1]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair252" *) 
+  (* SOFT_HLUTNM = "soft_lutpair247" *) 
   LUT2 #(
     .INIT(4'h2)) 
     \corse_dec[1][1]_i_2 
@@ -78905,7 +78777,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(\corse_dec_reg[0]_7 [2]),
         .I5(\corse_dec[1][2]_i_4_n_0 ),
         .O(\corse_dec[1][1]_i_3_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair280" *) 
+  (* SOFT_HLUTNM = "soft_lutpair275" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \corse_dec[1][2]_i_1 
@@ -78933,7 +78805,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(wl_state_r__0[1]),
         .I5(wl_state_r__0[0]),
         .O(\corse_dec[1][2]_i_3_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair275" *) 
+  (* SOFT_HLUTNM = "soft_lutpair270" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \corse_dec[1][2]_i_4 
@@ -79025,7 +78897,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(\corse_inc[1][2]_i_4_n_0 ),
         .I5(\corse_inc_reg_n_0_[1][0] ),
         .O(\corse_inc[1][0]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair247" *) 
+  (* SOFT_HLUTNM = "soft_lutpair242" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \corse_inc[1][0]_i_2 
@@ -79070,7 +78942,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I3(\corse_inc_reg_n_0_[0][2] ),
         .I4(\corse_inc[1][2]_i_5_n_0 ),
         .O(\corse_inc[1][2]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair264" *) 
+  (* SOFT_HLUTNM = "soft_lutpair259" *) 
   LUT3 #(
     .INIT(8'h08)) 
     \corse_inc[1][2]_i_3 
@@ -79088,7 +78960,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(\corse_inc[1][2]_i_6_n_0 ),
         .I5(\corse_inc[1][2]_i_7_n_0 ),
         .O(\corse_inc[1][2]_i_4_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair247" *) 
+  (* SOFT_HLUTNM = "soft_lutpair242" *) 
   LUT5 #(
     .INIT(32'hFFFACCFA)) 
     \corse_inc[1][2]_i_5 
@@ -79098,7 +78970,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I3(\dqs_count_r_reg[0]_rep_n_0 ),
         .I4(\corse_inc_reg_n_0_[1][0] ),
         .O(\corse_inc[1][2]_i_5_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair263" *) 
+  (* SOFT_HLUTNM = "soft_lutpair258" *) 
   LUT4 #(
     .INIT(16'hFFDF)) 
     \corse_inc[1][2]_i_6 
@@ -79107,7 +78979,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I2(wr_level_done_r5),
         .I3(wrlvl_byte_redo),
         .O(\corse_inc[1][2]_i_6_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair242" *) 
+  (* SOFT_HLUTNM = "soft_lutpair237" *) 
   LUT3 #(
     .INIT(8'hDF)) 
     \corse_inc[1][2]_i_7 
@@ -79167,7 +79039,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(dq_cnt_inc_i_2_n_0),
         .I5(p_0_in),
         .O(dq_cnt_inc_i_1_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair253" *) 
+  (* SOFT_HLUTNM = "soft_lutpair248" *) 
   LUT5 #(
     .INIT(32'h00020100)) 
     dq_cnt_inc_i_2
@@ -79223,7 +79095,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(\dqs_count_r[0]_i_8_n_0 ),
         .I5(wl_state_r__0[3]),
         .O(\dqs_count_r[0]_i_4_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair279" *) 
+  (* SOFT_HLUTNM = "soft_lutpair274" *) 
   LUT3 #(
     .INIT(8'h08)) 
     \dqs_count_r[0]_i_5 
@@ -79231,7 +79103,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I1(wl_state_r__0[1]),
         .I2(wl_state_r__0[0]),
         .O(\dqs_count_r[0]_i_5_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair242" *) 
+  (* SOFT_HLUTNM = "soft_lutpair237" *) 
   LUT5 #(
     .INIT(32'hBFBFBFB0)) 
     \dqs_count_r[0]_i_6 
@@ -79251,7 +79123,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(wl_state_r__0[3]),
         .I5(wl_state_r__0[4]),
         .O(\dqs_count_r[0]_i_7_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair281" *) 
+  (* SOFT_HLUTNM = "soft_lutpair276" *) 
   LUT2 #(
     .INIT(4'h1)) 
     \dqs_count_r[0]_i_8 
@@ -79288,7 +79160,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(\dqs_count_r[1]_i_9_n_0 ),
         .I5(wl_state_r__0[4]),
         .O(\dqs_count_r[1]_i_3_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair253" *) 
+  (* SOFT_HLUTNM = "soft_lutpair248" *) 
   LUT5 #(
     .INIT(32'h0C271000)) 
     \dqs_count_r[1]_i_4 
@@ -79308,7 +79180,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(\dqs_count_r_reg[0]_rep_n_0 ),
         .I5(\fine_inc_reg[1]_2 [4]),
         .O(\dqs_count_r[1]_i_5_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair273" *) 
+  (* SOFT_HLUTNM = "soft_lutpair268" *) 
   LUT3 #(
     .INIT(8'h08)) 
     \dqs_count_r[1]_i_6 
@@ -79316,7 +79188,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I1(\dqs_count_r_reg[0]_rep_n_0 ),
         .I2(\fine_inc_reg[1]_2 [5]),
         .O(\dqs_count_r[1]_i_6_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair222" *) 
+  (* SOFT_HLUTNM = "soft_lutpair217" *) 
   LUT3 #(
     .INIT(8'h04)) 
     \dqs_count_r[1]_i_7 
@@ -79324,7 +79196,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I1(wr_level_done_r5),
         .I2(\FSM_sequential_wl_state_r[4]_i_12_n_0 ),
         .O(\dqs_count_r[1]_i_7_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair245" *) 
+  (* SOFT_HLUTNM = "soft_lutpair240" *) 
   LUT5 #(
     .INIT(32'h10110000)) 
     \dqs_count_r[1]_i_8 
@@ -79417,7 +79289,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .D(dqs_po_stg2_f_incdec_i_1_n_0),
         .Q(dqs_po_stg2_f_incdec),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair256" *) 
+  (* SOFT_HLUTNM = "soft_lutpair251" *) 
   LUT5 #(
     .INIT(32'h00200000)) 
     dqs_wl_po_stg2_c_incdec_i_1
@@ -79523,7 +79395,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I3(\fine_dec_cnt[5]_i_8_n_0 ),
         .I4(wl_state_r__0[2]),
         .O(fine_dec_cnt[4]));
-  (* SOFT_HLUTNM = "soft_lutpair255" *) 
+  (* SOFT_HLUTNM = "soft_lutpair250" *) 
   LUT4 #(
     .INIT(16'hFFFE)) 
     \fine_dec_cnt[4]_i_2 
@@ -79571,7 +79443,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(\FSM_sequential_wl_state_r[1]_i_11_n_0 ),
         .I5(wl_state_r__0[3]),
         .O(\fine_dec_cnt[5]_i_3_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair245" *) 
+  (* SOFT_HLUTNM = "soft_lutpair240" *) 
   LUT3 #(
     .INIT(8'h01)) 
     \fine_dec_cnt[5]_i_4 
@@ -79589,14 +79461,14 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(\fine_dec_cnt_reg_n_0_[4] ),
         .I5(\fine_dec_cnt_reg_n_0_[5] ),
         .O(\fine_dec_cnt[5]_i_5_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair225" *) 
+  (* SOFT_HLUTNM = "soft_lutpair220" *) 
   LUT2 #(
     .INIT(4'hB)) 
     \fine_dec_cnt[5]_i_6 
        (.I0(\rd_data_edge_detect_r[1]_i_3_n_0 ),
         .I1(wrlvl_byte_redo),
         .O(\fine_dec_cnt[5]_i_6_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair255" *) 
+  (* SOFT_HLUTNM = "soft_lutpair250" *) 
   LUT5 #(
     .INIT(32'h00000001)) 
     \fine_dec_cnt[5]_i_7 
@@ -79606,7 +79478,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I3(\fine_dec_cnt_reg_n_0_[0] ),
         .I4(\fine_dec_cnt_reg_n_0_[3] ),
         .O(\fine_dec_cnt[5]_i_7_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair231" *) 
+  (* SOFT_HLUTNM = "soft_lutpair226" *) 
   LUT3 #(
     .INIT(8'h45)) 
     \fine_dec_cnt[5]_i_8 
@@ -79716,7 +79588,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(wr_level_done_r5),
         .I5(wr_level_done_r4),
         .O(\fine_inc[0][5]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair233" *) 
+  (* SOFT_HLUTNM = "soft_lutpair228" *) 
   LUT5 #(
     .INIT(32'h44400040)) 
     \fine_inc[0][5]_i_2 
@@ -79726,7 +79598,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I3(wl_state_r__0[1]),
         .I4(\gen_final_tap[0].final_val_reg_n_0_[0][5] ),
         .O(fine_inc[5]));
-  (* SOFT_HLUTNM = "soft_lutpair275" *) 
+  (* SOFT_HLUTNM = "soft_lutpair270" *) 
   LUT2 #(
     .INIT(4'h1)) 
     \fine_inc[0][5]_i_3 
@@ -79743,7 +79615,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(dqs_count_r[0]),
         .I5(\fine_inc_reg[1]_2 [0]),
         .O(\fine_inc[1][0]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair232" *) 
+  (* SOFT_HLUTNM = "soft_lutpair227" *) 
   LUT2 #(
     .INIT(4'h2)) 
     \fine_inc[1][0]_i_2 
@@ -79787,7 +79659,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I3(\fine_inc_reg[0]_3 [2]),
         .I4(\fine_inc[1][2]_i_3_n_0 ),
         .O(\fine_inc[1][2]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair241" *) 
+  (* SOFT_HLUTNM = "soft_lutpair236" *) 
   LUT5 #(
     .INIT(32'hFFFACCFA)) 
     \fine_inc[1][2]_i_3 
@@ -79797,7 +79669,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I3(\dqs_count_r_reg[0]_rep_n_0 ),
         .I4(\fine_inc_reg[1]_2 [0]),
         .O(\fine_inc[1][2]_i_3_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair239" *) 
+  (* SOFT_HLUTNM = "soft_lutpair234" *) 
   LUT5 #(
     .INIT(32'h40004444)) 
     \fine_inc[1][3]_i_1 
@@ -79826,7 +79698,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(\dqs_count_r_reg[0]_rep_n_0 ),
         .I5(\fine_inc_reg[1]_2 [2]),
         .O(\fine_inc[1][3]_i_3_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair241" *) 
+  (* SOFT_HLUTNM = "soft_lutpair236" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \fine_inc[1][3]_i_4 
@@ -79834,7 +79706,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I1(\dqs_count_r_reg[0]_rep_n_0 ),
         .I2(\fine_inc_reg[0]_3 [0]),
         .O(\fine_inc[1][3]_i_4_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair240" *) 
+  (* SOFT_HLUTNM = "soft_lutpair235" *) 
   LUT5 #(
     .INIT(32'h40004444)) 
     \fine_inc[1][4]_i_1 
@@ -79873,7 +79745,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(wr_level_done_r5),
         .I5(wr_level_done_r4),
         .O(\fine_inc[1][5]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair232" *) 
+  (* SOFT_HLUTNM = "soft_lutpair227" *) 
   LUT5 #(
     .INIT(32'h44400040)) 
     \fine_inc[1][5]_i_2 
@@ -79883,7 +79755,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I3(wl_state_r__0[1]),
         .I4(\gen_final_tap[1].final_val_reg_n_0_[1][5] ),
         .O(\fine_inc[1][5]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair256" *) 
+  (* SOFT_HLUTNM = "soft_lutpair251" *) 
   LUT4 #(
     .INIT(16'h4000)) 
     \fine_inc[1][5]_i_3 
@@ -79898,7 +79770,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
        (.I0(dqs_count_r[0]),
         .I1(dqs_count_r[1]),
         .O(\fine_inc[1][5]_i_4_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair260" *) 
+  (* SOFT_HLUTNM = "soft_lutpair255" *) 
   LUT4 #(
     .INIT(16'hE2FF)) 
     \fine_inc[1][5]_i_5 
@@ -79907,7 +79779,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I2(\fine_inc_reg[1]_2 [5]),
         .I3(\dqs_count_r[1]_i_5_n_0 ),
         .O(\fine_inc[1][5]_i_5_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair260" *) 
+  (* SOFT_HLUTNM = "soft_lutpair255" *) 
   LUT4 #(
     .INIT(16'h56A6)) 
     \fine_inc[1][5]_i_6 
@@ -79998,7 +79870,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(\wrlvl_redo_corse_inc[2]_i_2_n_0 ),
         .I5(wl_state_r__0[3]),
         .O(flag_ck_negedge_i_1_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair224" *) 
+  (* SOFT_HLUTNM = "soft_lutpair219" *) 
   LUT5 #(
     .INIT(32'hABABAFAB)) 
     flag_ck_negedge_i_2
@@ -80028,7 +79900,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(\stable_cnt_reg_n_0_[2] ),
         .I5(flag_ck_negedge_i_6_n_0),
         .O(flag_ck_negedge_i_4_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair227" *) 
+  (* SOFT_HLUTNM = "soft_lutpair222" *) 
   LUT5 #(
     .INIT(32'h00000002)) 
     flag_ck_negedge_i_5
@@ -80038,7 +79910,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I3(wl_state_r__0[3]),
         .I4(wl_state_r__0[2]),
         .O(flag_ck_negedge_i_5_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair230" *) 
+  (* SOFT_HLUTNM = "soft_lutpair225" *) 
   LUT5 #(
     .INIT(32'h00040001)) 
     flag_ck_negedge_i_6
@@ -80064,7 +79936,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(\wl_state_r1_reg_n_0_[4] ),
         .I5(flag_init_i_2_n_0),
         .O(flag_init_i_1_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair246" *) 
+  (* SOFT_HLUTNM = "soft_lutpair241" *) 
   LUT5 #(
     .INIT(32'h00000040)) 
     flag_init_i_2
@@ -80233,14 +80105,14 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
     \incdec_wait_cnt[0]_i_1 
        (.I0(incdec_wait_cnt_reg[0]),
         .O(p_0_in__0__0[0]));
-  (* SOFT_HLUTNM = "soft_lutpair282" *) 
+  (* SOFT_HLUTNM = "soft_lutpair277" *) 
   LUT2 #(
     .INIT(4'h6)) 
     \incdec_wait_cnt[1]_i_1 
        (.I0(incdec_wait_cnt_reg[0]),
         .I1(incdec_wait_cnt_reg[1]),
         .O(p_0_in__0__0[1]));
-  (* SOFT_HLUTNM = "soft_lutpair282" *) 
+  (* SOFT_HLUTNM = "soft_lutpair277" *) 
   LUT3 #(
     .INIT(8'h6A)) 
     \incdec_wait_cnt[2]_i_1 
@@ -80258,7 +80130,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(wl_state_r__0[2]),
         .I5(wl_state_r__0[3]),
         .O(\incdec_wait_cnt[3]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair261" *) 
+  (* SOFT_HLUTNM = "soft_lutpair256" *) 
   LUT4 #(
     .INIT(16'h6AAA)) 
     \incdec_wait_cnt[3]_i_2 
@@ -80301,7 +80173,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(inhibit_edge_detect_r_i_6_n_0),
         .I5(inhibit_edge_detect_r_reg_n_0),
         .O(inhibit_edge_detect_r_i_1_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair250" *) 
+  (* SOFT_HLUTNM = "soft_lutpair245" *) 
   LUT5 #(
     .INIT(32'hFFFFFCFA)) 
     inhibit_edge_detect_r_i_2
@@ -80317,7 +80189,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
        (.I0(wl_state_r__0[3]),
         .I1(\fine_dec_cnt[5]_i_5_n_0 ),
         .O(inhibit_edge_detect_r_i_3_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair284" *) 
+  (* SOFT_HLUTNM = "soft_lutpair279" *) 
   LUT2 #(
     .INIT(4'h2)) 
     inhibit_edge_detect_r_i_4
@@ -80344,7 +80216,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(wl_state_r__0[1]),
         .I5(inhibit_edge_detect_r_i_9_n_0),
         .O(inhibit_edge_detect_r_i_6_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair235" *) 
+  (* SOFT_HLUTNM = "soft_lutpair230" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     inhibit_edge_detect_r_i_7
@@ -80352,7 +80224,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I1(dqs_count_r[0]),
         .I2(\rd_data_previous_r_reg_n_0_[0] ),
         .O(inhibit_edge_detect_r_i_7_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair246" *) 
+  (* SOFT_HLUTNM = "soft_lutpair241" *) 
   LUT5 #(
     .INIT(32'h00044000)) 
     inhibit_edge_detect_r_i_8
@@ -80362,7 +80234,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I3(wl_state_r__0[3]),
         .I4(wl_state_r__0[4]),
         .O(inhibit_edge_detect_r_i_8_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair236" *) 
+  (* SOFT_HLUTNM = "soft_lutpair231" *) 
   LUT5 #(
     .INIT(32'h00800000)) 
     inhibit_edge_detect_r_i_9
@@ -80378,7 +80250,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .D(inhibit_edge_detect_r_i_1_n_0),
         .Q(inhibit_edge_detect_r_reg_n_0),
         .S(\wl_tap_count_r_reg[0]_0 [0]));
-  (* SOFT_HLUTNM = "soft_lutpair243" *) 
+  (* SOFT_HLUTNM = "soft_lutpair238" *) 
   LUT5 #(
     .INIT(32'h00000004)) 
     phaser_out_i_1
@@ -80388,7 +80260,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I3(phaser_out_1),
         .I4(calib_zero_inputs),
         .O(\gen_byte_sel_div2.calib_in_common_reg ));
-  (* SOFT_HLUTNM = "soft_lutpair243" *) 
+  (* SOFT_HLUTNM = "soft_lutpair238" *) 
   LUT5 #(
     .INIT(32'h00000040)) 
     phaser_out_i_1__0
@@ -80398,7 +80270,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I3(phaser_out_1),
         .I4(calib_zero_inputs),
         .O(\gen_byte_sel_div2.calib_in_common_reg_1 ));
-  (* SOFT_HLUTNM = "soft_lutpair244" *) 
+  (* SOFT_HLUTNM = "soft_lutpair239" *) 
   LUT5 #(
     .INIT(32'h0000AA80)) 
     phaser_out_i_1__1
@@ -80408,7 +80280,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I3(phaser_out),
         .I4(calib_zero_inputs),
         .O(dqs_wl_po_stg2_c_incdec_reg_0));
-  (* SOFT_HLUTNM = "soft_lutpair244" *) 
+  (* SOFT_HLUTNM = "soft_lutpair239" *) 
   LUT5 #(
     .INIT(32'h0000CC08)) 
     phaser_out_i_1__2
@@ -80418,7 +80290,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I3(phaser_out),
         .I4(calib_zero_inputs),
         .O(\calib_sel_reg[1] ));
-  (* SOFT_HLUTNM = "soft_lutpair228" *) 
+  (* SOFT_HLUTNM = "soft_lutpair223" *) 
   LUT5 #(
     .INIT(32'h0000CC08)) 
     phaser_out_i_2__0
@@ -80428,7 +80300,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I3(phaser_out),
         .I4(calib_zero_inputs),
         .O(\calib_sel_reg[1]_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair229" *) 
+  (* SOFT_HLUTNM = "soft_lutpair224" *) 
   LUT5 #(
     .INIT(32'h0000AA80)) 
     phaser_out_i_2__1
@@ -80438,7 +80310,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I3(phaser_out),
         .I4(calib_zero_inputs),
         .O(\calib_sel_reg[0] ));
-  (* SOFT_HLUTNM = "soft_lutpair228" *) 
+  (* SOFT_HLUTNM = "soft_lutpair223" *) 
   LUT5 #(
     .INIT(32'h00000004)) 
     phaser_out_i_3
@@ -80448,7 +80320,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I3(phaser_out_1),
         .I4(calib_zero_inputs),
         .O(\gen_byte_sel_div2.calib_in_common_reg_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair229" *) 
+  (* SOFT_HLUTNM = "soft_lutpair224" *) 
   LUT5 #(
     .INIT(32'h00000040)) 
     phaser_out_i_3__1
@@ -80500,7 +80372,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(po_cnt_dec_i_2_n_0),
         .I5(\po_rdval_cnt[8]_i_3_n_0 ),
         .O(po_cnt_dec_i_1_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair271" *) 
+  (* SOFT_HLUTNM = "soft_lutpair266" *) 
   LUT2 #(
     .INIT(4'hE)) 
     po_cnt_dec_i_2
@@ -80523,7 +80395,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(po_dec_done_i_3_n_0),
         .I5(po_dec_done),
         .O(po_dec_done_i_1_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair262" *) 
+  (* SOFT_HLUTNM = "soft_lutpair257" *) 
   LUT2 #(
     .INIT(4'hE)) 
     po_dec_done_i_2
@@ -80585,7 +80457,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(\po_rdval_cnt_reg_n_0_[3] ),
         .I5(\po_rdval_cnt[8]_i_3_n_0 ),
         .O(\po_rdval_cnt[3]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair268" *) 
+  (* SOFT_HLUTNM = "soft_lutpair263" *) 
   LUT2 #(
     .INIT(4'h1)) 
     \po_rdval_cnt[3]_i_2 
@@ -80602,7 +80474,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(\po_rdval_cnt[4]_i_2_n_0 ),
         .I5(\po_rdval_cnt_reg_n_0_[4] ),
         .O(\po_rdval_cnt[4]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair268" *) 
+  (* SOFT_HLUTNM = "soft_lutpair263" *) 
   LUT4 #(
     .INIT(16'hFFFE)) 
     \po_rdval_cnt[4]_i_2 
@@ -80611,7 +80483,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I2(\po_rdval_cnt_reg_n_0_[0] ),
         .I3(\po_rdval_cnt_reg_n_0_[1] ),
         .O(\po_rdval_cnt[4]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair226" *) 
+  (* SOFT_HLUTNM = "soft_lutpair221" *) 
   LUT5 #(
     .INIT(32'h08FBFB08)) 
     \po_rdval_cnt[5]_i_1 
@@ -80651,7 +80523,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(\po_rdval_cnt_reg_n_0_[6] ),
         .I5(\po_rdval_cnt[7]_i_3_n_0 ),
         .O(\po_rdval_cnt[7]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair226" *) 
+  (* SOFT_HLUTNM = "soft_lutpair221" *) 
   LUT2 #(
     .INIT(4'h2)) 
     \po_rdval_cnt[7]_i_2 
@@ -80686,7 +80558,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(\po_rdval_cnt_reg_n_0_[7] ),
         .I5(\po_rdval_cnt[8]_i_4_n_0 ),
         .O(\po_rdval_cnt[8]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair262" *) 
+  (* SOFT_HLUTNM = "soft_lutpair257" *) 
   LUT4 #(
     .INIT(16'h0002)) 
     \po_rdval_cnt[8]_i_3 
@@ -80776,14 +80648,14 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(wl_state_r__0[4]),
         .I5(\rank_cnt_r_reg_n_0_[1] ),
         .O(\rank_cnt_r[1]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair233" *) 
+  (* SOFT_HLUTNM = "soft_lutpair228" *) 
   LUT2 #(
     .INIT(4'h8)) 
     \rank_cnt_r[1]_i_2 
        (.I0(wl_state_r__0[0]),
         .I1(wl_state_r__0[1]),
         .O(\rank_cnt_r[1]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair278" *) 
+  (* SOFT_HLUTNM = "soft_lutpair273" *) 
   LUT2 #(
     .INIT(4'h1)) 
     \rank_cnt_r[1]_i_3 
@@ -80862,7 +80734,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(\stable_cnt_reg_n_0_[1] ),
         .I5(\stable_cnt_reg_n_0_[2] ),
         .O(\rd_data_edge_detect_r[1]_i_4_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair230" *) 
+  (* SOFT_HLUTNM = "soft_lutpair225" *) 
   LUT5 #(
     .INIT(32'hFFF5F3AA)) 
     \rd_data_edge_detect_r[1]_i_5 
@@ -80872,7 +80744,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I3(wl_state_r__0[2]),
         .I4(wl_state_r__0[3]),
         .O(\rd_data_edge_detect_r[1]_i_5_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair266" *) 
+  (* SOFT_HLUTNM = "soft_lutpair261" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \rd_data_edge_detect_r[1]_i_6 
@@ -80892,7 +80764,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .D(\rd_data_edge_detect_r[1]_i_1_n_0 ),
         .Q(\rd_data_edge_detect_r_reg_n_0_[1] ),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair274" *) 
+  (* SOFT_HLUTNM = "soft_lutpair269" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \rd_data_previous_r[0]_i_1 
@@ -80900,7 +80772,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I1(rd_data_previous_r0),
         .I2(\rd_data_previous_r_reg_n_0_[0] ),
         .O(\rd_data_previous_r[0]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair274" *) 
+  (* SOFT_HLUTNM = "soft_lutpair269" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \rd_data_previous_r[1]_i_1 
@@ -81037,7 +80909,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .D(\wl_dqs_tap_count_r_reg_n_0_[0][1][5] ),
         .Q(\smallest_reg[1]_5 [5]),
         .R(\fine_dec_cnt_reg[0]_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair224" *) 
+  (* SOFT_HLUTNM = "soft_lutpair219" *) 
   LUT1 #(
     .INIT(2'h1)) 
     \stable_cnt[0]_i_1 
@@ -81049,7 +80921,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
        (.I0(\stable_cnt_reg_n_0_[0] ),
         .I1(\stable_cnt_reg_n_0_[1] ),
         .O(p_0_in__1[1]));
-  (* SOFT_HLUTNM = "soft_lutpair270" *) 
+  (* SOFT_HLUTNM = "soft_lutpair265" *) 
   LUT3 #(
     .INIT(8'h6A)) 
     \stable_cnt[2]_i_1 
@@ -81076,7 +80948,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I3(\stable_cnt_reg_n_0_[1] ),
         .I4(\stable_cnt_reg_n_0_[2] ),
         .O(stable_cnt));
-  (* SOFT_HLUTNM = "soft_lutpair270" *) 
+  (* SOFT_HLUTNM = "soft_lutpair265" *) 
   LUT4 #(
     .INIT(16'h6AAA)) 
     \stable_cnt[3]_i_3 
@@ -81093,7 +80965,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I2(\stable_cnt[3]_i_8_n_0 ),
         .I3(\wl_state_r1_reg_n_0_[0] ),
         .O(\stable_cnt[3]_i_4_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair235" *) 
+  (* SOFT_HLUTNM = "soft_lutpair230" *) 
   LUT5 #(
     .INIT(32'h335ACC5A)) 
     \stable_cnt[3]_i_5 
@@ -81113,7 +80985,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(wl_state_r__0[1]),
         .I5(\wl_state_r1_reg_n_0_[0] ),
         .O(\stable_cnt[3]_i_6_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair227" *) 
+  (* SOFT_HLUTNM = "soft_lutpair222" *) 
   LUT5 #(
     .INIT(32'h00000040)) 
     \stable_cnt[3]_i_7 
@@ -81170,14 +81042,14 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
     \wait_cnt[0]_i_1 
        (.I0(wait_cnt_reg[0]),
         .O(wait_cnt0__0[0]));
-  (* SOFT_HLUTNM = "soft_lutpair283" *) 
+  (* SOFT_HLUTNM = "soft_lutpair278" *) 
   LUT2 #(
     .INIT(4'h9)) 
     \wait_cnt[1]_i_1 
        (.I0(wait_cnt_reg[0]),
         .I1(wait_cnt_reg[1]),
         .O(\wait_cnt[1]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair283" *) 
+  (* SOFT_HLUTNM = "soft_lutpair278" *) 
   LUT3 #(
     .INIT(8'hA9)) 
     \wait_cnt[2]_i_1 
@@ -81194,7 +81066,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I3(wait_cnt_reg[0]),
         .I4(wait_cnt_reg[1]),
         .O(wait_cnt0));
-  (* SOFT_HLUTNM = "soft_lutpair271" *) 
+  (* SOFT_HLUTNM = "soft_lutpair266" *) 
   LUT4 #(
     .INIT(16'hAAA9)) 
     \wait_cnt[3]_i_3 
@@ -81227,7 +81099,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .D(wait_cnt0__0[3]),
         .Q(wait_cnt_reg[3]),
         .S(SS));
-  (* SOFT_HLUTNM = "soft_lutpair276" *) 
+  (* SOFT_HLUTNM = "soft_lutpair271" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \wl_corse_cnt[0][0][0]_i_1 
@@ -81235,7 +81107,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I1(\dqs_count_r_reg[0]_rep_n_0 ),
         .I2(\corse_cnt_reg_n_0_[0][0] ),
         .O(\wl_corse_cnt[0][0][0]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair273" *) 
+  (* SOFT_HLUTNM = "soft_lutpair268" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \wl_corse_cnt[0][0][1]_i_1 
@@ -81243,7 +81115,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I1(\dqs_count_r_reg[0]_rep_n_0 ),
         .I2(\corse_cnt_reg_n_0_[0][1] ),
         .O(\wl_corse_cnt[0][0][1]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair272" *) 
+  (* SOFT_HLUTNM = "soft_lutpair267" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \wl_corse_cnt[0][0][2]_i_1 
@@ -81304,7 +81176,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(wl_state_r__0[3]),
         .I5(wl_state_r__0[2]),
         .O(\wl_dqs_tap_count_r[0][0][5]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair234" *) 
+  (* SOFT_HLUTNM = "soft_lutpair229" *) 
   LUT2 #(
     .INIT(4'h1)) 
     \wl_dqs_tap_count_r[0][0][5]_i_3 
@@ -81406,7 +81278,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .D(wl_edge_detect_valid_r_i_1_n_0),
         .Q(wl_edge_detect_valid_r_reg_n_0),
         .R(\fine_dec_cnt_reg[0]_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair258" *) 
+  (* SOFT_HLUTNM = "soft_lutpair253" *) 
   LUT5 #(
     .INIT(32'hDD226756)) 
     \wl_state_r1[0]_i_1 
@@ -81416,7 +81288,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I3(wl_state_r__0[4]),
         .I4(wl_state_r__0[0]),
         .O(\wl_state_r1[0]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair258" *) 
+  (* SOFT_HLUTNM = "soft_lutpair253" *) 
   LUT5 #(
     .INIT(32'h1030FF3F)) 
     \wl_state_r1[1]_i_1 
@@ -81426,7 +81298,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I3(wl_state_r__0[2]),
         .I4(wl_state_r__0[1]),
         .O(\wl_state_r1[1]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair257" *) 
+  (* SOFT_HLUTNM = "soft_lutpair252" *) 
   LUT5 #(
     .INIT(32'h323A88A5)) 
     \wl_state_r1[2]_i_1 
@@ -81436,7 +81308,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I3(wl_state_r__0[2]),
         .I4(wl_state_r__0[0]),
         .O(\wl_state_r1[2]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair259" *) 
+  (* SOFT_HLUTNM = "soft_lutpair254" *) 
   LUT5 #(
     .INIT(32'hC2808775)) 
     \wl_state_r1[3]_i_1 
@@ -81446,7 +81318,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I3(wl_state_r__0[4]),
         .I4(wl_state_r__0[3]),
         .O(\wl_state_r1[3]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair257" *) 
+  (* SOFT_HLUTNM = "soft_lutpair252" *) 
   LUT5 #(
     .INIT(32'hBEE4A312)) 
     \wl_state_r1[4]_i_1 
@@ -81496,7 +81368,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(wl_state_r__0[0]),
         .I5(wl_state_r__0[1]),
         .O(wl_tap_count_r[0]));
-  (* SOFT_HLUTNM = "soft_lutpair269" *) 
+  (* SOFT_HLUTNM = "soft_lutpair264" *) 
   LUT4 #(
     .INIT(16'h8C80)) 
     \wl_tap_count_r[0]_i_2 
@@ -81554,7 +81426,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(\corse_cnt_reg[1][0]_0 [0]),
         .I5(\smallest_reg[1]_5 [3]),
         .O(wl_tap_count_r[3]));
-  (* SOFT_HLUTNM = "soft_lutpair249" *) 
+  (* SOFT_HLUTNM = "soft_lutpair244" *) 
   LUT5 #(
     .INIT(32'h28888888)) 
     \wl_tap_count_r[3]_i_2 
@@ -81604,7 +81476,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(\smallest_reg[0]_4 [5]),
         .I5(\wl_tap_count_r[5]_i_5_n_0 ),
         .O(wl_tap_count_r[5]));
-  (* SOFT_HLUTNM = "soft_lutpair251" *) 
+  (* SOFT_HLUTNM = "soft_lutpair246" *) 
   LUT2 #(
     .INIT(4'h2)) 
     \wl_tap_count_r[5]_i_4 
@@ -81620,7 +81492,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I3(\wl_tap_count_r_reg_n_0_[4] ),
         .I4(\wl_tap_count_r[5]_i_7_n_0 ),
         .O(\wl_tap_count_r[5]_i_5_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair237" *) 
+  (* SOFT_HLUTNM = "soft_lutpair232" *) 
   LUT3 #(
     .INIT(8'h15)) 
     \wl_tap_count_r[5]_i_6 
@@ -81628,7 +81500,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I1(wl_state_r__0[0]),
         .I2(wr_level_done_r5),
         .O(\wl_tap_count_r[5]_i_6_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair249" *) 
+  (* SOFT_HLUTNM = "soft_lutpair244" *) 
   LUT3 #(
     .INIT(8'h80)) 
     \wl_tap_count_r[5]_i_7 
@@ -81709,7 +81581,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .D(wr_level_done_r4),
         .Q(wr_level_done_r5),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair234" *) 
+  (* SOFT_HLUTNM = "soft_lutpair229" *) 
   LUT5 #(
     .INIT(32'h01FF0100)) 
     wr_level_done_r_i_1
@@ -81790,7 +81662,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(wl_state_r__0[2]),
         .I5(wl_state_r__0[4]),
         .O(rank_cnt_r));
-  (* SOFT_HLUTNM = "soft_lutpair240" *) 
+  (* SOFT_HLUTNM = "soft_lutpair235" *) 
   LUT2 #(
     .INIT(4'h2)) 
     wrlvl_rank_done_r_i_3
@@ -81823,7 +81695,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(\wrlvl_redo_corse_inc[2]_i_3_n_0 ),
         .I5(\wrlvl_redo_corse_inc_reg_n_0_[1] ),
         .O(\wrlvl_redo_corse_inc[1]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair248" *) 
+  (* SOFT_HLUTNM = "soft_lutpair243" *) 
   LUT5 #(
     .INIT(32'hDFD5FFFF)) 
     \wrlvl_redo_corse_inc[1]_i_2 
@@ -81853,7 +81725,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(\wrlvl_redo_corse_inc[2]_i_3_n_0 ),
         .I5(\wrlvl_redo_corse_inc_reg_n_0_[2] ),
         .O(\wrlvl_redo_corse_inc[2]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair239" *) 
+  (* SOFT_HLUTNM = "soft_lutpair234" *) 
   LUT2 #(
     .INIT(4'h2)) 
     \wrlvl_redo_corse_inc[2]_i_2 
@@ -81890,7 +81762,7 @@ module mig_7series_0_mig_7series_v4_2_ddr_phy_wrlvl
         .I4(wl_state_r__0[0]),
         .I5(done_dqs_dec237_out),
         .O(\wrlvl_redo_corse_inc[2]_i_5_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair265" *) 
+  (* SOFT_HLUTNM = "soft_lutpair260" *) 
   LUT4 #(
     .INIT(16'hAAA8)) 
     \wrlvl_redo_corse_inc[2]_i_6 
@@ -81955,11 +81827,11 @@ module mig_7series_0_mig_7series_v4_2_infrastructure
     rstdiv0_sync_r1_reg_rep__14_4,
     rstdiv0_sync_r1_reg_rep__15_1,
     SS,
-    rstdiv0_sync_r1_reg_rep__15_2,
     rstdiv0_sync_r1_reg_rep__16_1,
     rstdiv0_sync_r1_reg_rep__16_2,
     rstdiv0_sync_r1_reg_rep__16_3,
     rstdiv0_sync_r1_reg_rep__16_4,
+    rstdiv0_sync_r1_reg_rep__16_5,
     rstdiv0_sync_r1_reg_rep__17_2,
     mmcm_clk,
     AS,
@@ -82011,11 +81883,11 @@ module mig_7series_0_mig_7series_v4_2_infrastructure
   output rstdiv0_sync_r1_reg_rep__14_4;
   output rstdiv0_sync_r1_reg_rep__15_1;
   output [0:0]SS;
-  output [0:0]rstdiv0_sync_r1_reg_rep__15_2;
   output [0:0]rstdiv0_sync_r1_reg_rep__16_1;
   output [0:0]rstdiv0_sync_r1_reg_rep__16_2;
-  output rstdiv0_sync_r1_reg_rep__16_3;
-  output [0:0]rstdiv0_sync_r1_reg_rep__16_4;
+  output [0:0]rstdiv0_sync_r1_reg_rep__16_3;
+  output rstdiv0_sync_r1_reg_rep__16_4;
+  output [0:0]rstdiv0_sync_r1_reg_rep__16_5;
   output rstdiv0_sync_r1_reg_rep__17_2;
   input mmcm_clk;
   input [0:0]AS;
@@ -82083,12 +81955,12 @@ module mig_7series_0_mig_7series_v4_2_infrastructure
   wire rstdiv0_sync_r1_reg_rep__14_4;
   wire rstdiv0_sync_r1_reg_rep__15_0;
   wire rstdiv0_sync_r1_reg_rep__15_1;
-  wire [0:0]rstdiv0_sync_r1_reg_rep__15_2;
   wire rstdiv0_sync_r1_reg_rep__16_0;
   wire [0:0]rstdiv0_sync_r1_reg_rep__16_1;
   wire [0:0]rstdiv0_sync_r1_reg_rep__16_2;
-  wire rstdiv0_sync_r1_reg_rep__16_3;
-  wire [0:0]rstdiv0_sync_r1_reg_rep__16_4;
+  wire [0:0]rstdiv0_sync_r1_reg_rep__16_3;
+  wire rstdiv0_sync_r1_reg_rep__16_4;
+  wire [0:0]rstdiv0_sync_r1_reg_rep__16_5;
   wire rstdiv0_sync_r1_reg_rep__17_0;
   wire [0:0]rstdiv0_sync_r1_reg_rep__17_1;
   wire rstdiv0_sync_r1_reg_rep__17_2;
@@ -82136,13 +82008,13 @@ module mig_7series_0_mig_7series_v4_2_infrastructure
   wire [15:0]NLW_plle2_i_DO_UNCONNECTED;
 
   assign SR[0] = ui_clk_sync_rst;
-  (* SOFT_HLUTNM = "soft_lutpair6" *) 
+  (* SOFT_HLUTNM = "soft_lutpair7" *) 
   LUT2 #(
     .INIT(4'hB)) 
     \cnt_shift_r[3]_i_1 
        (.I0(rstdiv0_sync_r1_reg_rep__16_0),
         .I1(\cnt_shift_r_reg[0] ),
-        .O(rstdiv0_sync_r1_reg_rep__16_2));
+        .O(rstdiv0_sync_r1_reg_rep__16_3));
   (* SOFT_HLUTNM = "soft_lutpair4" *) 
   LUT2 #(
     .INIT(4'h1)) 
@@ -82344,6 +82216,7 @@ module mig_7series_0_mig_7series_v4_2_infrastructure
        (.I0(rstdiv0_sync_r1_reg_rep__14_0),
         .I1(bm_end_r1_2),
         .O(rstdiv0_sync_r1_reg_rep__14_4));
+  (* SOFT_HLUTNM = "soft_lutpair5" *) 
   LUT2 #(
     .INIT(4'h1)) 
     \rfc_zq_xsdll_timer.rfc_zq_xsdll_timer_r[3]_i_2 
@@ -82749,7 +82622,7 @@ module mig_7series_0_mig_7series_v4_2_infrastructure
     \samp_edge_cnt0_r[0]_i_1 
        (.I0(rstdiv0_sync_r1_reg_rep__16_0),
         .I1(samp_edge_cnt0_en_r),
-        .O(rstdiv0_sync_r1_reg_rep__16_3));
+        .O(rstdiv0_sync_r1_reg_rep__16_4));
   (* SOFT_HLUTNM = "soft_lutpair4" *) 
   LUT2 #(
     .INIT(4'hE)) 
@@ -82763,7 +82636,7 @@ module mig_7series_0_mig_7series_v4_2_infrastructure
     \tap_cnt_cpt_r[5]_i_1 
        (.I0(rstdiv0_sync_r1_reg_rep__16_0),
         .I1(\tap_cnt_cpt_r_reg[5] ),
-        .O(rstdiv0_sync_r1_reg_rep__16_1));
+        .O(rstdiv0_sync_r1_reg_rep__16_2));
   (* BOX_TYPE = "PRIMITIVE" *) 
   BUFG u_bufg_clkdiv0
        (.I(clk_pll_i),
@@ -82779,20 +82652,19 @@ module mig_7series_0_mig_7series_v4_2_infrastructure
        (.I0(rstdiv0_sync_r1_reg_rep__15_0),
         .I1(po_cnt_dec),
         .O(SS));
-  (* SOFT_HLUTNM = "soft_lutpair5" *) 
+  (* SOFT_HLUTNM = "soft_lutpair6" *) 
   LUT2 #(
     .INIT(4'hE)) 
     \wait_cnt_r[3]_i_1 
-       (.I0(rstdiv0_sync_r1_reg_rep__15_0),
+       (.I0(rstdiv0_sync_r1_reg_rep__16_0),
         .I1(po_cnt_dec_3),
-        .O(rstdiv0_sync_r1_reg_rep__15_2));
-  (* SOFT_HLUTNM = "soft_lutpair7" *) 
+        .O(rstdiv0_sync_r1_reg_rep__16_1));
   LUT2 #(
     .INIT(4'hE)) 
     \wait_cnt_r[3]_i_1__0 
        (.I0(rstdiv0_sync_r1_reg_rep__16_0),
         .I1(pi_cnt_dec),
-        .O(rstdiv0_sync_r1_reg_rep__16_4));
+        .O(rstdiv0_sync_r1_reg_rep__16_5));
 endmodule
 
 (* ORIG_REF_NAME = "mig_7series_v4_2_iodelay_ctrl" *) 
@@ -85658,7 +85530,7 @@ module mig_7series_0_mig_7series_v4_2_rank_cntrl
         .D(act_this_rank),
         .Q(\inhbt_act_faw.act_delayed ),
         .Q31(\NLW_inhbt_act_faw.SRLC32E0_Q31_UNCONNECTED ));
-  (* SOFT_HLUTNM = "soft_lutpair630" *) 
+  (* SOFT_HLUTNM = "soft_lutpair625" *) 
   LUT4 #(
     .INIT(16'h0069)) 
     \inhbt_act_faw.faw_cnt_r[0]_i_1 
@@ -85667,7 +85539,7 @@ module mig_7series_0_mig_7series_v4_2_rank_cntrl
         .I2(\inhbt_act_faw.faw_cnt_r [0]),
         .I3(\inhbt_act_faw.inhbt_act_faw_r_reg_0 ),
         .O(\inhbt_act_faw.faw_cnt_ns ));
-  (* SOFT_HLUTNM = "soft_lutpair630" *) 
+  (* SOFT_HLUTNM = "soft_lutpair625" *) 
   LUT5 #(
     .INIT(32'h44411444)) 
     \inhbt_act_faw.faw_cnt_r[1]_i_1 
@@ -85812,7 +85684,7 @@ module mig_7series_0_mig_7series_v4_2_rank_cntrl
         .D(\refresh_generation.refresh_bank_r_reg[0]_0 ),
         .Q(\refresh_generation.refresh_bank_r ),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair631" *) 
+  (* SOFT_HLUTNM = "soft_lutpair626" *) 
   LUT4 #(
     .INIT(16'h0455)) 
     \wtr_timer.wtr_cnt_r[0]_i_1 
@@ -85821,7 +85693,7 @@ module mig_7series_0_mig_7series_v4_2_rank_cntrl
         .I2(\wtr_timer.wtr_cnt_r ),
         .I3(\wtr_timer.wtr_cnt_r_reg[0]_0 ),
         .O(\wtr_timer.wtr_cnt_r[0]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair631" *) 
+  (* SOFT_HLUTNM = "soft_lutpair626" *) 
   LUT4 #(
     .INIT(16'h4055)) 
     \wtr_timer.wtr_cnt_r[1]_i_1 
@@ -86089,7 +85961,7 @@ module mig_7series_0_mig_7series_v4_2_rank_common
   wire [3:0]\zq_cntrl.zq_timer.zq_timer_r_reg[7]_0 ;
   wire [3:0]\zq_cntrl.zq_timer.zq_timer_r_reg[7]_1 ;
 
-  (* SOFT_HLUTNM = "soft_lutpair639" *) 
+  (* SOFT_HLUTNM = "soft_lutpair634" *) 
   LUT3 #(
     .INIT(8'h8A)) 
     app_ref_ack_r_i_1
@@ -86105,7 +85977,7 @@ module mig_7series_0_mig_7series_v4_2_rank_common
         .D(app_ref_ack_ns),
         .Q(app_ref_ack),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair639" *) 
+  (* SOFT_HLUTNM = "soft_lutpair634" *) 
   LUT4 #(
     .INIT(16'hAA08)) 
     app_ref_r_i_1
@@ -86122,7 +85994,7 @@ module mig_7series_0_mig_7series_v4_2_rank_common
         .D(app_ref_ns),
         .Q(app_ref_r),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair637" *) 
+  (* SOFT_HLUTNM = "soft_lutpair632" *) 
   LUT4 #(
     .INIT(16'h2F20)) 
     app_sr_active_r_i_1
@@ -86137,7 +86009,7 @@ module mig_7series_0_mig_7series_v4_2_rank_common
         .D(app_sr_active_r_i_1_n_0),
         .Q(app_sr_active),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair640" *) 
+  (* SOFT_HLUTNM = "soft_lutpair635" *) 
   LUT3 #(
     .INIT(8'h2A)) 
     app_zq_ack_r_i_1
@@ -86153,7 +86025,7 @@ module mig_7series_0_mig_7series_v4_2_rank_common
         .D(app_zq_ack_ns),
         .Q(app_zq_ack),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair640" *) 
+  (* SOFT_HLUTNM = "soft_lutpair635" *) 
   LUT4 #(
     .INIT(16'hA888)) 
     app_zq_r_i_1
@@ -86180,7 +86052,7 @@ module mig_7series_0_mig_7series_v4_2_rank_common
         .I4(\maintenance_request.maint_zq_r_lcl_reg_0 ),
         .I5(\maintenance_request.maint_rank_r_lcl_reg[0]_0 ),
         .O(\maintenance_request.maint_req_r_lcl_reg_1 ));
-  (* SOFT_HLUTNM = "soft_lutpair637" *) 
+  (* SOFT_HLUTNM = "soft_lutpair632" *) 
   LUT4 #(
     .INIT(16'h0ECC)) 
     cke_r_i_1
@@ -86199,20 +86071,20 @@ module mig_7series_0_mig_7series_v4_2_rank_common
         .I4(auto_pre_r_lcl_reg),
         .I5(maint_wip_r),
         .O(\maintenance_request.maint_sre_r_lcl_reg_4 ));
-  (* SOFT_HLUTNM = "soft_lutpair643" *) 
+  (* SOFT_HLUTNM = "soft_lutpair638" *) 
   LUT1 #(
     .INIT(2'h1)) 
     \maint_prescaler.maint_prescaler_r[0]_i_1 
        (.I0(\maint_prescaler.maint_prescaler_r_reg [0]),
         .O(\maint_prescaler.maint_prescaler_r0 [0]));
-  (* SOFT_HLUTNM = "soft_lutpair643" *) 
+  (* SOFT_HLUTNM = "soft_lutpair638" *) 
   LUT2 #(
     .INIT(4'h9)) 
     \maint_prescaler.maint_prescaler_r[1]_i_1 
        (.I0(\maint_prescaler.maint_prescaler_r_reg [0]),
         .I1(\maint_prescaler.maint_prescaler_r_reg [1]),
         .O(\maint_prescaler.maint_prescaler_r[1]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair638" *) 
+  (* SOFT_HLUTNM = "soft_lutpair633" *) 
   LUT3 #(
     .INIT(8'hA9)) 
     \maint_prescaler.maint_prescaler_r[2]_i_1 
@@ -86220,7 +86092,7 @@ module mig_7series_0_mig_7series_v4_2_rank_common
         .I1(\maint_prescaler.maint_prescaler_r_reg [1]),
         .I2(\maint_prescaler.maint_prescaler_r_reg [0]),
         .O(\maint_prescaler.maint_prescaler_r0 [2]));
-  (* SOFT_HLUTNM = "soft_lutpair638" *) 
+  (* SOFT_HLUTNM = "soft_lutpair633" *) 
   LUT4 #(
     .INIT(16'hAAA9)) 
     \maint_prescaler.maint_prescaler_r[3]_i_1 
@@ -86390,7 +86262,7 @@ module mig_7series_0_mig_7series_v4_2_rank_common
         .D(\maintenance_request.upd_last_master_r_i_1_n_0 ),
         .Q(\maintenance_request.upd_last_master_r ),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair634" *) 
+  (* SOFT_HLUTNM = "soft_lutpair629" *) 
   LUT3 #(
     .INIT(8'h02)) 
     pass_open_bank_r_lcl_i_5
@@ -86398,7 +86270,7 @@ module mig_7series_0_mig_7series_v4_2_rank_common
         .I1(\maintenance_request.maint_zq_r_lcl_reg_0 ),
         .I2(\maintenance_request.maint_sre_r_lcl_reg_0 ),
         .O(\maintenance_request.maint_rank_r_lcl_reg[0]_1 ));
-  (* SOFT_HLUTNM = "soft_lutpair642" *) 
+  (* SOFT_HLUTNM = "soft_lutpair637" *) 
   LUT3 #(
     .INIT(8'h78)) 
     \periodic_rd_generation.periodic_rd_cntr1_r_i_1 
@@ -86406,7 +86278,7 @@ module mig_7series_0_mig_7series_v4_2_rank_common
         .I1(\periodic_read_request.periodic_rd_grant_r ),
         .I2(\periodic_rd_generation.periodic_rd_cntr1_r ),
         .O(periodic_rd_ack_r_lcl_reg));
-  (* SOFT_HLUTNM = "soft_lutpair635" *) 
+  (* SOFT_HLUTNM = "soft_lutpair630" *) 
   LUT5 #(
     .INIT(32'hFFFF0008)) 
     \periodic_read_request.periodic_rd_grant_r[0]_i_1 
@@ -86422,7 +86294,7 @@ module mig_7series_0_mig_7series_v4_2_rank_common
         .D(\periodic_read_request.periodic_rd_grant_r[0]_i_1_n_0 ),
         .Q(\periodic_read_request.periodic_rd_grant_r ),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair642" *) 
+  (* SOFT_HLUTNM = "soft_lutpair637" *) 
   LUT3 #(
     .INIT(8'h78)) 
     \periodic_read_request.periodic_rd_r_cnt_i_1 
@@ -86451,7 +86323,7 @@ module mig_7series_0_mig_7series_v4_2_rank_common
         .D(\periodic_read_request.periodic_rd_ns ),
         .Q(\periodic_read_request.periodic_rd_r_lcl_reg_0 ),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair635" *) 
+  (* SOFT_HLUTNM = "soft_lutpair630" *) 
   LUT4 #(
     .INIT(16'h0008)) 
     \periodic_read_request.upd_last_master_r_i_1 
@@ -86503,7 +86375,7 @@ module mig_7series_0_mig_7series_v4_2_rank_common
        (.I0(\refresh_timer.refresh_timer_r_reg [1]),
         .I1(\refresh_timer.refresh_timer_r_reg [0]),
         .O(\refresh_timer.refresh_timer_r[1]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair641" *) 
+  (* SOFT_HLUTNM = "soft_lutpair636" *) 
   LUT3 #(
     .INIT(8'hA9)) 
     \refresh_timer.refresh_timer_r[2]_i_1 
@@ -86511,7 +86383,7 @@ module mig_7series_0_mig_7series_v4_2_rank_common
         .I1(\refresh_timer.refresh_timer_r_reg [0]),
         .I2(\refresh_timer.refresh_timer_r_reg [1]),
         .O(\refresh_timer.refresh_timer_r0 [2]));
-  (* SOFT_HLUTNM = "soft_lutpair636" *) 
+  (* SOFT_HLUTNM = "soft_lutpair631" *) 
   LUT4 #(
     .INIT(16'hAAA9)) 
     \refresh_timer.refresh_timer_r[3]_i_1 
@@ -86520,7 +86392,7 @@ module mig_7series_0_mig_7series_v4_2_rank_common
         .I2(\refresh_timer.refresh_timer_r_reg [1]),
         .I3(\refresh_timer.refresh_timer_r_reg [0]),
         .O(\refresh_timer.refresh_timer_r0 [3]));
-  (* SOFT_HLUTNM = "soft_lutpair636" *) 
+  (* SOFT_HLUTNM = "soft_lutpair631" *) 
   LUT5 #(
     .INIT(32'hAAAAAAA9)) 
     \refresh_timer.refresh_timer_r[4]_i_1 
@@ -86565,7 +86437,7 @@ module mig_7series_0_mig_7series_v4_2_rank_common
         .I4(maint_prescaler_tick_r),
         .I5(\refresh_timer.refresh_timer_r_reg [5]),
         .O(\refresh_timer.refresh_timer_r[5]_i_4_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair641" *) 
+  (* SOFT_HLUTNM = "soft_lutpair636" *) 
   LUT3 #(
     .INIT(8'h01)) 
     \refresh_timer.refresh_timer_r[5]_i_5 
@@ -86684,7 +86556,7 @@ module mig_7series_0_mig_7series_v4_2_rank_common
         .I3(\maintenance_request.maint_sre_r_lcl_reg_0 ),
         .I4(set_order_q_5),
         .O(wait_for_maint_r_lcl_reg_2));
-  (* SOFT_HLUTNM = "soft_lutpair634" *) 
+  (* SOFT_HLUTNM = "soft_lutpair629" *) 
   LUT5 #(
     .INIT(32'hFFFBAAAA)) 
     wait_for_maint_r_lcl_i_2
@@ -87393,7 +87265,7 @@ module mig_7series_0_mig_7series_v4_2_round_robin_arb
         .I4(\sr_cntrl.sre_request_logic.sre_request_r ),
         .I5(\grant_r_reg[0]_0 ),
         .O(\grant_r[1]_i_2__0_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair633" *) 
+  (* SOFT_HLUTNM = "soft_lutpair628" *) 
   LUT4 #(
     .INIT(16'h04F7)) 
     \grant_r[1]_i_3 
@@ -87430,7 +87302,7 @@ module mig_7series_0_mig_7series_v4_2_round_robin_arb
         .D(\grant_r[2]_i_1__0_n_0 ),
         .Q(\maintenance_request.maint_grant_r [2]),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair632" *) 
+  (* SOFT_HLUTNM = "soft_lutpair627" *) 
   LUT5 #(
     .INIT(32'h45444044)) 
     \last_master_r[0]_i_1__3 
@@ -87440,7 +87312,7 @@ module mig_7series_0_mig_7series_v4_2_round_robin_arb
         .I3(\maintenance_request.upd_last_master_r ),
         .I4(\maintenance_request.maint_grant_r [0]),
         .O(\last_master_r[0]_i_1__3_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair633" *) 
+  (* SOFT_HLUTNM = "soft_lutpair628" *) 
   LUT5 #(
     .INIT(32'h45444044)) 
     \last_master_r[1]_i_1__3 
@@ -87505,7 +87377,7 @@ module mig_7series_0_mig_7series_v4_2_round_robin_arb
         .I4(\maintenance_request.maint_grant_r [2]),
         .I5(\maintenance_request.maint_sre_r_lcl_reg ),
         .O(\maintenance_request.maint_sre_ns ));
-  (* SOFT_HLUTNM = "soft_lutpair632" *) 
+  (* SOFT_HLUTNM = "soft_lutpair627" *) 
   LUT2 #(
     .INIT(4'h2)) 
     \maintenance_request.maint_sre_r_lcl_i_2 
@@ -88033,7 +87905,7 @@ module mig_7series_0_mig_7series_v4_2_round_robin_arb__parameterized1
         .I4(Q[2]),
         .I5(auto_pre_r_11),
         .O(\cmd_pipe_plus.mc_address[24]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair580" *) 
+  (* SOFT_HLUTNM = "soft_lutpair575" *) 
   LUT3 #(
     .INIT(8'hFB)) 
     \cmd_pipe_plus.mc_address[24]_i_3 
@@ -88111,7 +87983,7 @@ module mig_7series_0_mig_7series_v4_2_round_robin_arb__parameterized1
         .I4(Q[2]),
         .I5(\cmd_pipe_plus.mc_bank_reg[5]_2 [2]),
         .O(\cmd_pipe_plus.mc_bank[5]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair582" *) 
+  (* SOFT_HLUTNM = "soft_lutpair577" *) 
   LUT2 #(
     .INIT(4'h2)) 
     \cmd_pipe_plus.mc_cmd[1]_i_1 
@@ -88128,7 +88000,7 @@ module mig_7series_0_mig_7series_v4_2_round_robin_arb__parameterized1
         .I4(Q[2]),
         .I5(col_rd_wr_r),
         .O(\cmd_pipe_plus.mc_cmd[1]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair585" *) 
+  (* SOFT_HLUTNM = "soft_lutpair580" *) 
   LUT3 #(
     .INIT(8'hEA)) 
     \cmd_pipe_plus.mc_data_offset[3]_i_1 
@@ -88136,21 +88008,21 @@ module mig_7series_0_mig_7series_v4_2_round_robin_arb__parameterized1
         .I1(O),
         .I2(\cmd_pipe_plus.mc_data_offset_reg[0] ),
         .O(granted_col_r_reg_0));
-  (* SOFT_HLUTNM = "soft_lutpair583" *) 
+  (* SOFT_HLUTNM = "soft_lutpair578" *) 
   LUT2 #(
     .INIT(4'hD)) 
     \cmd_pipe_plus.mc_data_offset[5]_i_1 
        (.I0(\cmd_pipe_plus.mc_data_offset_reg[0] ),
         .I1(\cmd_pipe_plus.mc_cmd[1]_i_2_n_0 ),
         .O(granted_col_r_reg));
-  (* SOFT_HLUTNM = "soft_lutpair585" *) 
+  (* SOFT_HLUTNM = "soft_lutpair580" *) 
   LUT2 #(
     .INIT(4'hE)) 
     \cmd_pipe_plus.mc_odt[0]_i_1 
        (.I0(\cmd_pipe_plus.mc_odt_reg[0] ),
         .I1(mc_aux_out0_1),
         .O(I119));
-  (* SOFT_HLUTNM = "soft_lutpair580" *) 
+  (* SOFT_HLUTNM = "soft_lutpair575" *) 
   LUT5 #(
     .INIT(32'hFFFEFFFF)) 
     \cmd_pipe_plus.mc_ras_n[1]_i_1 
@@ -88160,7 +88032,7 @@ module mig_7series_0_mig_7series_v4_2_round_robin_arb__parameterized1
         .I3(Q[1]),
         .I4(\cmd_pipe_plus.mc_data_offset_reg[0] ),
         .O(\grant_r_reg[2]_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair584" *) 
+  (* SOFT_HLUTNM = "soft_lutpair579" *) 
   LUT2 #(
     .INIT(4'hB)) 
     \cmd_pipe_plus.mc_we_n[1]_i_1 
@@ -88507,7 +88379,7 @@ module mig_7series_0_mig_7series_v4_2_round_robin_arb__parameterized1
         .I2(Q[0]),
         .I3(\last_master_r_reg[3]_0 ),
         .O(\last_master_r[0]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair584" *) 
+  (* SOFT_HLUTNM = "soft_lutpair579" *) 
   LUT4 #(
     .INIT(16'h00E2)) 
     \last_master_r[1]_i_1 
@@ -88516,7 +88388,7 @@ module mig_7series_0_mig_7series_v4_2_round_robin_arb__parameterized1
         .I2(Q[1]),
         .I3(\last_master_r_reg[3]_0 ),
         .O(\last_master_r[1]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair583" *) 
+  (* SOFT_HLUTNM = "soft_lutpair578" *) 
   LUT4 #(
     .INIT(16'h00E2)) 
     \last_master_r[2]_i_1__0 
@@ -88525,7 +88397,7 @@ module mig_7series_0_mig_7series_v4_2_round_robin_arb__parameterized1
         .I2(Q[2]),
         .I3(\last_master_r_reg[3]_0 ),
         .O(\last_master_r[2]_i_1__0_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair582" *) 
+  (* SOFT_HLUTNM = "soft_lutpair577" *) 
   LUT4 #(
     .INIT(16'hFEAE)) 
     \last_master_r[3]_i_1 
@@ -88584,7 +88456,7 @@ module mig_7series_0_mig_7series_v4_2_round_robin_arb__parameterized1
         .I3(Q[1]),
         .I4(rd_this_rank_r[1]),
         .O(\periodic_rd_generation.read_this_rank ));
-  (* SOFT_HLUTNM = "soft_lutpair581" *) 
+  (* SOFT_HLUTNM = "soft_lutpair576" *) 
   LUT4 #(
     .INIT(16'hF888)) 
     \periodic_rd_generation.read_this_rank_r_i_2 
@@ -88593,7 +88465,7 @@ module mig_7series_0_mig_7series_v4_2_round_robin_arb__parameterized1
         .I2(Q[2]),
         .I3(rd_this_rank_r[2]),
         .O(\periodic_rd_generation.read_this_rank_r_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair581" *) 
+  (* SOFT_HLUTNM = "soft_lutpair576" *) 
   LUT2 #(
     .INIT(4'hB)) 
     \starve_limit_cntr_r[2]_i_2__2 
@@ -88643,7 +88515,7 @@ module mig_7series_0_mig_7series_v4_2_round_robin_arb__parameterized1_3
     ofs_rdy_r_5,
     ofs_rdy_r_6,
     ofs_rdy_r_7,
-    \last_master_r_reg[0]_0 ,
+    \last_master_r_reg[2]_0 ,
     CLK);
   output \grant_r_reg[0]_0 ;
   output \genblk3[2].rnk_config_strobe_r_reg[2] ;
@@ -88667,7 +88539,7 @@ module mig_7series_0_mig_7series_v4_2_round_robin_arb__parameterized1_3
   input ofs_rdy_r_5;
   input ofs_rdy_r_6;
   input ofs_rdy_r_7;
-  input \last_master_r_reg[0]_0 ;
+  input \last_master_r_reg[2]_0 ;
   input CLK;
 
   wire CLK;
@@ -88697,7 +88569,7 @@ module mig_7series_0_mig_7series_v4_2_round_robin_arb__parameterized1_3
   wire \last_master_r[1]_i_1__0_n_0 ;
   wire \last_master_r[2]_i_1__1_n_0 ;
   wire \last_master_r[3]_i_1__0_n_0 ;
-  wire \last_master_r_reg[0]_0 ;
+  wire \last_master_r_reg[2]_0 ;
   wire ofs_rdy_r;
   wire ofs_rdy_r_5;
   wire ofs_rdy_r_6;
@@ -88747,7 +88619,7 @@ module mig_7series_0_mig_7series_v4_2_round_robin_arb__parameterized1_3
         .I2(\grant_r_reg[3]_3 ),
         .I3(\last_master_r[0]_i_1__0_n_0 ),
         .O(\grant_r[2]_i_3__0_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair586" *) 
+  (* SOFT_HLUTNM = "soft_lutpair581" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \grant_r[2]_i_4__0 
@@ -88861,7 +88733,7 @@ module mig_7series_0_mig_7series_v4_2_round_robin_arb__parameterized1_3
        (.I0(last_master_r[0]),
         .I1(rnk_config_strobe),
         .I2(grant_config_r[0]),
-        .I3(\last_master_r_reg[0]_0 ),
+        .I3(\last_master_r_reg[2]_0 ),
         .O(\last_master_r[0]_i_1__0_n_0 ));
   LUT4 #(
     .INIT(16'h00E2)) 
@@ -88869,7 +88741,7 @@ module mig_7series_0_mig_7series_v4_2_round_robin_arb__parameterized1_3
        (.I0(last_master_r[1]),
         .I1(rnk_config_strobe),
         .I2(grant_config_r[1]),
-        .I3(\rnk_config_r_reg[0] ),
+        .I3(\last_master_r_reg[2]_0 ),
         .O(\last_master_r[1]_i_1__0_n_0 ));
   LUT4 #(
     .INIT(16'h00E2)) 
@@ -88877,7 +88749,7 @@ module mig_7series_0_mig_7series_v4_2_round_robin_arb__parameterized1_3
        (.I0(last_master_r[2]),
         .I1(rnk_config_strobe),
         .I2(grant_config_r[2]),
-        .I3(\rnk_config_r_reg[0] ),
+        .I3(\last_master_r_reg[2]_0 ),
         .O(\last_master_r[2]_i_1__1_n_0 ));
   LUT4 #(
     .INIT(16'hFEAE)) 
@@ -88920,7 +88792,7 @@ module mig_7series_0_mig_7series_v4_2_round_robin_arb__parameterized1_3
         .I3(grant_config_r[0]),
         .I4(\rnk_config_r[0]_i_2_n_0 ),
         .O(rnk_config_0));
-  (* SOFT_HLUTNM = "soft_lutpair586" *) 
+  (* SOFT_HLUTNM = "soft_lutpair581" *) 
   LUT4 #(
     .INIT(16'hFE00)) 
     \rnk_config_r[0]_i_2 
@@ -89366,7 +89238,7 @@ module mig_7series_0_mig_7series_v4_2_round_robin_arb__parameterized1_4
         .I4(Q[3]),
         .I5(cs_en2),
         .O(\cmd_pipe_plus.mc_bank[8]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair587" *) 
+  (* SOFT_HLUTNM = "soft_lutpair582" *) 
   LUT5 #(
     .INIT(32'hFFFFFFFD)) 
     \cmd_pipe_plus.mc_cas_n[2]_i_1 
@@ -89396,7 +89268,7 @@ module mig_7series_0_mig_7series_v4_2_round_robin_arb__parameterized1_4
         .I4(Q[3]),
         .I5(cs_en2),
         .O(\cmd_pipe_plus.mc_we_n[2]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair587" *) 
+  (* SOFT_HLUTNM = "soft_lutpair582" *) 
   LUT3 #(
     .INIT(8'hEF)) 
     \cmd_pipe_plus.mc_we_n[2]_i_3 
@@ -89460,7 +89332,7 @@ module mig_7series_0_mig_7series_v4_2_round_robin_arb__parameterized1_4
         .I2(\grant_r_reg[0]_1 ),
         .I3(\last_master_r[1]_i_1__2_n_0 ),
         .O(\grant_r[3]_i_2__2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair588" *) 
+  (* SOFT_HLUTNM = "soft_lutpair583" *) 
   LUT4 #(
     .INIT(16'h0151)) 
     \grant_r[3]_i_5__2 
@@ -89517,7 +89389,7 @@ module mig_7series_0_mig_7series_v4_2_round_robin_arb__parameterized1_4
         .I2(Q[2]),
         .I3(\last_master_r_reg[3]_0 ),
         .O(\last_master_r[2]_i_1__3_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair588" *) 
+  (* SOFT_HLUTNM = "soft_lutpair583" *) 
   LUT4 #(
     .INIT(16'hFFB8)) 
     \last_master_r[3]_i_1__2 
@@ -90058,7 +89930,7 @@ module mig_7series_0_mig_7series_v4_2_round_robin_arb__parameterized1_5
         .I4(\cmd_pipe_plus.mc_cs_n_reg[0] ),
         .I5(\cmd_pipe_plus.mc_cas_n_reg[0] ),
         .O(mc_cas_n_ns));
-  (* SOFT_HLUTNM = "soft_lutpair589" *) 
+  (* SOFT_HLUTNM = "soft_lutpair584" *) 
   LUT5 #(
     .INIT(32'h01010100)) 
     \cmd_pipe_plus.mc_cas_n[0]_i_2 
@@ -90088,7 +89960,7 @@ module mig_7series_0_mig_7series_v4_2_round_robin_arb__parameterized1_5
         .I4(\cmd_pipe_plus.mc_cs_n_reg[0] ),
         .I5(sent_row),
         .O(mc_ras_n_ns));
-  (* SOFT_HLUTNM = "soft_lutpair589" *) 
+  (* SOFT_HLUTNM = "soft_lutpair584" *) 
   LUT5 #(
     .INIT(32'h1111111F)) 
     \cmd_pipe_plus.mc_ras_n[0]_i_2 
@@ -90098,7 +89970,7 @@ module mig_7series_0_mig_7series_v4_2_round_robin_arb__parameterized1_5
         .I3(Q[3]),
         .I4(Q[1]),
         .O(\cmd_pipe_plus.mc_ras_n[0]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair590" *) 
+  (* SOFT_HLUTNM = "soft_lutpair585" *) 
   LUT3 #(
     .INIT(8'h04)) 
     \cmd_pipe_plus.mc_ras_n[0]_i_3 
@@ -90126,7 +89998,7 @@ module mig_7series_0_mig_7series_v4_2_round_robin_arb__parameterized1_5
         .I4(\cmd_pipe_plus.mc_cs_n_reg[0] ),
         .I5(sent_row),
         .O(\cmd_pipe_plus.mc_we_n[0]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair590" *) 
+  (* SOFT_HLUTNM = "soft_lutpair585" *) 
   LUT5 #(
     .INIT(32'h00FDFFFD)) 
     \cmd_pipe_plus.mc_we_n[0]_i_3 
@@ -90252,7 +90124,7 @@ module mig_7series_0_mig_7series_v4_2_round_robin_arb__parameterized1_5
         .I4(Q[3]),
         .I5(\grant_r_reg[0]_7 ),
         .O(\grant_r[3]_i_3__2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair591" *) 
+  (* SOFT_HLUTNM = "soft_lutpair586" *) 
   LUT4 #(
     .INIT(16'h0151)) 
     \grant_r[3]_i_4__2 
@@ -90379,7 +90251,7 @@ module mig_7series_0_mig_7series_v4_2_round_robin_arb__parameterized1_5
         .I2(Q[2]),
         .I3(\last_master_r_reg[3]_0 ),
         .O(\last_master_r[2]_i_1__2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair591" *) 
+  (* SOFT_HLUTNM = "soft_lutpair586" *) 
   LUT4 #(
     .INIT(16'hFFB8)) 
     \last_master_r[3]_i_1__1 
@@ -91984,7 +91856,7 @@ module mig_7series_0_mig_7series_v4_2_ui_cmd
         .D(app_cmd_r1[1]),
         .Q(app_cmd_r2[1]),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair647" *) 
+  (* SOFT_HLUTNM = "soft_lutpair642" *) 
   LUT4 #(
     .INIT(16'h2230)) 
     app_en_r1_i_1
@@ -91999,7 +91871,7 @@ module mig_7series_0_mig_7series_v4_2_ui_cmd
         .D(app_en_ns1),
         .Q(app_en_r1),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair647" *) 
+  (* SOFT_HLUTNM = "soft_lutpair642" *) 
   LUT4 #(
     .INIT(16'h2230)) 
     app_en_r2_i_1
@@ -92029,7 +91901,7 @@ module mig_7series_0_mig_7series_v4_2_ui_cmd
         .D(app_rdy_ns),
         .Q(E),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair645" *) 
+  (* SOFT_HLUTNM = "soft_lutpair640" *) 
   LUT4 #(
     .INIT(16'h8008)) 
     \data_buf_address_counter.data_buf_addr_cnt_r[3]_i_1 
@@ -92128,7 +92000,7 @@ module mig_7series_0_mig_7series_v4_2_ui_cmd
         .I4(periodic_rd_cntr_r),
         .I5(periodic_rd_r),
         .O(\app_cmd_r2_reg[0]_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair654" *) 
+  (* SOFT_HLUTNM = "soft_lutpair649" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \req_bank_r_lcl[0]_i_1 
@@ -92136,7 +92008,7 @@ module mig_7series_0_mig_7series_v4_2_ui_cmd
         .I1(E),
         .I2(p_0_in_0[0]),
         .O(\app_addr_r1_reg[26]_0 [0]));
-  (* SOFT_HLUTNM = "soft_lutpair656" *) 
+  (* SOFT_HLUTNM = "soft_lutpair651" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \req_bank_r_lcl[1]_i_1 
@@ -92144,7 +92016,7 @@ module mig_7series_0_mig_7series_v4_2_ui_cmd
         .I1(E),
         .I2(p_0_in_0[1]),
         .O(\app_addr_r1_reg[26]_0 [1]));
-  (* SOFT_HLUTNM = "soft_lutpair654" *) 
+  (* SOFT_HLUTNM = "soft_lutpair649" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \req_bank_r_lcl[2]_i_1 
@@ -92152,7 +92024,7 @@ module mig_7series_0_mig_7series_v4_2_ui_cmd
         .I1(E),
         .I2(p_0_in_0[2]),
         .O(\app_addr_r1_reg[26]_0 [2]));
-  (* SOFT_HLUTNM = "soft_lutpair661" *) 
+  (* SOFT_HLUTNM = "soft_lutpair656" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \req_col_r[0]_i_1 
@@ -92160,7 +92032,7 @@ module mig_7series_0_mig_7series_v4_2_ui_cmd
         .I1(E),
         .I2(\app_addr_r2_reg_n_0_[0] ),
         .O(\app_addr_r1_reg[9]_0 [0]));
-  (* SOFT_HLUTNM = "soft_lutpair661" *) 
+  (* SOFT_HLUTNM = "soft_lutpair656" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \req_col_r[1]_i_1 
@@ -92168,7 +92040,7 @@ module mig_7series_0_mig_7series_v4_2_ui_cmd
         .I1(E),
         .I2(\app_addr_r2_reg_n_0_[1] ),
         .O(\app_addr_r1_reg[9]_0 [1]));
-  (* SOFT_HLUTNM = "soft_lutpair660" *) 
+  (* SOFT_HLUTNM = "soft_lutpair655" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \req_col_r[2]_i_1 
@@ -92176,7 +92048,7 @@ module mig_7series_0_mig_7series_v4_2_ui_cmd
         .I1(E),
         .I2(\app_addr_r2_reg_n_0_[2] ),
         .O(\app_addr_r1_reg[9]_0 [2]));
-  (* SOFT_HLUTNM = "soft_lutpair660" *) 
+  (* SOFT_HLUTNM = "soft_lutpair655" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \req_col_r[3]_i_1 
@@ -92184,7 +92056,7 @@ module mig_7series_0_mig_7series_v4_2_ui_cmd
         .I1(E),
         .I2(\app_addr_r2_reg_n_0_[3] ),
         .O(\app_addr_r1_reg[9]_0 [3]));
-  (* SOFT_HLUTNM = "soft_lutpair659" *) 
+  (* SOFT_HLUTNM = "soft_lutpair654" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \req_col_r[4]_i_1 
@@ -92192,7 +92064,7 @@ module mig_7series_0_mig_7series_v4_2_ui_cmd
         .I1(E),
         .I2(\app_addr_r2_reg_n_0_[4] ),
         .O(\app_addr_r1_reg[9]_0 [4]));
-  (* SOFT_HLUTNM = "soft_lutpair659" *) 
+  (* SOFT_HLUTNM = "soft_lutpair654" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \req_col_r[5]_i_1 
@@ -92200,7 +92072,7 @@ module mig_7series_0_mig_7series_v4_2_ui_cmd
         .I1(E),
         .I2(\app_addr_r2_reg_n_0_[5] ),
         .O(\app_addr_r1_reg[9]_0 [5]));
-  (* SOFT_HLUTNM = "soft_lutpair658" *) 
+  (* SOFT_HLUTNM = "soft_lutpair653" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \req_col_r[6]_i_1 
@@ -92208,7 +92080,7 @@ module mig_7series_0_mig_7series_v4_2_ui_cmd
         .I1(E),
         .I2(\app_addr_r2_reg_n_0_[6] ),
         .O(\app_addr_r1_reg[9]_0 [6]));
-  (* SOFT_HLUTNM = "soft_lutpair658" *) 
+  (* SOFT_HLUTNM = "soft_lutpair653" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \req_col_r[7]_i_1 
@@ -92216,7 +92088,7 @@ module mig_7series_0_mig_7series_v4_2_ui_cmd
         .I1(E),
         .I2(\app_addr_r2_reg_n_0_[7] ),
         .O(\app_addr_r1_reg[9]_0 [7]));
-  (* SOFT_HLUTNM = "soft_lutpair657" *) 
+  (* SOFT_HLUTNM = "soft_lutpair652" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \req_col_r[8]_i_1 
@@ -92224,7 +92096,7 @@ module mig_7series_0_mig_7series_v4_2_ui_cmd
         .I1(E),
         .I2(\app_addr_r2_reg_n_0_[8] ),
         .O(\app_addr_r1_reg[9]_0 [8]));
-  (* SOFT_HLUTNM = "soft_lutpair657" *) 
+  (* SOFT_HLUTNM = "soft_lutpair652" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \req_col_r[9]_i_1 
@@ -92242,14 +92114,14 @@ module mig_7series_0_mig_7series_v4_2_ui_cmd
         .I4(use_addr),
         .I5(\strict_mode.rd_data_buf_addr_r_lcl [0]),
         .O(D[0]));
-  (* SOFT_HLUTNM = "soft_lutpair646" *) 
+  (* SOFT_HLUTNM = "soft_lutpair641" *) 
   LUT2 #(
     .INIT(4'h8)) 
     \req_data_buf_addr_r[0]_i_2 
        (.I0(app_en_r2_reg_0),
         .I1(E),
         .O(use_addr));
-  (* SOFT_HLUTNM = "soft_lutpair644" *) 
+  (* SOFT_HLUTNM = "soft_lutpair639" *) 
   LUT5 #(
     .INIT(32'h82BE8282)) 
     \req_data_buf_addr_r[1]_i_1 
@@ -92279,7 +92151,7 @@ module mig_7series_0_mig_7series_v4_2_ui_cmd
         .I4(\strict_mode.rd_data_buf_addr_r_lcl [2]),
         .I5(\strict_mode.rd_data_buf_addr_r_lcl [3]),
         .O(D[3]));
-  (* SOFT_HLUTNM = "soft_lutpair644" *) 
+  (* SOFT_HLUTNM = "soft_lutpair639" *) 
   LUT2 #(
     .INIT(4'h9)) 
     \req_data_buf_addr_r[3]_i_2 
@@ -92296,14 +92168,14 @@ module mig_7series_0_mig_7series_v4_2_ui_cmd
         .I4(E),
         .I5(app_en_r2_reg_0),
         .O(\strict_mode.rd_data_buf_addr_r_lcl_reg[1] ));
-  (* SOFT_HLUTNM = "soft_lutpair655" *) 
+  (* SOFT_HLUTNM = "soft_lutpair650" *) 
   LUT2 #(
     .INIT(4'h2)) 
     req_priority_r_i_1
        (.I0(app_hi_pri_r2),
         .I1(E),
         .O(hi_priority));
-  (* SOFT_HLUTNM = "soft_lutpair650" *) 
+  (* SOFT_HLUTNM = "soft_lutpair645" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \req_row_r_lcl[0]_i_1 
@@ -92311,7 +92183,7 @@ module mig_7series_0_mig_7series_v4_2_ui_cmd
         .I1(E),
         .I2(\app_addr_r2_reg_n_0_[10] ),
         .O(row[0]));
-  (* SOFT_HLUTNM = "soft_lutpair651" *) 
+  (* SOFT_HLUTNM = "soft_lutpair646" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \req_row_r_lcl[10]_i_1 
@@ -92319,7 +92191,7 @@ module mig_7series_0_mig_7series_v4_2_ui_cmd
         .I1(E),
         .I2(\app_addr_r2_reg_n_0_[20] ),
         .O(row[10]));
-  (* SOFT_HLUTNM = "soft_lutpair651" *) 
+  (* SOFT_HLUTNM = "soft_lutpair646" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \req_row_r_lcl[11]_i_1 
@@ -92327,7 +92199,7 @@ module mig_7series_0_mig_7series_v4_2_ui_cmd
         .I1(E),
         .I2(\app_addr_r2_reg_n_0_[21] ),
         .O(row[11]));
-  (* SOFT_HLUTNM = "soft_lutpair656" *) 
+  (* SOFT_HLUTNM = "soft_lutpair651" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \req_row_r_lcl[12]_i_1 
@@ -92335,7 +92207,7 @@ module mig_7series_0_mig_7series_v4_2_ui_cmd
         .I1(E),
         .I2(\app_addr_r2_reg_n_0_[22] ),
         .O(row[12]));
-  (* SOFT_HLUTNM = "soft_lutpair655" *) 
+  (* SOFT_HLUTNM = "soft_lutpair650" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \req_row_r_lcl[13]_i_1 
@@ -92343,7 +92215,7 @@ module mig_7series_0_mig_7series_v4_2_ui_cmd
         .I1(E),
         .I2(\app_addr_r2_reg_n_0_[23] ),
         .O(row[13]));
-  (* SOFT_HLUTNM = "soft_lutpair650" *) 
+  (* SOFT_HLUTNM = "soft_lutpair645" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \req_row_r_lcl[1]_i_1 
@@ -92351,7 +92223,7 @@ module mig_7series_0_mig_7series_v4_2_ui_cmd
         .I1(E),
         .I2(\app_addr_r2_reg_n_0_[11] ),
         .O(row[1]));
-  (* SOFT_HLUTNM = "soft_lutpair649" *) 
+  (* SOFT_HLUTNM = "soft_lutpair644" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \req_row_r_lcl[2]_i_1 
@@ -92359,7 +92231,7 @@ module mig_7series_0_mig_7series_v4_2_ui_cmd
         .I1(E),
         .I2(\app_addr_r2_reg_n_0_[12] ),
         .O(row[2]));
-  (* SOFT_HLUTNM = "soft_lutpair649" *) 
+  (* SOFT_HLUTNM = "soft_lutpair644" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \req_row_r_lcl[3]_i_1 
@@ -92367,7 +92239,7 @@ module mig_7series_0_mig_7series_v4_2_ui_cmd
         .I1(E),
         .I2(\app_addr_r2_reg_n_0_[13] ),
         .O(row[3]));
-  (* SOFT_HLUTNM = "soft_lutpair648" *) 
+  (* SOFT_HLUTNM = "soft_lutpair643" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \req_row_r_lcl[4]_i_1 
@@ -92375,7 +92247,7 @@ module mig_7series_0_mig_7series_v4_2_ui_cmd
         .I1(E),
         .I2(\app_addr_r2_reg_n_0_[14] ),
         .O(row[4]));
-  (* SOFT_HLUTNM = "soft_lutpair648" *) 
+  (* SOFT_HLUTNM = "soft_lutpair643" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \req_row_r_lcl[5]_i_1 
@@ -92383,7 +92255,7 @@ module mig_7series_0_mig_7series_v4_2_ui_cmd
         .I1(E),
         .I2(\app_addr_r2_reg_n_0_[15] ),
         .O(row[5]));
-  (* SOFT_HLUTNM = "soft_lutpair653" *) 
+  (* SOFT_HLUTNM = "soft_lutpair648" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \req_row_r_lcl[6]_i_1 
@@ -92391,7 +92263,7 @@ module mig_7series_0_mig_7series_v4_2_ui_cmd
         .I1(E),
         .I2(\app_addr_r2_reg_n_0_[16] ),
         .O(row[6]));
-  (* SOFT_HLUTNM = "soft_lutpair653" *) 
+  (* SOFT_HLUTNM = "soft_lutpair648" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \req_row_r_lcl[7]_i_1 
@@ -92399,7 +92271,7 @@ module mig_7series_0_mig_7series_v4_2_ui_cmd
         .I1(E),
         .I2(\app_addr_r2_reg_n_0_[17] ),
         .O(row[7]));
-  (* SOFT_HLUTNM = "soft_lutpair652" *) 
+  (* SOFT_HLUTNM = "soft_lutpair647" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \req_row_r_lcl[8]_i_1 
@@ -92407,7 +92279,7 @@ module mig_7series_0_mig_7series_v4_2_ui_cmd
         .I1(E),
         .I2(\app_addr_r2_reg_n_0_[18] ),
         .O(row[8]));
-  (* SOFT_HLUTNM = "soft_lutpair652" *) 
+  (* SOFT_HLUTNM = "soft_lutpair647" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \req_row_r_lcl[9]_i_1 
@@ -92501,7 +92373,7 @@ module mig_7series_0_mig_7series_v4_2_ui_cmd
         .I4(row[1]),
         .I5(row_hit_r_reg[1]),
         .O(S[0]));
-  (* SOFT_HLUTNM = "soft_lutpair646" *) 
+  (* SOFT_HLUTNM = "soft_lutpair641" *) 
   LUT5 #(
     .INIT(32'hFF7F0080)) 
     \strict_mode.rd_data_buf_addr_r_lcl[0]_i_1 
@@ -92540,7 +92412,7 @@ module mig_7series_0_mig_7series_v4_2_ui_cmd
         .I4(app_cmd_r2[1]),
         .I5(p_0_in),
         .O(\wr_req_counter.wr_req_cnt_r_reg[0] ));
-  (* SOFT_HLUTNM = "soft_lutpair645" *) 
+  (* SOFT_HLUTNM = "soft_lutpair640" *) 
   LUT5 #(
     .INIT(32'h69AAAAAA)) 
     \wr_req_counter.wr_req_cnt_r[4]_i_3 
@@ -92666,7 +92538,7 @@ module mig_7series_0_mig_7series_v4_2_ui_rd_data
         .I2(\strict_mode.rd_data_buf_addr_r_lcl_reg[0]_0 ),
         .I3(\rd_buf_indx.ram_init_done_r_lcl_reg_inv_0 ),
         .O(\rd_buf_indx.ram_init_done_ns ));
-  (* SOFT_HLUTNM = "soft_lutpair662" *) 
+  (* SOFT_HLUTNM = "soft_lutpair657" *) 
   LUT4 #(
     .INIT(16'h7FFF)) 
     \rd_buf_indx.ram_init_done_r_lcl_inv_i_2 
@@ -92685,20 +92557,20 @@ module mig_7series_0_mig_7series_v4_2_ui_rd_data
         .D(\rd_buf_indx.ram_init_done_ns ),
         .Q(\rd_buf_indx.ram_init_done_r_lcl_reg_inv_0 ),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair664" *) 
+  (* SOFT_HLUTNM = "soft_lutpair659" *) 
   LUT1 #(
     .INIT(2'h1)) 
     \rd_buf_indx.rd_buf_indx_r[0]_i_1 
        (.I0(ram_init_addr[0]),
         .O(p_0_in__2[0]));
-  (* SOFT_HLUTNM = "soft_lutpair664" *) 
+  (* SOFT_HLUTNM = "soft_lutpair659" *) 
   LUT2 #(
     .INIT(4'h6)) 
     \rd_buf_indx.rd_buf_indx_r[1]_i_1 
        (.I0(ram_init_addr[0]),
         .I1(ram_init_addr[1]),
         .O(p_0_in__2[1]));
-  (* SOFT_HLUTNM = "soft_lutpair663" *) 
+  (* SOFT_HLUTNM = "soft_lutpair658" *) 
   LUT3 #(
     .INIT(8'h78)) 
     \rd_buf_indx.rd_buf_indx_r[2]_i_1 
@@ -92706,7 +92578,7 @@ module mig_7series_0_mig_7series_v4_2_ui_rd_data
         .I1(ram_init_addr[1]),
         .I2(ram_init_addr[2]),
         .O(p_0_in__2[2]));
-  (* SOFT_HLUTNM = "soft_lutpair663" *) 
+  (* SOFT_HLUTNM = "soft_lutpair658" *) 
   LUT4 #(
     .INIT(16'h7F80)) 
     \rd_buf_indx.rd_buf_indx_r[3]_i_1 
@@ -92715,7 +92587,7 @@ module mig_7series_0_mig_7series_v4_2_ui_rd_data
         .I2(ram_init_addr[0]),
         .I3(ram_init_addr[3]),
         .O(p_0_in__2[3]));
-  (* SOFT_HLUTNM = "soft_lutpair662" *) 
+  (* SOFT_HLUTNM = "soft_lutpair657" *) 
   LUT5 #(
     .INIT(32'h7FFF8000)) 
     \rd_buf_indx.rd_buf_indx_r[4]_i_1 
@@ -94160,20 +94032,20 @@ module mig_7series_0_mig_7series_v4_2_ui_wr_data
         .D(app_wdf_wren_ns1),
         .Q(app_wdf_wren_r1),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair672" *) 
+  (* SOFT_HLUTNM = "soft_lutpair667" *) 
   LUT1 #(
     .INIT(2'h1)) 
     \data_buf_address_counter.data_buf_addr_cnt_r[0]_i_1 
        (.I0(\data_buf_address_counter.data_buf_addr_cnt_r_reg [0]),
         .O(p_0_in__0[0]));
-  (* SOFT_HLUTNM = "soft_lutpair672" *) 
+  (* SOFT_HLUTNM = "soft_lutpair667" *) 
   LUT2 #(
     .INIT(4'h6)) 
     \data_buf_address_counter.data_buf_addr_cnt_r[1]_i_1 
        (.I0(\data_buf_address_counter.data_buf_addr_cnt_r_reg [0]),
         .I1(\data_buf_address_counter.data_buf_addr_cnt_r_reg [1]),
         .O(p_0_in__0[1]));
-  (* SOFT_HLUTNM = "soft_lutpair669" *) 
+  (* SOFT_HLUTNM = "soft_lutpair664" *) 
   LUT3 #(
     .INIT(8'h78)) 
     \data_buf_address_counter.data_buf_addr_cnt_r[2]_i_1 
@@ -94181,7 +94053,7 @@ module mig_7series_0_mig_7series_v4_2_ui_wr_data
         .I1(\data_buf_address_counter.data_buf_addr_cnt_r_reg [1]),
         .I2(\data_buf_address_counter.data_buf_addr_cnt_r_reg [2]),
         .O(p_0_in__0[2]));
-  (* SOFT_HLUTNM = "soft_lutpair669" *) 
+  (* SOFT_HLUTNM = "soft_lutpair664" *) 
   LUT4 #(
     .INIT(16'h7F80)) 
     \data_buf_address_counter.data_buf_addr_cnt_r[3]_i_2 
@@ -94368,7 +94240,7 @@ module mig_7series_0_mig_7series_v4_2_ui_wr_data
         .I4(p_4_in),
         .I5(p_0_in__0_0),
         .O(wdf_rdy_ns));
-  (* SOFT_HLUTNM = "soft_lutpair666" *) 
+  (* SOFT_HLUTNM = "soft_lutpair661" *) 
   LUT3 #(
     .INIT(8'h80)) 
     \occupied_counter.app_wdf_rdy_r_i_2 
@@ -94383,7 +94255,7 @@ module mig_7series_0_mig_7series_v4_2_ui_wr_data
         .D(wdf_rdy_ns),
         .Q(app_wdf_rdy),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair667" *) 
+  (* SOFT_HLUTNM = "soft_lutpair662" *) 
   LUT4 #(
     .INIT(16'hFF80)) 
     \occupied_counter.occ_cnt[0]_i_1 
@@ -94419,7 +94291,7 @@ module mig_7series_0_mig_7series_v4_2_ui_wr_data
         .I3(app_wdf_rdy_r_copy1),
         .I4(\occupied_counter.occ_cnt_reg_n_0_[13] ),
         .O(p_1_in[12]));
-  (* SOFT_HLUTNM = "soft_lutpair668" *) 
+  (* SOFT_HLUTNM = "soft_lutpair663" *) 
   LUT5 #(
     .INIT(32'hBFFF8000)) 
     \occupied_counter.occ_cnt[13]_i_1 
@@ -94446,7 +94318,7 @@ module mig_7series_0_mig_7series_v4_2_ui_wr_data
         .I2(app_wdf_end_r1),
         .I3(app_wdf_wren_r1),
         .O(\occupied_counter.occ_cnt[15]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair668" *) 
+  (* SOFT_HLUTNM = "soft_lutpair663" *) 
   LUT4 #(
     .INIT(16'h8000)) 
     \occupied_counter.occ_cnt[15]_i_2 
@@ -94455,7 +94327,7 @@ module mig_7series_0_mig_7series_v4_2_ui_wr_data
         .I2(app_wdf_wren_r1),
         .I3(p_4_in),
         .O(p_1_in[15]));
-  (* SOFT_HLUTNM = "soft_lutpair666" *) 
+  (* SOFT_HLUTNM = "soft_lutpair661" *) 
   LUT5 #(
     .INIT(32'hBFFF8000)) 
     \occupied_counter.occ_cnt[1]_i_1 
@@ -94465,7 +94337,7 @@ module mig_7series_0_mig_7series_v4_2_ui_wr_data
         .I3(app_wdf_rdy_r_copy1),
         .I4(\occupied_counter.occ_cnt_reg_n_0_[2] ),
         .O(p_1_in[1]));
-  (* SOFT_HLUTNM = "soft_lutpair667" *) 
+  (* SOFT_HLUTNM = "soft_lutpair662" *) 
   LUT5 #(
     .INIT(32'hBFFF8000)) 
     \occupied_counter.occ_cnt[2]_i_1 
@@ -94678,20 +94550,20 @@ module mig_7series_0_mig_7series_v4_2_ui_wr_data
         .DOD(\NLW_pointer_ram.rams[1].RAM32M0_DOD_UNCONNECTED [1:0]),
         .WCLK(CLK),
         .WE(\pointer_ram.pointer_we ));
-  (* SOFT_HLUTNM = "soft_lutpair673" *) 
+  (* SOFT_HLUTNM = "soft_lutpair668" *) 
   LUT1 #(
     .INIT(2'h1)) 
     \read_data_indx.rd_data_indx_r[0]_i_1 
        (.I0(Q[0]),
         .O(p_0_in__1[0]));
-  (* SOFT_HLUTNM = "soft_lutpair673" *) 
+  (* SOFT_HLUTNM = "soft_lutpair668" *) 
   LUT2 #(
     .INIT(4'h6)) 
     \read_data_indx.rd_data_indx_r[1]_i_1 
        (.I0(Q[0]),
         .I1(Q[1]),
         .O(p_0_in__1[1]));
-  (* SOFT_HLUTNM = "soft_lutpair671" *) 
+  (* SOFT_HLUTNM = "soft_lutpair666" *) 
   LUT3 #(
     .INIT(8'h78)) 
     \read_data_indx.rd_data_indx_r[2]_i_1 
@@ -94699,7 +94571,7 @@ module mig_7series_0_mig_7series_v4_2_ui_wr_data
         .I1(Q[1]),
         .I2(Q[2]),
         .O(p_0_in__1[2]));
-  (* SOFT_HLUTNM = "soft_lutpair671" *) 
+  (* SOFT_HLUTNM = "soft_lutpair666" *) 
   LUT4 #(
     .INIT(16'h7F80)) 
     \read_data_indx.rd_data_indx_r[3]_i_1 
@@ -94738,7 +94610,7 @@ module mig_7series_0_mig_7series_v4_2_ui_wr_data
         .D(E),
         .Q(p_0_in),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair665" *) 
+  (* SOFT_HLUTNM = "soft_lutpair660" *) 
   LUT4 #(
     .INIT(16'hDB24)) 
     \wr_req_counter.wr_req_cnt_r[1]_i_1 
@@ -94747,7 +94619,7 @@ module mig_7series_0_mig_7series_v4_2_ui_wr_data
         .I2(wr_accepted),
         .I3(\wr_req_counter.wr_req_cnt_r [1]),
         .O(\wr_req_counter.wr_req_cnt_r[1]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair665" *) 
+  (* SOFT_HLUTNM = "soft_lutpair660" *) 
   LUT5 #(
     .INIT(32'hF7EF0810)) 
     \wr_req_counter.wr_req_cnt_r[2]_i_1 
@@ -97297,7 +97169,7 @@ module mig_7series_0_mig_7series_v4_2_ui_wr_data
        (.I0(\write_data_control.wr_data_indx_r_reg [0]),
         .I1(\write_data_control.wr_data_indx_r_reg [1]),
         .O(p_0_in__0__0[1]));
-  (* SOFT_HLUTNM = "soft_lutpair670" *) 
+  (* SOFT_HLUTNM = "soft_lutpair665" *) 
   LUT3 #(
     .INIT(8'h78)) 
     \write_data_control.wr_data_indx_r[2]_i_1 
@@ -97315,7 +97187,7 @@ module mig_7series_0_mig_7series_v4_2_ui_wr_data
         .I4(app_wdf_rdy_r_copy1),
         .I5(p_0_in),
         .O(\write_data_control.wr_data_addr_le ));
-  (* SOFT_HLUTNM = "soft_lutpair670" *) 
+  (* SOFT_HLUTNM = "soft_lutpair665" *) 
   LUT4 #(
     .INIT(16'h7F80)) 
     \write_data_control.wr_data_indx_r[3]_i_2 
