@@ -1,0 +1,70 @@
+diff -uprN a/machine/fdt.c b/machine/fdt.c
+--- a/machine/fdt.c	2019-08-15 10:44:36.000000000 +0900
++++ b/machine/fdt.c	2020-06-07 13:47:29.150323993 +0900
+@@ -651,8 +651,12 @@ static bool hart_filter_mask(const struc
+ {
+   if (filter->mmu_type == NULL) return true;
+   if (strcmp(filter->status, "okay")) return true;
++#if __riscv_xlen == 32
++  if (!strcmp(filter->mmu_type, "riscv,sv32")) return false;
++#else
+   if (!strcmp(filter->mmu_type, "riscv,sv39")) return false;
+   if (!strcmp(filter->mmu_type, "riscv,sv48")) return false;
++#endif
+   printm("hart_filter_mask saw unknown hart type: status=\"%s\", mmu_type=\"%s\"\n",
+          filter->status, filter->mmu_type);
+   return true;
+diff -uprN a/machine/minit.c b/machine/minit.c
+--- a/machine/minit.c	2019-08-15 10:44:36.000000000 +0900
++++ b/machine/minit.c	2020-06-07 14:13:21.596926455 +0900
+@@ -159,7 +159,7 @@ void init_first_hart(uintptr_t hartid, u
+   query_uart(dtb);
+   query_uart16550(dtb);
+   query_htif(dtb);
+-  printm("bbl loader\r\n");
++//  printm("bbl loader\r\n");
+ 
+   hart_init();
+   hls_init(0); // this might get called again from parse_config_string
+diff -uprN a/machine/mtrap.c b/machine/mtrap.c
+--- a/machine/mtrap.c	2019-08-15 10:44:36.000000000 +0900
++++ b/machine/mtrap.c	2020-06-07 14:07:59.237724834 +0900
+@@ -16,6 +16,14 @@
+ #include <stdarg.h>
+ #include <stdio.h>
+ 
++#define CMD_PRINT_CHAR 1
++volatile int *TOHOST_ADDR = (int *)0x40008000;
++
++void simrv_putc (char c)
++{
++  *TOHOST_ADDR = CMD_PRINT_CHAR << 16 | c;
++}
++
+ void __attribute__((noreturn)) bad_trap(uintptr_t* regs, uintptr_t dummy, uintptr_t mepc)
+ {
+   die("machine mode: unhandlable trap %d @ %p", read_csr(mcause), mepc);
+@@ -23,6 +31,7 @@ void __attribute__((noreturn)) bad_trap(
+ 
+ static uintptr_t mcall_console_putchar(uint8_t ch)
+ {
++  simrv_putc(ch);
+   if (uart) {
+     uart_putchar(ch);
+   } else if (uart16550) {
+@@ -35,8 +44,13 @@ static uintptr_t mcall_console_putchar(u
+ 
+ void putstring(const char* s)
+ {
+-  while (*s)
+-    mcall_console_putchar(*s++);
++  uint8_t ch;
++  while (*s) {
++    ch = *s++;
++    if (ch == '\n')
++      mcall_console_putchar('\r');
++    mcall_console_putchar(ch);
++  }
+ }
+ 
+ void vprintm(const char* s, va_list vl)

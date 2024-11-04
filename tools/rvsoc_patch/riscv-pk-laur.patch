@@ -1,0 +1,12 @@
+diff -Naur a/pk/pk.c b/pk/pk.c
+--- a/pk/pk.c	2022-02-02 13:19:01.204557224 +0200
++++ b/pk/pk.c	2022-02-02 13:18:03.348948735 +0200
+@@ -139,7 +139,7 @@
+ 
+   trapframe_t tf;
+   init_tf(&tf, current.entry, stack_top);
+-  __clear_cache(0, 0);
++  //__clear_cache(0, 0);
+   write_csr(sscratch, kstack_top);
+   start_user(&tf);
+ }

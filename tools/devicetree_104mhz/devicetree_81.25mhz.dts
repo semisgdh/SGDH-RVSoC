@@ -1,0 +1,77 @@
+/dts-v1/;
+
+/ {
+	#address-cells = <0x2>;
+	#size-cells = <0x2>;
+	model = "kise-lab,simrv";
+	compatible = "kise_lab,simrv";
+
+	cpus {
+		#address-cells = <0x1>;
+		#size-cells = <0x0>;
+		// 81.25 * 10^6 = 0x04D7C6D0
+		timebase-frequency = <0x04D7C6D0>;
+
+		cpu@0 {
+			device_type = "cpu";
+			reg = <0x0>;
+			status = "okay";
+			compatible = "riscv";
+			riscv,isa = "rv32acim";
+			mmu-type = "riscv,sv32";
+			// 81.25 * 10^6 = 0x04D7C6D0
+			clock-frequency = <0x04D7C6D0>;
+
+			interrupt-controller {
+				#interrupt-cells = <0x1>;
+				interrupt-controller;
+				compatible = "riscv,cpu-intc";
+				phandle = <0x1>;
+			};
+		};
+	};
+
+	memory@80000000 {
+		device_type = "memory";
+		reg = <0x0 0x80000000 0x0 0x4000000>;
+	};
+
+	soc {
+		#address-cells = <0x2>;
+		#size-cells = <0x2>;
+		compatible = "simple-bus";
+		ranges;
+
+		clint@60000000 {
+			compatible = "riscv,clint0";
+			interrupts-extended = <0x1 0x3 0x1 0x7>;
+			reg = <0x0 0x60000000 0x0 0x8000000>;
+		};
+
+		plic@50000000 {
+			#interrupt-cells = <0x1>;
+			interrupt-controller;
+			compatible = "riscv,plic0";
+			riscv,ndev = <0x1f>;
+			reg = <0x0 0x50000000 0x0 0x8000000>;
+			interrupts-extended = <0x1 0x9 0x1 0xb>;
+			phandle = <0x2>;
+		};
+
+		virtio@40000000 {
+			compatible = "virtio,mmio";
+			reg = <0x0 0x40000000 0x0 0x8000000>;
+			interrupts-extended = <0x2 0x1>;
+		};
+
+		virtio@48000000 {
+			compatible = "virtio,mmio";
+			reg = <0x0 0x48000000 0x0 0x8000000>;
+			interrupts-extended = <0x2 0x2>;
+		};
+	};
+
+	chosen {
+		bootargs = "console=hvc0 earlycon=sbi root=/dev/vda rw";
+	};
+};

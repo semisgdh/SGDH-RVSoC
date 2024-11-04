@@ -1,0 +1,45 @@
+diff -Naur a/Makefile b/Makefile
+--- a/Makefile	2019-12-21 19:23:54.000000000 +0200
++++ b/Makefile	2022-02-08 11:58:38.315236215 +0200
+@@ -24,18 +24,18 @@
+ 
+ # if set, network filesystem is enabled. libcurl and libcrypto
+ # (openssl) must be installed.
+-CONFIG_FS_NET=y
++#CONFIG_FS_NET=y
+ # SDL support (optional)
+-CONFIG_SDL=y
++#CONFIG_SDL=y
+ # if set, compile the 128 bit emulator. Note: the 128 bit target does
+ # not compile if gcc does not support the int128 type (32 bit hosts).
+-CONFIG_INT128=y
++#CONFIG_INT128=y
+ # build x86 emulator
+-CONFIG_X86EMU=y
++#CONFIG_X86EMU=y
+ # win32 build (not usable yet)
+ #CONFIG_WIN32=y
+ # user space network redirector
+-CONFIG_SLIRP=y
++#CONFIG_SLIRP=y
+ 
+ ifdef CONFIG_WIN32
+ CROSS_PREFIX=i686-w64-mingw32-
+diff -Naur a/riscv_machine.c b/riscv_machine.c
+--- a/riscv_machine.c	2019-12-21 19:23:54.000000000 +0200
++++ b/riscv_machine.c	2022-02-08 12:00:42.175302730 +0200
+@@ -739,14 +739,12 @@
+     fdt_end_node(s); /* / */
+ 
+     size = fdt_output(s, dst);
+-#if 0
+     {
+         FILE *f;
+         f = fopen("/tmp/riscvemu.dtb", "wb");
+         fwrite(dst, 1, size, f);
+         fclose(f);
+     }
+-#endif
+     fdt_end(s);
+     return size;
+ }
