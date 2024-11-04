@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="xsim_database.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="m_main" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="108,812.793710 ns"></ZoomStartTime>
+      <ZoomEndTime time="111,043.885330 ns"></ZoomEndTime>
+      <Cursor1Time time="110,357.716000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="181"></NameColumnWidth>
+      <ValueColumnWidth column_width="153"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="32" />
+   <wvobject type="logic" fp_name="/m_main/c/CLK">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/m_main/c/dram_con/cache_ctrl/dram_con_witout_cache/o_init_calib_complete">
+      <obj_property name="ElementShortName">o_init_calib_complete</obj_property>
+      <obj_property name="ObjectShortName">o_init_calib_complete</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/m_main/c/w_dram_busy">
+      <obj_property name="ElementShortName">w_dram_busy</obj_property>
+      <obj_property name="ObjectShortName">w_dram_busy</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/m_main/c/dram_con/w_busy">
+      <obj_property name="ElementShortName">w_busy</obj_property>
+      <obj_property name="ObjectShortName">w_busy</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/m_main/c/dram_con/cache_ctrl/dram_con_witout_cache/state">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/m_main/c/dram_con/cache_ctrl/dram_con_witout_cache/dc/state">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/m_main/c/dram_con/cache_ctrl/dram_con_witout_cache/dc/app_rd_data_valid">
+      <obj_property name="ElementShortName">app_rd_data_valid</obj_property>
+      <obj_property name="ObjectShortName">app_rd_data_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/m_main/c/dram_con/cache_ctrl/dram_con_witout_cache/dram_ready">
+      <obj_property name="ElementShortName">dram_ready</obj_property>
+      <obj_property name="ObjectShortName">dram_ready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/m_main/c/dram_con/cache_ctrl/dram_con_witout_cache/dram_wdf_ready">
+      <obj_property name="ElementShortName">dram_wdf_ready</obj_property>
+      <obj_property name="ObjectShortName">dram_wdf_ready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/m_main/c/w_dram_odata">
+      <obj_property name="ElementShortName">w_dram_odata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w_dram_odata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/m_main/c/dram_con/r_dram_odata1">
+      <obj_property name="ElementShortName">r_dram_odata1[127:0]</obj_property>
+      <obj_property name="ObjectShortName">r_dram_odata1[127:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/m_main/c/dram_con/r_dram_odata2">
+      <obj_property name="ElementShortName">r_dram_odata2[23:0]</obj_property>
+      <obj_property name="ObjectShortName">r_dram_odata2[23:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/m_main/c/w_dram_wdata_t">
+      <obj_property name="ElementShortName">w_dram_wdata_t[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w_dram_wdata_t[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/m_main/c/w_dram_addr_t2">
+      <obj_property name="ElementShortName">w_dram_addr_t2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w_dram_addr_t2[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/m_main/c/dram_con/r_wdata">
+      <obj_property name="ElementShortName">r_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">r_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/m_main/c/dram_con/r_maddr">
+      <obj_property name="ElementShortName">r_maddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">r_maddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/m_main/c/w_wr_en">
+      <obj_property name="ElementShortName">w_wr_en</obj_property>
+      <obj_property name="ObjectShortName">w_wr_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/m_main/c/w_dram_le">
+      <obj_property name="ElementShortName">w_dram_le</obj_property>
+      <obj_property name="ObjectShortName">w_dram_le</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/m_main/c/r_set_dram_le">
+      <obj_property name="ElementShortName">r_set_dram_le</obj_property>
+      <obj_property name="ObjectShortName">r_set_dram_le</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/m_main/c/r_initaddr6">
+      <obj_property name="ElementShortName">r_initaddr6[31:0]</obj_property>
+      <obj_property name="ObjectShortName">r_initaddr6[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/m_main/c/r_rb_state">
+      <obj_property name="ElementShortName">r_rb_state[7:0]</obj_property>
+      <obj_property name="ObjectShortName">r_rb_state[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/m_main/c/r_bbl_done">
+      <obj_property name="ElementShortName">r_bbl_done</obj_property>
+      <obj_property name="ObjectShortName">r_bbl_done</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/m_main/c/w_pl_init_we">
+      <obj_property name="ElementShortName">w_pl_init_we</obj_property>
+      <obj_property name="ObjectShortName">w_pl_init_we</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/m_main/c/r_initaddr">
+      <obj_property name="ElementShortName">r_initaddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">r_initaddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/m_main/c/w_insn_addr">
+      <obj_property name="ElementShortName">w_insn_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w_insn_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/m_main/UartTx1/READY">
+      <obj_property name="ElementShortName">READY</obj_property>
+      <obj_property name="ObjectShortName">READY</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/m_main/UartTx1/DATA">
+      <obj_property name="ElementShortName">DATA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/m_main/UartTx1/WE">
+      <obj_property name="ElementShortName">WE</obj_property>
+      <obj_property name="ObjectShortName">WE</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/m_main/c/ploader/SER_DATA">
+      <obj_property name="ElementShortName">SER_DATA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SER_DATA[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/m_main/c/ploader/DATA">
+      <obj_property name="ElementShortName">DATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/m_main/c/ploader/DONE">
+      <obj_property name="ElementShortName">DONE</obj_property>
+      <obj_property name="ObjectShortName">DONE</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/m_main/w_txd">
+      <obj_property name="ElementShortName">w_txd</obj_property>
+      <obj_property name="ObjectShortName">w_txd</obj_property>
+   </wvobject>
+</wave_config>

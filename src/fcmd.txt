@@ -1,0 +1,5 @@
+ls /usr
+
+#syntax: command<enter>
+# command length must be less or equal to 16 chars
+
