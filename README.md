@@ -1,4 +1,4 @@
-# SGDH-RVSOC Project, a portable and Linux capable RISC-V computer system on an FPGA
+# SGDH-RVSoC Project, a portable and Linux capable RISC-V computer system on an FPGA
 
 The RVSoC Project was the origin, serving as a research and development project of the RISC-V computer system targeting FPGAs in Verilog HDL at Arch Lab, Tokyo Tech. Building on this foundation, we are now aiming to explore new approaches and innovations.
 
