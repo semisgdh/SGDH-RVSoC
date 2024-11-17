@@ -13,6 +13,7 @@ double sc_time_stamp () { // Called by $time in Verilog
 
 int main(int argc, char** argv) {
     Verilated::commandArgs(argc, argv); // Remember args
+    Verilated::traceEverOn(true);       // Waveform en
     top = new Vm_topsim;                // Create instance
 
     // register

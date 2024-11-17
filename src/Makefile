@@ -25,8 +25,9 @@ endif
 VERILATOR  = verilator
 VERIFLAGS  = -DSIM_MODE #-DVERILATOR
 #VERIFLAGS = -DSIM_MAIN // must be defined in defines.vh
+VERIFLAGS += -DVCD_DUMP # To dump vcd file
 VERIFLAGS += --public --top-module m_topsim --clk CLK
-VERIFLAGS += --x-assign 0 --x-initial 0
+VERIFLAGS += --x-assign 0 --x-initial 0 --trace
 VERIFLAGS += --no-threads -O2
 #VERIFLAGS += --threads 3 -DVL_THREADED -O2
 VERIFLAGS += -Wno-WIDTH -Wno-CASEINCOMPLETE -Wno-COMBDLY

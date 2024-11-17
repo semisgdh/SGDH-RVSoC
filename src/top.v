@@ -267,7 +267,12 @@ module m_topsim(input wire CLK, input wire RST_X);
 `endif
         $finish();
     end
-
+`ifdef VCD_DUMP
+    initial begin
+    	$dumpfile("signals.vcd");
+    	$dumpvars(0, m_topsim);
+    end
+`endif
     // LOAD
     integer i,j;
     //integer k;
