@@ -19,9 +19,11 @@ error
 `endif
 
 `ifdef SIM_MODE
-`include "read_file.v"
 `define DRAM_SIM
 `define CACHE_DEBUG
+`endif
+`ifndef SIM_MODE
+`include "read_file.v"
 `endif
 //`define RAM_DEBUG
 

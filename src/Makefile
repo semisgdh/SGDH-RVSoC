@@ -23,13 +23,13 @@ endif
 
 # Verilator
 VERILATOR  = verilator
-#VERIFLAGS  = -DSIM_MODE #-DVERILATOR
+VERIFLAGS  = -DSIM_MODE #-DVERILATOR
 #VERIFLAGS = -DSIM_MAIN // must be defined in defines.vh
 VERIFLAGS += --public --top-module m_topsim --clk CLK
 VERIFLAGS += --x-assign 0 --x-initial 0
 VERIFLAGS += --no-threads -O2
 #VERIFLAGS += --threads 3 -DVL_THREADED -O2
-VERIFLAGS += -Wno-WIDTH -Wno-CASEINCOMPLETE -Wno-COMBDLY -Wno-LATCH
+VERIFLAGS += -Wno-WIDTH -Wno-CASEINCOMPLETE -Wno-COMBDLY
 VERIFLAGS += --exe sim.cpp --cc
 
 VERIFLAGS2=${VERIFLAGS}
