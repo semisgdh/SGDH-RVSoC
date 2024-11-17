@@ -322,6 +322,7 @@ To use Verilator for RVSoC simulation, execute the following command.
 ```
 $ make veri
 $ make run
+$ gtkwave ./signals.vcd
 ```
 
 To use VCS simulator for RVSoC simulation, execute the following command.
