@@ -1,7 +1,11 @@
 import sys
-import serial
-
-# pip install pyserial
+import subprocess
+try:
+    import serial
+except ImportError:
+    print("Installing serial")
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "pyserial"])
+    import serial
 
 port = "/dev/ttyUSB1"
 
